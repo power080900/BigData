@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="randNum()">랜덤 사이트 이동</button>
+<output></output>
+<script>
+var target = document.getElementsByTagName("output")[0];
+function randNum() {
+    var result = window.confirm("정말 이동하시겠습니까?")
+    if (result) {
+        var num = Math.floor(Math.random()*3+1);
+        if (num == 1) {
+            var url = 'http://www.daum.net';
+            location.href = url;}
+        else if ( num == 2) {
+            var url = 'http://www.naver.com';
+            location.href = url;}
+        else {
+            var url = 'http://www.google.com';
+            location.href = url;}}
+    else {
+        var url = 'first.html';
+        location.href = url;}
+    }
+
+</script>
+</body>
+</html>
