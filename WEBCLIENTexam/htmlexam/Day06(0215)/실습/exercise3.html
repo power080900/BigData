@@ -21,10 +21,13 @@
 <body>
     <button onclick="red()">빨강색</button>
     <button onclick="blue()">파랑색</button>
-    <button onclick="green()">녹&nbsp;&nbsp;색</button>
+    <button onclick="display(green)">녹&nbsp;&nbsp;색</button>
     <hr>
-    <h2 class="today">오늘은 XXXX년 X월 X일 입니다.</h2>
+    <h2 class="today">오늘의 색깔</h2>
     <script>
+<!--    function display(textcolor) {-->
+<!--        var doms = document.querySelector(".today");-->
+<!--        doms.style.color = "textcolor";}-->
     function red() {
         var doms = document.querySelector(".today");
         doms.style.color = 'red';}
