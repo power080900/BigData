@@ -1,0 +1,30 @@
+{% extends 'basesimple.html' %}
+
+{% block mycss %}
+    h1 {
+        color : green;
+        text-shadow : 2px 2px 5px lime;
+    }
+{% endblock %}
+
+{% block mycontent %}
+    {% if info %}
+    <h1>{{info.info1}}님이 남긴 글입니다.</h1>
+    <hr>
+    <h2>{{info.info2|linebreaksbr}}</h2>
+    {% else %}
+    <h1>글 작성하기</h1>
+    <hr>
+    <form method="post" action="/workapp/exercise3/">
+        {% csrf_token %}
+        <textarea placeholder="작성자 이름을 입력하세요" name="writer" rows="1" cols="30"></textarea>
+        <br>
+        <br>
+        <textarea placeholder="자신의 의견을 간단히 작성하세요" name="memo" rows="5" cols="50">{{value|linebreaksbr}}</textarea>
+        <br>
+        <br>
+        <input type="submit" value="제출">
+        <input type="reset" value="재작성">
+    </form>
+    {% endif %}
+{% endblock %}
