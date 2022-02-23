@@ -1,1 +1,3 @@
-연습용입니다
+import datetime
+
+print(datetime.date.today())
