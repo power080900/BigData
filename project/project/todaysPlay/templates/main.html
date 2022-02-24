@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <title>오늘뭐하지?</title>
     <style>
+    @keyframes slide {
+        0% {margin-top: 0;}
+        10% {margin-top: -50px;}
+        20% {margin-top: -100px;}
+        30% {margin-top: -150px;}
+        40% {margin-top: -200px;}
+        50% {margin-top: -250px;}
+        60% {margin-top: -300px;}
+        70% {margin-top: -350px;}
+        80% {margin-top: -400px;}
+        90% {margin-top: -450px;}
+        100% {margin-top: -500px;}
+    }
     @font-face {
          font-family: 'MaplestoryOTFBold';
          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
@@ -12,6 +25,14 @@
     }
     * {
        font-family: 'MaplestoryOTFBold';
+    }
+    .btn-what {
+        height: 50px;
+        overflow: hideen;
+    }
+    .whatSubTitle {
+        height: 50px *5;
+        animation: slide 1s;
     }
     .headerLogo{
         padding-right: 15px;
@@ -112,11 +133,12 @@
     <section class="searchSection">
         <div class="mainSection">
             <div class="mainWhat">
+                {% csrf_token %}
                 <h1 class="whatTitle">오늘은 뭐하지?</h1>
                 <div class="btn-what">
-                    <h2 class="whatSubTitle">오늘은 {{random}}자
+                    <h2 class="whatSubTitle">오늘은 {{random}}
                         <span>
-                            <button class="playslot">클릭</button>
+                            <button class="js-playslot">클릭</button>
                         </span>
                     </h2>
                 </div>
@@ -223,5 +245,8 @@
             </div>
         </div>
     </section>
+    <script>
+        playslot.default({ el:'.js-odoo', from: 'NOVEMBER16', to: 'CODEVEMBER', animationDelay: 1000 });
+    </script>
 </body>
 </html>
