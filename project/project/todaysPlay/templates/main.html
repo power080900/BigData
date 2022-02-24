@@ -79,7 +79,9 @@
         margin: 10px;
         text-align: center;
     }
-
+    .whereButton .btn-where .btn-input {
+        height: 45px;
+    }
     </style>
 </head>
 <body>
@@ -108,9 +110,28 @@
     </header>
     <section class="searchSection">
         <div class="mainSection">
-            <div class="mainTitle">
-                <h1 class="title">뭐하고 놀까요?</h1>
-                <h2 class="subTitle">오늘은 {{random}}자</h2>
+            <div class="mainWhat">
+                <h1 class="whatTitle">오늘은 뭐하지?</h1>
+                <div class="btn-what">
+                    <h2 class="whatSubTitle">오늘은 {{random}}자
+                        <span>
+                            <button class="btn-what-slot">클릭</button>
+                        </span>
+                    </h2>
+                </div>
+
+            </div>
+            <div class="mainWhere">
+                <h1 class="whereTitle">어디로 가지?</h1>
+                {% csrf_token %}
+                <div class="whereButton">
+                    <input class="btn-input" type="text" placeholder="가고 싶은 위치를 입력하세요" rows="1" cols="30">
+                    <span>
+                        <button class="btn-where">검색</button>
+                    </span>
+
+                </div>
+
             </div>
         </div>
     </section>
