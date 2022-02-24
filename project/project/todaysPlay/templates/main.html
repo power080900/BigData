@@ -115,7 +115,7 @@
                 <div class="btn-what">
                     <h2 class="whatSubTitle">오늘은 {{random}}자
                         <span>
-                            <button class="btn-what-slot">클릭</button>
+                            <button class="playslot">클릭</button>
                         </span>
                     </h2>
                 </div>
@@ -222,32 +222,5 @@
             </div>
         </div>
     </section>
-    <script>
-        function playslot(){
-            let arrLen = position.length
-            ctx.clearRect(0,0,width, height)
-            position.forEach( item => {
-                ctx.save()  //사각형 구간의 시작
-                ctx.beginPath()
-                ctx.strokeRect(item.width, 0 , width/arrLen, height)
-                ctx.stroke()
-                ctx.closePath()
-                ctx.restore() //사각형 구간의 종료
-                let node = item.node
-                for(let i = 0; i < node.length; i++){
-                if(node[i].me){
-                    ctx.save()
-                    ctx.beginPath()
-                    ctx.fillStyle = 'black'
-                    ctx.font = 'normal 25px gothic'
-                    let moreSize = ctx.measureText(node[i].text).width / 2
-                    ctx.fillText(node[i].text, item.width + width/arrLen/2 - moreSize  , node[i].textHeight )
-                    ctx.closePath()
-                    ctx.restore()
-                    }
-                }
-            })
-        }
-    </script>
 </body>
 </html>
