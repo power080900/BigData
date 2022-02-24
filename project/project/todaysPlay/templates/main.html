@@ -1,33 +1,90 @@
-{% extends 'basesimple.html' %}
-
-{% block mycss %}
-    header.container {
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>오늘뭐하지?</title>
+    <style>
+    @font-face {
+         font-family: 'MaplestoryOTFBold';
+         src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+    }
+    * {
+       font-family: 'MaplestoryOTFBold';
+    }
+    .headerLogo{
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
-    header.container.header.Logo.a {
+        }
+    .category-bar{
+        float: left;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+        border-line: 2px solid;
+    }
+    .category-bar_category{
+        display: inline-block;
+        width: 130px;
+        color: #333;
+        padding: 18px 0;
+    }
+    .category-bar_category-item{
+        float: left;
+        text-align: center;
+    }
+    span{
+        text-align: center;
+    }
+    #mainPage {
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
         font-weight: 400;
     }
-
-{% endblock %}
-
-{% block mycontent %}
+    li {
+    list-style: none;
+    }
+    #header-user-login{
+        text-decoration : none;
+        font-size: 1.5rem;
+        line-height : 1.7;
+        font-weight: 400;
+        float: right;
+    }
+    </style>
+</head>
+<body>
     <header id="headerApp">
-        <div class="container">
-            <div class="headerLogo">
-                <a href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
-            </div>
+        <div class="headerLogo">
+            <li>
+                <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
+                <a id="header-user-login">로그인/회원가입</a>
+            </li>
         </div>
         <hr>
     </header>
-    <div class="category-bar" style="width: 1030px">
-        <div class="category-bar_category-item1"><span>게시판1</span></div>
-        <div class="category-bar_category-item2"><span>게시판2</span></div>
-        <div class="category-bar_category-item3"><span>게시판3</span></div>
-        <div class="category-bar_category-item4"><span>게시판4</span></div>
+    <div class="category-bar">
+        <div class="category-bar_category">
+            <div class="category-bar_category-item"><span>게시판1</span></div>
+        </div>
+        <div class="category-bar_category">
+            <div class="category-bar_category-item"><span>게시판2</span></div>
+        </div>
+        <div class="category-bar_category">
+            <div class="category-bar_category-item"><span>게시판3</span></div>
+        </div>
+        <div class="category-bar_category">
+            <div class="category-bar_category-item"><span>게시판4</span></div>
+        </div>
     </div>
-{% endblock %}
+    <div class="location">
+
+    </div>
+</body>
+</html>
