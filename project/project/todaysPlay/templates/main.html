@@ -1,5 +1,248 @@
-{% extends 'basesimple.html' %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>오늘뭐하지?</title>
+    <style>
+    @keyframes slide {
+        0% {margin-top: 0;}
+        25% {margin-top: -50px;}
+        50% {margin-top: -100px;}
+        75% {margin-top: -150px;}
+        100% {margin-top: -200px;}
+    }
+    @font-face {
+         font-family: 'MaplestoryOTFBold';
+         src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+    }
+    * {
+       font-family: 'MaplestoryOTFBold';
+    }
+    .headerLogo{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+    .category-bar{
+        float: left;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+        border-line: 2px solid;
+    }
+    .category-bar_category{
+        display: inline-block;
+        width: 130px;
+        color: #333;
+        padding: 18px 0;
+    }
+    .category-bar_category-item{
+        float: left;
+        text-align: center;
+    }
+    span{
+        text-align: center;
+    }
+    #mainPage {
+        text-decoration : none;
+        font-size: 1.5rem;
+        line-height : 1.7;
+        font-weight: 400;
+    }
+    li {
+    list-style: none;
+    }
+    #header-user-login{
+        text-decoration : none;
+        font-size: 1.5rem;
+        line-height : 1.7;
+        font-weight: 400;
+        float: right;
+    }
+    .searchSection {
+        margin: 100px;
+        }
+    .mainSection {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .mainSection-item{
+        float: left;
+        margin: 10px;
+        text-align: center;
+    }
+    .mainCategory {
+        text-align: center;
+    }
+    .categorySection-item {
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-line: solid;
+    }
+    .whereButton .btn-where .btn-input {
+        height: 45px;
+    }
+    </style>
+</head>
+<body>
+    <header id="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
+                <a id="header-user-login">로그인/회원가입</a>
+            </li>
+        </div>
+        <hr>
+        <div class="category-bar">
+            <div class="category-bar_category">
+                <div class="category-bar_category-item"><span>게시판1</span></div>
+            </div>
+            <div class="category-bar_category">
+                <div class="category-bar_category-item"><span>게시판2</span></div>
+            </div>
+            <div class="category-bar_category">
+                <div class="category-bar_category-item"><span>게시판3</span></div>
+            </div>
+            <div class="category-bar_category">
+                <div class="category-bar_category-item"><span>게시판4</span></div>
+            </div>
+        </div>
+    </header>
+    <section class="searchSection">
+        <div class="mainSection">
+            <div class="mainWhat">
+                <h1 class="whatTitle">오늘은 뭐하지?</h1>
+                <div class="btn-what">
+                    <h2 class="whatSubTitle">오늘은 {{random}}
+                        <span>
+                            <button type="button" class="playslot" onclick="playslot()">클릭</button>
+                        </span>
+                    </h2>
+                </div>
 
-{% block mycontent %}
-    <h1>연습용</h1>
-{% endblock %}
+            </div>
+            <div class="mainWhere">
+                <h1 class="whereTitle">그럼 어디로 가지?</h1>
+                {% csrf_token %}
+                <div class="whereButton">
+                    <input class="btn-input" type="text" placeholder="가고 싶은 위치를 입력하세요" rows="1" cols="30">
+                    <span>
+                        <button class="btn-where">검색</button>
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="famousSection">
+        <div class="Sectionhead">
+            <h2>인기 카테고리</h2>
+        </div>
+        <div class="mainCategory">
+            <div class="categorySection">
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">영화관</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">연극/뮤지컬</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">도서관/서점</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">박물관/미술관</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">고궁/유적지</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">맛집</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a herf="">
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">카페</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">술집</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">산책로/등산로</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">호캉스</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">pc방/오락실</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">노래방</div>
+                    </a>
+                </div>
+                <div class="categorySection-item">
+                    <a>
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">방탈출/보드게임/룸카페</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function playslot() {
+            let url = "http://localhost:8000/todaysPlay/todaysPlay"
+            let xhr = new XMLHttpRequest();
+            xhr.onload = function(){
+                let jsonObj = JSON.parse(xhr.repnseText);
+                let dom = document.getElementsByTagName('h2')[0];
+                let content="";
+                dom.innerHTML = content;
+            }
+            xhr.open("GET",url,true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
