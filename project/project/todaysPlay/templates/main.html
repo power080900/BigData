@@ -57,6 +57,25 @@
         font-weight: 400;
         float: right;
     }
+    .mainSection {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .mainSection-item{
+        float: left;
+        margin: 10px;
+        text-align: center;
+    }
+    .mainCategory {
+        overflow-x: hidden;
+    }
+    .categorySection-item {
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -83,8 +102,127 @@
             <div class="category-bar_category-item"><span>게시판4</span></div>
         </div>
     </div>
-    <div class="location">
-
-    </div>
+    <section class="searchSection">
+        <div class="mainSection">
+            <div class="mainTitle">
+                <h1 class="title">뭐하고 놀까요?</h1>
+                <h2 class="subTitle">오늘은 {{random}}하고 놀자</h2>
+            </div>
+        </div>
+    </section>
+    <section class="famousSection">
+        <div class="headSection">
+            <h2>인기 카테고리</h2>
+        </div>
+        <div class="mainCategory">
+            <div class="categorySection">
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">영화관</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">연극/뮤지컬</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">도서관/서점</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">박물관/미술관</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">고궁/유적지</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">맛집</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">카페</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">술집</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">산책로/등산로</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">호캉스</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">pc방/오락실</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">노래방</div>
+<!--                    </a>-->
+                </div>
+                <div class="categorySection-item">
+<!--                    <a herf="">-->
+<!--                        <img class="card1_img" scr="">-->
+                        <div class="card1_title">방탈출/보드게임/룸카페</div>
+<!--                    </a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function playslot(){
+            let arrLen = position.length
+            ctx.clearRect(0,0,width, height)
+            position.forEach( item => {
+                ctx.save()  //사각형 구간의 시작
+                ctx.beginPath()
+                ctx.strokeRect(item.width, 0 , width/arrLen, height)
+                ctx.stroke()
+                ctx.closePath()
+                ctx.restore() //사각형 구간의 종료
+                let node = item.node
+                for(let i = 0; i < node.length; i++){
+                if(node[i].me){
+                    ctx.save()
+                    ctx.beginPath()
+                    ctx.fillStyle = 'black'
+                    ctx.font = 'normal 25px gothic'
+                    let moreSize = ctx.measureText(node[i].text).width / 2
+                    ctx.fillText(node[i].text, item.width + width/arrLen/2 - moreSize  , node[i].textHeight )
+                    ctx.closePath()
+                    ctx.restore()
+                    }
+                }
+            })
+        }
+    </script>
 </body>
 </html>
