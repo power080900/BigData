@@ -2,12 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오늘뭐하지?</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
     @font-face {
          font-family: 'MaplestoryOTFBold';
@@ -134,13 +129,13 @@
     <section class="searchSection">
         <div class="mainSection">
             <div class="mainWhat">
-                <h1 class="whatTitle">오늘은 뭐하지?</h1>
+                <h1 class="whatTitle">오늘은 뭐하지?
+                    <span>
+                        <button type="button" class="playslot" onclick="playslot()">클릭</button>
+                    </span>
+                </h1>
                 <div class="btn-what">
-                    <h2 class="whatSubTitle">오늘은 {{random}}
-                        <span>
-                            <button type="button" class="playslot" onclick="playslot()">클릭</button>
-                        </span>
-                    </h2>
+                    <h2 class="whatSubTitle">오늘은 {{random}}</h2>
                 </div>
 
             </div>
