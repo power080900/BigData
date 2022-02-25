@@ -1,5 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.template import loader
+from django.contrib.auth.models import User
+from django.contrib import auth
 import random
 
 # Create your views here.
@@ -16,6 +18,6 @@ def main(request):
     elif randint == 5:
         randomplay = '구경 가자'
     context = {
-        'random': randomplay,
-    }
-    return render(request,'main.html',context)
+            'random': randomplay,
+        }
+    return render(request, 'main.html', context)

@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <title>오늘뭐하지?</title>
     <style>
-    @keyframes slide {
-        0% {margin-top: 0;}
-        25% {margin-top: -50px;}
-        50% {margin-top: -100px;}
-        75% {margin-top: -150px;}
-        100% {margin-top: -200px;}
-    }
     @font-face {
          font-family: 'MaplestoryOTFBold';
          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
@@ -57,7 +50,7 @@
     li {
     list-style: none;
     }
-    #header-user-login{
+    .nav-item dropdown{
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
@@ -97,7 +90,6 @@
         <div class="headerLogo">
             <li>
                 <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
-                <a id="header-user-login">로그인/회원가입</a>
             </li>
         </div>
         <hr>
@@ -119,18 +111,17 @@
     <section class="searchSection">
         <div class="mainSection">
             <div class="mainWhat">
-                <h1 class="whatTitle">오늘은 뭐하지?</h1>
+                <h1 class="whatTitle">오늘은 뭐하지?
+                    <span>
+                        <button type="button" class="playslot" onclick="playslot()">클릭</button>
+                    </span>
+                </h1>
                 <div class="btn-what">
-                    <h2 class="whatSubTitle">오늘은 {{random}}
-                        <span>
-                            <button type="button" class="playslot" onclick="playslot()">클릭</button>
-                        </span>
-                    </h2>
+                    <h2 class="whatSubTitle">오늘은 {{random}}</h2>
                 </div>
-
             </div>
             <div class="mainWhere">
-                <h1 class="whereTitle">그럼 어디로 가지?</h1>
+                <h1 class="whereTitle">어디로 가지?</h1>
                 {% csrf_token %}
                 <div class="whereButton">
                     <input class="btn-input" type="text" placeholder="가고 싶은 위치를 입력하세요" rows="1" cols="30">
