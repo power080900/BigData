@@ -2,15 +2,13 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오늘뭐하지?</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
-    @keyframes slide {
-        0% {margin-top: 0;}
-        25% {margin-top: -50px;}
-        50% {margin-top: -100px;}
-        75% {margin-top: -150px;}
-        100% {margin-top: -200px;}
-    }
     @font-face {
          font-family: 'MaplestoryOTFBold';
          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
@@ -57,7 +55,7 @@
     li {
     list-style: none;
     }
-    #header-user-login{
+    .nav-item dropdown{
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
@@ -97,7 +95,24 @@
         <div class="headerLogo">
             <li>
                 <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
-                <a id="header-user-login">로그인/회원가입</a>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            로그인/회원가입
+                            </a>
+                            <div class="dropdown-menu">
+                            {% if not logineduser %}
+                                <a class="dropdown-item" href="{% url 'main:register' %}">회원가입</a>
+                                <a class="dropdown-item" href="{% url 'main:login' %}">로그인</a>
+                            {% else %}
+                                <a class="dropdown-item" href="{% url 'main:logout' %}">로그아웃</a>
+                            {% endif %}
+                            <a class="dropdown-item" href="{% url 'main:onlymember' %}">회원페이지</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </li>
         </div>
         <hr>
