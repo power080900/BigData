@@ -10,7 +10,7 @@ def main(request):
     return render(request, 'main.html')
 
 def randomslot(request):
-    randint = random.randrange(1, 10)
+    randint = random.randrange(1, 15)
     if randint == 1:
         subwayNo = '1호선'
     elif randint == 2:
