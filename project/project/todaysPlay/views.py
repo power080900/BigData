@@ -10,7 +10,7 @@ def main(request):
     return render(request, 'main.html')
 
 def randomslot(request):
-    randint = random.randrange(1, 15)
+    randint = random.randrange(1, 16)
     if randint == 1:
         subwayNo = '1호선'
     elif randint == 2:
@@ -39,6 +39,8 @@ def randomslot(request):
         subwayNo = '경춘선'
     elif randint == 14:
         subwayNo = '경의선'
+    elif randint == 15:
+        subwayNo = '공항철도'
     return HttpResponse(subwayNo)
 
 def map(request):
