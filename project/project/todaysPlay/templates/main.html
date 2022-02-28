@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#randomClick").click(function(){
+                $("#random").load(location.href + ' #random');
+            });
+        });
+    </script>
     <meta charset="UTF-8">
     <title>오늘뭐하지?</title>
     <style>
@@ -41,7 +49,7 @@
     span{
         text-align: center;
     }
-    #mainPage {
+    #mainPage, .signIn {
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
@@ -83,6 +91,10 @@
     .whereButton .btn-where .btn-input {
         height: 45px;
     }
+    .signIn {
+        float: right;
+        vertical-align: middle;
+    }
     </style>
 </head>
 <body>
@@ -90,6 +102,7 @@
         <div class="headerLogo">
             <li>
                 <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
+                <a class="signIn">로그인/회원가입</a>
             </li>
         </div>
         <hr>
@@ -111,32 +124,27 @@
     <section class="searchSection">
         <div class="mainSection">
             <div class="mainWhat">
-                <h1 class="whatTitle">몇호선 탈꺼야?
-                    <span>
-                        <button type="button" class="playslot" onclick="playslot()">클릭</button>
-                    </span>
+                <h1 class="whatTitle">어디로 갈지 모르겠다면?
+                    <button type="button" id="randomClick">클릭</button>
                 </h1>
-                <div class="btn-what">
-                    <h2 class="whatSubTitle">{{random}}</h2>
+                <div class="btn-what" id="random">
+                    <h2 class="whatSubTitle">{{random}}
+                    </h2>
                 </div>
             </div>
-            <div class="mainWhere">
-                <h1 class="whereTitle">어디로 가지?</h1>
-                {% csrf_token %}
-                <div class="whereButton">
-                    <input class="btn-input" type="text" placeholder="가고 싶은 위치를 입력하세요" rows="1" cols="30">
-                    <span>
-                        <button class="btn-where">검색</button>
-                    </span>
-
-                </div>
-
-            </div>
+<!--            <div class="mainWhere">-->
+<!--                <div class="whereButton">-->
+<!--                    <input class="btn-input" type="text" placeholder="가고 싶은 위치를 입력하세요" rows="1" cols="30">-->
+<!--                    <span>-->
+<!--                        <button class="btn-where">검색</button>-->
+<!--                    </span>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </section>
     <section class="famousSection">
         <div class="Sectionhead">
-            <h2>카테고리</h2>
+            <h1 class="whereTitle">어디로 가지?</h1>
         </div>
         <div class="mainCategory">
             <div class="categorySection">
@@ -167,19 +175,5 @@
             </div>
         </div>
     </section>
-    <script>
-        function playslot() {
-            let url = "http://localhost:8000/todaysPlay/todaysPlay"
-            let xhr = new XMLHttpRequest();
-            xhr.onload = function(){
-                let jsonObj = JSON.parse(xhr.repnseText);
-                let dom = document.getElementsByTagName('h2')[0];
-                let content="";
-                dom.innerHTML = content;
-            }
-            xhr.open("GET",url,true);
-            xhr.send();
-        }
-    </script>
 </body>
 </html>
