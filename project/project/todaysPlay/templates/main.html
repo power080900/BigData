@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#randomClick").click(function(){
-                $("#random").load(location.href + ' #random');
-            });
-        });
-    </script>
     <meta charset="UTF-8">
     <title>오늘뭐하지?</title>
     <style>
@@ -101,7 +93,7 @@
     <header id="headerApp">
         <div class="headerLogo">
             <li>
-                <a id="mainPage" href="http://localhost:8000/todaysPlay/todaysPlay">오늘뭐하지?</a>
+                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
                 <a class="signIn">로그인/회원가입</a>
             </li>
         </div>
@@ -124,12 +116,13 @@
     <section class="searchSection">
         <div class="mainSection">
             <div class="mainWhat">
-                <h1 class="whatTitle">어디로 갈지 모르겠다면?
-                    <button type="button" id="randomClick">클릭</button>
+                <h1 class="whatTitle">오늘은 몇호선 타고 문화여행을 떠날까?
+                    <span>
+                        <button type="button" class="playslot" onclick="playslot();">클릭</button>
+                    </span>
                 </h1>
-                <div class="btn-what" id="random">
-                    <h2 class="whatSubTitle">{{random}}
-                    </h2>
+                <div class="btn-what">
+                    <h2 class="whatSubTitle"></h2>
                 </div>
             </div>
 <!--            <div class="mainWhere">-->
@@ -175,5 +168,18 @@
             </div>
         </div>
     </section>
+    <script>
+        function playslot() {
+            let xhr = new XMLHttpRequest();
+            xhr.onload = function() {
+                //let jsonObj = JSON.parse(xhr.repnseText);
+                let dom = document.getElementsByTagName('h2')[0];
+                console.log(xhr.responseText);
+                dom.innerHTML = '오늘은 ' + xhr.responseText;
+            }
+            xhr.open("GET", "/todaysPlay/randomslot/", true);
+            xhr.send();
+        }
+    </script>
 </body>
 </html>
