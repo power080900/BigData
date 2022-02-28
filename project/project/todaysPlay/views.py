@@ -29,6 +29,16 @@ def randomslot(request):
         subwayNo = '8호선'
     elif randint == 9:
         subwayNo = '9호선'
+    elif randint == 10:
+        subwayNo = '분당선'
+    elif randint == 11:
+        subwayNo = '신분당선'
+    elif randint == 12:
+        subwayNo = '중앙선'
+    elif randint == 13:
+        subwayNo = '경춘선'
+    elif randint == 14:
+        subwayNo = '경의선'
     return HttpResponse(subwayNo)
 
 def map(request):
