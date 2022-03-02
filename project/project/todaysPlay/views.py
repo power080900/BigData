@@ -5,7 +5,7 @@ import random
 # Create your views here.
 def main(request):
     context = {
-        'link' = [1,2,3,4,5],
+        'link' : [1,2,3,4,5],
     }
     return render(request, 'main.html', context)
 
