@@ -48,3 +48,6 @@ def map(request):
 
 def loginPage(request):
     return render(request, 'loginPage.html')
+
+def signInPage(request):
+    return render(request, 'signInPage.html')
