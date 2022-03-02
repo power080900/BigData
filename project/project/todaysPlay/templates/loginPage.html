@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>로그인</title>
+    <style>
+        li {
+        list-style: none;
+        }
+        a {
+        text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-
+    <header class="header">
+        <div class="header_inner">
+            <a class="logo" href="/todaysPlay/main/">오늘뭐하지?</a>
+        </div>
+    </header>
+    <div id="container" class="container">
+        <div class="content">
+            <div class="login_id_pw">
+                <form id="frmLogin" target="_top" autocomplete="off" method="post">
+                    <ul class="panel_login">
+                        <li class="paner_item" style="display:block;">
+                            <div class="id_pw">
+                                <div id="id_row">
+                                    <input type="text" id="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41">
+                                </div>
+                                <div id="pw_row">
+                                    <input type="password" id="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+                <div class="btn_login_wrap">
+                    <button type="submit" class="btn_login" id="log.login">
+                        <span class="btn_text">로그인</span>
+                    </button>
+                </div>
+            </div>
+            <div class="find_wrap" id="find_wrap">
+                <li>
+                    <a target="_blank" href="">아이디 찾기</a>
+                    <a target="_blank" href="">비밀번호 찾기</a>
+                    <a target="_blank" href="/todaysPlay/signInPage/">회원가입</a>
+                </li>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

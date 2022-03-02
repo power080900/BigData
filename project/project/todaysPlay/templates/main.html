@@ -41,7 +41,7 @@
     span{
         text-align: center;
     }
-    #mainPage, .signIn {
+    #mainPage, .logIn {
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
@@ -83,7 +83,7 @@
     .whereButton .btn-where .btn-input {
         height: 45px;
     }
-    .signIn {
+    .logIn {
         float: right;
         vertical-align: middle;
     }
@@ -94,7 +94,7 @@
         <div class="headerLogo">
             <li>
                 <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
-                <a class="signIn">로그인/회원가입</a>
+                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
             </li>
         </div>
         <hr>
@@ -169,13 +169,18 @@
         function playslot() {
             let xhr = new XMLHttpRequest();
             xhr.onload = function() {
-                //let jsonObj = JSON.parse(xhr.repnseText);
+                //let jsonObj = JSON.parse(xhr.reponseText);
                 let dom = document.getElementsByTagName('h2')[0];
                 console.log(xhr.responseText);
                 dom.innerHTML = '오늘은 ' + xhr.responseText;
             }
             xhr.open("GET", "/todaysPlay/randomslot/", true);
             xhr.send();
+        }
+
+        function goWhere() {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "
         }
     </script>
 </body>

@@ -45,3 +45,6 @@ def randomslot(request):
 
 def map(request):
     return render(request, 'googlemap.html')
+
+def loginPage(request):
+    return render(request, 'loginPage.html')

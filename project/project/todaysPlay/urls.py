@@ -6,4 +6,5 @@ urlpatterns = [
     path('googlemap/', views.map),
     path('main/', views.main),
     path('randomslot/', views.randomslot),
+    path('loginPage/', views.loginPage),
 ]
