@@ -87,6 +87,16 @@
         float: right;
         vertical-align: middle;
     }
+    .card {
+        list-style: none;
+        float: right;
+        margin : auto;
+        padding : auto;
+        text-align : center;
+    }
+    .card1_title {
+        border : 1px solid;
+    }
     </style>
 </head>
 <body>
@@ -112,7 +122,7 @@
                 </div>
                 <div class="mainWhere">
                     <span>
-                        <button type="button" class="btn-where" onclick="location.href='http://localhost:8000/todaysPlay/googlemap/?pid={{i}}'">가자!</button>
+                        <button type="button" class="btn-where" onclick="location.href='http://localhost:8000/todaysPlay/googlemap/'">가자!</button>
                     </span>
                 </div>
             </div>
@@ -125,28 +135,23 @@
         <div class="mainCategory">
             <div class="categorySection">
                 <div class="categorySection-item">
-                    <a>
-<!--                        <img class="card1_img" scr="">-->
-                        <div class="card1_title">박물관</div>
-                    </a>
-                </div>
-                <div class="categorySection-item">
-                    <a>
-<!--                        <img class="card1_img" scr="">-->
-                        <div class="card1_title">고궁</div>
-                    </a>
-                </div>
-                <div class="categorySection-item">
-                    <a>
-<!--                        <img class="card1_img" scr="">-->
-                        <div class="card1_title">미술관</div>
-                    </a>
-                </div>
-                <div class="categorySection-item">
-                    <a>
-<!--                        <img class="card1_img" scr="">-->
-                        <div class="card1_title">유적지</div>
-                    </a>
+                    <figure class="card">
+                        <a>
+                            <div class="card1_title"><img class="card1_img" scr="">박물관</div>
+                        </a>
+                        <a>
+                            <div class="card1_title"><img class="card1_img" scr="">고궁</div>
+                        </a>
+                        <a>
+                            <div class="card1_title"><img class="card1_img" scr="">미술관</div>
+                        </a>
+                        <a>
+                            <div class="card1_title"><img class="card1_img" scr="">유적지</div>
+                        </a>
+                        <a>
+                            <div class="card1_title"><img class="card1_img" scr="">극장/공연장</div>
+                        </a>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -163,7 +168,6 @@
             xhr.open("GET", "/todaysPlay/randomslot/", true);
             xhr.send();
         }
-
     </script>
 </body>
 </html>
