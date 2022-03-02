@@ -140,21 +140,11 @@
             <div class="categorySection">
                 <div class="categorySection-item">
                     <figure class="card">
-                        <a class="card_link" href="">
-                            <div class="card1_title"><img class="card1_img" scr=""><br>박물관</div>
-                        </a>
-                        <a class="card_link" href="">
-                            <div class="card1_title"><img class="card1_img" scr="">고궁</div>
-                        </a>
-                        <a class="card_link" href="">
-                            <div class="card1_title"><img class="card1_img" scr="">미술관</div>
-                        </a>
-                        <a class="card_link" href="">
-                            <div class="card1_title"><img class="card1_img" scr="">유적지</div>
-                        </a>
-                        <a class="card_link" href="">
-                            <div class="card1_title"><img class="card1_img" scr="">극장/공연장</div>
-                        </a>
+                        {% for i in link %}
+                            <a class="card_link" href="/todaysPlay/location/?pid={{i}}">
+                                <img class="card1_img" scr="/static/images/{{i}}.jpg">
+                            </a>
+                        {% endfor%}
                     </figure>
                 </div>
             </div>

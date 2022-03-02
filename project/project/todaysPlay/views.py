@@ -4,7 +4,10 @@ import random
 
 # Create your views here.
 def main(request):
-    return render(request, 'main.html')
+    context = {
+        'link' : [1,2,3,4,5],
+    }
+    return render(request, 'main.html', context)
 
 def randomslot(request):
     randint = random.randrange(1, 16)
@@ -48,3 +51,6 @@ def loginPage(request):
 
 def signInPage(request):
     return render(request, 'signInPage.html')
+
+def location(request):
+    return render(request, 'location.html')
