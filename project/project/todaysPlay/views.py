@@ -71,3 +71,6 @@ def location(request):
         'title' : title,
     }
     return render(request, 'location.html',context)
+
+def info(requset):
+    return render(requset, 'info.html')

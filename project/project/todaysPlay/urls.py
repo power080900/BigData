@@ -9,4 +9,5 @@ urlpatterns = [
     path('loginPage/', views.loginPage),
     path('signInPage/', views.signInPage),
     path('location/', views.location, name='location'),
+    path('info/', views.info),
 ]
