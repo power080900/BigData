@@ -54,3 +54,20 @@ def signInPage(request):
 
 def location(request):
     return render(request, 'location.html')
+
+def location(request):
+    i = request.GET.get("pid")
+    if i == "1":
+        title = "고궁"
+    elif i == "2":
+        title = "유적지"
+    elif i == "3":
+        title = "극장/소극장"
+    elif i == "4":
+        title = "박물관/미술관"
+    elif i == "5":
+        title = "기타"
+    context = {
+        'title' : title,
+    }
+    return render(request, 'location.html',context)

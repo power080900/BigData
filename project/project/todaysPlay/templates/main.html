@@ -126,7 +126,7 @@
                 </div>
                 <div class="mainWhere">
                     <span>
-                        <button type="button" class="btn-where" onclick="location.href='http://localhost:8000/todaysPlay/googlemap/'">가자!</button>
+                        <button type="button" class="btn-where" onclick="location.href='/todaysPlay/googlemap/'">가자!</button>
                     </span>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <figure class="card">
                         {% for i in link %}
                             <a class="card_link" href="/todaysPlay/location/?pid={{i}}">
-                                <img class="card1_img" scr="/static/images/{{i}}.jpg">
+                                <img class="card_location" src="/static/images/{{i}}.jpg">
                             </a>
                         {% endfor %}
                     </figure>
