@@ -8,15 +8,46 @@
 {% endblock %}
 {% block content %}
 <script>
-window.onload = function() {
-	var dom = document.getElementById('map');
-		let latlng = { lat: 37.55206240222439, lng: 126.9880649976884 }
+	var dom;
+	var addr;
+	function inputaddress() {
+		addr = window.prompt("주소를 입력하세요");
+		// 윈도우 프롬프트 창 디자인 변경할 내용 정리 중//
+		/*Swal.fire ({
+			title: '주소를 입력하세요',
+			input: 'text',
+			inputPlaceholder: '주소를 입력...',
+			inputValidator:(value) => {
+    			return new Promise((resolve) => {
+    				if (value) {
+    					resolve({addr : 'text'})
+    				}
+    			})
+    		}
+    	})*/
+    	console.log(addr);
+		let url= 'https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDy81EbO46BRSnX1DOgg_F84bhsdbku2z4&address='
+							+ encodeURIComponent(addr) // encodeURIComponent(addr) 한글 표시를 위해 필요 //
+		console.log(url);
+	   	var request = new XMLHttpRequest();
+		request.onload = function(event) {
+			if (request.status == 200) {
+				var obj = JSON.parse(request.responseText);
+				lat = obj.results[0].geometry.location.lat;
+				lng = obj.results[0].geometry.location.lng;
+				dom.innerHTML = '';
+				initmap(lat, lng);
+			}
+		};
+		request.open('GET', url, true);
+		request.send();
+	}
+	function initmap(latp, lngp) {
+		let latlng = { lat: latp, lng: lngp }
 		let map = new google.maps.Map(dom, {
 	       	center: latlng,
-	       	zoom: 12
+	       	zoom: 16
 	   	});
-	//const transitLayer = new google.maps.TransitLayer();
-	//transitLayer.setMap(map);
 	    const image = {
 			  url: '/static/images/markericon.ico',
 			  size: new google.maps.Size(25, 25),
@@ -24,19 +55,45 @@ window.onload = function() {
 			  anchor: new google.maps.Point(17, 34),
 			  scaledSize: new google.maps.Size(25, 25)
 		};
-		const marker = new google.maps.Marker({position: latlng, icon : image, map: map});
+		var marker = new google.maps.Marker({position: latlng, icon : image, map: map});
+		let infowindow_contents = [];
+		let info_cnt = 0;
 
-		var contentString = "<p style='color:red;'>" + marker.getPosition() + "</p>";
+		function makeInfowindow(addr) {
+			infowindow_contents[info_cnt] = "<p style='color:red;'>" + addr + "("+lat+":"+lng+")</p>";
+		}
+		makeInfowindow(addr);
+		const infoWindow = new google.maps.InfoWindow();
+		function showInfowindow() {
+			for (let i = 0; i < marker.length; i++) {
+				marker.addListener("click", function () {
+					if(infowindow_contents[i]) {
+						infoWindow.setContent(inforwindow_contents[i]);
+						infoWindow.open(map, marker[i]);
+						}
+					});
+				}
+			}
+		console.log(infowindow_contents);
+		console.log(marker[i]);
+		/* var contentString =
+				       "<p style='color:red;'>" + addr + "("+lat+":"+lng+")</p>";
 
-		const infowindow = new google.maps.InfoWindow({
+		var infowindow = new google.maps.InfoWindow({
 		    content: contentString
 		});
 		marker.addListener('click', function() {
 		    infowindow.open(map, marker);
-		});
-};
+		}); */
+	}
+	function clickme() {
+		dom = document.getElementById('map');
+		document.getElementById('btn').onclick = inputaddress;
+	}
+	window.onload = clickme;
 </script>
 	<div class="container p-3 my-3 bg-dark text-white"><h1>주소를 입력받아 지도에 마커 표시 초안</h1></div>
-<!--	<button id="btn" type="button" class="btn btn-outline-primary">주소 입력</button>-->
-	<div id="map" style="height: 550px;"></div>
+	<button id="btn" type="button" class="btn btn-outline-primary">주소 입력</button>
+	<div id="map" style="float: right; width: 300px; height: 400px ;top: 20px;">
+	</div>
 {% endblock %}
