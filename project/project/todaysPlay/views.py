@@ -44,7 +44,7 @@ def randomslot(request):
     return HttpResponse(subwayNo)
 
 def map(request):
-    return render(request, 'googlemap.html')
+    return render(request, 'googlemap1.html')
 
 def loginPage(request):
     return render(request, 'loginPage.html')
