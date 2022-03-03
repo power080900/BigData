@@ -44,16 +44,13 @@ def randomslot(request):
     return HttpResponse(subwayNo)
 
 def map(request):
-    return render(request, 'googlemap1.html')
+    return render(request, 'googlemap.html')
 
 def loginPage(request):
     return render(request, 'loginPage.html')
 
 def signInPage(request):
     return render(request, 'signInPage.html')
-
-def location(request):
-    return render(request, 'location.html')
 
 def location(request):
     i = request.GET.get("pid")
