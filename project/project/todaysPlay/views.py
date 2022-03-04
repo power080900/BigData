@@ -8,6 +8,7 @@ def main(request):
     context = {
         'j' : j,
         'link' : ['고궁','유적지','극장','박물관','기타'],
+        'link2': ['연극', '체험', '전시회', '관람', '기타'],
     }
 
     return render(request, 'main.html', context)
