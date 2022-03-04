@@ -37,11 +37,14 @@
     list-style: none;
     }
     .searchSection {
-        margin: 100px;
+        margin: 10px;
+        height: 400px;
+        padding: 80px;
+        background-size: cover;
         }
     .mainSection {
         padding: 10px;
-        margin: 10px;
+        margin: middle;
         text-align: center;
     }
     .category-bar{
@@ -111,7 +114,7 @@
             </li>
         </div>
     </header>
-    <section class="searchSection">
+    <section class="searchSection" style="background-image : url('/static/images/banner/{{j}}.jpg');">
         <div class="mainSection">
             <div class="mainWhat">
                 <h1 class="whatTitle">오늘은 몇호선 타고 문화여행을 떠날까?
@@ -140,7 +143,7 @@
                     <figure class="card">
                         {% for i in link %}
                             <a class="card_link" href="/todaysPlay/location/?pid={{i}}">
-                                <img class="card_location" src="/static/images/{{i}}.jpg">
+                                <img class="card_location" src="/static/images/main/{{i}}.jpg">
                             </a>
                         {% endfor %}
                     </figure>

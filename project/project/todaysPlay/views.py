@@ -4,7 +4,9 @@ import random
 
 # Create your views here.
 def main(request):
+    j =  random.randrange(1,7)
     context = {
+        'j' : j,
         'link' : [1,2,3,4,5],
     }
     return render(request, 'main.html', context)
