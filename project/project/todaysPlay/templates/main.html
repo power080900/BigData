@@ -38,55 +38,66 @@
     }
     .searchSection {
         margin: 10px;
-        height: 400px;
+        height: 300px;
         padding: 50px;
         position: relative;
         }
     .searchSection::after {
-        background-size: cover;
         content: "";
-        opacity: 1.5;
         position: absolute;
         top: 0px;
         left: 0px;
         right: 0px;
         bottom: 0px;
         background: url('/static/images/banner/{{j}}.jpg');
-        z-index: -1;
+        background-position: 50%;
+        background-size: cover;
+        z-index: -2;
         }
     .mainSection {
-        padding: 150px;
+        margin: 0 auto;
+        padding : 50px;
         text-align: center;
-        color : white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height : 200px;
+        position: relative;
     }
-    .category-bar{
-        float: left;
-        width: 50px;
-        height: 50px;
+    .mainWhat {
+        padding : 25px;
+        height : 150px;
+    }
+    .btn-what {
+    }
+    .whatTitle {
+        margin: 0 auto;
+        width : 450px;
         text-align: center;
-        width: 100%;
-        font-size: 1.5rem;
-        border-line: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding : 10px;
     }
-    .category-bar_category{
-        display: inline-block;
-        width: 130px;
-        color: #333;
-        padding: 18px 0;
+    .mainSection::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: white;
+        background-position: 50%;
+        opacity: 0.5;
+        z-index: -1;
     }
-    .category-bar_category-item{
-        float: left;
-        text-align: center;
-    }
+    .mainWhere {
+        height: 25px;
+        position: relative;
+        padding : 10px;
+        }
     span{
         text-align: center;
-    }
-    .nav-item dropdown{
-        text-decoration : none;
-        font-size: 1.5rem;
-        line-height : 1.7;
-        font-weight: 400;
-        float: right;
     }
     .mainCategory {
         text-align: center;
@@ -113,7 +124,7 @@
     }
     .card_link {
         text-decoration : none;
-        color: black;
+        font-color: black;
     }
     </style>
 </head>
@@ -135,12 +146,12 @@
                     </span>
                 </h1>
                 <div class="btn-what">
-                    <h2 class="whatSubTitle"></h2>
-                </div>
-                <div class="mainWhere">
-                    <span>
-                        <button type="button" class="btn-where" onclick="location.href='/todaysPlay/googlemap/'">가자!</button>
-                    </span>
+                    <li>
+                        <h2 class="whatSubTitle">오늘은 ???</h2>
+                        <span class="mainWhere">
+                                    <button type="button" class="btn-where" onclick="location.href='/todaysPlay/googlemap/'">가자!</button>
+                        </span>
+                    </li>
                 </div>
             </div>
         </div>
