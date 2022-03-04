@@ -13,6 +13,10 @@
     * {
        font-family: 'MaplestoryOTFBold';
     }
+    body{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
     .headerLogo{
         padding-right: 15px;
         padding-left: 15px;
@@ -90,6 +94,7 @@
         background-position: 50%;
         opacity: 0.5;
         z-index: -1;
+        border-radius: 10px;
     }
     .mainWhere {
         height: 25px;
@@ -114,17 +119,23 @@
     }
     .card {
         list-style: none;
-        float: right;
         margin : auto;
-        padding : auto;
         text-align : center;
     }
-    .card1_title {
-        border : 1px solid;
-    }
     .card_link {
+        margin: 10px;
+        padding: 5px;
         text-decoration : none;
         font-color: black;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+        box-shadow: 0 8px 10px 0 black;
+    }
+    .card_location {
+        height: 150px;
+        width: 150px;
+        border-bottom: 1px solid;
     }
     </style>
 </head>
@@ -163,13 +174,14 @@
         <div class="mainCategory">
             <div class="categorySection">
                 <div class="categorySection-item">
-                    <figure class="card">
+                    <div class="card">
                         {% for i in link %}
                             <a class="card_link" href="/todaysPlay/location/?pid={{i}}">
                                 <img class="card_location" src="/static/images/main/{{i}}.jpg">
+                                <div class="card_title">{{i}}</div>
                             </a>
                         {% endfor %}
-                    </figure>
+                    </div>
                 </div>
             </div>
         </div>

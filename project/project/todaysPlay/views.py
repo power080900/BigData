@@ -7,8 +7,9 @@ def main(request):
     j =  random.randrange(1,7)
     context = {
         'j' : j,
-        'link' : [1,2,3,4,5],
+        'link' : ['고궁','유적지','극장','박물관','기타'],
     }
+
     return render(request, 'main.html', context)
 
 def randomslot(request):
@@ -56,15 +57,15 @@ def signInPage(request):
 
 def location(request):
     i = request.GET.get("pid")
-    if i == "1":
+    if i == "고궁":
         title = "고궁"
-    elif i == "2":
+    elif i == "유적지":
         title = "유적지"
-    elif i == "3":
+    elif i == "극장":
         title = "극장/소극장"
-    elif i == "4":
+    elif i == "박물관":
         title = "박물관/미술관"
-    elif i == "5":
+    elif i == "기타":
         title = "기타"
     context = {
         'title' : title,
