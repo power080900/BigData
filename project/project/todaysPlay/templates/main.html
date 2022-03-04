@@ -39,13 +39,25 @@
     .searchSection {
         margin: 10px;
         height: 400px;
-        padding: 80px;
+        padding: 50px;
+        position: relative;
+        }
+    .searchSection::after {
         background-size: cover;
+        content: "";
+        opacity: 1.5;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: url('/static/images/banner/{{j}}.jpg');
+        z-index: -1;
         }
     .mainSection {
-        padding: 10px;
-        margin: middle;
+        padding: 150px;
         text-align: center;
+        color : white;
     }
     .category-bar{
         float: left;
@@ -114,7 +126,7 @@
             </li>
         </div>
     </header>
-    <section class="searchSection" style="background-image : url('/static/images/banner/{{j}}.jpg');">
+    <section class="searchSection" >
         <div class="mainSection">
             <div class="mainWhat">
                 <h1 class="whatTitle">오늘은 몇호선 타고 문화여행을 떠날까?
