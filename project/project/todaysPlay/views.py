@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from todaysPlay.models import Subway
 import random
 
 # Create your views here.
@@ -48,6 +49,15 @@ def randomslot(request):
     return HttpResponse(subwayNo)
 
 def map(request):
+    subwaylist = Subway.objects.all()
+    print(subwaylist)
+    # for data in oldplacelist:
+    #     str(data)
+    #
+    # context = {
+    #     "oldplacename": oldplacelist.name
+    # }
+    #
     return render(request, 'googlemap.html')
 
 def loginPage(request):

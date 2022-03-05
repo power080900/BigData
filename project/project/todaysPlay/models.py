@@ -1,3 +1,1 @@
-from django.db import models
-
-# Create your models here.
+from django.db import modelsclass Subway(models.Model):    stationName = models.CharField(max_length=30)    lat = models.IntegerField()    lng = models.IntegerField()    hosun = models.CharField(max_length=15)    def __str__(self):        return f"stationName={self.stationName}, lat={self.lat}, lng={self.lng}, hosun={self.hosun}"
