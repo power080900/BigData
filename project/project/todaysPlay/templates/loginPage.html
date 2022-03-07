@@ -28,8 +28,12 @@
             height : 40px;
             position : relative;
             }
-        #mainPage {
+        a {
             text-decoration : none;
+            color : grey;
+            padding : 10px;
+        }
+        #mainPage {
             font-size: 30px;
             line-height : 1.7;
             font-weight: 400;
@@ -46,7 +50,7 @@
             padding: 100px;
             margin: 0 auto;
             height: 500px;
-            width: 300px;
+            width: 350px;
             vertical-align: middle;
             text-align: center;
         }
@@ -99,6 +103,9 @@
         button {
             cursor: pointer;
         }
+        .make_warp{
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -132,10 +139,10 @@
                     </div>
                 </div>
                 <div class="find_wrap" id="find_wrap">
-                    <li>
-                        <a target="_blank" href="">아이디 찾기</a>
-                        <a target="_blank" href="">비밀번호 찾기</a>
-                        <a target="_blank" href="/todaysPlay/signInPage/">회원가입</a>
+                    <li class="make_warp">
+                        <a target="_blank" class="find_id" href="">아이디 찾기</a>
+                        <a target="_blank" class="find_pw" href="">비밀번호 찾기</a>
+                        <a target="_blank" class="signIn" href="/todaysPlay/signInPage/">회원가입</a>
                     </li>
                 </div>
             </div>
