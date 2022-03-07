@@ -112,6 +112,11 @@ def location(request):
         title = "기타"
     context = {
         'title' : title,
+        'place1' :['경복궁','창경궁'],
+        'place2' : ['몽촌토성', '정릉', '선정릉'],
+        'place3': ['세종문화회관', '예술의전당'],
+        'place4': ['박물관1', '박물관2','박물관4','박물관5',],
+        'place5': ['기타1', '기타2', '기타3', '기타4', ],
     }
     return render(request, 'location.html',context)
 

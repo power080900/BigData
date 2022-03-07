@@ -46,18 +46,28 @@
             vertical-align: middle;
         }
         .mainfrm {
-            border : solid;
+            margin : 100px ;
+            padding: 50px;
+            border : 0.2px solid grey;
+            border-radius: 6px;
             }
         .place {
-            border : solid;
+            padding : 20px;
         }
         .table {
-            border : solid;
+            border : 0.5px solid grey;
+            border-radius: 6px;
+            margin : 10px;
         }
-
         li {
             list-style: none;
         }
+        a {
+            text-decoration : none;
+            color : black;
+            padding-left : 200px;
+            font-size : 20px
+            }
     </style>
 </head>
 <body>
@@ -70,33 +80,19 @@
         </div>
     </header>
     <h1 class="title">{{title}}</h1>
-    {% if title == '고궁' %}
+    {% if title == "고궁" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place1 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic">
                 </div>
                 <li>
-                    <a href="/todaysPlay/info/">경복궁</a>
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">창경궁</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">창덕궁</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="mainPage">
@@ -104,33 +100,19 @@
             <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
         </span>
     </div>
-    {% elif title == '유적지' %}
+    {% elif title == "유적지" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place2 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic">
                 </div>
                 <li>
-                    <a href="/todaysPlay/info/">몽촌토성</a>
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">흥인지문</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">숭례문</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="mainPage">
@@ -138,33 +120,19 @@
             <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
         </span>
     </div>
-    {% elif title == '극장/소극장' %}
+    {% elif title == "극장/소극장" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place3 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic">
                 </div>
                 <li>
-                    <a href="/todaysPlay/info/">극장A</a>
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">극장B</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">극장C</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="mainPage">
@@ -172,33 +140,19 @@
             <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
         </span>
     </div>
-    {% elif title == '박물관/미술관' %}
+    {% elif title == "박물관/미술관" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place4 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic">
                 </div>
                 <li>
-                    <a href="/todaysPlay/info/">박물관1</a>
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">미술관1</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">박물관2</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="mainPage">
@@ -206,33 +160,19 @@
             <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
         </span>
     </div>
-    {% elif title == '기타' %}
+    {% elif title == "기타" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place5 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic"><img>
                 </div>
                 <li>
-                    <a href="/todaysPlay/info/">기타1</a>
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">기타2</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">기타3</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="mainPage">
