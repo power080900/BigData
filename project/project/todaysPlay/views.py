@@ -122,7 +122,7 @@ def location(request):
 
 def info(request):
     title = request.GET.get("pid")
-    contents = "연습용 내용"
+    contents = "연습용 내용 넣기"
     context = {
         'info' : {
             'title' : title,
