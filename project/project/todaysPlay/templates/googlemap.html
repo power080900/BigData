@@ -25,9 +25,8 @@ window.onload = function() {
 		scaledSize: new google.maps.Size(25, 25),
 	};
 	{% autoescape off %}
-	const locations = {{no2}};
+	const locations = {{hosun}};
 	{% endautoescape %}
-	console.log(locations)
 	const infowindow = new google.maps.InfoWindow();
 
 	const flightPath = new google.maps.Polyline({
@@ -37,6 +36,8 @@ window.onload = function() {
     	strokeOpacity: 1.0,
     	strokeWeight: 2,
   	});
+
+  	flightPath.setMap(map);
 
 	for (let i = 0; i < locations.length; i++) {
 		const place = locations[i].place;
