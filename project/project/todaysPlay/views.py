@@ -120,5 +120,11 @@ def location(request):
     }
     return render(request, 'location.html',context)
 
-def info(requset):
-    return render(requset, 'info.html')
+def info(request):
+    title = request.GET.get("pid")
+    context = {
+        'info' : {
+            'title': title,
+        },
+    }
+    return render(request, 'info.html', context)

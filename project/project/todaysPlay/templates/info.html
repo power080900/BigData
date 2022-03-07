@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>소개</title>
+    <title>{{info.title}}</title>
     <style>
         @font-face {
             font-family: 'MaplestoryOTFBold';
@@ -67,6 +67,9 @@
             </li>
         </div>
     </header>
-
+    <div class="title">
+        <img class="'title_pic" scr="/static/images/info/{{info.title}}.jpg">
+        <p class="title_p">{{info.title}}</p>
+    </div>
 </body>
 </html>
