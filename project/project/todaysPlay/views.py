@@ -12,8 +12,8 @@ def main(request):
     j = random.randrange(1,7)
     context = {
         'j' : j,
-        'link' : ['고궁','유적지','극장','박물관','기타'],
-        'link2': ['연극', '체험', '전시회', '관람', '기타'],
+        'link' : ['미술관','공연/전시장','문화예술회관','박물관/기념관','유적지','문화원','기타'],
+        'link2': ['국악','독주/독창회','무용','문화교양/강좌','뮤지컬/오페라','연극', '전시/미술', '콘서트', '클래식', '기타'],
     }
 
     return render(request, 'main.html', context)
@@ -73,23 +73,29 @@ def signInPage(request):
 
 def location(request):
     i = request.GET.get("pid")
-    if i == "고궁":
-        title = "고궁"
+    if i == "미술관":
+        title = "미술관"
+    elif i == "공연/전시장":
+        title = "공연/전시장"
+    elif i == "문화예술회관":
+        title = "문화예술회관"
+    elif i == "박물관/기념관":
+        title = "박물관/기념관"
     elif i == "유적지":
         title = "유적지"
-    elif i == "극장":
-        title = "극장/소극장"
-    elif i == "박물관":
-        title = "박물관/미술관"
+    elif i == "문화원":
+        title = "문화원"
     elif i == "기타":
         title = "기타"
     context = {
         'title' : title,
-        'place1' :['경복궁','창경궁'],
-        'place2' : ['몽촌토성', '정릉', '선정릉'],
+        'place1': ['미술관1','미술관2'],
+        'place2': ['공연1', '공연장2', '공연장3'],
         'place3': ['세종문화회관', '예술의전당'],
         'place4': ['박물관1', '박물관2','박물관4','박물관5',],
         'place5': ['기타1', '기타2', '기타3', '기타4', ],
+        'place6': ['기타1', '기타2', '기타3', '기타4', ],
+        'place7': ['기타1', '기타2', '기타3', '기타4', ],
     }
     return render(request, 'location.html',context)
 

@@ -97,7 +97,7 @@
         </div>
     </header>
     <h1 class="title">{{title}}</h1>
-    {% if title == "고궁" %}
+    {% if title == "미술관" %}
     <div class="mainfrm">
         <div class="place">
             {% for j in place1 %}
@@ -112,7 +112,7 @@
             {% endfor %}
         </div>
     </div>
-    {% elif title == "유적지" %}
+    {% elif title == "공연/전시장" %}
     <div class="mainfrm">
         <div class="place">
             {% for j in place2 %}
@@ -127,7 +127,7 @@
             {% endfor %}
         </div>
     </div>
-    {% elif title == "극장/소극장" %}
+    {% elif title == "문화예술회관" %}
     <div class="mainfrm">
         <div class="place">
             {% for j in place3 %}
@@ -142,7 +142,7 @@
             {% endfor %}
         </div>
     </div>
-    {% elif title == "박물관/미술관" %}
+    {% elif title == "박물관/기념관" %}
     <div class="mainfrm">
         <div class="place">
             {% for j in place4 %}
@@ -157,10 +157,40 @@
             {% endfor %}
         </div>
     </div>
-    {% elif title == "기타" %}
+    {% elif title == "유적지" %}
     <div class="mainfrm">
         <div class="place">
             {% for j in place5 %}
+            <div class="table">
+                <div class="card1">
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
+                </div>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
+                </li>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "문화원" %}
+    <div class="mainfrm">
+        <div class="place">
+            {% for j in place6 %}
+            <div class="table">
+                <div class="card1">
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
+                </div>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
+                </li>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "기타" %}
+    <div class="mainfrm">
+        <div class="place">
+            {% for j in place7 %}
             <div class="table">
                 <div class="card1">
                     <img class="placepic" scr="/static/images/location/{{j}}.jpg">
