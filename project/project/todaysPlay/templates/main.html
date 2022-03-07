@@ -192,7 +192,7 @@
                     <li>
                         <h2 class="whatSubTitle">오늘은 ???</h2>
                         <span class="mainWhere">
-                            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/googlemap/'">가자!</button>
+                                    <button type="button" class="btn-where" onclick="playgo();">가자!</button>
                         </span>
                     </li>
                 </div>
@@ -238,6 +238,7 @@
         </div>
     </section>
     <script>
+        var line;
         function playslot() {
             let xhr = new XMLHttpRequest();
             xhr.onload = function() {
@@ -245,9 +246,13 @@
                 let dom = document.getElementsByTagName('h2')[0];
                 console.log(xhr.responseText);
                 dom.innerHTML = '오늘은 ' + xhr.responseText;
+                line = xhr.responseText;
             }
             xhr.open("GET", "/todaysPlay/randomslot/", true);
             xhr.send();
+        }
+        function playgo() {
+            location.href='/todaysPlay/googlemap/?line=' + line;
         }
     </script>
 </body>
