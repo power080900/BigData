@@ -90,7 +90,7 @@ def map(request):
     #     "hosun": hosun,
     # }
     # return context
-    return render(request, 'googlemap1.html', context)
+    return render(request, 'googlemap.html', context)
 
 def loginPage(request):
     return render(request, 'loginPage.html')

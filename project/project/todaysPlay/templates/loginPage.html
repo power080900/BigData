@@ -13,55 +13,131 @@
         * {
             font-family: 'MaplestoryOTFBold';
         }
-        li {
-            list-style: none;
+        body{
+            margin: 0 auto;
+            height: 1250px;
+            overflow-x: hidden;
         }
-        a {
-            text-decoration: none;
-        }
-        header{
+        .headerLogo{
+            padding : 30px;
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
+            border-bottom: 1px solid #e4e8eb;
+            height : 40px;
+            position : relative;
+            }
+        #mainPage {
+            text-decoration : none;
+            font-size: 30px;
+            line-height : 1.7;
+            font-weight: 400;
+            color : #2F9D27;
+            }
+        li {
+            list-style: none;
+        }
+        .container{
+            margin: 0 auto;
+            padding: 100px;
+        }
+        .content {
+            padding: 100px;
+            margin: 0 auto;
+            height: 500px;
+            width: 300px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .ct_border {
+            border: 1px solid black;
+            border-radius : 6px;
+            }
+        .login_id_pw {
+            border-bottom : 1px solid black;
+            padding : 20px
+        }
+        .panel_login {
+            padding-left: 0px;
+        }
+        .id_pw {
+            border: 1px solid black;
+            border-radius : 6px;
+        }
+        .id_row {
+            border-bottom : 1px solid black;
+            padding : 10px;
+            box-sizing: border-box;
+        }
+        .pw_row{
+            padding : 10px;
+            box-sizing: border-box;
+        }
+        .input_text {
+            font-size : 16px;
+            line-height : 19px;
+            border: none;
+            text-decoration: none;
+            appearance: none;
+            outline: 0;
+        }
+        .btn_text{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #fff;
+        }
+        .btn_login {
+            width: 75%;
+            padding: 5px 0 5px;
+            border-radius: 6px;
+            border: solid 1px rgba(0,0,0,.15);
+            background-color: #2F9D27;
+            box-sizing: border-box;
+            }
+        button {
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="header_inner">
-            <a class="logo" href="/todaysPlay/main/">오늘뭐하지?</a>
-        </div>
-    </header>
     <div id="container" class="container">
         <div class="content">
-            <div class="login_id_pw">
-                <form id="frmLogin" target="_top" autocomplete="off" method="post">
-                    <ul class="panel_login">
-                        <li class="paner_item" style="display:block;">
-                            <div class="id_pw">
-                                <div id="id_row">
-                                    <input type="text" id="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41">
-                                </div>
-                                <div id="pw_row">
-                                    <input type="password" id="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </form>
-                <div class="btn_login_wrap">
-                    <button type="submit" class="btn_login" id="log.login">
-                        <span class="btn_text">로그인</span>
-                    </button>
-                </div>
-            </div>
-            <div class="find_wrap" id="find_wrap">
+            <div class="headerLogo">
                 <li>
-                    <a target="_blank" href="">아이디 찾기</a>
-                    <a target="_blank" href="">비밀번호 찾기</a>
-                    <a target="_blank" href="/todaysPlay/signInPage/">회원가입</a>
+                    <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
                 </li>
+            </div>
+            <div class="ct_border">
+                <div class="login_id_pw">
+                    <form id="frmLogin" target="_top" autocomplete="off" method="post">
+                        <ul class="panel_login">
+                            <li class="paner_item" style="display:block;">
+                                <div class="id_pw">
+                                    <div class="id_row">
+                                        <input type="text" id="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41">
+                                    </div>
+                                    <div class="pw_row">
+                                        <input type="password" id="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="btn_login_wrap">
+                        <button type="submit" class="btn_login" id="log.login">
+                            <span class="btn_text">로그인</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="find_wrap" id="find_wrap">
+                    <li>
+                        <a target="_blank" href="">아이디 찾기</a>
+                        <a target="_blank" href="">비밀번호 찾기</a>
+                        <a target="_blank" href="/todaysPlay/signInPage/">회원가입</a>
+                    </li>
+                </div>
             </div>
         </div>
     </div>
