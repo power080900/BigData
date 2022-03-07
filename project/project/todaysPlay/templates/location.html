@@ -4,191 +4,173 @@
     <meta charset="UTF-8">
     <title>게시판</title>
     <style>
+        @font-face {
+            font-family: 'MaplestoryOTFBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'MaplestoryOTFBold';
+        }
+        body{
+            margin: 0 auto;
+            height: 1250px;
+            overflow-x: hidden;
+        }
+        header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1005;
+        background : white;
+        }
+        .headerLogo{
+            padding : 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px solid #e4e8eb;
+            height : 40px;
+            position : relative;
+        }
+        #mainPage, .logIn {
+            text-decoration : none;
+            font-size: 1.5rem;
+            line-height : 1.7;
+            font-weight: 400;
+            color : #2F9D27
+        }
+        button {
+                cursor: pointer;
+        }
+        #mainPage {
+            padding-left: 20px;
+        }
+        .logIn {
+            float: right;
+            vertical-align: middle;
+        }
         .mainfrm {
-            border : solid;
+            margin : 100px ;
+            padding: 50px;
+            border : 0.2px solid grey;
+            border-radius: 6px;
             }
         .place {
-            border : solid;
+            padding : 20px;
         }
         .table {
-            border : solid;
+            border : 0.5px solid grey;
+            border-radius: 6px;
+            margin : 10px;
+            height : 300px;
         }
         li {
             list-style: none;
         }
+        a {
+            text-decoration : none;
+            color : black;
+            font-size : 20px
+            }
+        .card1 {
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+        .placelink {
+            padding : 15px;
+            float: left;
+            }
     </style>
 </head>
 <body>
+    <header id="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+            </li>
+        </div>
+    </header>
     <h1 class="title">{{title}}</h1>
-    {% if title == '고궁' %}
+    {% if title == "고궁" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place1 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
                 </div>
-                <li>
-                    <a href="/todaysPlay/info/">경복궁</a>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">창경궁</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">창덕궁</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
-    </div>
-    {% elif title == '유적지' %}
+    {% elif title == "유적지" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place2 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
                 </div>
-                <li>
-                    <a href="/todaysPlay/info/">몽촌토성</a>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">흥인지문</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">숭례문</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
-    </div>
-    {% elif title == '극장/소극장' %}
+    {% elif title == "극장/소극장" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place3 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
                 </div>
-                <li>
-                    <a href="/todaysPlay/info/">극장A</a>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">극장B</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">극장C</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
-    </div>
-    {% elif title == '박물관/미술관' %}
+    {% elif title == "박물관/미술관" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place4 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
                 </div>
-                <li>
-                    <a href="/todaysPlay/info/">박물관1</a>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">미술관1</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">박물관2</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
-    </div>
-    {% elif title == '기타' %}
+    {% elif title == "기타" %}
     <div class="mainfrm">
         <div class="place">
+            {% for j in place5 %}
             <div class="table">
                 <div class="card1">
-                    <img>
+                    <img class="placepic" scr="/static/images/location/{{j}}.jpg">
                 </div>
-                <li>
-                    <a href="/todaysPlay/info/">기타1</a>
+                <li class="placelink">
+                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">기타2</a>
-                </li>
-            </div>
-            <div class="table">
-                <div class="card1">
-                    <img>
-                </div>
-                <li>
-                    <a href="/todaysPlay/info/">기타3</a>
-                </li>
-            </div>
+            {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% endif %}
 </body>

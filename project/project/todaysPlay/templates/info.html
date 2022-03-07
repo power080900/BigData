@@ -2,9 +2,77 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{info.title}}</title>
+    <style>
+        @font-face {
+            font-family: 'MaplestoryOTFBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'MaplestoryOTFBold';
+        }
+        body{
+            margin: 0 auto;
+            height: 1250px;
+            overflow-x: hidden;
+        }
+        header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1005;
+        background : white;
+        }
+        .headerLogo{
+            padding : 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px solid #e4e8eb;
+            height : 40px;
+            position : relative;
+        }
+        #mainPage, .logIn {
+            text-decoration : none;
+            font-size: 1.5rem;
+            line-height : 1.7;
+            font-weight: 400;
+            color : #2F9D27
+        }
+        button {
+                cursor: pointer;
+        }
+        #mainPage {
+            padding-left: 20px;
+        }
+        .logIn {
+            float: right;
+            vertical-align: middle;
+        }
+        li {
+            list-style: none;
+            }
+    </style>
 </head>
 <body>
-
+    <header id="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+            </li>
+        </div>
+    </header>
+    <div class="title">
+        <img class="'title_pic" scr="/static/images/info/{{info.title}}.jpg">
+        <p class="title_p">{{info.title}}</p>
+    </div>
+    <div class="contents">
+        <p class="contents_p">{{info.contents}}</p>
+    </div>
 </body>
 </html>
