@@ -1,5 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
+import django
+django.setup()
 from todaysPlay.models import Subway
 import random
 
@@ -49,16 +53,44 @@ def randomslot(request):
     return HttpResponse(subwayNo)
 
 def map(request):
+    no1, no2, no3, no4, no5, no6, no7, no8, no9, no10 = [], [], [], [], [], [], [], [], [], []
     subwaylist = Subway.objects.all()
-    print(subwaylist)
-    # for data in oldplacelist:
-    #     str(data)
-    #
+    for data in subwaylist:
+        if "1호선" in data.hosun:
+            no1.append({"lat": data.lat, "lng": data.lng})
+        elif "2호선" in data.hosun:
+            no2.append({"lat": data.lat, "lng": data.lng})
+        elif "3호선" in data.hosun:
+            no3.append({"lat": data.lat, "lng": data.lng})
+        elif "4호선" in data.hosun:
+            no4.append({"lat": data.lat, "lng": data.lng})
+        elif "5호선" in data.hosun:
+            no5.append({"lat": data.lat, "lng": data.lng})
+        elif "6호선" in data.hosun:
+            no6.append({"lat": data.lat, "lng": data.lng})
+        elif "7호선" in data.hosun:
+            no7.append({"lat": data.lat, "lng": data.lng})
+        elif "8호선" in data.hosun:
+            no8.append({"lat": data.lat, "lng": data.lng})
+        elif "9호선" in data.hosun:
+            no9.append({"lat": data.lat, "lng": data.lng})
+        elif "경강선" in data.hosun:
+            no10.append({"lat": data.lat, "lng": data.lng})
+    context = {
+        "no2": no2,
+    }
+    # stn = [data.stationName for data in subwaylist]
+    # lat = [data.lat for data in subwaylist]
+    # lng = [data.lng for data in subwaylist]
+    # hosun = [data.hosun for data in subwaylist]
     # context = {
-    #     "oldplacename": oldplacelist.name
+    #     "stationname": stn,
+    #     "lat": lat,
+    #     "lng": lng,
+    #     "hosun": hosun,
     # }
-    #
-    return render(request, 'googlemap.html')
+    # return context
+    return render(request, 'googlemap1.html', context)
 
 def loginPage(request):
     return render(request, 'loginPage.html')
