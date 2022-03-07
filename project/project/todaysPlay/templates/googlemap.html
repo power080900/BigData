@@ -24,24 +24,19 @@ window.onload = function() {
 		anchor: new google.maps.Point(17, 34),
 		scaledSize: new google.maps.Size(25, 25),
 	};
-	const locations = [
-		{place: "경복궁", lat: 37.57981254103568, lng: 126.97701954001741},
-		{place: "창경궁", lat: 37.578915326752494, lng: 126.994891255361},
-		{place: "창덕궁", lat: 37.57958704128195, lng: 126.99106106094924},
-		{place: "서울 한양도성", lat: 37.5724161680007, lng: 127.00884289028019},
-		{place: "덕수궁", lat: 37.56583103860004, lng: 126.97514647570438},
-		{place: "동대문", lat: 37.57115088336479, lng: 127.00954928671743},
-		{place: "숭례문", lat: 37.55994709408951, lng: 126.97530151742997},
-		{place: "운현궁", lat: 37.57616252592944, lng: 126.98709806303265},
-		{place: "경희궁", lat: 37.57136513593152, lng: 126.96816298604793},
-		{place: "창의문", lat: 37.59280350452833, lng: 126.96650118419728},
-		{place: "광희문", lat: 37.5645303679199, lng: 127.0099658688528},
-		{place: "창경궁대온실", lat: 37.583087916357464, lng: 126.99399029768936},
-		{place: "홍지문탕춘대성", lat: 37.598940787863505, lng: 126.95653812467448},
-		{place: "혜화문", lat: 37.58805350555694, lng: 127.00377521303291},
-		{place: "숙정문", lat: 37.595718320238205, lng: 126.98126863392682},
-	];
+	{% autoescape off %}
+	const locations = {{no2}};
+	{% endautoescape %}
+	console.log(locations)
 	const infowindow = new google.maps.InfoWindow();
+
+	const flightPath = new google.maps.Polyline({
+    	path: locations,
+    	geodesic: true,
+    	strokeColor: "#FF0000",
+    	strokeOpacity: 1.0,
+    	strokeWeight: 2,
+  	});
 
 	for (let i = 0; i < locations.length; i++) {
 		const place = locations[i].place;
@@ -51,7 +46,7 @@ window.onload = function() {
 			map: map,
 		});
 		marker.addListener('click', function() {
-			infowindow.setContent(place + "<a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72'>1</a>");
+			infowindow.setContent(place + "<a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72' target='_blank'>1</a>");
 			infowindow.open(map, marker);
 		});
 	};
