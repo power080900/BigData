@@ -122,9 +122,11 @@ def location(request):
 
 def info(request):
     title = request.GET.get("pid")
+    contents = "연습용 내용"
     context = {
         'info' : {
-            'title': title,
+            'title' : title,
+            'contents' : contents,
         },
     }
     return render(request, 'info.html', context)
