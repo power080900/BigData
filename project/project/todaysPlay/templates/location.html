@@ -18,6 +18,14 @@
             height: 1250px;
             overflow-x: hidden;
         }
+        header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1005;
+        background : white;
+        }
         .headerLogo{
             padding : 20px;
             padding-right: 15px;
@@ -58,6 +66,7 @@
             border : 0.5px solid grey;
             border-radius: 6px;
             margin : 10px;
+            height : 300px;
         }
         li {
             list-style: none;
@@ -65,8 +74,16 @@
         a {
             text-decoration : none;
             color : black;
-            padding-left : 200px;
             font-size : 20px
+            }
+        .card1 {
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+        .placelink {
+            padding : 15px;
+            float: left;
             }
     </style>
 </head>
@@ -88,17 +105,12 @@
                 <div class="card1">
                     <img class="placepic">
                 </div>
-                <li>
+                <li class="placelink">
                     <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
             {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% elif title == "유적지" %}
     <div class="mainfrm">
@@ -108,17 +120,12 @@
                 <div class="card1">
                     <img class="placepic">
                 </div>
-                <li>
+                <li class="placelink">
                     <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
             {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% elif title == "극장/소극장" %}
     <div class="mainfrm">
@@ -128,17 +135,12 @@
                 <div class="card1">
                     <img class="placepic">
                 </div>
-                <li>
+                <li class="placelink">
                     <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
             {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% elif title == "박물관/미술관" %}
     <div class="mainfrm">
@@ -148,17 +150,12 @@
                 <div class="card1">
                     <img class="placepic">
                 </div>
-                <li>
+                <li class="placelink">
                     <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
             {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% elif title == "기타" %}
     <div class="mainfrm">
@@ -168,17 +165,12 @@
                 <div class="card1">
                     <img class="placepic"><img>
                 </div>
-                <li>
+                <li class="placelink">
                     <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
                 </li>
             </div>
             {% endfor %}
         </div>
-    </div>
-    <div class="mainPage">
-        <span>
-            <button type="button" class="btn-where" onclick="location.href='/todaysPlay/main/'">메인 화면으로</button>
-        </span>
     </div>
     {% endif %}
 </body>
