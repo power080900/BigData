@@ -85,6 +85,9 @@
             padding : 15px;
             float: left;
             }
+        .title {
+            padding : 50px;
+            }
     </style>
 </head>
 <body>
@@ -98,7 +101,7 @@
     </header>
     <h1 class="title">{{title}}</h1>
     {% if title == "미술관" %}
-    <div class="mainfrm">
+    <li class="mainfrm">
         <div class="place">
             {% for j in 미술관 %}
             <div class="table">
@@ -111,7 +114,7 @@
             </div>
             {% endfor %}
         </div>
-    </div>
+    </li>
     {% elif title == "공연·전시장" %}
     <div class="mainfrm">
         <div class="place">
