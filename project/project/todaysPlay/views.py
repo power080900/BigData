@@ -1,17 +1,29 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from todaysPlay.models import Subway
+from django.contrib.auth.models import User
+from django.contrib import auth
 import random
 
 # Create your views here.
 def main(request):
-    j = random.randrange(1,7)
-    context = {
-        'j' : j,
-        'link' : ['미술관','공연·전시장','문화예술회관','박물·기념관','유적지','문화원','기타'],
-        'link2': ['국악','독주·독창회','무용','문화교양·강좌','뮤지컬·오페라','연극', '전시·미술', '콘서트', '클래식', '기타'],
-    }
-
+    context = None
+    print(request.user.is_authenticated)
+    print(request.user)
+    j = random.randrange(1, 7)
+    if request.user.is_authenticated:
+        context = {
+            'logineduser': request.user,
+            'j': j,
+            'link': ['미술관', '공연·전시장', '문화예술회관', '박물·기념관', '유적지', '문화원', '기타'],
+            'link2': ['국악', '독주·독창회', '무용', '문화교양·강좌', '뮤지컬·오페라', '연극', '전시·미술', '콘서트', '클래식', '기타'],
+        }
+    else :
+        context = {
+            'j': j,
+            'link': ['미술관', '공연·전시장', '문화예술회관', '박물·기념관', '유적지', '문화원', '기타'],
+            'link2': ['국악', '독주·독창회', '무용', '문화교양·강좌', '뮤지컬·오페라', '연극', '전시·미술', '콘서트', '클래식', '기타'],
+        }
     return render(request, 'main.html', context)
 
 def randomslot(request):
@@ -101,10 +113,34 @@ def map(request):
     return render(request, 'googlemap.html', context)
 
 def loginPage(request):
-    return render(request, 'loginPage.html')
+    if request.method == "POST":
+        id = request.POST.get('id', None)
+        pw = request.POST.get('pw', None)
+        user = auth.authenticate(request, id=id, password=pw)
+        if user is not None :
+            auth.login(request, user)
+            return redirect("main.html")
+        else :
+            return render(request, 'loginpage.html', {'error': '사용자 아이디 또는 패스워드가 틀립니다.'})
+    else :
+        return render(request, 'loginpage.html')
 
 def signInPage(request):
-    return render(request, 'signInPage.html')
+    res_data = None
+    if request.method == 'POST':
+        id = request.POST.get('id')
+        pw1 = request.POST.get('pw1')
+        pw2 = request.POST.get('pw2')
+        res_data = {}
+        if User.objects.filter(id=id):
+            res_data['error'] = '이미 가입된 아이디입니다.'
+        elif pw1 != pw2:
+            res_data['error'] = '비밀번호가 다릅니다.'
+        else:
+            user = User.objects.create_user(id=id, password=pw1)
+            auth.login(request, user)
+            redirect("main.html")
+    return render(request, 'signInPage.html', res_data)
 
 def location1(request):
     i = request.GET.get("pid")

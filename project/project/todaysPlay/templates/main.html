@@ -36,7 +36,7 @@
         height : 40px;
         position : relative;
         }
-    #mainPage, .logIn {
+    .mainPage, .logIn {
         text-decoration : none;
         font-size: 1.5rem;
         line-height : 1.7;
@@ -46,7 +46,7 @@
     button {
             cursor: pointer;
         }
-    #mainPage {
+    .mainPage {
     padding-left: 20px;
     }
     .logIn {
@@ -172,14 +172,25 @@
     </style>
 </head>
 <body>
-    <header id="headerApp">
+    {% if not logineduser %}
+    <header class="headerApp">
         <div class="headerLogo">
             <li>
-                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
-                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+                <a class="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a href="/todaysPlay/loginPage" class="logIn">로그인/회원가입</a>
             </li>
         </div>
     </header>
+    {% else %}
+    <header class="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a class="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a href="/todaysPlay/logoutpage' %}" class="logIn">로그아웃</a>
+            </li>
+        </div>
+    </header>
+    {% endif %}
     <section class="searchSection" >
         <div class="mainSection">
             <div class="mainWhat">
