@@ -13,7 +13,7 @@ window.onload = function() {
 	let latlng = { lat: 37.55206240222439, lng: 126.9880649976884 };
 	const map = new google.maps.Map(dom, {
 	       center: latlng,
-	       zoom: 12,
+	       zoom: 11,
 	});
 	//const transitLayer = new google.maps.TransitLayer();
 	//transitLayer.setMap(map);
@@ -25,35 +25,58 @@ window.onload = function() {
 		scaledSize: new google.maps.Size(25, 25),
 	};
 	{% autoescape off %}
-	const locations = {{hosun}};
+	const line = {{hosun}};
+	const line_1 = {{hosun_1}};
+	const line_2 = {{hosun_2}};
+	const line_3 = {{hosun_3}};
 	{% endautoescape %}
+	console.log(line);
 	const infowindow = new google.maps.InfoWindow();
 
-	const flightPath = new google.maps.Polyline({
-    	path: locations,
+	const path = new google.maps.Polyline({
+		path: line,
     	geodesic: true,
-    	strokeColor: "#FF0000",
+    	strokeColor: "{{color}}",
     	strokeOpacity: 1.0,
-    	strokeWeight: 2,
+    	strokeWeight: 5,
   	});
-
-  	flightPath.setMap(map);
-
-	for (let i = 0; i < locations.length; i++) {
-		const place = locations[i].place;
-		const marker = new google.maps.Marker({
-			position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
-			icon : image,
-			map: map,
-		});
-		marker.addListener('click', function() {
-			infowindow.setContent(place + "<a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72' target='_blank'>1</a>");
-			infowindow.open(map, marker);
-		});
-	};
-	console.log(locations.length);
-
-
+  	path.setMap(map);
+  	const path1 = new google.maps.Polyline({
+		path: line_1,
+    	geodesic: true,
+    	strokeColor: "{{color}}",
+    	strokeOpacity: 1.0,
+    	strokeWeight: 5,
+  	});
+	path1.setMap(map);
+	const path2 = new google.maps.Polyline({
+		path: line_2,
+    	geodesic: true,
+    	strokeColor: "{{color}}",
+    	strokeOpacity: 1.0,
+    	strokeWeight: 5,
+  	});
+	path2.setMap(map);
+	const path3 = new google.maps.Polyline({
+		path: line_3,
+    	geodesic: true,
+    	strokeColor: "{{color}}",
+    	strokeOpacity: 1.0,
+    	strokeWeight: 5,
+  	});
+	path3.setMap(map);
+<!--	for (let i = 0; i < locations.length; i++) {-->
+<!--		const place = locations[i].place;-->
+<!--		const marker = new google.maps.Marker({-->
+<!--			position: new google.maps.LatLng(locations[i].lat, locations[i].lng),-->
+<!--			icon : image,-->
+<!--			map: map,-->
+<!--		});-->
+<!--		marker.addListener('click', function() {-->
+<!--			infowindow.setContent(place + "<a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72' target='_blank'>1</a>");-->
+<!--			infowindow.open(map, marker);-->
+<!--		});-->
+<!--	};-->
 };
 </script>
 	<div class="container p-3 my-3 bg-dark text-white"><h1>주소를 입력받아 지도에 마커 표시 초안</h1></div>
