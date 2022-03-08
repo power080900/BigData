@@ -71,7 +71,7 @@ def loginPage(request):
 def signInPage(request):
     return render(request, 'signInPage.html')
 
-def location(request):
+def location1(request):
     i = request.GET.get("pid")
     if i == "미술관":
         title = "미술관"
@@ -97,7 +97,35 @@ def location(request):
         'place6': ['기타1', '기타2', '기타3', '기타4', ],
         'place7': ['기타1', '기타2', '기타3', '기타4', ],
     }
-    return render(request, 'location.html',context)
+    return render(request, 'location1.html',context)
+
+def location2(request):
+    i = request.GET.get("pid")
+    if i == "미술관":
+        title = "미술관"
+    elif i == "공연·전시장":
+        title = "공연·전시장"
+    elif i == "문화예술회관":
+        title = "문화예술회관"
+    elif i == "박물·기념관":
+        title = "박물·기념관"
+    elif i == "유적지":
+        title = "유적지"
+    elif i == "문화원":
+        title = "문화원"
+    elif i == "기타":
+        title = "기타"
+    context = {
+        'title' : title,
+        'place1': ['미술관1','미술관2'],
+        'place2': ['공연1', '공연장2', '공연장3'],
+        'place3': ['세종문화회관', '예술의전당'],
+        'place4': ['박물관1', '박물관2','박물관4','박물관5',],
+        'place5': ['기타1', '기타2', '기타3', '기타4', ],
+        'place6': ['기타1', '기타2', '기타3', '기타4', ],
+        'place7': ['기타1', '기타2', '기타3', '기타4', ],
+    }
+    return render(request, 'location1.html',context)
 
 def info(request):
     title = request.GET.get("pid")

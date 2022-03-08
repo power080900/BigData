@@ -8,6 +8,7 @@ urlpatterns = [
     path('randomslot/', views.randomslot),
     path('loginPage/', views.loginPage),
     path('signInPage/', views.signInPage),
-    path('location/', views.location, name='location'),
+    path('location1/', views.location1, name='location1'),
+    path('location2/', views.location2, name='location2'),
     path('info/', views.info),
 ]
