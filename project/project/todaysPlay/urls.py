@@ -10,5 +10,6 @@ urlpatterns = [
     path('signInPage/', views.signInPage, name='signInPage'),
     path('location1/', views.location1, name='location1'),
     path('location2/', views.location2, name='location2'),
+    path('logout/', views.logout, name="logout"),
     path('info/', views.info),
 ]

@@ -112,6 +112,18 @@
     </style>
 </head>
 <body>
+{% if msg %}
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <h1>{{msg}}</h1>
+        </div>
+    </div>
+{% else %}
+    <div class="row mt-5">
+        <div class="col-12 text-center" style="color:red">
+         {{error}}
+        </div>
+    </div>
     <div id="container" class="container">
         <div class="content">
             <div class="headerLogo">
@@ -119,16 +131,20 @@
                     <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
                 </li>
             </div>
+            {% csrf_token %}
             <div class="ct_border">
                 <div class="login_id_pw">
                     <form id="frmLogin" target="_top" autocomplete="off" method="post" action="/todaysPlay/loginPage/">
+                        {% csrf_token %}
                         <ul class="panel_login">
                             <li class="panel_item" style="display:block;">
                                 <div class="id_pw">
                                     <div class="id_row">
+                                        <label for="username"></label>
                                         <input type="text" id="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41">
                                     </div>
                                     <div class="pw_row">
+                                        <label for="password"></label>
                                         <input type="password" id="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
                                     </div>
                                 </div>
@@ -138,7 +154,7 @@
                             <button type="submit" class="btn_login" id="log.login">
                                 <span class="btn_text">로그인</span>
                             </button>
-                    </div>
+                        </div>
                     </form>
                 </div>
                 <div class="find_wrap" id="find_wrap">
@@ -149,5 +165,6 @@
             </div>
         </div>
     </div>
+{% endif %}
 </body>
 </html>

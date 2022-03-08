@@ -115,8 +115,8 @@ def map(request):
 def loginPage(request):
     if request.method == "POST":
         id = request.POST.get('id', None)
-        pw = request.POST.get('pw', None)
-        user = auth.authenticate(request, id=id, password=pw)
+        password = request.POST.get('pw', None)
+        user = auth.authenticate(request, username=id, password=password)
         if user is not None :
             auth.login(request, user)
             return redirect("main.html")
@@ -129,15 +129,15 @@ def signInPage(request):
     res_data = None
     if request.method == 'POST':
         id = request.POST.get('id')
-        pw1 = request.POST.get('pw1')
-        pw2 = request.POST.get('pw2')
+        password = request.POST.get('pw1')
+        repassword = request.POST.get('pw2')
         res_data = {}
         if User.objects.filter(username=id):
             res_data['error'] = '이미 가입된 아이디입니다.'
-        elif pw1 != pw2:
+        elif password != repassword:
             res_data['error'] = '비밀번호가 다릅니다.'
         else:
-            user = User.objects.create_user(username=id, password=pw1)
+            user = User.objects.create_user(username=id, password=password)
             auth.login(request, user)
             redirect("main.html")
     return render(request, 'signInPage.html', res_data)
@@ -217,3 +217,8 @@ def info(request):
         },
     }
     return render(request, 'info.html', context)
+
+def logout(request):
+    if request.user.is_authenticated:
+        auth.logout(request)
+    return redirect("main.html")
