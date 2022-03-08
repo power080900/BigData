@@ -106,11 +106,13 @@
             {% for j in 미술관 %}
             <div class="table">
                 <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
+                    <li class="placelink">
+                        <a href="/todaysPlay/info/?pid={{j}}">
+                            <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
+                            <div>{{j}}</div>
+                        </a>
+                    </li>
                 </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
             </div>
             {% endfor %}
         </div>
