@@ -119,11 +119,6 @@
         </div>
     </div>
 {% else %}
-    <div class="row mt-5">
-        <div class="col-12 text-center" style="color:red">
-         {{error}}
-        </div>
-    </div>
     <div id="container" class="container">
         <div class="content">
             <div class="headerLogo">
@@ -150,6 +145,11 @@
                                 </div>
                             </li>
                         </ul>
+                        <div class="row mt-5">
+                            <div class="col-12 text-center" style="color:red">
+                                {{error}}
+                            </div>
+                        </div>
                         <div class="btn_login_wrap">
                             <button type="submit" class="btn_login" id="log.login">
                                 <span class="btn_text">로그인</span>
