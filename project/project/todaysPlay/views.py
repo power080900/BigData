@@ -114,12 +114,12 @@ def map(request):
 
 def loginPage(request):
     if request.method == "POST":
-        id = request.POST.get('id', None)
-        password = request.POST.get('pw', None)
-        user = auth.authenticate(request, username=id, password=password)
+        username = request.POST.get('username', None)
+        password = request.POST.get('password', None)
+        user = auth.authenticate(request, username=username, password=password)
         if user is not None :
             auth.login(request, user)
-            return redirect("main.html")
+            return redirect("main:main")
         else :
             return render(request, 'loginpage.html', {'error': '사용자 아이디 또는 패스워드가 틀립니다.'})
     else :
@@ -139,7 +139,7 @@ def signInPage(request):
         else:
             user = User.objects.create_user(username=id, password=password)
             auth.login(request, user)
-            redirect("main.html")
+            return redirect("main:main")
     return render(request, 'signInPage.html', res_data)
 
 def location1(request):
@@ -221,4 +221,4 @@ def info(request):
 def logout(request):
     if request.user.is_authenticated:
         auth.logout(request)
-    return redirect("main.html")
+    return redirect("main:main")

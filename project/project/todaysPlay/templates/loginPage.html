@@ -129,18 +129,18 @@
             {% csrf_token %}
             <div class="ct_border">
                 <div class="login_id_pw">
-                    <form id="frmLogin" target="_top" autocomplete="off" method="post" action="/todaysPlay/loginPage/">
+                    <form id="frmLogin" target="_top" autocomplete="off" method="post">
                         {% csrf_token %}
                         <ul class="panel_login">
                             <li class="panel_item" style="display:block;">
                                 <div class="id_pw">
                                     <div class="id_row">
                                         <label for="username"></label>
-                                        <input type="text" id="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41">
+                                        <input type="text" id="username" placeholder="아이디" name="username" title="아이디" class="input_text" maxlength="41">
                                     </div>
                                     <div class="pw_row">
                                         <label for="password"></label>
-                                        <input type="password" id="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
+                                        <input type="password" id="password" placeholder="비밀번호" name="password" title="비밀번호" class="input_text" maxlength="16">
                                     </div>
                                 </div>
                             </li>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="find_wrap" id="find_wrap">
                     <li class="make_warp">
-                        <a target="_blank" class="signIn" href="/todaysPlay/signInPage">회원가입</a>
+                        <a target="_blank" class="signIn" href="{% url 'main:signInPage' %}">회원가입</a>
                     </li>
                 </div>
             </div>

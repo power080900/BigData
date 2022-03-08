@@ -4,7 +4,7 @@ from . import views
 app_name = "main"
 urlpatterns = [
     path('googlemap/', views.map),
-    path('main/', views.main),
+    path('main/', views.main, name='main'),
     path('randomslot/', views.randomslot),
     path('loginPage/', views.loginPage, name='loginPage'),
     path('signInPage/', views.signInPage, name='signInPage'),
