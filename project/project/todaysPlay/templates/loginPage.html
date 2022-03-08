@@ -27,7 +27,6 @@
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
-            border-bottom: 1px solid #e4e8eb;
             height : 40px;
             position : relative;
             }
@@ -36,7 +35,7 @@
             color : grey;
             padding : 10px;
         }
-        #mainPage {
+        .mainPage {
             font-size: 30px;
             line-height : 1.7;
             font-weight: 400;
@@ -123,7 +122,7 @@
         <div class="content">
             <div class="headerLogo">
                 <li>
-                    <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                    <a class="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
                 </li>
             </div>
             {% csrf_token %}
@@ -159,7 +158,7 @@
                 </div>
                 <div class="find_wrap" id="find_wrap">
                     <li class="make_warp">
-                        <a target="_blank" class="signIn" href="{% url 'main:signInPage' %}">회원가입</a>
+                        <a class="signIn" href="{% url 'main:signInPage' %}">회원가입</a>
                     </li>
                 </div>
             </div>
