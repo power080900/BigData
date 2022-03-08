@@ -36,7 +36,7 @@
             height : 40px;
             position : relative;
         }
-        #mainPage, .logIn {
+        .mainPage, .logIn {
             text-decoration : none;
             font-size: 1.5rem;
             line-height : 1.7;
@@ -46,19 +46,13 @@
         button {
                 cursor: pointer;
         }
-        #mainPage {
+        .mainPage {
             padding-left: 20px;
         }
         .logIn {
             float: right;
             vertical-align: middle;
         }
-        .mainfrm {
-            margin : 100px ;
-            padding: 50px;
-            border : 0.2px solid grey;
-            border-radius: 6px;
-            }
         .place {
             padding : 20px;
         }
@@ -88,14 +82,25 @@
     </style>
 </head>
 <body>
-    <header id="headerApp">
+    {% if not logineduser %}
+    <header class="headerApp">
         <div class="headerLogo">
             <li>
-                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
-                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:loginPage' %}" class="logIn">로그인/회원가입</a>
             </li>
         </div>
     </header>
+    {% else %}
+    <header class="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:logout' %}" class="logIn">로그아웃</a>
+            </li>
+        </div>
+    </header>
+    {% endif %}
     <h1 class="title">{{title}}</h1>
     {% if title == "국악" %}
     <div class="mainfrm">

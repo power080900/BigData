@@ -19,12 +19,12 @@
             overflow-x: hidden;
         }
         header{
-        position: sticky;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1005;
-        background : white;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1005;
+            background : white;
         }
         .headerLogo{
             padding : 20px;
@@ -36,7 +36,7 @@
             height : 40px;
             position : relative;
         }
-        #mainPage, .logIn {
+        .mainPage, .logIn {
             text-decoration : none;
             font-size: 1.5rem;
             line-height : 1.7;
@@ -46,27 +46,16 @@
         button {
                 cursor: pointer;
         }
-        #mainPage {
+        .mainPage {
             padding-left: 20px;
         }
         .logIn {
             float: right;
             vertical-align: middle;
         }
-        .mainfrm {
-            margin : 100px ;
-            padding: 50px;
-            border : 0.2px solid grey;
-            border-radius: 6px;
-            }
-        .place {
-            padding : 20px;
-        }
         .table {
-            border : 0.5px solid grey;
-            border-radius: 6px;
-            margin : 10px;
-            height : 300px;
+            padding : 20px;
+            height : 25%;
         }
         li {
             list-style: none;
@@ -76,137 +65,143 @@
             color : black;
             font-size : 20px
             }
-        .card1 {
-            width: 300px;
-            height: 300px;
-            float: left;
+        .card {
+            list-style: none;
+            margin : auto;
+            text-align : center;
+            float : left;
+            overflow-x: hidden;
         }
+        .card_link {
+            margin: 10px;
+            padding: 5px;
+            text-decoration : none;
+            font-color: black;
+            float: left;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 0 8px 10px 0 black;
+            color: black;
+            overflow-x: hidden;
+        }
+        .card_link:hover {
+            opacity: 0.5
+        }
+        .card_location {
+            height: 150px;
+            width: 150px;
+            border-bottom: 1px solid;
+            }
         .placelink {
             padding : 15px;
             float: left;
             }
-        .title {
-            padding : 50px;
+        .head_title {
+            padding : 25px;
             }
     </style>
 </head>
 <body>
-    <header id="headerApp">
+    {% if not logineduser %}
+    <header class="headerApp">
         <div class="headerLogo">
             <li>
-                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
-                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:loginPage' %}" class="logIn">로그인/회원가입</a>
             </li>
         </div>
     </header>
+    {% else %}
+    <header class="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:logout' %}" class="logIn">로그아웃</a>
+            </li>
+        </div>
+    </header>
+    {% endif %}
     <h1 class="title">{{title}}</h1>
     {% if title == "미술관" %}
-    <li class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 미술관 %}
-            <div class="table">
-                <div class="card1">
-                    <li class="placelink">
-                        <a href="/todaysPlay/info/?pid={{j}}">
-                            <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                            <div>{{j}}</div>
-                        </a>
-                    </li>
-                </div>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
-    </li>
+    </div>
     {% elif title == "공연·전시장" %}
-    <div class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 공연장 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "문화예술회관" %}
-    <div class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 문화예술회관 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "박물·기념관" %}
-    <div class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 박물관 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "유적지" %}
-    <div class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 유적지 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "문화원" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 문화원 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+    <div class="table">
+        <div class="card">
+            {% for j in 문호원 %}
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "기타" %}
-    <div class="mainfrm">
-        <div class="place">
+    <div class="table">
+        <div class="card">
             {% for j in 기타 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location1/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% endif %}
+    <div>
+        <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
+    </div>
 </body>
 </html>
