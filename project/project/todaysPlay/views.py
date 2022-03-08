@@ -134,7 +134,7 @@ def location2(request):
         '클래식': ['기타1', '기타2', '기타3', '기타4', ],
         '기타': ['기타1', '기타2', '기타3', '기타4', ],
     }
-    return render(request, 'location1.html',context)
+    return render(request, 'location2.html',context)
 
 def info(request):
     title = request.GET.get("pid")
