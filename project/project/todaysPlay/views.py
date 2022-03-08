@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from todaysPlay.models import Subway
 from django.contrib.auth.models import User
+from todaysPlay.models import Cultureplace
 from django.contrib import auth
 import random
 
@@ -103,12 +104,18 @@ def map(request):
             hosunno_3.append({"lat": data.lat, "lng": data.lng})
         else:
             hosunno.append({"lat": data.lat, "lng": data.lng})
+    placelist = Cultureplace.objects.filter(lineNumber__contains=line)
+    print(placelist)
+    xy = []
+    for coordinate in placelist:
+        xy.append({"name": coordinate.placeName, "lat": coordinate.lat, "lng": coordinate.lng})
     context = {
         "color": color,
         "hosun": hosunno,
         "hosun_1": hosunno_1,
         "hosun_2": hosunno_2,
         "hosun_3": hosunno_3,
+        "xy": xy,
     }
     return render(request, 'googlemap.html', context)
 
