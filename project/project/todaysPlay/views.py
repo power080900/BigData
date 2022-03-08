@@ -132,12 +132,12 @@ def signInPage(request):
         pw1 = request.POST.get('pw1')
         pw2 = request.POST.get('pw2')
         res_data = {}
-        if User.objects.filter(id=id):
+        if User.objects.filter(username=id):
             res_data['error'] = '이미 가입된 아이디입니다.'
         elif pw1 != pw2:
             res_data['error'] = '비밀번호가 다릅니다.'
         else:
-            user = User.objects.create_user(id=id, password=pw1)
+            user = User.objects.create_user(username=id, password=pw1)
             auth.login(request, user)
             redirect("main.html")
     return render(request, 'signInPage.html', res_data)
