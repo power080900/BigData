@@ -1,9 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
-import django
-django.setup()
 from todaysPlay.models import Subway
 import random
 
@@ -21,25 +17,25 @@ def main(request):
 def randomslot(request):
     randint = random.randrange(1, 16)
     if randint == 1:
-        subwayNo = '01호선'
+        subwayNo = '1호선'
     elif randint == 2:
-        subwayNo = '02호선'
+        subwayNo = '2호선'
     elif randint == 3:
-        subwayNo = '03호선'
+        subwayNo = '3호선'
     elif randint == 4:
-        subwayNo = '04호선'
+        subwayNo = '4호선'
     elif randint == 5:
-        subwayNo = '05호선'
+        subwayNo = '5호선'
     elif randint == 6:
-        subwayNo = '06호선'
+        subwayNo = '6호선'
     elif randint == 7:
-        subwayNo = '07호선'
+        subwayNo = '7호선'
     elif randint == 8:
-        subwayNo = '08호선'
+        subwayNo = '8호선'
     elif randint == 9:
-        subwayNo = '09호선'
+        subwayNo = '9호선'
     elif randint == 10:
-        subwayNo = '분당선'
+        subwayNo = '수인분당선'
     elif randint == 11:
         subwayNo = '신분당선'
     elif randint == 12:
@@ -47,21 +43,60 @@ def randomslot(request):
     elif randint == 13:
         subwayNo = '경춘선'
     elif randint == 14:
-        subwayNo = '경의선'
+        subwayNo = '우이신설경전철'
     elif randint == 15:
         subwayNo = '공항철도'
     return HttpResponse(subwayNo)
 
 def map(request):
     line = request.GET.get("line")
-    print(line)
-    subwaylist = Subway.objects.filter(hosun__exact=line)
-    hosunno = []
-    print(subwaylist)
+    if "1호선" in line:
+        color = "#000099"
+    elif "2호선" in line:
+        color = "#008000"
+    elif "3호선" in line:
+        color = "#ff6600"
+    elif "4호선" in line:
+        color = "#0099ff"
+    elif "5호선" in line:
+        color = "#9900cc"
+    elif "6호선" in line:
+        color = "#993333"
+    elif "7호선" in line:
+        color = "#666633"
+    elif "8호선" in line:
+        color = "#e6005c"
+    elif "9호선" in line:
+        color = "#cc9900"
+    elif "수인분당선" in line:
+        color = "#ffcc00"
+    elif "신분당선" in line:
+        color = "#cc0000"
+    elif "경의선" in line:
+        color = "#00cc99"
+    elif "경춘선" in line:
+        color = "#00cc66"
+    elif "우이신설경전철" in line:
+        color = "#993333"
+    else:
+        color = "#33ccff"
+    subwaylist = Subway.objects.filter(hosun__contains=line)
+    hosunno, hosunno_1, hosunno_2, hosunno_3  = [], [], [], []
     for data in subwaylist:
-        hosunno.append({"lat": data.lat, "lng": data.lng})
+        if line+"_1" in data.hosun:
+            hosunno_1.append({"lat": data.lat, "lng": data.lng})
+        elif line+"_2" in data.hosun:
+            hosunno_2.append({"lat": data.lat, "lng": data.lng})
+        elif line+"_3" in data.hosun:
+            hosunno_3.append({"lat": data.lat, "lng": data.lng})
+        else:
+            hosunno.append({"lat": data.lat, "lng": data.lng})
     context = {
+        "color": color,
         "hosun": hosunno,
+        "hosun_1": hosunno_1,
+        "hosun_2": hosunno_2,
+        "hosun_3": hosunno_3,
     }
     return render(request, 'googlemap.html', context)
 

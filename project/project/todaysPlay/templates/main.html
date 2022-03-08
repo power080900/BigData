@@ -238,11 +238,10 @@
         </div>
     </section>
     <script>
-        var line;
+        let line;
         function playslot() {
             let xhr = new XMLHttpRequest();
             xhr.onload = function() {
-                //let jsonObj = JSON.parse(xhr.reponseText);
                 let dom = document.getElementsByTagName('h2')[0];
                 console.log(xhr.responseText);
                 dom.innerHTML = '오늘은 ' + xhr.responseText;
