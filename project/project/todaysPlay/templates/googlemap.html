@@ -74,7 +74,7 @@ window.onload = function() {
 			map: map,
 		});
 		marker.addListener('click', function() {
-			infowindow.setContent(place + "<br>!!궁금하면 가보자 <a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72' target='_blank'>1</a>");
+			infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info/?pid=" + place +  "'target = '_blank'>1</a>");
 			infowindow.open(map, marker);
 		});
 	};
