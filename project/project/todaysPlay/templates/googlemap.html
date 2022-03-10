@@ -15,8 +15,7 @@ window.onload = function() {
 	       center: latlng,
 	       zoom: 11,
 	});
-	//const transitLayer = new google.maps.TransitLayer();
-	//transitLayer.setMap(map);
+
 	const image = {
 		url: '/static/images/markericon.ico',
 		size: new google.maps.Size(25, 25),
@@ -29,6 +28,7 @@ window.onload = function() {
 	const line_1 = {{hosun_1}};
 	const line_2 = {{hosun_2}};
 	const line_3 = {{hosun_3}};
+	const xy = {{xy}};
 	{% endautoescape %}
 	console.log(line);
 	const infowindow = new google.maps.InfoWindow();
@@ -65,18 +65,19 @@ window.onload = function() {
     	strokeWeight: 5,
   	});
 	path3.setMap(map);
-<!--	for (let i = 0; i < locations.length; i++) {-->
-<!--		const place = locations[i].place;-->
-<!--		const marker = new google.maps.Marker({-->
-<!--			position: new google.maps.LatLng(locations[i].lat, locations[i].lng),-->
-<!--			icon : image,-->
-<!--			map: map,-->
-<!--		});-->
-<!--		marker.addListener('click', function() {-->
-<!--			infowindow.setContent(place + "<a href='https://korean.visitseoul.net/attractions/%EA%B2%BD%EB%B3%B5%EA%B6%81_/72' target='_blank'>1</a>");-->
-<!--			infowindow.open(map, marker);-->
-<!--		});-->
-<!--	};-->
+
+	for (let i = 0; i < xy.length; i++) {
+		const place = xy[i].name;
+		const marker = new google.maps.Marker({
+			position: new google.maps.LatLng(xy[i].lat, xy[i].lng),
+			icon : image,
+			map: map,
+		});
+		marker.addListener('click', function() {
+			infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info/?pid=" + place +  "'target = '_blank'>1</a>");
+			infowindow.open(map, marker);
+		});
+	};
 };
 </script>
 	<div class="container p-3 my-3 bg-dark text-white"><h1>주소를 입력받아 지도에 마커 표시 초안</h1></div>
