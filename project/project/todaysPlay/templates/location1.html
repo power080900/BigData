@@ -138,10 +138,10 @@
     {% elif title == "공연·전시장" %}
     <div class="table">
         <div class="card">
-            {% for j in 공연장 %}
+            {% for j, k in 공연장.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>
