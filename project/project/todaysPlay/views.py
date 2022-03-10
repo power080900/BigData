@@ -229,3 +229,15 @@ def logout(request):
     if request.user.is_authenticated:
         auth.logout(request)
     return redirect("main:main")
+
+class Cultureplace(models.Model):
+    group = models.CharField(max_length=10)
+    placeName = models.CharField(max_length=50)
+    lineNumber = models.CharField(max_length=15)
+    station = models.CharField(max_length=15)
+    address = models.CharField(max_length=50)
+    lat = models.IntegerField()
+    lng = models.IntegerField()
+
+    def __str__(self):
+        return f"group={self.group}, placename={self.placeName}, linenumber={self.lineNumber}, station={self.station}, lat={self.lat}, lng={self.lng}"
