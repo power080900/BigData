@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
+from django.db import models
 from todaysPlay.models import Subway
 from django.contrib.auth.models import User
 from todaysPlay.models import Cultureplace
