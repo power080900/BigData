@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from django.db import models
 from todaysPlay.models import Subway
 from django.contrib.auth.models import User
 from todaysPlay.models import Cultureplace
@@ -169,7 +168,10 @@ def location1(request):
     context = {
         'title' : title,
         '미술관': ['미술관1','미술관2'],
-        '공연장': ['공연1', '공연장2', '공연장3'],
+        '공연장': {
+            '공연장1':'공연장 1 내용',
+            '공연장2':'공연장 2 내용',
+            '공연장3':'공연장 3 내용',},
         '문화예술회관': ['세종문화회관', '예술의전당'],
         '박물관': ['박물관1', '박물관2','박물관4','박물관5',],
         '유적지': ['기타1', '기타2', '기타3', '기타4', ],
@@ -231,14 +233,3 @@ def logout(request):
         auth.logout(request)
     return redirect("main:main")
 
-class Cultureplace(models.Model):
-    group = models.CharField(max_length=10)
-    placeName = models.CharField(max_length=50)
-    lineNumber = models.CharField(max_length=15)
-    station = models.CharField(max_length=15)
-    address = models.CharField(max_length=50)
-    lat = models.IntegerField()
-    lng = models.IntegerField()
-
-    def __str__(self):
-        return f"group={self.group}, placename={self.placeName}, linenumber={self.lineNumber}, station={self.station}, lat={self.lat}, lng={self.lng}"

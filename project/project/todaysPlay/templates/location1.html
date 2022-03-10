@@ -127,10 +127,10 @@
     {% if title == "미술관" %}
     <div class="table">
         <div class="card">
-            {% for j in 미술관 %}
+            {% for j,k in 미술관.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>

@@ -56,7 +56,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Program',
             fields=[
-                ('ProgramNumber', models.IntegerField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('ProgramNumber', models.IntegerField(auto_created=True, primary_key=True, serialize=False,
+                                                      verbose_name='ID')),
                 ('Category', models.CharField(max_length=50)),
                 ('ProgramName', models.CharField(max_length=50)),
                 ('PlaceName', models.CharField(max_length=50)),
