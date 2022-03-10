@@ -56,7 +56,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Program',
             fields=[
-                ('ProgramNumber', models.IntegerField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('ProgramNumber', models.IntegerField(auto_created=True, primary_key=True, serialize=False,
+                                                      verbose_name='ID')),
                 ('Category', models.CharField(max_length=50)),
                 ('ProgramName', models.CharField(max_length=50)),
                 ('PlaceName', models.CharField(max_length=50)),
@@ -65,16 +66,6 @@ class Migration(migrations.Migration):
                 ('EndDay', models.DateField()),
                 ('TargetAudience', models.CharField(max_length=50)),
                 ('Fee', models.CharField(max_length=50)),
-            ],
-        ),
-        migrations.CreateModel(
-            name='Subway',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('stationName', models.CharField(max_length=30)),
-                ('lat', models.IntegerField()),
-                ('lng', models.IntegerField()),
-                ('hosun', models.CharField(max_length=15)),
             ],
         ),
     ]
