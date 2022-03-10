@@ -1,86 +1,146 @@
-{% extends 'base1.html' %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>{{info.title}}</title>
+    <style>
+        @font-face {
+            font-family: 'MaplestoryOTFBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'MaplestoryOTFBold';
+        }
+        body{
+            margin: 0 auto;
+            height: 1250px;
+            overflow-x: hidden;
+        }
+        header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1005;
+        background : white;
+        }
+        .headerLogo{
+            padding : 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px solid #e4e8eb;
+            height : 40px;
+            position : relative;
+        }
+        #mainPage, .logIn {
+            text-decoration : none;
+            font-size: 1.5rem;
+            line-height : 1.7;
+            font-weight: 400;
+            color : #2F9D27
+        }
+        button {
+                cursor: pointer;
+        }
+        #mainPage {
+            padding-left: 20px;
+        }
+        .logIn {
+            float: right;
+            vertical-align: middle;
+        }
+        li {
+            list-style: none;
+            }
+    </style>
+</head>
+<body>
+    <header id="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a href="/todaysPlay/loginPage/" class="logIn">로그인/회원가입</a>
+            </li>
+        </div>
+    </header>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy81EbO46BRSnX1DOgg_F84bhsdbku2z4"></script>
+    <script>
+    window.onload = function() {
+        var dom = document.getElementById('map');
+        let latlng = { lat: 37.55206240222439, lng: 126.9880649976884 };
+        const map = new google.maps.Map(dom, {
+               center: latlng,
+               zoom: 12,
+        });
 
-{% block mycss %}
-	#map {
-		height: 485px;
-		width: 100%;
-	}
-{% endblock %}
-{% block content %}
-<script>
-window.onload = function() {
-	var dom = document.getElementById('map');
-	let latlng = { lat: 37.55206240222439, lng: 126.9880649976884 };
-	const map = new google.maps.Map(dom, {
-	       center: latlng,
-	       zoom: 11,
-	});
+        const image = {
+            url: '/static/images/markericon.ico',
+            size: new google.maps.Size(25, 25),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(25, 25),
+        };
+        {% autoescape off %}
+        const line = {{hosun}};
+        const line_1 = {{hosun_1}};
+        const line_2 = {{hosun_2}};
+        const line_3 = {{hosun_3}};
+        const xy = {{xy}};
+        {% endautoescape %}
+        console.log(line);
+        const infowindow = new google.maps.InfoWindow();
 
-	const image = {
-		url: '/static/images/markericon.ico',
-		size: new google.maps.Size(25, 25),
-		origin: new google.maps.Point(0, 0),
-		anchor: new google.maps.Point(17, 34),
-		scaledSize: new google.maps.Size(25, 25),
-	};
-	{% autoescape off %}
-	const line = {{hosun}};
-	const line_1 = {{hosun_1}};
-	const line_2 = {{hosun_2}};
-	const line_3 = {{hosun_3}};
-	const xy = {{xy}};
-	{% endautoescape %}
-	console.log(line);
-	const infowindow = new google.maps.InfoWindow();
+        const path = new google.maps.Polyline({
+            path: line,
+            geodesic: true,
+            strokeColor: "{{color}}",
+            strokeOpacity: 1.0,
+            strokeWeight: 5,
+        });
+        path.setMap(map);
+        const path1 = new google.maps.Polyline({
+            path: line_1,
+            geodesic: true,
+            strokeColor: "{{color}}",
+            strokeOpacity: 1.0,
+            strokeWeight: 5,
+        });
+        path1.setMap(map);
+        const path2 = new google.maps.Polyline({
+            path: line_2,
+            geodesic: true,
+            strokeColor: "{{color}}",
+            strokeOpacity: 1.0,
+            strokeWeight: 5,
+        });
+        path2.setMap(map);
+        const path3 = new google.maps.Polyline({
+            path: line_3,
+            geodesic: true,
+            strokeColor: "{{color}}",
+            strokeOpacity: 1.0,
+            strokeWeight: 5,
+        });
+        path3.setMap(map);
 
-	const path = new google.maps.Polyline({
-		path: line,
-    	geodesic: true,
-    	strokeColor: "{{color}}",
-    	strokeOpacity: 1.0,
-    	strokeWeight: 5,
-  	});
-  	path.setMap(map);
-  	const path1 = new google.maps.Polyline({
-		path: line_1,
-    	geodesic: true,
-    	strokeColor: "{{color}}",
-    	strokeOpacity: 1.0,
-    	strokeWeight: 5,
-  	});
-	path1.setMap(map);
-	const path2 = new google.maps.Polyline({
-		path: line_2,
-    	geodesic: true,
-    	strokeColor: "{{color}}",
-    	strokeOpacity: 1.0,
-    	strokeWeight: 5,
-  	});
-	path2.setMap(map);
-	const path3 = new google.maps.Polyline({
-		path: line_3,
-    	geodesic: true,
-    	strokeColor: "{{color}}",
-    	strokeOpacity: 1.0,
-    	strokeWeight: 5,
-  	});
-	path3.setMap(map);
-
-	for (let i = 0; i < xy.length; i++) {
-		const place = xy[i].name;
-		const marker = new google.maps.Marker({
-			position: new google.maps.LatLng(xy[i].lat, xy[i].lng),
-			icon : image,
-			map: map,
-		});
-		marker.addListener('click', function() {
-			infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info/?pid=" + place +  "'target = '_blank'>1</a>");
-			infowindow.open(map, marker);
-		});
-	};
-};
-</script>
-	<div class="container p-3 my-3 bg-dark text-white"><h1>주소를 입력받아 지도에 마커 표시 초안</h1></div>
-<!--	<button id="btn" type="button" class="btn btn-outline-primary">주소 입력</button>-->
-	<div id="map" style="height: 550px;"></div>
-{% endblock %}
+        for (let i = 0; i < xy.length; i++) {
+            const place = xy[i].name;
+            const marker = new google.maps.Marker({
+                position: new google.maps.LatLng(xy[i].lat, xy[i].lng),
+                icon : image,
+                map: map,
+            });
+            marker.addListener('click', function() {
+                infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info/?pid=" + place +  "'target = '_blank'>GO!!</a>");
+                infowindow.open(map, marker);
+            });
+        };
+    };
+    </script>
+    <div id="map" style="height: 640px;"></div>
+</body>
+</html>
