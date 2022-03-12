@@ -82,16 +82,6 @@
     </style>
 </head>
 <body>
-    {% if not logineduser %}
-    <header class="headerApp">
-        <div class="headerLogo">
-            <li>
-                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
-                <a href="{% url 'main:loginPage' %}" class="logIn">로그인/회원가입</a>
-            </li>
-        </div>
-    </header>
-    {% else %}
     <header class="headerApp">
         <div class="headerLogo">
             <li>
@@ -100,7 +90,6 @@
             </li>
         </div>
     </header>
-    {% endif %}
     <h1 class="title">{{title}}</h1>
     {% if title == "국악" %}
     <div class="mainfrm">
