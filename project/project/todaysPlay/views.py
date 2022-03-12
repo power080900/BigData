@@ -238,8 +238,10 @@ def info(request):
     Fee = "요금"
     Closed = "휴관일"
     PayFree = "유·무료"
+    Category = "문화원"
     context = {
         'info' : {
+            'Category' : Category,
             'PlaceName' : PlaceName,
             'LineNumber' :LineNumber,
             'Station' : Station,
@@ -258,5 +260,5 @@ def info(request):
 def logout(request):
     if request.user.is_authenticated:
         auth.logout(request)
-    return redirect("main:main")
+    return redirect("main:loginPage")
 
