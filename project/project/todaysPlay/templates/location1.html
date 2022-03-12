@@ -149,10 +149,10 @@
     {% elif title == "문화예술회관" %}
     <div class="table">
         <div class="card">
-            {% for j in 문화예술회관 %}
+            {% for j,k  in 문화예술회관.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>
@@ -160,10 +160,10 @@
     {% elif title == "박물·기념관" %}
     <div class="table">
         <div class="card">
-            {% for j in 박물관 %}
+            {% for j, k in 박물관.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>
@@ -171,10 +171,10 @@
     {% elif title == "유적지" %}
     <div class="table">
         <div class="card">
-            {% for j in 유적지 %}
+            {% for j, k in 유적지.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>
@@ -182,10 +182,10 @@
     {% elif title == "문화원" %}
     <div class="table">
         <div class="card">
-            {% for j in 문화원 %}
+            {% for j,k in 문화원.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>
@@ -193,10 +193,10 @@
     {% elif title == "기타" %}
     <div class="table">
         <div class="card">
-            {% for j in 기타 %}
+            {% for j,k in 기타.items %}
             <a class="card_link" href="/todaysPlay/info/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
+                <div class="card_title">{{j}}<br>{{k}}</div>
             </a>
             {% endfor %}
         </div>

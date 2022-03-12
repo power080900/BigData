@@ -167,15 +167,25 @@ def location1(request):
         title = "기타"
     context = {
         'title' : title,
-        '미술관': ['미술관1','미술관2'],
+        '미술관': {'미술관1': "미술관1 내용",},
         '공연장': {'공연장1': "공연장1 내용",
             '공연장2': "공연장2 내용",
             '공연장3': "공연장3 내용",},
-        '문화예술회관': ['세종문화회관', '예술의전당'],
-        '박물관': ['박물관1', '박물관2','박물관4','박물관5',],
-        '유적지': ['기타1', '기타2', '기타3', '기타4', ],
-        '문화원': ['기타1', '기타2', '기타3', '기타4', ],
-        '기타': ['기타1', '기타2', '기타3', '기타4', ],
+        '문화예술회관': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '박물관': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '유적지': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '문화원': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '기타': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
     }
     return render(request, 'location1.html',context)
 
@@ -217,12 +227,30 @@ def location2(request):
     return render(request, 'location2.html',context)
 
 def info(request):
-    title = request.GET.get("pid")
-    contents = "연습용 내용 넣기"
+    PlaceName = request.GET.get("pid")
+    LineNumber = "호선"
+    Station = "역"
+    Address = "주소"
+    Telephone = "전화번호"
+    Image = "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y"
+    Website = "웹사이트"
+    OpeningHours = "개장시간"
+    Fee = "요금"
+    Closed = "휴관일"
+    PayFree = "유·무료"
     context = {
         'info' : {
-            'title' : title,
-            'contents' : contents,
+            'PlaceName' : PlaceName,
+            'LineNumber' :LineNumber,
+            'Station' : Station,
+            "Address" : Address,
+            "Telephone" : Telephone,
+            "Image" : Image,
+            "Website" : Website,
+            "OpeningHours" : OpeningHours,
+            "Fee" : Fee,
+            "Closed" : Closed,
+            "PayFree" : PayFree,
         },
     }
     return render(request, 'info.html', context)

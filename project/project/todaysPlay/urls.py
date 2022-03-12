@@ -3,10 +3,10 @@ from . import views
 
 app_name = "main"
 urlpatterns = [
+    path('loginPage/', views.loginPage, name='loginPage'),
     path('googlemap/', views.map),
     path('main/', views.main, name='main'),
     path('randomslot/', views.randomslot),
-    path('loginPage/', views.loginPage, name='loginPage'),
     path('signInPage/', views.signInPage, name='signInPage'),
     path('location1/', views.location1, name='location1'),
     path('location2/', views.location2, name='location2'),

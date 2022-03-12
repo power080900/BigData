@@ -68,11 +68,22 @@
         </div>
     </header>
     <div class="title">
-        <img class="'title_pic" scr="/static/images/info/{{info.title}}.jpg">
-        <p class="title_p">{{info.title}}</p>
+        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
+        <p class="title_p">{{info.PlaceName}}</p>
     </div>
     <div class="contents">
-        <p class="contents_p">{{info.contents}}</p>
+        <p class="contents_p">도착역 : {{info.Station}}</p>
+        <p class="contents_p">이용 지하철 노선 : {{info.LineNumber}}</p>
+        <p class="contents_p">주소 : {{info.Address}}</p>
+        <p class="contents_p">전화번호 : {{info.Telephone}}</p>
+        <p class="contents_p">사이트 : {{info.Website}}</p>
+        <p class="contents_p">개장시간 : {{info.OpeningHours}}</p>
+        <p class="contents_p">유·무료 : {{info.PayFree}}</p>
+        <p class="contents_p">요금 : {{info.Fee}}</p>
+        <p class="contents_p">휴관일 : {{info.Closed}}</p>
+    </div>
+    <div>
+        <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
     </div>
 </body>
 </html>
