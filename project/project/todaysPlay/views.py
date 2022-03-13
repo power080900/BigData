@@ -109,6 +109,7 @@ def map(request):
     for coordinate in placelist:
         xy.append({"name": coordinate.placeName, "lat": coordinate.lat, "lng": coordinate.lng})
     context = {
+        "line": line,
         "color": color,
         "hosun": hosunno,
         "hosun_1": hosunno_1,
