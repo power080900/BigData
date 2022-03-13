@@ -9,8 +9,9 @@ with open('place3.json','r', encoding='utf-8') as f:
 with open('program3.json','r', encoding='utf-8') as f:
     data2 = json.load(f)
 # print(json.dumps(data2, indent=4, ensure_ascii=False))
+Name = "서울풍물시장 청춘1번가"
 
-print(data2['서울풍물시장 청춘1번가']['key'])
+print(data2[Name]['PlaceName'])
 print(data2['서울풍물시장 청춘1번가']['Category'])
 
 

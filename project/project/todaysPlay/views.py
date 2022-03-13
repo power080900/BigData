@@ -187,7 +187,7 @@ def location(request):
         title = "기타"
     context = {
         'title': title,
-        '국악': ['국악1', '국악2'],
+        '국악': ['판소리 레미제라블 ＜구구선 사람들＞', '국악2'],
         '독창회': ['독주1', '독주2'],
         '무용': ['무용1', '무용2'],
         '문화교양강좌': ['강좌1', '강좌2'],
@@ -197,7 +197,7 @@ def location(request):
         '콘서트': ['콘서트1', '콘서트2'],
         '클래식': ['클래식1', '클래식2'],
         '기타': ['기타1', '기타2', '기타3', '기타4'],
-        '미술관': {'미술관1': "미술관1 내용",},
+        '미술관': {'ADM 갤러리': "미술관1 내용",},
         '공연장': {'공연장1': "공연장1 내용",
             '공연장2': "공연장2 내용",
             '공연장3': "공연장3 내용",},
@@ -220,26 +220,28 @@ def location(request):
     return render(request, 'location.html',context)
 
 def info(request):
-    with open('place3.json','r',encoding='utf-8') as f:
+    with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
-    with open('program3.json', 'r', encoding='utf-8') as f:
+    with open('D:\lee\study\BigData\project\Data\program3.json', 'r', encoding='utf-8') as f:
         program1 = json.load(f)
     Name = request.GET.get("pid")
-    LineNumber = place1.
-    Station = "역"
-    Address = "주소"
-    Telephone = "전화번호"
-    Image = "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y"
-    Website = "웹사이트"
-    OpeningHours = "개장시간"
-    Fee = "요금"
-    Closed = "휴관일"
-    PayFree = "유·무료"
-    Category = "문화원"
-    PlaceName = "프로그램이름"
-    StartDay = "시작일"
-    EndDay = "종료일"
-    TargetAudience = "이용대상"
+    LineNumber = place1["CKL 스테이지"]['LineNumber']
+    Station = place1[Name]['Station']
+    Address = place1[Name]['Address']
+    Telephone = place1[Name]['Telephone']
+    Image1 = place1[Name]['Image']
+    Image2 = program1[Name]['Image']
+    Website = place1[Name]['Website']
+    OpeningHours = place1[Name]['OpeningHours']
+    Fee1 = place1[Name]['Fee']
+    Fee2 = program1[Name]['Fee']
+    Closed = place1[Name]['Closed']
+    PayFree = place1[Name]['PayFree']
+    Category = program1[Name]['Category']
+    PlaceName = program1[Name]['PlaceName']
+    StartDay = program1[Name]['StartDay']
+    EndDay = program1[Name]['EndDay']
+    TargetAudience = program1[Name]['TargetAudience']
     context = {
         'info' : {
             'Category' : Category,
@@ -248,10 +250,12 @@ def info(request):
             'Station' : Station,
             "Address" : Address,
             "Telephone" : Telephone,
-            "Image" : Image,
+            "Image1" : Image1,
+            "Image2": Image2,
             "Website" : Website,
             "OpeningHours" : OpeningHours,
-            "Fee" : Fee,
+            "Fee1" : Fee1,
+            "Fee2": Fee2,
             "Closed" : Closed,
             "PayFree" : PayFree,
             "PlaceName" : PlaceName,
