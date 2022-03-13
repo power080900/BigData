@@ -222,21 +222,21 @@ def location(request):
 def info(request):
     with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
-    with open('D:\lee\study\BigData\project\Data\program3.json', 'r', encoding='utf-8') as f:
-        program1 = json.load(f)
     Name = request.GET.get("pid")
-    LineNumber = place1["CKL 스테이지"]['LineNumber']
+    LineNumber = place1[Name]['LineNumber']
     Station = place1[Name]['Station']
     Address = place1[Name]['Address']
     Telephone = place1[Name]['Telephone']
     Image1 = place1[Name]['Image']
-    Image2 = program1[Name]['Image']
     Website = place1[Name]['Website']
     OpeningHours = place1[Name]['OpeningHours']
     Fee1 = place1[Name]['Fee']
-    Fee2 = program1[Name]['Fee']
     Closed = place1[Name]['Closed']
     PayFree = place1[Name]['PayFree']
+    with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as i:
+        program1 = json.load(i)
+    Fee2 = program1[Name]['Fee']
+    Image2 = program1[Name]['Image']
     Category = program1[Name]['Category']
     PlaceName = program1[Name]['PlaceName']
     StartDay = program1[Name]['StartDay']
@@ -255,7 +255,7 @@ def info(request):
             "Website" : Website,
             "OpeningHours" : OpeningHours,
             "Fee1" : Fee1,
-            "Fee2": Fee2,
+            "Fee2" : Fee2,
             "Closed" : Closed,
             "PayFree" : PayFree,
             "PlaceName" : PlaceName,

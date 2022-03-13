@@ -67,9 +67,8 @@
             </li>
         </div>
     </header>
-    {% if Station %}
     <div class="title">
-        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
+        <img class="'title_pic" scr={{info.Image1}}>
         <p class="title_p" id="Name">{{info.Name}}</p>
     </div>
     <div class="contents">
@@ -83,19 +82,6 @@
         <p class="contents_p" id="Fee1">요금 : {{info.Fee}}</p>
         <p class="contents_p" id="Closed">휴관일 : {{info.Closed}}</p>
     </div>
-    {% else %}
-    <div class="title">
-        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
-        <p class="title_p">{{info.Name}}</p>
-    </div>
-    <div class="contents">
-        <p class="contents_p" id="PlaceName">장소 : {{info.PlaceName}}</p>
-        <p class="contents_p" id="StartDay">시작일 : {{info.StartDay}}</p>
-        <p class="contents_p" id="EndDay">종료일 : {{info.EndDay}}</p>
-        <p class="contents_p" id="TargetAudience">이용대상 : {{info.TargetAudience}}</p>
-        <p class="contents_p" id="Fee2">이용금액 : {{info.Fee}}</p>
-    </div>
-    {% endif %}
     <div>
         <a class="mainPage" href="/todaysPlay/location/?pid={{info.Category}}">이전으로</a>
         <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
