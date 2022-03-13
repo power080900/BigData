@@ -55,7 +55,81 @@
         }
         li {
             list-style: none;
+        }
+            .searchSection {
+        margin: 10px;
+        height: 250px;
+        padding: 50px;
+        position: relative;
+        }
+        .searchSection::after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: url('/static/images/banner/{{j}}.jpg');
+            background-position: 50%;
+            background-size: cover;
+            z-index: -2;
+            border-radius: 10px;
             }
+        .mainSection {
+            margin: 0 auto;
+            padding : 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height : 150px;
+            position: relative;
+        }
+        .mainWhat {
+            padding : 25px;
+            height : 150px;
+        }
+        .btn-what {
+        }
+        .whatTitle {
+            margin: 0 auto;
+            width : 450px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding : 10px;
+        }
+        .mainSection::after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: white;
+            background-position: 50%;
+            opacity: 0.5;
+            z-index: -1;
+            border-radius: 10px;
+        }
+        .mainWhere {
+            height: 25px;
+            position: relative;
+            padding : 10px;
+            }
+        span{
+            text-align: center;
+        }
+        .categorySection {
+            float: left;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .whereButton .btn-where .btn-input {
+            height: 45px;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +142,25 @@
         </div>
     </header>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy81EbO46BRSnX1DOgg_F84bhsdbku2z4"></script>
+    <section class="searchSection" >
+        <div class="mainSection">
+            <div class="mainWhat">
+                <h1 class="whatTitle">오늘은 몇호선 타고 문화여행을 떠날까?
+                    <span>
+                        <button type="button" class="playslot" onclick="playslot();">클릭</button>
+                    </span>
+                </h1>
+                <div class="btn-what">
+                    <li>
+                        <h2 class="whatSubTitle">오늘은 {{line}}</h2>
+                        <span class="mainWhere">
+                                    <button type="button" class="btn-where" onclick="playgo();">가자!</button>
+                        </span>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
     <script>
     window.onload = function() {
         var dom = document.getElementById('map');
@@ -142,5 +235,22 @@
     };
     </script>
     <div id="map" style="height: 640px;"></div>
+    <script>
+        let line;
+        function playslot() {
+            let xhr = new XMLHttpRequest();
+            xhr.onload = function() {
+                let dom = document.getElementsByTagName('h2')[0];
+                console.log(xhr.responseText);
+                dom.innerHTML = '오늘은 ' + xhr.responseText;
+                line = xhr.responseText;
+            }
+            xhr.open("GET", "/todaysPlay/randomslot/", true);
+            xhr.send();
+        }
+        function playgo() {
+            location.href='/todaysPlay/googlemap/?line=' + line;
+        }
+    </script>
 </body>
 </html>
