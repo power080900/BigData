@@ -2,6 +2,7 @@
     " 뮤지컬<앨리스 스튜디오>":{
         "ProgramNumber":1,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":" 뮤지컬<앨리스 스튜디오>",
         "PlaceName":"충무아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=1e0a1c8144354f54b2149ac63e3a732d&thumb=Y",
         "StartDay":"2022-03-11T00:00:00Z",
@@ -12,6 +13,7 @@
     " 핑크퐁 별나라 재즈 여행 - 북서울":{
         "ProgramNumber":2,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":" 핑크퐁 별나라 재즈 여행 - 북서울",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=53e2f4268a504b8cb2e496e7555747a9&thumb=Y",
         "StartDay":"2022-03-19T00:00:00Z",
@@ -22,6 +24,7 @@
     "[3월] 아트클래스 - 이경주 작가와 함께하는 현대 민화":{
         "ProgramNumber":3,
         "Category":"문화교양\/강좌",
+        "ProgramName":"[3월] 아트클래스 - 이경주 작가와 함께하는 현대 민화",
         "PlaceName":"중랑아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=a4f60226c52249b18ab6d2c7c4f9a047&thumb=Y",
         "StartDay":"2022-03-03T00:00:00Z",
@@ -32,6 +35,7 @@
     "[가족] 2022년 상반기 우리가족 박물관 여행 교육생 모집":{
         "ProgramNumber":4,
         "Category":"문화교양\/강좌",
+        "ProgramName":"[가족] 2022년 상반기 우리가족 박물관 여행 교육생 모집",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e71f14e3e6104f3d9550188c2331d4de&thumb=Y",
         "StartDay":"2022-02-21T00:00:00Z",
@@ -42,6 +46,7 @@
     "[경교장 작은전시] '임시정부 첫 국무위원회 경교장에서 열리다' 개최":{
         "ProgramNumber":5,
         "Category":"전시\/미술",
+        "ProgramName":"[경교장 작은전시] '임시정부 첫 국무위원회 경교장에서 열리다' 개최",
         "PlaceName":"경교장",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e16befa6396b4fa39617e1861db1f9d8&thumb=Y",
         "StartDay":"2021-12-03T00:00:00Z",
@@ -52,6 +57,7 @@
     "[서울문화재단]  전시 \/ 마？소리":{
         "ProgramNumber":6,
         "Category":"전시\/미술",
+        "ProgramName":"[서울문화재단]  전시 \/ 마？소리",
         "PlaceName":"통의동 보안여관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=44df2e99415c4ef7a800dfe6af313615&thumb=Y",
         "StartDay":"2022-03-08T00:00:00Z",
@@ -62,6 +68,7 @@
     "[서울새활용플라자] 탐방:새활용이야기":{
         "ProgramNumber":7,
         "Category":"기타",
+        "ProgramName":"[서울새활용플라자] 탐방:새활용이야기",
         "PlaceName":"서울새활용플라자",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=f81ed29c1c854c55887e6eb81bae05e6&thumb=Y",
         "StartDay":"2022-03-01T00:00:00Z",
@@ -72,6 +79,7 @@
     "[성인] 내 손으로 그리는 과학관 생태교구":{
         "ProgramNumber":8,
         "Category":"문화교양\/강좌",
+        "ProgramName":"[성인] 내 손으로 그리는 과학관 생태교구",
         "PlaceName":"서울시립과학관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=044f25f849914b11a36f2a4f4cd4b529&thumb=Y",
         "StartDay":"2022-01-20T00:00:00Z",
@@ -82,6 +90,7 @@
     "[은평문화재단] 신춘음악회 [은평 봄 소식]":{
         "ProgramNumber":9,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":"[은평문화재단] 신춘음악회 [은평 봄 소식]",
         "PlaceName":"은평문화예술회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=17c3c2eb19b44d1090dba93c471ad4d1&thumb=Y",
         "StartDay":"2022-03-19T00:00:00Z",
@@ -92,6 +101,7 @@
     "[전시회] 5th 자연을 담은 생태화 작품전시회":{
         "ProgramNumber":10,
         "Category":"전시\/미술",
+        "ProgramName":"[전시회] 5th 자연을 담은 생태화 작품전시회",
         "PlaceName":"서울시립과학관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=0e9b31101b174a6a92102cb1fc0a61c3&thumb=Y",
         "StartDay":"2022-01-04T00:00:00Z",
@@ -102,6 +112,7 @@
     "[종로문화재단 박노수미술관] 개관 8주년 기념전시 <화가의 비망록>":{
         "ProgramNumber":11,
         "Category":"전시\/미술",
+        "ProgramName":"[종로문화재단 박노수미술관] 개관 8주년 기념전시 <화가의 비망록>",
         "PlaceName":"종로구립 박노수미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=4a58372fd6a74351834e29f8223e7ef3&thumb=Y",
         "StartDay":"2021-10-12T00:00:00Z",
@@ -112,6 +123,7 @@
     "[한성백제박물관] 3월 문화가 있는 날 연계행사":{
         "ProgramNumber":12,
         "Category":"기타",
+        "ProgramName":"[한성백제박물관] 3월 문화가 있는 날 연계행사",
         "PlaceName":"한성백제박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ff893c6aad394f3bae082dd44f7d59b5&thumb=Y",
         "StartDay":"2022-03-30T00:00:00Z",
@@ -122,6 +134,7 @@
     "[한성백제박물관] 3월 한성백제박물관 문화시네마":{
         "ProgramNumber":13,
         "Category":"기타",
+        "ProgramName":"[한성백제박물관] 3월 한성백제박물관 문화시네마",
         "PlaceName":"한성백제박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e074630b4c35482c9ccdfbfd746b4db8&thumb=Y",
         "StartDay":"2022-03-30T00:00:00Z",
@@ -132,6 +145,7 @@
     "[한성백제박물관] 주말문화유산탐방":{
         "ProgramNumber":14,
         "Category":"문화교양\/강좌",
+        "ProgramName":"[한성백제박물관] 주말문화유산탐방",
         "PlaceName":"한성백제박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=382557542d9241baa6b8b6a8a4fc462f&thumb=Y",
         "StartDay":"2022-03-19T00:00:00Z",
@@ -142,6 +156,7 @@
     "《다음 세대를 위한 집》":{
         "ProgramNumber":15,
         "Category":"전시\/미술",
+        "ProgramName":"《다음 세대를 위한 집》",
         "PlaceName":"서울도시건축전시관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=df63c7edbf1e4316a429df4178ab2378&thumb=Y",
         "StartDay":"2021-12-17T00:00:00Z",
@@ -152,6 +167,7 @@
     "《빛: 영국 테이트미술관 특별전》":{
         "ProgramNumber":16,
         "Category":"전시\/미술",
+        "ProgramName":"《빛: 영국 테이트미술관 특별전》",
         "PlaceName":"서울시립 북서울미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=77e1fdca64cb456fa6e4e4efaf77e736&thumb=Y",
         "StartDay":"2021-12-21T00:00:00Z",
@@ -162,6 +178,7 @@
     "<<경로를 재탐색합니다 UN\/LEARNING AUSTRALIA>>":{
         "ProgramNumber":17,
         "Category":"전시\/미술",
+        "ProgramName":"<<경로를 재탐색합니다 UN\/LEARNING AUSTRALIA>>",
         "PlaceName":"서울시립미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=af6f9985699f4f26b01d800c690d8f7a&thumb=Y",
         "StartDay":"2021-12-14T00:00:00Z",
@@ -172,6 +189,7 @@
     "<꿈나무호기심탐험대Ⅰ>“안녕? 박물관으로 놀러와” (온라인)":{
         "ProgramNumber":18,
         "Category":"문화교양\/강좌",
+        "ProgramName":"<꿈나무호기심탐험대Ⅰ>“안녕? 박물관으로 놀러와” (온라인)",
         "PlaceName":"몽촌역사관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=f1e4568f277a4f2597c8e984ff3a8b06&thumb=Y",
         "StartDay":"2022-03-08T00:00:00Z",
@@ -182,6 +200,7 @@
     "<꿈마을놀이체험교실> “누가누가 잘하나 우리놀이” (온라인)":{
         "ProgramNumber":19,
         "Category":"문화교양\/강좌",
+        "ProgramName":"<꿈마을놀이체험교실> “누가누가 잘하나 우리놀이” (온라인)",
         "PlaceName":"몽촌역사관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=fa40280c48084981820cb08f0019b0f8&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -192,6 +211,7 @@
     "<꿈마을울림교실> ":{
         "ProgramNumber":20,
         "Category":"문화교양\/강좌",
+        "ProgramName":"<꿈마을울림교실> ",
         "PlaceName":"몽촌역사관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b959c23eda9441fbb6167f95d8ac6238&thumb=Y",
         "StartDay":"2022-03-03T00:00:00Z",
@@ -202,6 +222,7 @@
     "<몽촌토성투어프로그램>“출동! 몽촌토성 꾸러기 수비대” (오프라인)":{
         "ProgramNumber":21,
         "Category":"문화교양\/강좌",
+        "ProgramName":"<몽촌토성투어프로그램>“출동! 몽촌토성 꾸러기 수비대” (오프라인)",
         "PlaceName":"몽촌역사관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=0f113df285c34e799af2ce07384e81ee&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -212,6 +233,7 @@
     "<살바도르 달리> Salvador Dali: Imagination and Reality":{
         "ProgramNumber":22,
         "Category":"전시\/미술",
+        "ProgramName":"<살바도르 달리> Salvador Dali: Imagination and Reality",
         "PlaceName":"DDP",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=bac76b5a65094b22b8e8881f8e2e10a3&thumb=Y",
         "StartDay":"2021-11-27T00:00:00Z",
@@ -222,6 +244,7 @@
     "<서울역사탐구교실>“지도로 찾아가는 옛 서울” (온라인)":{
         "ProgramNumber":23,
         "Category":"문화교양\/강좌",
+        "ProgramName":"<서울역사탐구교실>“지도로 찾아가는 옛 서울” (온라인)",
         "PlaceName":"몽촌역사관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=16ec177cd0574fa1b4e57f5bc7498946&thumb=Y",
         "StartDay":"2022-03-29T00:00:00Z",
@@ -232,6 +255,7 @@
     "1919 필라델피아":{
         "ProgramNumber":24,
         "Category":"연극",
+        "ProgramName":"1919 필라델피아",
         "PlaceName":"성수아트홀",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=211700604d824608b9e1ef676284d06d&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -242,6 +266,7 @@
     "2021 시민예술가 전시지원사업 <예술일지> 별도신청":{
         "ProgramNumber":25,
         "Category":"전시\/미술",
+        "ProgramName":"2021 시민예술가 전시지원사업 <예술일지> 별도신청",
         "PlaceName":"서울생활문화센터 서교",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=28678a8021624229b88101322fcd62e7&thumb=Y",
         "StartDay":"2021-12-21T00:00:00Z",
@@ -252,6 +277,7 @@
     "2021년 한양도성박물관 하반기 기획전 '도성의 서쪽 문 헐값에 팔리다'":{
         "ProgramNumber":26,
         "Category":"전시\/미술",
+        "ProgramName":"2021년 한양도성박물관 하반기 기획전 '도성의 서쪽 문 헐값에 팔리다'",
         "PlaceName":"한양도성박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=c6486360e5b24721a76afc04e9bce82b&thumb=Y",
         "StartDay":"2021-11-09T00:00:00Z",
@@ -262,6 +288,7 @@
     "2022 노원 지역예술가 작품전시회":{
         "ProgramNumber":27,
         "Category":"전시\/미술",
+        "ProgramName":"2022 노원 지역예술가 작품전시회",
         "PlaceName":"상계예술마당",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=6e4bcdb40dea40e585daacf0b55ddfcf&thumb=Y",
         "StartDay":"2022-02-22T00:00:00Z",
@@ -272,6 +299,7 @@
     "2022 봄에 내리는 젠틀레인-재즈로 듣는 로맨틱 팝 & 가요":{
         "ProgramNumber":28,
         "Category":"콘서트",
+        "ProgramName":"2022 봄에 내리는 젠틀레인-재즈로 듣는 로맨틱 팝 & 가요",
         "PlaceName":"백암아트홀",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=6d88fcec1bdb4d70956233b04513bb17&thumb=Y",
         "StartDay":"2022-04-23T00:00:00Z",
@@ -282,6 +310,7 @@
     "2022 상반기 세종예술아카데미 예술교양강좌 <뽐나는 클래스>":{
         "ProgramNumber":29,
         "Category":"문화교양\/강좌",
+        "ProgramName":"2022 상반기 세종예술아카데미 예술교양강좌 <뽐나는 클래스>",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=af7414944c7b4a8fa8e82790a9566afc&thumb=Y",
         "StartDay":"2022-03-14T00:00:00Z",
@@ -292,6 +321,7 @@
     "2022 서울시향 오스모 벤스케의 수수께끼 변주곡":{
         "ProgramNumber":30,
         "Category":"클래식",
+        "ProgramName":"2022 서울시향 오스모 벤스케의 수수께끼 변주곡",
         "PlaceName":"예술의전당",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=cff95356c24f41a0b0eb62690175f9d3&thumb=Y",
         "StartDay":"2022-03-31T00:00:00Z",
@@ -302,6 +332,7 @@
     "2022 트리오 바스 콘서트":{
         "ProgramNumber":31,
         "Category":"콘서트",
+        "ProgramName":"2022 트리오 바스 콘서트",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e821749f8a7641778467d558ffaa139f&thumb=Y",
         "StartDay":"2022-03-03T00:00:00Z",
@@ -312,6 +343,7 @@
     "2022년 우리 가족 박물관 여행(주말)":{
         "ProgramNumber":32,
         "Category":"문화교양\/강좌",
+        "ProgramName":"2022년 우리 가족 박물관 여행(주말)",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=7db36210c0cf4b6f9a0b490fe02e663f&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -322,6 +354,7 @@
     "5개의 집과 30개의 문 - 상상하는 작가 안규철":{
         "ProgramNumber":33,
         "Category":"전시\/미술",
+        "ProgramName":"5개의 집과 30개의 문 - 상상하는 작가 안규철",
         "PlaceName":"서울상상나라",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e80c9a45dd4a4523b705b4f9f4fd0752&thumb=Y",
         "StartDay":"2021-12-29T00:00:00Z",
@@ -332,6 +365,7 @@
     "Borderless Universe":{
         "ProgramNumber":34,
         "Category":"전시\/미술",
+        "ProgramName":"Borderless Universe",
         "PlaceName":"갤러리BK",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=685c7e47ae9f48b598331db228b192fd&thumb=Y",
         "StartDay":"2022-03-17T00:00:00Z",
@@ -342,6 +376,7 @@
     "DDP 오픈큐레이팅 vol.21 [Material Collective]展":{
         "ProgramNumber":35,
         "Category":"전시\/미술",
+        "ProgramName":"DDP 오픈큐레이팅 vol.21 [Material Collective]展",
         "PlaceName":"DDP",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ef7f0eaeb0564fb5a9930160b4cc89b8&thumb=Y",
         "StartDay":"2022-02-18T00:00:00Z",
@@ -352,6 +387,7 @@
     "EXHIBITION  - Four Stories -":{
         "ProgramNumber":36,
         "Category":"전시\/미술",
+        "ProgramName":"EXHIBITION  - Four Stories -",
         "PlaceName":"히든플레이스",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=6ce5b19de0394395bf445630a73b2304&thumb=Y",
         "StartDay":"2022-03-04T00:00:00Z",
@@ -362,6 +398,7 @@
     "MMCA 이건희컬렉션 특별전 : 한국미술명작":{
         "ProgramNumber":37,
         "Category":"전시\/미술",
+        "ProgramName":"MMCA 이건희컬렉션 특별전 : 한국미술명작",
         "PlaceName":"국립현대미술관 서울",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b843330a9b8b41338e5d899e7be565b2&thumb=Y",
         "StartDay":"2021-07-21T00:00:00Z",
@@ -372,6 +409,7 @@
     "PIECE BY PEACE":{
         "ProgramNumber":38,
         "Category":"전시\/미술",
+        "ProgramName":"PIECE BY PEACE",
         "PlaceName":"ADM 갤러리",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b4da9bf5104f4969879524e9570a13a4&thumb=Y",
         "StartDay":"2022-03-03T00:00:00Z",
@@ -382,6 +420,7 @@
     "Restoration of Relationships":{
         "ProgramNumber":39,
         "Category":"전시\/미술",
+        "ProgramName":"Restoration of Relationships",
         "PlaceName":"갤러리BK",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=0e7ed93593294467a6fc43be6dd01d47&thumb=Y",
         "StartDay":"2022-03-11T00:00:00Z",
@@ -392,6 +431,7 @@
     "Re-Vitality":{
         "ProgramNumber":40,
         "Category":"전시\/미술",
+        "ProgramName":"Re-Vitality",
         "PlaceName":"갤러리BK",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=75aa754cc4d7428593f3183f68b62e07&thumb=Y",
         "StartDay":"2022-03-10T00:00:00Z",
@@ -402,6 +442,7 @@
     "SEMU-YEOL LECTURE":{
         "ProgramNumber":41,
         "Category":"문화교양\/강좌",
+        "ProgramName":"SEMU-YEOL LECTURE",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=1e8205a32b174811845c47e5d02e56a2&thumb=Y",
         "StartDay":"2021-11-12T00:00:00Z",
@@ -412,6 +453,7 @@
     "TikTok : 나래한바퀴 - for Woman":{
         "ProgramNumber":42,
         "Category":"콘서트",
+        "ProgramName":"TikTok : 나래한바퀴 - for Woman",
         "PlaceName":"금나래아트홀",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ec2f510b0c6f408796c1658fc71010b0&thumb=Y",
         "StartDay":"2022-03-30T00:00:00Z",
@@ -422,6 +464,7 @@
     "가족뮤지컬 <슈퍼클로젯>":{
         "ProgramNumber":43,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":"가족뮤지컬 <슈퍼클로젯>",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=d386318db41b4606b934c4ce8a4ae4eb&thumb=Y",
         "StartDay":"2022-01-08T00:00:00Z",
@@ -432,6 +475,7 @@
     "갈산문화예술센터 개관 기념 어린이 넌버벌 공연 〈네네네〉":{
         "ProgramNumber":44,
         "Category":"연극",
+        "ProgramName":"갈산문화예술센터 개관 기념 어린이 넌버벌 공연 〈네네네〉",
         "PlaceName":"갈산문화예술센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=bdaba5e5a27a4aae954076f726398350&thumb=Y",
         "StartDay":"2022-03-12T00:00:00Z",
@@ -442,6 +486,7 @@
     "강병기 교수 기증유물특별전 '어느 도시학자가 꿈 꾼 서울'":{
         "ProgramNumber":45,
         "Category":"전시\/미술",
+        "ProgramName":"강병기 교수 기증유물특별전 '어느 도시학자가 꿈 꾼 서울'",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=54fbbca4f7bd4bf9921fbb61c4ec50f7&thumb=Y",
         "StartDay":"2021-10-29T00:00:00Z",
@@ -452,6 +497,7 @@
     "경춘선숲길 갤러리 <노원마을 미술 탐험전 00미술관 아카이빙전>":{
         "ProgramNumber":46,
         "Category":"전시\/미술",
+        "ProgramName":"경춘선숲길 갤러리 <노원마을 미술 탐험전 00미술관 아카이빙전>",
         "PlaceName":"경춘선숲길 갤러리",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=af21c1e53acb4355bfde8cf804e84c3c&thumb=Y",
         "StartDay":"2022-02-25T00:00:00Z",
@@ -462,6 +508,7 @@
     "공공미술 시민아이디어 구현 문화비축기지 <모래-시간> 시민개방 ":{
         "ProgramNumber":47,
         "Category":"전시\/미술",
+        "ProgramName":"공공미술 시민아이디어 구현 문화비축기지 <모래-시간> 시민개방 ",
         "PlaceName":"문화비축기지",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=3220d04e4f6c4b62b5ed02e89ace7ce9&thumb=Y",
         "StartDay":"2021-11-24T00:00:00Z",
@@ -472,6 +519,7 @@
     "권효진 귀국 피아노 독주회":{
         "ProgramNumber":48,
         "Category":"독주\/독창회",
+        "ProgramName":"권효진 귀국 피아노 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e7c0057bb43a4ffca8608de48f52728e&thumb=Y",
         "StartDay":"2022-03-15T00:00:00Z",
@@ -482,6 +530,7 @@
     "김남중 비올라 독주회-활이 춤춘다 VI":{
         "ProgramNumber":49,
         "Category":"독주\/독창회",
+        "ProgramName":"김남중 비올라 독주회-활이 춤춘다 VI",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=52c3ad9ab82a4bd6992ba0524f99f8db&thumb=Y",
         "StartDay":"2022-03-10T00:00:00Z",
@@ -492,6 +541,7 @@
     "김상원 김지나 피아노 듀오 리사이틀":{
         "ProgramNumber":50,
         "Category":"클래식",
+        "ProgramName":"김상원 김지나 피아노 듀오 리사이틀",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=347c30db4d2e4d1c9d0afb02cd6737cc&thumb=Y",
         "StartDay":"2022-03-08T00:00:00Z",
@@ -502,6 +552,7 @@
     "김아름 피아노 독주회":{
         "ProgramNumber":51,
         "Category":"독주\/독창회",
+        "ProgramName":"김아름 피아노 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=8b344606944642ceb6126918b03b960e&thumb=Y",
         "StartDay":"2022-03-12T00:00:00Z",
@@ -512,6 +563,7 @@
     "노원문화재단 문화강좌 노원유스챔버오케스트라 수강생 모집":{
         "ProgramNumber":52,
         "Category":"문화교양\/강좌",
+        "ProgramName":"노원문화재단 문화강좌 노원유스챔버오케스트라 수강생 모집",
         "PlaceName":"노원문화예술회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=4a40f504967c4e989d571c43b6909430&thumb=Y",
         "StartDay":"2022-02-22T00:00:00Z",
@@ -522,6 +574,7 @@
     "도성의 서쪽 문 헐값에 팔리다":{
         "ProgramNumber":53,
         "Category":"전시\/미술",
+        "ProgramName":"도성의 서쪽 문 헐값에 팔리다",
         "PlaceName":"한양도성박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=194d3212068845bd8f438b3e5bf7a88d&thumb=Y",
         "StartDay":"2021-11-09T00:00:00Z",
@@ -532,6 +585,7 @@
     "라운지 프로젝트":{
         "ProgramNumber":54,
         "Category":"전시\/미술",
+        "ProgramName":"라운지 프로젝트",
         "PlaceName":"서울시립 북서울미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ae2ff4fe07e344a49ba3a6f0c069c19a&thumb=Y",
         "StartDay":"2021-12-21T00:00:00Z",
@@ -542,6 +596,7 @@
     "먼길 이야기":{
         "ProgramNumber":55,
         "Category":"전시\/미술",
+        "ProgramName":"먼길 이야기",
         "PlaceName":"서울시립 북서울미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=a26ffb6676a344c9b14a9f1e5ff9355f&thumb=Y",
         "StartDay":"2021-10-05T00:00:00Z",
@@ -552,6 +607,7 @@
     "뮤지컬 <데스노트>":{
         "ProgramNumber":56,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":"뮤지컬 <데스노트>",
         "PlaceName":"충무아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=37ac364687b24b8cafee60c4dbbd699a&thumb=Y",
         "StartDay":"2022-04-01T00:00:00Z",
@@ -562,6 +618,7 @@
     "뮤지컬 <엑스칼리버>":{
         "ProgramNumber":57,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":"뮤지컬 <엑스칼리버>",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=39aa2a987c144d6d8166f51f9b45c915&thumb=Y",
         "StartDay":"2022-01-29T00:00:00Z",
@@ -572,6 +629,7 @@
     "뮤지컬 <프리다>: The Last Night Show":{
         "ProgramNumber":58,
         "Category":"뮤지컬\/오페라",
+        "ProgramName":"뮤지컬 <프리다>: The Last Night Show",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=664e21afc62a43bb8a24e47f8bf44381&thumb=Y",
         "StartDay":"2022-03-01T00:00:00Z",
@@ -582,6 +640,7 @@
     "뮤지컬<빈센트 반 고흐>":{
         "ProgramNumber":59,
         "Category":"클래식",
+        "ProgramName":"뮤지컬<빈센트 반 고흐>",
         "PlaceName":"충무아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b01d5b432126461cacb24b49d07b9001&thumb=Y",
         "StartDay":"2022-03-27T00:00:00Z",
@@ -592,6 +651,7 @@
     "미디어센터 관악 <메타버스> 교육 안내":{
         "ProgramNumber":60,
         "Category":"문화교양\/강좌",
+        "ProgramName":"미디어센터 관악 <메타버스> 교육 안내",
         "PlaceName":"관악문화재단",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ed4bb2192d56496587b1db0254c8573c&thumb=Y",
         "StartDay":"2022-02-04T00:00:00Z",
@@ -602,6 +662,7 @@
     "미생물 : 관찰과 배양":{
         "ProgramNumber":61,
         "Category":"문화교양\/강좌",
+        "ProgramName":"미생물 : 관찰과 배양",
         "PlaceName":"서울하수도과학관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=5e68911f02cf4509aacdb42a4249cf7f&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -612,6 +673,7 @@
     "베이스 장영근 독창회":{
         "ProgramNumber":62,
         "Category":"독주\/독창회",
+        "ProgramName":"베이스 장영근 독창회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=604d73fb75bf4e74b9334e0d8154b552&thumb=Y",
         "StartDay":"2022-03-13T00:00:00Z",
@@ -622,6 +684,7 @@
     "브런치 콘서트<낭만드림-낭만 모차르트1>":{
         "ProgramNumber":63,
         "Category":"클래식",
+        "ProgramName":"브런치 콘서트<낭만드림-낭만 모차르트1>",
         "PlaceName":"강동아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=465d6772bbd74978aa8370b4e9f7f9dc&thumb=Y",
         "StartDay":"2022-04-07T00:00:00Z",
@@ -632,6 +695,7 @@
     "비대면 주제해설 과학관QR옴니버스":{
         "ProgramNumber":64,
         "Category":"전시\/미술",
+        "ProgramName":"비대면 주제해설 과학관QR옴니버스",
         "PlaceName":"서울시립과학관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=6cf76404b5184b31b69b174c0dd3bd4f&thumb=Y",
         "StartDay":"2021-05-21T00:00:00Z",
@@ -642,6 +706,7 @@
     "서리풀 休 갤러리 <산의 비밀> 김태민 개인전":{
         "ProgramNumber":65,
         "Category":"전시\/미술",
+        "ProgramName":"서리풀 休 갤러리 <산의 비밀> 김태민 개인전",
         "PlaceName":"반포심산아트홀",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=0963daffb4d54ac7a94299fbdd01831c&thumb=Y",
         "StartDay":"2022-01-27T00:00:00Z",
@@ -652,6 +717,7 @@
     "서리풀청년아트갤러리 <어떤 순간의 작은 픽셀>":{
         "ProgramNumber":66,
         "Category":"전시\/미술",
+        "ProgramName":"서리풀청년아트갤러리 <어떤 순간의 작은 픽셀>",
         "PlaceName":"서리풀청년아트갤러리",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ab495fd914d2468aa79818f8405d05bb&thumb=Y",
         "StartDay":"2022-02-08T00:00:00Z",
@@ -662,6 +728,7 @@
     "서울 멋쟁이":{
         "ProgramNumber":67,
         "Category":"전시\/미술",
+        "ProgramName":"서울 멋쟁이",
         "PlaceName":"서울생활사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=3244c05cddc4434c8b5d4d1be5747a55&thumb=Y",
         "StartDay":"2021-11-19T00:00:00Z",
@@ -672,6 +739,7 @@
     "서울상상나라 돌려 돌려 바퀴 발전기":{
         "ProgramNumber":68,
         "Category":"문화교양\/강좌",
+        "ProgramName":"서울상상나라 돌려 돌려 바퀴 발전기",
         "PlaceName":"서울상상나라",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=2be73bec3cfc40ddbbbf918fb7a20198&thumb=Y",
         "StartDay":"2022-02-08T00:00:00Z",
@@ -682,6 +750,7 @@
     "서울상상나라 신규전시 뿜뿜! 펀 에너지":{
         "ProgramNumber":69,
         "Category":"전시\/미술",
+        "ProgramName":"서울상상나라 신규전시 뿜뿜! 펀 에너지",
         "PlaceName":"서울상상나라",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=a13761ab56a24f9092f9b0a1dbd60f3f&thumb=Y",
         "StartDay":"2021-10-29T00:00:00Z",
@@ -692,6 +761,7 @@
     "서울시립미술관 《성찬경 : 청금루 주인》":{
         "ProgramNumber":70,
         "Category":"전시\/미술",
+        "ProgramName":"서울시립미술관 《성찬경 : 청금루 주인》",
         "PlaceName":"서울시립남서울미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=775b237d15f7492ab87cb234e75f993a&thumb=Y",
         "StartDay":"2022-03-24T00:00:00Z",
@@ -702,6 +772,7 @@
     "서울시립미술관 권진규탄생100주년기념 《노실의천사》":{
         "ProgramNumber":71,
         "Category":"전시\/미술",
+        "ProgramName":"서울시립미술관 권진규탄생100주년기념 《노실의천사》",
         "PlaceName":"서울시립미술관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=8557b253e3664903b35019ce1ccc7248&thumb=Y",
         "StartDay":"2022-03-24T00:00:00Z",
@@ -712,6 +783,7 @@
     "서울역사박물관대학 ":{
         "ProgramNumber":72,
         "Category":"문화교양\/강좌",
+        "ProgramName":"서울역사박물관대학 ",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=cad44d27773142b0a1f1146194a7d6e2&thumb=Y",
         "StartDay":"2022-01-01T00:00:00Z",
@@ -722,6 +794,7 @@
     "서울풍물시장 전통문화체험관":{
         "ProgramNumber":73,
         "Category":"기타",
+        "ProgramName":"서울풍물시장 전통문화체험관",
         "PlaceName":"서울풍물시장",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=97bb5fbe549d416abacb2a0c03969233&thumb=Y",
         "StartDay":"2022-01-01T00:00:00Z",
@@ -732,6 +805,7 @@
     "서울풍물시장 청춘1번가":{
         "ProgramNumber":74,
         "Category":"기타",
+        "ProgramName":"서울풍물시장 청춘1번가",
         "PlaceName":"서울풍물시장",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=fe21f77519214bbea8ef82c1bb194fd5&thumb=Y",
         "StartDay":"2022-01-01T00:00:00Z",
@@ -742,6 +816,7 @@
     "소망을 새기다":{
         "ProgramNumber":75,
         "Category":"전시\/미술",
+        "ProgramName":"소망을 새기다",
         "PlaceName":"코리아나 화장박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b030bb7a9cc9473a8f1e3d525ed50a61&thumb=Y",
         "StartDay":"2021-11-23T00:00:00Z",
@@ -752,6 +827,7 @@
     "소프라노 김지영 독창회":{
         "ProgramNumber":76,
         "Category":"독주\/독창회",
+        "ProgramName":"소프라노 김지영 독창회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ff52847ea4b942e18ec0b7dd8f196d03&thumb=Y",
         "StartDay":"2022-03-04T00:00:00Z",
@@ -762,6 +838,7 @@
     "시민청 소리갤러리 전시 - 김현주?조광희 <도시-도심(心)>":{
         "ProgramNumber":77,
         "Category":"전시\/미술",
+        "ProgramName":"시민청 소리갤러리 전시 - 김현주?조광희 <도시-도심(心)>",
         "PlaceName":"시민청",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=c022936aeddb40b7afc715b0dd76bc80&thumb=Y",
         "StartDay":"2022-02-10T00:00:00Z",
@@ -772,6 +849,7 @@
     "신수정 피아노 독주회":{
         "ProgramNumber":78,
         "Category":"독주\/독창회",
+        "ProgramName":"신수정 피아노 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e3ecb5d0dec34ef79d3e8af14a3ac70a&thumb=Y",
         "StartDay":"2022-03-09T00:00:00Z",
@@ -782,6 +860,7 @@
     "아카이브 기획전시 <한미금속공예워크숍: 참가신청 링크가 열렸습니다.>":{
         "ProgramNumber":79,
         "Category":"전시\/미술",
+        "ProgramName":"아카이브 기획전시 <한미금속공예워크숍: 참가신청 링크가 열렸습니다.>",
         "PlaceName":"서울공예박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=c9fa51b477db4374b32bfaa48c65ff88&thumb=Y",
         "StartDay":"2022-02-08T00:00:00Z",
@@ -792,6 +871,7 @@
     "안무가전 TANZ ARGUMENT":{
         "ProgramNumber":80,
         "Category":"무용",
+        "ProgramName":"안무가전 TANZ ARGUMENT",
         "PlaceName":"성수아트홀",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=18a7b06e25f1492d9b5ccb6b9b583033&thumb=Y",
         "StartDay":"2022-03-11T00:00:00Z",
@@ -802,6 +882,7 @@
     "양혜순 비올라 독주회":{
         "ProgramNumber":81,
         "Category":"독주\/독창회",
+        "ProgramName":"양혜순 비올라 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=8b72700aa88c4972bf33e215982c1d94&thumb=Y",
         "StartDay":"2022-03-22T00:00:00Z",
@@ -812,6 +893,7 @@
     "연극 ＜불가불가＞":{
         "ProgramNumber":82,
         "Category":"연극",
+        "ProgramName":"연극 ＜불가불가＞",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=cca912d1ff9e4f588b1540b605ff4d5d&thumb=Y",
         "StartDay":"2022-03-26T00:00:00Z",
@@ -822,6 +904,7 @@
     "음악 소울넘버를 만나다":{
         "ProgramNumber":83,
         "Category":"클래식",
+        "ProgramName":"음악 소울넘버를 만나다",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=cb38c94980af48718cf9c84a1661446c&thumb=Y",
         "StartDay":"2022-03-06T00:00:00Z",
@@ -832,6 +915,7 @@
     "이동욱 호른 독주회":{
         "ProgramNumber":84,
         "Category":"독주\/독창회",
+        "ProgramName":"이동욱 호른 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=7f925c1fbc8f4b9dbb47e910b2cfca0e&thumb=Y",
         "StartDay":"2022-03-06T00:00:00Z",
@@ -842,6 +926,7 @@
     "임진영 피아노 독주회":{
         "ProgramNumber":85,
         "Category":"독주\/독창회",
+        "ProgramName":"임진영 피아노 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=f66eedef3657487484282670b81c9836&thumb=Y",
         "StartDay":"2022-03-11T00:00:00Z",
@@ -852,6 +937,7 @@
     "장문영 바이올린 독주회":{
         "ProgramNumber":86,
         "Category":"독주\/독창회",
+        "ProgramName":"장문영 바이올린 독주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=d57ff34e3b2743529b24c42cf9846378&thumb=Y",
         "StartDay":"2022-03-20T00:00:00Z",
@@ -862,6 +948,7 @@
     "제 30기 중학생 인턴제 ":{
         "ProgramNumber":87,
         "Category":"문화교양\/강좌",
+        "ProgramName":"제 30기 중학생 인턴제 ",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=4abaf4ee155340f7b30a267f8c2c2fb2&thumb=Y",
         "StartDay":"2022-02-19T00:00:00Z",
@@ -872,6 +959,7 @@
     "제 32기 고등학생 인턴제 ":{
         "ProgramNumber":88,
         "Category":"문화교양\/강좌",
+        "ProgramName":"제 32기 고등학생 인턴제 ",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=a0e62f4f5d6346d5b305bbfa868f45c7&thumb=Y",
         "StartDay":"2022-02-12T00:00:00Z",
@@ -882,6 +970,7 @@
     "제1회 체부동 생활문화전시회 <내 생애 첫 작품展> 전시 안내":{
         "ProgramNumber":89,
         "Category":"전시\/미술",
+        "ProgramName":"제1회 체부동 생활문화전시회 <내 생애 첫 작품展> 전시 안내",
         "PlaceName":"서울생활문화센터 체부",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=6f8f2794fb7c4bbfa8e4aff25d63b326&thumb=Y",
         "StartDay":"2022-02-08T00:00:00Z",
@@ -892,6 +981,7 @@
     "제3회 휴먼시티디자인어워드 시민 투표 및 전시":{
         "ProgramNumber":90,
         "Category":"전시\/미술",
+        "ProgramName":"제3회 휴먼시티디자인어워드 시민 투표 및 전시",
         "PlaceName":"DDP",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=e703eba4f4f24d7d8c4f6e6daa12659f&thumb=Y",
         "StartDay":"2022-02-15T00:00:00Z",
@@ -902,6 +992,7 @@
     "조선의 승려 장인":{
         "ProgramNumber":91,
         "Category":"전시\/미술",
+        "ProgramName":"조선의 승려 장인",
         "PlaceName":"국립중앙박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=5045ab2fb3264d468f7b4c4d0b67d9b2&thumb=Y",
         "StartDay":"2021-12-07T00:00:00Z",
@@ -912,6 +1003,7 @@
     "지역공예 기획전시 <이 땅의 풀로 엮는 초경공예>":{
         "ProgramNumber":92,
         "Category":"전시\/미술",
+        "ProgramName":"지역공예 기획전시 <이 땅의 풀로 엮는 초경공예>",
         "PlaceName":"서울공예박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=d5a69617ce994d88a6ddefd3bc27f7ea&thumb=Y",
         "StartDay":"2022-03-01T00:00:00Z",
@@ -922,6 +1014,7 @@
     "청계천 기계공구상가-붕어빵틀에서 인공위성까지":{
         "ProgramNumber":93,
         "Category":"전시\/미술",
+        "ProgramName":"청계천 기계공구상가-붕어빵틀에서 인공위성까지",
         "PlaceName":"청계천박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=8b7f3fd8e1ec4e12b0f97442db0b3177&thumb=Y",
         "StartDay":"2021-12-10T00:00:00Z",
@@ -932,6 +1025,7 @@
     "漆 아시아를 칠하다":{
         "ProgramNumber":94,
         "Category":"전시\/미술",
+        "ProgramName":"漆 아시아를 칠하다",
         "PlaceName":"국립중앙박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b66f7836fd94443cb5fdb32e2095d616&thumb=Y",
         "StartDay":"2021-12-21T00:00:00Z",
@@ -942,6 +1036,7 @@
     "칸딘스키 말레비치 & 러시아 아방가르드 : 혁명의 예술展":{
         "ProgramNumber":95,
         "Category":"전시\/미술",
+        "ProgramName":"칸딘스키 말레비치 & 러시아 아방가르드 : 혁명의 예술展",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=20a22d1ab43e458b9de77b8bebeadce8&thumb=Y",
         "StartDay":"2021-12-31T00:00:00Z",
@@ -952,6 +1047,7 @@
     "코리아쿱오케스트라의 <온 클래식> - 새봄 ":{
         "ProgramNumber":96,
         "Category":"클래식",
+        "ProgramName":"코리아쿱오케스트라의 <온 클래식> - 새봄 ",
         "PlaceName":"충무아트센터",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=43f9ce6848df4dfe924fd6710d161dca&thumb=Y",
         "StartDay":"2022-03-09T00:00:00Z",
@@ -962,6 +1058,7 @@
     "크래프트 윈도우 #4. <공예 온색溫色>":{
         "ProgramNumber":97,
         "Category":"전시\/미술",
+        "ProgramName":"크래프트 윈도우 #4. <공예 온색溫色>",
         "PlaceName":"서울공예박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=657b72e1e8e94ad4ac769217d23a2d63&thumb=Y",
         "StartDay":"2022-01-29T00:00:00Z",
@@ -972,6 +1069,7 @@
     "테너 존노 리사이틀":{
         "ProgramNumber":98,
         "Category":"클래식",
+        "ProgramName":"테너 존노 리사이틀",
         "PlaceName":"노원문화예술회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=946851cdace141ebb0dcdbcdd0078b0c&thumb=Y",
         "StartDay":"2022-03-17T00:00:00Z",
@@ -982,6 +1080,7 @@
     "톤픽쳐 토크콘서트":{
         "ProgramNumber":99,
         "Category":"콘서트",
+        "ProgramName":"톤픽쳐 토크콘서트",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=3eaedbf9c8d74a458387872345b23694&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -992,6 +1091,7 @@
     "트럼펫터 노민호의 봄의향연":{
         "ProgramNumber":100,
         "Category":"독주\/독창회",
+        "ProgramName":"트럼펫터 노민호의 봄의향연",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=8b1dc74204994ecda5dfc17753bc4fc4&thumb=Y",
         "StartDay":"2022-03-19T00:00:00Z",
@@ -1002,6 +1102,7 @@
     "트리오 아티스트리 제3회 정기연주회":{
         "ProgramNumber":101,
         "Category":"클래식",
+        "ProgramName":"트리오 아티스트리 제3회 정기연주회",
         "PlaceName":"세종문화회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=b45759fb82ef4788b1ca96b3e92ba118&thumb=Y",
         "StartDay":"2022-03-05T00:00:00Z",
@@ -1012,6 +1113,7 @@
     "특별초청공연  제주도립무용단 <녹담>":{
         "ProgramNumber":102,
         "Category":"무용",
+        "ProgramName":"특별초청공연  제주도립무용단 <녹담>",
         "PlaceName":"노원문화예술회관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=bc2d54bd7cda47f7a170ec02942681ca&thumb=Y",
         "StartDay":"2022-03-12T00:00:00Z",
@@ -1022,6 +1124,7 @@
     "판소리 레미제라블 ＜구구선 사람들＞":{
         "ProgramNumber":103,
         "Category":"국악",
+        "ProgramName":"판소리 레미제라블 ＜구구선 사람들＞",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=05fe082236a84491a8fc9d0b6b95e6fb&thumb=Y",
         "StartDay":"2022-03-10T00:00:00Z",
@@ -1032,6 +1135,7 @@
     "프랑스 국립 자연사박물관 특별전 - 바다미지로의탐험":{
         "ProgramNumber":104,
         "Category":"전시\/미술",
+        "ProgramName":"프랑스 국립 자연사박물관 특별전 - 바다미지로의탐험",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=0486dfd544ba4788b5817e1e201c0ae4&thumb=Y",
         "StartDay":"2021-09-25T00:00:00Z",
@@ -1042,6 +1146,7 @@
     "피아노 앙상블 S":{
         "ProgramNumber":105,
         "Category":"클래식",
+        "ProgramName":"피아노 앙상블 S",
         "PlaceName":"북서울꿈의숲",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=1fa2bced222f48ee95dd0ca22f7053cc&thumb=Y",
         "StartDay":"2022-03-08T00:00:00Z",
@@ -1052,6 +1157,7 @@
     "한양의 상징대로 육조거리":{
         "ProgramNumber":106,
         "Category":"전시\/미술",
+        "ProgramName":"한양의 상징대로 육조거리",
         "PlaceName":"서울역사박물관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=875cc054457c451b957d2d6dc6ad7076&thumb=Y",
         "StartDay":"2021-11-16T00:00:00Z",
@@ -1062,6 +1168,7 @@
     "화신백화점 사라진 종로의 랜드마크":{
         "ProgramNumber":107,
         "Category":"전시\/미술",
+        "ProgramName":"화신백화점 사라진 종로의 랜드마크",
         "PlaceName":"공평도시유적전시관",
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=78fff005fcc84adf8c285e364c41705a&thumb=Y",
         "StartDay":"2021-07-23T00:00:00Z",
