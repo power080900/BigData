@@ -2,6 +2,7 @@
     "ADM 갤러리":{
         "PlaceNumber":1,
         "Class":"미술관",
+        "PlaceName":"ADM 갤러리",
         "LineNumber":2,
         "Station":"역삼역",
         "Address":"서울 강남구 역삼로14길 20",
@@ -16,6 +17,7 @@
     "CKL 스테이지":{
         "PlaceNumber":2,
         "Class":"공연장",
+        "PlaceName":"CKL 스테이지",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 중구 청계천로 40",
@@ -30,6 +32,7 @@
     "DDP":{
         "PlaceNumber":3,
         "Class":"문화예술회관",
+        "PlaceName":"DDP",
         "LineNumber":"2, 4, 5",
         "Station":"동대문역사문화공원역",
         "Address":"서울 중구 을지로 281",
@@ -44,6 +47,7 @@
     "JCC 아트센터":{
         "PlaceNumber":4,
         "Class":"공연장",
+        "PlaceName":"JCC 아트센터",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 혜화동  창경궁로35길 29",
@@ -58,6 +62,7 @@
     "kp 갤러리":{
         "PlaceNumber":5,
         "Class":"미술관",
+        "PlaceName":"kp 갤러리",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 용산구 소월로2나길 12",
@@ -72,6 +77,7 @@
     "KT&G 상상아트홀":{
         "PlaceNumber":6,
         "Class":"공연장",
+        "PlaceName":"KT&G 상상아트홀",
         "LineNumber":2,
         "Station":"삼성역",
         "Address":"서울 강남구 대치동 영동대로 416",
@@ -86,6 +92,7 @@
     "KT체임버홀":{
         "PlaceNumber":7,
         "Class":"공연장",
+        "PlaceName":"KT체임버홀",
         "LineNumber":5,
         "Station":"오목교역",
         "Address":"서울 양천구 목동서로 201",
@@ -100,6 +107,7 @@
     "LG 사이언스홀":{
         "PlaceNumber":8,
         "Class":"미술관",
+        "PlaceName":"LG 사이언스홀",
         "LineNumber":5,
         "Station":"여의나루역",
         "Address":"서울 영등포구 여의도동 20",
@@ -114,6 +122,7 @@
     "LG아트센터":{
         "PlaceNumber":9,
         "Class":"공연장",
+        "PlaceName":"LG아트센터",
         "LineNumber":2,
         "Station":"역삼역",
         "Address":"서울 강남구 역삼동 논현로 508",
@@ -128,6 +137,7 @@
     "N서울타워":{
         "PlaceNumber":10,
         "Class":"기타",
+        "PlaceName":"N서울타워",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 용산구 용산동2가 1-3",
@@ -142,6 +152,7 @@
     "OCI미술관":{
         "PlaceNumber":11,
         "Class":"미술관",
+        "PlaceName":"OCI미술관",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 우정국로 45-14",
@@ -156,6 +167,7 @@
     "pkm gallery":{
         "PlaceNumber":12,
         "Class":"미술관",
+        "PlaceName":"pkm gallery",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 화동  율곡로3길 74-9",
@@ -170,6 +182,7 @@
     "SETEC전시장":{
         "PlaceNumber":13,
         "Class":"공연\/전시장",
+        "PlaceName":"SETEC전시장",
         "LineNumber":3,
         "Station":"학여울역",
         "Address":"서울 강남구 남부순환로 3104",
@@ -184,6 +197,7 @@
     "SJ비보이극장":{
         "PlaceNumber":14,
         "Class":"공연장",
+        "PlaceName":"SJ비보이극장",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 서교동  와우산로 121",
@@ -198,6 +212,7 @@
     "가나아트 한남":{
         "PlaceNumber":15,
         "Class":"미술관",
+        "PlaceName":"가나아트 한남",
         "LineNumber":6,
         "Station":"이태원역",
         "Address":"서울 용산구 대사관로 35",
@@ -212,6 +227,7 @@
     "가나아트센터":{
         "PlaceNumber":16,
         "Class":"미술관",
+        "PlaceName":"가나아트센터",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 평창동 평창30길 28",
@@ -226,6 +242,7 @@
     "가락몰 쿠킹스튜디오":{
         "PlaceNumber":17,
         "Class":"기타",
+        "PlaceName":"가락몰 쿠킹스튜디오",
         "LineNumber":"3, 8",
         "Station":"가락시장역",
         "Address":"서울 송파구 양재대로 932",
@@ -240,6 +257,7 @@
     "가람화랑":{
         "PlaceNumber":18,
         "Class":"미술관",
+        "PlaceName":"가람화랑",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 30-10",
@@ -254,6 +272,7 @@
     "가톨릭대학교 전례박물관":{
         "PlaceNumber":19,
         "Class":"박물관\/기념관",
+        "PlaceName":"가톨릭대학교 전례박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 종로구 혜화동 90-1",
@@ -268,6 +287,7 @@
     "가회민화박물관":{
         "PlaceNumber":20,
         "Class":"박물관\/기념관",
+        "PlaceName":"가회민화박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 북촌로 52",
@@ -282,6 +302,7 @@
     "간송미술관":{
         "PlaceNumber":21,
         "Class":"미술관",
+        "PlaceName":"간송미술관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 성북구 성북동 성북로 102-11",
@@ -296,6 +317,7 @@
     "갈갈이홀":{
         "PlaceNumber":22,
         "Class":"공연장",
+        "PlaceName":"갈갈이홀",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-100",
@@ -310,6 +332,7 @@
     "갈산문화예술센터":{
         "PlaceNumber":23,
         "Class":"문화예술회관",
+        "PlaceName":"갈산문화예술센터",
         "LineNumber":2,
         "Station":"양천구청역",
         "Address":"서울 양천구 신정동 1325-3",
@@ -324,6 +347,7 @@
     "강남구민체육관":{
         "PlaceNumber":24,
         "Class":"기타",
+        "PlaceName":"강남구민체육관",
         "LineNumber":3,
         "Station":"매봉역",
         "Address":"서울 강남구 개포동 1271",
@@ -338,6 +362,7 @@
     "강남구민회관":{
         "PlaceNumber":25,
         "Class":"문화예술회관",
+        "PlaceName":"강남구민회관",
         "LineNumber":3,
         "Station":"대치역",
         "Address":"서울 강남구 대치동 509-2",
@@ -352,6 +377,7 @@
     "강남구민회관강당":{
         "PlaceNumber":26,
         "Class":"공연장",
+        "PlaceName":"강남구민회관강당",
         "LineNumber":3,
         "Station":"대치역",
         "Address":"서울 강남구 대치동 509-2",
@@ -366,6 +392,7 @@
     "강남문화재단":{
         "PlaceNumber":27,
         "Class":"문화예술회관",
+        "PlaceName":"강남문화재단",
         "LineNumber":"7, 수인분당",
         "Station":"강남구청역",
         "Address":"서울 강남구 선릉로 668 5층",
@@ -380,6 +407,7 @@
     "강남스포츠문화센터":{
         "PlaceNumber":28,
         "Class":"기타",
+        "PlaceName":"강남스포츠문화센터",
         "LineNumber":"3, 수인분당",
         "Station":"수서역",
         "Address":"서울 강남구 수서동 718",
@@ -394,6 +422,7 @@
     "강남씨어터":{
         "PlaceNumber":29,
         "Class":"공연장",
+        "PlaceName":"강남씨어터",
         "LineNumber":"2, 신분당",
         "Station":"강남역",
         "Address":"서울 강남구 역삼로7길 16 3층",
@@ -408,6 +437,7 @@
     "강남힐링센터":{
         "PlaceNumber":30,
         "Class":"문화예술회관",
+        "PlaceName":"강남힐링센터",
         "LineNumber":9,
         "Station":"봉은사역",
         "Address":"서울 강남구 테헤란로87길 46",
@@ -422,6 +452,7 @@
     "강동아트센터":{
         "PlaceNumber":31,
         "Class":"공연장",
+        "PlaceName":"강동아트센터",
         "LineNumber":5,
         "Station":"고덕역",
         "Address":"서울 강동구 상일동 (동남로) 870",
@@ -436,6 +467,7 @@
     "강동어린이회관아이누리홀":{
         "PlaceNumber":32,
         "Class":"공연장",
+        "PlaceName":"강동어린이회관아이누리홀",
         "LineNumber":8,
         "Station":"강동구청역",
         "Address":"서울 강동구 성내동 556-1",
@@ -450,6 +482,7 @@
     "강릉":{
         "PlaceNumber":33,
         "Class":"유적지",
+        "PlaceName":"강릉",
         "LineNumber":"경춘선",
         "Station":"갈매역",
         "Address":"서울 노원구 화랑로 727",
@@ -464,6 +497,7 @@
     "강북문화예술회관":{
         "PlaceNumber":34,
         "Class":"문화예술회관",
+        "PlaceName":"강북문화예술회관",
         "LineNumber":"우이신설",
         "Station":"가오리역",
         "Address":"서울 강북구 수유동 360-10",
@@ -478,6 +512,7 @@
     "강북웰빙스포츠센터":{
         "PlaceNumber":35,
         "Class":"기타",
+        "PlaceName":"강북웰빙스포츠센터",
         "LineNumber":4,
         "Station":"수유역",
         "Address":"서울 강북구 번동 318",
@@ -492,6 +527,7 @@
     "강서구민회관":{
         "PlaceNumber":36,
         "Class":"문화예술회관",
+        "PlaceName":"강서구민회관",
         "LineNumber":5,
         "Station":"발산역",
         "Address":"서울 강서구 내발산동 19-1",
@@ -506,6 +542,7 @@
     "개운산스포츠센터":{
         "PlaceNumber":37,
         "Class":"기타",
+        "PlaceName":"개운산스포츠센터",
         "LineNumber":"우이신설",
         "Station":"성신여대입구역",
         "Address":"서울 성북구 북악산로 949-60",
@@ -520,6 +557,7 @@
     "개포디지털혁신파크 열림관":{
         "PlaceNumber":38,
         "Class":"문화예술회관",
+        "PlaceName":"개포디지털혁신파크 열림관",
         "LineNumber":"수인분당",
         "Station":"개포동역",
         "Address":"서울 강남구 개포동 153-153",
@@ -534,6 +572,7 @@
     "갤러리 JJ":{
         "PlaceNumber":39,
         "Class":"미술관",
+        "PlaceName":"갤러리 JJ",
         "LineNumber":7,
         "Station":"학동역",
         "Address":"서울 강남구 논현로 745",
@@ -548,6 +587,7 @@
     "갤러리 가이아":{
         "PlaceNumber":40,
         "Class":"미술관",
+        "PlaceName":"갤러리 가이아",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 145",
@@ -562,6 +602,7 @@
     "갤러리 구루지":{
         "PlaceNumber":41,
         "Class":"미술관",
+        "PlaceName":"갤러리 구루지",
         "LineNumber":"2, 7",
         "Station":"대림역",
         "Address":"서울 구로구 가마산로25길 21",
@@ -576,6 +617,7 @@
     "갤러리 도올":{
         "PlaceNumber":42,
         "Class":"미술관",
+        "PlaceName":"갤러리 도올",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 팔판동 27-6",
@@ -590,6 +632,7 @@
     "갤러리 라메르":{
         "PlaceNumber":43,
         "Class":"미술관",
+        "PlaceName":"갤러리 라메르",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 인사동 194 5길 26",
@@ -604,6 +647,7 @@
     "갤러리 룩스":{
         "PlaceNumber":44,
         "Class":"미술관",
+        "PlaceName":"갤러리 룩스",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 관훈동 185",
@@ -618,6 +662,7 @@
     "갤러리 비선재":{
         "PlaceNumber":45,
         "Class":"미술관",
+        "PlaceName":"갤러리 비선재",
         "LineNumber":"경의중앙",
         "Station":"한남역",
         "Address":"서울 용산구 유엔빌리지3길 54-14",
@@ -632,6 +677,7 @@
     "갤러리 세줄":{
         "PlaceNumber":46,
         "Class":"미술관",
+        "PlaceName":"갤러리 세줄",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 평창동 464-13",
@@ -646,6 +692,7 @@
     "갤러리 아트사이드":{
         "PlaceNumber":47,
         "Class":"미술관",
+        "PlaceName":"갤러리 아트사이드",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 관훈동 170",
@@ -660,6 +707,7 @@
     "갤러리 원":{
         "PlaceNumber":48,
         "Class":"미술관",
+        "PlaceName":"갤러리 원",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 청담동 101-5",
@@ -674,6 +722,7 @@
     "갤러리 인":{
         "PlaceNumber":49,
         "Class":"미술관",
+        "PlaceName":"갤러리 인",
         "LineNumber":"경의중앙",
         "Station":"가좌역",
         "Address":"서울 종로구 팔판동 141",
@@ -688,6 +737,7 @@
     "갤러리 조은":{
         "PlaceNumber":50,
         "Class":"미술관",
+        "PlaceName":"갤러리 조은",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 유엔빌리지길 28",
@@ -702,6 +752,7 @@
     "갤러리 현대":{
         "PlaceNumber":51,
         "Class":"미술관",
+        "PlaceName":"갤러리 현대",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 사간동 122",
@@ -716,6 +767,7 @@
     "갤러리BK":{
         "PlaceNumber":52,
         "Class":"미술관",
+        "PlaceName":"갤러리BK",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 이태원로42길 56",
@@ -730,6 +782,7 @@
     "갤러리미즈":{
         "PlaceNumber":53,
         "Class":"미술관",
+        "PlaceName":"갤러리미즈",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 37",
@@ -744,6 +797,7 @@
     "거창신씨묘역":{
         "PlaceNumber":54,
         "Class":"유적지",
+        "PlaceName":"거창신씨묘역",
         "LineNumber":"3, 5",
         "Station":"오금역",
         "Address":"서울 송파구 오금동",
@@ -758,6 +812,7 @@
     "건국대학교 박물관":{
         "PlaceNumber":55,
         "Class":"박물관\/기념관",
+        "PlaceName":"건국대학교 박물관",
         "LineNumber":7,
         "Station":"어린이대공원역",
         "Address":"서울 광진구 화양동 1",
@@ -772,6 +827,7 @@
     "건국대학교 새천년대공연장":{
         "PlaceNumber":56,
         "Class":"공연장",
+        "PlaceName":"건국대학교 새천년대공연장",
         "LineNumber":"2, 7",
         "Station":"건대입구역",
         "Address":"서울 광진구 화양동 1",
@@ -786,6 +842,7 @@
     "겸재정선미술관":{
         "PlaceNumber":57,
         "Class":"미술관",
+        "PlaceName":"겸재정선미술관",
         "LineNumber":9,
         "Station":"양천향교역",
         "Address":"서울 강서구 가양동 243-1",
@@ -800,6 +857,7 @@
     "경교장":{
         "PlaceNumber":58,
         "Class":"유적지",
+        "PlaceName":"경교장",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 종로구 새문안로 29",
@@ -814,6 +872,7 @@
     "경기여고 경운박물관":{
         "PlaceNumber":59,
         "Class":"박물관\/기념관",
+        "PlaceName":"경기여고 경운박물관",
         "LineNumber":"수인분당",
         "Station":"개포동역",
         "Address":"서울 강남구 개포동 152",
@@ -828,6 +887,7 @@
     "경복궁":{
         "PlaceNumber":60,
         "Class":"유적지",
+        "PlaceName":"경복궁",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 사직로 161",
@@ -842,6 +902,7 @@
     "경의선 책거리":{
         "PlaceNumber":61,
         "Class":"기타",
+        "PlaceName":"경의선 책거리",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 와우산로37길 35",
@@ -856,6 +917,7 @@
     "경인미술관":{
         "PlaceNumber":62,
         "Class":"미술관",
+        "PlaceName":"경인미술관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 30-1",
@@ -870,6 +932,7 @@
     "경찰박물관":{
         "PlaceNumber":63,
         "Class":"박물관\/기념관",
+        "PlaceName":"경찰박물관",
         "LineNumber":3,
         "Station":"독립문역",
         "Address":"서울 종로구 신문로2가 58",
@@ -884,6 +947,7 @@
     "경춘선숲길 갤러리":{
         "PlaceNumber":64,
         "Class":"미술관",
+        "PlaceName":"경춘선숲길 갤러리",
         "LineNumber":6,
         "Station":"화랑대역",
         "Address":"서울 노원구 화랑로 608",
@@ -898,6 +962,7 @@
     "경향아트힐 2층 썬앤문 전용관":{
         "PlaceNumber":65,
         "Class":"공연장",
+        "PlaceName":"경향아트힐 2층 썬앤문 전용관",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 중구 정동길 3",
@@ -912,6 +977,7 @@
     "경희궁":{
         "PlaceNumber":66,
         "Class":"유적지",
+        "PlaceName":"경희궁",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 새문안로 45",
@@ -926,6 +992,7 @@
     "경희대학교 자연사박물관":{
         "PlaceNumber":67,
         "Class":"박물관\/기념관",
+        "PlaceName":"경희대학교 자연사박물관",
         "LineNumber":1,
         "Station":"외대앞역",
         "Address":"서울 동대문구 회기동 130-701",
@@ -940,6 +1007,7 @@
     "경희대학교 중앙박물관":{
         "PlaceNumber":68,
         "Class":"박물관\/기념관",
+        "PlaceName":"경희대학교 중앙박물관",
         "LineNumber":"1, 경의중앙, 경춘",
         "Station":"회기역",
         "Address":"서울 동대문구 경희대로6길 7-13",
@@ -954,6 +1022,7 @@
     "고려대학교 박물관":{
         "PlaceNumber":69,
         "Class":"박물관\/기념관",
+        "PlaceName":"고려대학교 박물관",
         "LineNumber":6,
         "Station":"고려대역",
         "Address":"서울 성북구 안암동5가 1-2",
@@ -968,6 +1037,7 @@
     "공갤러리":{
         "PlaceNumber":70,
         "Class":"미술관",
+        "PlaceName":"공갤러리",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 인사동 23-2 2-2",
@@ -982,6 +1052,7 @@
     "공민왕신당":{
         "PlaceNumber":71,
         "Class":"유적지",
+        "PlaceName":"공민왕신당",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 종로 157",
@@ -996,6 +1067,7 @@
     "공평도시유적전시관":{
         "PlaceNumber":72,
         "Class":"박물관\/기념관",
+        "PlaceName":"공평도시유적전시관",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 우정국로 26",
@@ -1010,6 +1082,7 @@
     "관문사 성보박물관":{
         "PlaceNumber":73,
         "Class":"박물관\/기념관",
+        "PlaceName":"관문사 성보박물관",
         "LineNumber":3,
         "Station":"양재역",
         "Address":"서울 서초구 우면동  바우뫼로7길 111",
@@ -1024,6 +1097,7 @@
     "관악구민종합체육센터":{
         "PlaceNumber":74,
         "Class":"기타",
+        "PlaceName":"관악구민종합체육센터",
         "LineNumber":2,
         "Station":"낙성대역",
         "Address":"서울 관악구 낙성대로3길 37",
@@ -1038,6 +1112,7 @@
     "관악문화재단":{
         "PlaceNumber":75,
         "Class":"문화예술회관",
+        "PlaceName":"관악문화재단",
         "LineNumber":2,
         "Station":"서울대입구역",
         "Address":"서울 관악구 신림로3길 35",
@@ -1052,6 +1127,7 @@
     "관악아트홀":{
         "PlaceNumber":76,
         "Class":"공연장",
+        "PlaceName":"관악아트홀",
         "LineNumber":2,
         "Station":"서울대입구역",
         "Address":"서울 관악구 신림로 3길 35",
@@ -1066,6 +1142,7 @@
     "관훈갤러리":{
         "PlaceNumber":77,
         "Class":"미술관",
+        "PlaceName":"관훈갤러리",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 195",
@@ -1080,6 +1157,7 @@
     "광개토대왕릉비":{
         "PlaceNumber":78,
         "Class":"유적지",
+        "PlaceName":"광개토대왕릉비",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
         "Address":"서울 용산구 이태원로 29",
@@ -1094,6 +1172,7 @@
     "광진교 8번가":{
         "PlaceNumber":79,
         "Class":"공연\/전시장",
+        "PlaceName":"광진교 8번가",
         "LineNumber":5,
         "Station":"광나루역",
         "Address":"서울 강동구 천호2동 527-2",
@@ -1108,6 +1187,7 @@
     "광진구민체육센터":{
         "PlaceNumber":80,
         "Class":"공연장",
+        "PlaceName":"광진구민체육센터",
         "LineNumber":5,
         "Station":"광나루역",
         "Address":"서울 광진구 구천면로 2",
@@ -1122,6 +1202,7 @@
     "광평대군묘":{
         "PlaceNumber":81,
         "Class":"유적지",
+        "PlaceName":"광평대군묘",
         "LineNumber":3,
         "Station":"일원역",
         "Address":"서울 강남구 광평로31길 20",
@@ -1136,6 +1217,7 @@
     "광화문":{
         "PlaceNumber":82,
         "Class":"유적지",
+        "PlaceName":"광화문",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 효자로 12",
@@ -1150,6 +1232,7 @@
     "광화문아트홀":{
         "PlaceNumber":83,
         "Class":"문화예술회관",
+        "PlaceName":"광화문아트홀",
         "LineNumber":3,
         "Station":"독립문역",
         "Address":"서울 종로구 인왕산로1길 21",
@@ -1164,6 +1247,7 @@
     "구로 꿈나무극장":{
         "PlaceNumber":84,
         "Class":"공연장",
+        "PlaceName":"구로 꿈나무극장",
         "LineNumber":7,
         "Station":"남구로역",
         "Address":"서울 구로구 구로동로26길 54",
@@ -1178,6 +1262,7 @@
     "구로구민체육센터":{
         "PlaceNumber":85,
         "Class":"기타",
+        "PlaceName":"구로구민체육센터",
         "LineNumber":1,
         "Station":"개봉역",
         "Address":"서울 구로구 고척로45길 39",
@@ -1192,6 +1277,7 @@
     "구로구민회관 대강당":{
         "PlaceNumber":86,
         "Class":"공연장",
+        "PlaceName":"구로구민회관 대강당",
         "LineNumber":"2, 7",
         "Station":"대림역",
         "Address":"서울 구로구 구로동 102",
@@ -1206,6 +1292,7 @@
     "구로아트밸리예술극장":{
         "PlaceNumber":87,
         "Class":"문화예술회관",
+        "PlaceName":"구로아트밸리예술극장",
         "LineNumber":"2, 7",
         "Station":"대림역",
         "Address":"서울 구로구 구로동 101",
@@ -1220,6 +1307,7 @@
     "구슬모아당구장":{
         "PlaceNumber":88,
         "Class":"미술관",
+        "PlaceName":"구슬모아당구장",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 용산구 독서당로 85",
@@ -1234,6 +1322,7 @@
     "국기원":{
         "PlaceNumber":89,
         "Class":"문화원",
+        "PlaceName":"국기원",
         "LineNumber":"2, 신분당",
         "Station":"강남역",
         "Address":"서울  강남구 역삼동 635",
@@ -1248,6 +1337,7 @@
     "국립4.19민주묘지":{
         "PlaceNumber":90,
         "Class":"유적지",
+        "PlaceName":"국립4.19민주묘지",
         "LineNumber":"우이신설",
         "Station":"4.19민주묘지역",
         "Address":"서울 강북구 수유동",
@@ -1262,6 +1352,7 @@
     "국립고궁박물관":{
         "PlaceNumber":91,
         "Class":"박물관\/기념관",
+        "PlaceName":"국립고궁박물관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 세종로 1-57",
@@ -1276,6 +1367,7 @@
     "국립국악원":{
         "PlaceNumber":92,
         "Class":"공연장",
+        "PlaceName":"국립국악원",
         "LineNumber":3,
         "Station":"남부터미널역",
         "Address":"서울 서초구 서초동  남부순환로 2364",
@@ -1290,6 +1382,7 @@
     "국립국어원 우리말 꿈터":{
         "PlaceNumber":93,
         "Class":"기타",
+        "PlaceName":"국립국어원 우리말 꿈터",
         "LineNumber":5,
         "Station":"방화역",
         "Address":"서울 강서구 방화동 827",
@@ -1304,6 +1397,7 @@
     "국립극단 백성희장민호극장":{
         "PlaceNumber":94,
         "Class":"공연장",
+        "PlaceName":"국립극단 백성희장민호극장",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 용산구 청파로 373",
@@ -1318,6 +1412,7 @@
     "국립극단 소극장 판":{
         "PlaceNumber":95,
         "Class":"공연장",
+        "PlaceName":"국립극단 소극장 판",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 용산구 청파로 373",
@@ -1332,6 +1427,7 @@
     "국립극장":{
         "PlaceNumber":96,
         "Class":"공연장",
+        "PlaceName":"국립극장",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 장충단로 59",
@@ -1346,6 +1442,7 @@
     "국립민속박물관":{
         "PlaceNumber":97,
         "Class":"박물관\/기념관",
+        "PlaceName":"국립민속박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 세종로 1-1",
@@ -1360,6 +1457,7 @@
     "국립박물관문화재단":{
         "PlaceNumber":98,
         "Class":"문화예술회관",
+        "PlaceName":"국립박물관문화재단",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 용산구 서빙고로 137",
@@ -1374,6 +1472,7 @@
     "국립서울과학관":{
         "PlaceNumber":99,
         "Class":"박물관\/기념관",
+        "PlaceName":"국립서울과학관",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 와룡동 110-360",
@@ -1388,6 +1487,7 @@
     "국립서울현충원":{
         "PlaceNumber":100,
         "Class":"유적지",
+        "PlaceName":"국립서울현충원",
         "LineNumber":"4, 9",
         "Station":"동작역",
         "Address":"서울 동작구 동작동 271-18",
@@ -1402,6 +1502,7 @@
     "국립중앙극장":{
         "PlaceNumber":101,
         "Class":"공연장",
+        "PlaceName":"국립중앙극장",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 장충동2가 14-67",
@@ -1416,6 +1517,7 @@
     "국립중앙박물관":{
         "PlaceNumber":102,
         "Class":"박물관\/기념관",
+        "PlaceName":"국립중앙박물관",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
         "Address":"서울 용산구 서빙고로 137",
@@ -1430,6 +1532,7 @@
     "국립중앙박물관 극장 용":{
         "PlaceNumber":103,
         "Class":"공연장",
+        "PlaceName":"국립중앙박물관 극장 용",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
         "Address":"서울 용산구 용산동6가 168-6",
@@ -1444,6 +1547,7 @@
     "국립한글박물관":{
         "PlaceNumber":104,
         "Class":"박물관\/기념관",
+        "PlaceName":"국립한글박물관",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
         "Address":"서울 용산구 용산동6가 412-6",
@@ -1458,6 +1562,7 @@
     "국립현대미술관":{
         "PlaceNumber":105,
         "Class":"미술관",
+        "PlaceName":"국립현대미술관",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 정동 세종대로 99",
@@ -1472,6 +1577,7 @@
     "국립현대미술관 덕수궁관":{
         "PlaceNumber":106,
         "Class":"미술관",
+        "PlaceName":"국립현대미술관 덕수궁관",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 세종대로 99",
@@ -1486,6 +1592,7 @@
     "국립현대미술관 서울":{
         "PlaceNumber":107,
         "Class":"미술관",
+        "PlaceName":"국립현대미술관 서울",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 삼청로 30",
@@ -1500,6 +1607,7 @@
     "국민대학교 박물관":{
         "PlaceNumber":108,
         "Class":"박물관\/기념관",
+        "PlaceName":"국민대학교 박물관",
         "LineNumber":4,
         "Station":"길음역",
         "Address":"서울 성북구 정릉동  정릉로 77",
@@ -1514,6 +1622,7 @@
     "국제갤러리":{
         "PlaceNumber":109,
         "Class":"미술관",
+        "PlaceName":"국제갤러리",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 소격동 59-1",
@@ -1528,6 +1637,7 @@
     "근현대사기념관 ":{
         "PlaceNumber":110,
         "Class":"박물관\/기념관",
+        "PlaceName":"근현대사기념관 ",
         "LineNumber":9,
         "Station":"4.19민주묘지역",
         "Address":"서울 강북구 4.19로 114",
@@ -1542,6 +1652,7 @@
     "금나래아트홀":{
         "PlaceNumber":111,
         "Class":"공연장",
+        "PlaceName":"금나래아트홀",
         "LineNumber":1,
         "Station":"금천구청역",
         "Address":"서울 금천구 시흥대로73길 70",
@@ -1556,6 +1667,7 @@
     "금빛공원 야외공연장":{
         "PlaceNumber":112,
         "Class":"공연장",
+        "PlaceName":"금빛공원 야외공연장",
         "LineNumber":1,
         "Station":"금천구청역",
         "Address":"서울 금천구 독산동 371-2",
@@ -1570,6 +1682,7 @@
     "금빛휘트니스센터":{
         "PlaceNumber":113,
         "Class":"기타",
+        "PlaceName":"금빛휘트니스센터",
         "LineNumber":1,
         "Station":"금천구청역",
         "Address":"서울 금천구 시흥동 금하로 668",
@@ -1584,6 +1697,7 @@
     "금성당샤머니즘박물관":{
         "PlaceNumber":114,
         "Class":"박물관\/기념관",
+        "PlaceName":"금성당샤머니즘박물관",
         "LineNumber":3,
         "Station":"구파발역",
         "Address":"서울 은평구 진관2로 57-23",
@@ -1598,6 +1712,7 @@
     "금천마을활력소 어울샘":{
         "PlaceNumber":115,
         "Class":"문화예술회관",
+        "PlaceName":"금천마을활력소 어울샘",
         "LineNumber":2,
         "Station":"구로디지털단지역",
         "Address":"서울 금천구 탑골로 22",
@@ -1612,6 +1727,7 @@
     "금천예술공장":{
         "PlaceNumber":116,
         "Class":"미술관",
+        "PlaceName":"금천예술공장",
         "LineNumber":1,
         "Station":"독산역",
         "Address":"서울 금천구 범안로15길 57",
@@ -1626,6 +1742,7 @@
     "금호미술관":{
         "PlaceNumber":117,
         "Class":"미술관",
+        "PlaceName":"금호미술관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 사간동 78",
@@ -1640,6 +1757,7 @@
     "금호아트홀":{
         "PlaceNumber":118,
         "Class":"공연장",
+        "PlaceName":"금호아트홀",
         "LineNumber":2,
         "Station":"신촌역",
         "Address":"서울 종로구 신문로1가  새문안로 75",
@@ -1654,6 +1772,7 @@
     "기생충박물관":{
         "PlaceNumber":119,
         "Class":"박물관\/기념관",
+        "PlaceName":"기생충박물관",
         "LineNumber":9,
         "Station":"가양역",
         "Address":"서울 강서구 화곡로 333",
@@ -1668,6 +1787,7 @@
     "김동수플레이하우스":{
         "PlaceNumber":120,
         "Class":"공연장",
+        "PlaceName":"김동수플레이하우스",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 연건동 178-1",
@@ -1682,6 +1802,7 @@
     "김영섭사진화랑":{
         "PlaceNumber":121,
         "Class":"미술관",
+        "PlaceName":"김영섭사진화랑",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 169-2",
@@ -1696,6 +1817,7 @@
     "김영옥 미술관":{
         "PlaceNumber":122,
         "Class":"미술관",
+        "PlaceName":"김영옥 미술관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 창의문로10길 11",
@@ -1710,6 +1832,7 @@
     "김유신장군동상":{
         "PlaceNumber":123,
         "Class":"유적지",
+        "PlaceName":"김유신장군동상",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 남창동 204-2",
@@ -1724,6 +1847,7 @@
     "김중업 건축문화의집":{
         "PlaceNumber":124,
         "Class":"공연\/전시장",
+        "PlaceName":"김중업 건축문화의집",
         "LineNumber":6,
         "Station":"상월곡역",
         "Address":"서울 성북구 장위로21나길 11",
@@ -1738,6 +1862,7 @@
     "김치박물관":{
         "PlaceNumber":125,
         "Class":"박물관\/기념관",
+        "PlaceName":"김치박물관",
         "LineNumber":9,
         "Station":"봉은사역",
         "Address":"서울 강남구 삼성동 159",
@@ -1752,6 +1877,7 @@
     "꼬스트홀":{
         "PlaceNumber":126,
         "Class":"기타",
+        "PlaceName":"꼬스트홀",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
         "Address":"서울 중구 명동2가 1-1",
@@ -1766,6 +1892,7 @@
     "나루아트센터":{
         "PlaceNumber":127,
         "Class":"문화예술회관",
+        "PlaceName":"나루아트센터",
         "LineNumber":"2, 7",
         "Station":"건대입구역",
         "Address":"서울 광진구 자양동 227-344",
@@ -1780,6 +1907,7 @@
     "낙성대":{
         "PlaceNumber":128,
         "Class":"유적지",
+        "PlaceName":"낙성대",
         "LineNumber":2,
         "Station":"낙성대역",
         "Address":"서울 관악구 낙성대로 77",
@@ -1794,6 +1922,7 @@
     "남산골한옥마을":{
         "PlaceNumber":129,
         "Class":"유적지",
+        "PlaceName":"남산골한옥마을",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 퇴계로 34길 28",
@@ -1808,6 +1937,7 @@
     "남산공원 호현당":{
         "PlaceNumber":130,
         "Class":"기타",
+        "PlaceName":"남산공원 호현당",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 회현동1가 산 1-44",
@@ -1822,6 +1952,7 @@
     "남산봉수대":{
         "PlaceNumber":131,
         "Class":"유적지",
+        "PlaceName":"남산봉수대",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 예장동",
@@ -1836,6 +1967,7 @@
     "남산예술센터드라마센터":{
         "PlaceNumber":132,
         "Class":"공연장",
+        "PlaceName":"남산예술센터드라마센터",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 예장동 8-19",
@@ -1850,6 +1982,7 @@
     "남산전시관":{
         "PlaceNumber":133,
         "Class":"미술관",
+        "PlaceName":"남산전시관",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 이태원동 258-148",
@@ -1864,6 +1997,7 @@
     "내곡느티나무쉼터":{
         "PlaceNumber":134,
         "Class":"기타",
+        "PlaceName":"내곡느티나무쉼터",
         "LineNumber":"신분당선",
         "Station":"양재시민의숲역",
         "Address":"서울 서초구 염곡말길 9",
@@ -1878,6 +2012,7 @@
     "노들섬 복합문화공간":{
         "PlaceNumber":135,
         "Class":"기타",
+        "PlaceName":"노들섬 복합문화공간",
         "LineNumber":9,
         "Station":"노들역",
         "Address":"서울 용산구 양녕로 445",
@@ -1892,6 +2027,7 @@
     "노원구민체육센터":{
         "PlaceNumber":136,
         "Class":"기타",
+        "PlaceName":"노원구민체육센터",
         "LineNumber":7,
         "Station":"중계역",
         "Address":"서울 노원구 중계동 507-3",
@@ -1906,6 +2042,7 @@
     "노원문화예술회관":{
         "PlaceNumber":137,
         "Class":"문화예술회관",
+        "PlaceName":"노원문화예술회관",
         "LineNumber":7,
         "Station":"하계역",
         "Address":"서울 노원구 중계로 181",
@@ -1920,6 +2057,7 @@
     "노원어린이극장":{
         "PlaceNumber":138,
         "Class":"공연장",
+        "PlaceName":"노원어린이극장",
         "LineNumber":"4, 7",
         "Station":"노원역",
         "Address":"서울 노원구 노해로 502",
@@ -1934,6 +2072,7 @@
     "노화랑":{
         "PlaceNumber":139,
         "Class":"미술관",
+        "PlaceName":"노화랑",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 103",
@@ -1948,6 +2087,7 @@
     "농업박물관":{
         "PlaceNumber":140,
         "Class":"박물관\/기념관",
+        "PlaceName":"농업박물관",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 중구 충정로1가 100-707",
@@ -1962,6 +2102,7 @@
     "다산정약용동상":{
         "PlaceNumber":141,
         "Class":"유적지",
+        "PlaceName":"다산정약용동상",
         "LineNumber":"1, 4",
         "Station":"서울역",
         "Address":"서울 용산구 소월로 108",
@@ -1976,6 +2117,7 @@
     "단막극장":{
         "PlaceNumber":142,
         "Class":"공연장",
+        "PlaceName":"단막극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 12-6",
@@ -1990,6 +2132,7 @@
     "단성사":{
         "PlaceNumber":143,
         "Class":"공연장",
+        "PlaceName":"단성사",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 묘동 56",
@@ -2004,6 +2147,7 @@
     "대동문":{
         "PlaceNumber":144,
         "Class":"유적지",
+        "PlaceName":"대동문",
         "LineNumber":4,
         "Station":"수유역",
         "Address":"서울 강북구 4.19로28길 19-9",
@@ -2018,6 +2162,7 @@
     "대림미술관":{
         "PlaceNumber":145,
         "Class":"미술관",
+        "PlaceName":"대림미술관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 통의동 35-1",
@@ -2032,6 +2177,7 @@
     "대안공간 풀":{
         "PlaceNumber":146,
         "Class":"미술관",
+        "PlaceName":"대안공간 풀",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 구기동 56-13",
@@ -2046,6 +2192,7 @@
     "대원 컨텐츠 라이브":{
         "PlaceNumber":147,
         "Class":"공연장",
+        "PlaceName":"대원 컨텐츠 라이브",
         "LineNumber":"1, 경의중앙",
         "Station":"용산역",
         "Address":"서울 용산구 한강대로23길 55",
@@ -2060,6 +2207,7 @@
     "대진체육관":{
         "PlaceNumber":148,
         "Class":"기타",
+        "PlaceName":"대진체육관",
         "LineNumber":3,
         "Station":"대청역",
         "Address":"서울 강남구 개포동 13-1",
@@ -2074,6 +2222,7 @@
     "대학로 열린 극장":{
         "PlaceNumber":149,
         "Class":"공연장",
+        "PlaceName":"대학로 열린 극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 명륜2가 21-18",
@@ -2088,6 +2237,7 @@
     "대학로극장":{
         "PlaceNumber":150,
         "Class":"공연장",
+        "PlaceName":"대학로극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 연건동 178-1",
@@ -2102,6 +2252,7 @@
     "대학로연습실":{
         "PlaceNumber":151,
         "Class":"기타",
+        "PlaceName":"대학로연습실",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭길117",
@@ -2116,6 +2267,7 @@
     "대한극장":{
         "PlaceNumber":152,
         "Class":"공연장",
+        "PlaceName":"대한극장",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 충무로4가 125",
@@ -2130,6 +2282,7 @@
     "덕성여자대학교 박물관":{
         "PlaceNumber":153,
         "Class":"박물관\/기념관",
+        "PlaceName":"덕성여자대학교 박물관",
         "LineNumber":"우이신설",
         "Station":"솔밭공원역",
         "Address":"서울 도봉구 쌍문동 419",
@@ -2144,6 +2297,7 @@
     "덕수궁":{
         "PlaceNumber":154,
         "Class":"유적지",
+        "PlaceName":"덕수궁",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 세종대로 99",
@@ -2158,6 +2312,7 @@
     "덕원갤러리":{
         "PlaceNumber":155,
         "Class":"미술관",
+        "PlaceName":"덕원갤러리",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 인사동 15길 24",
@@ -2172,6 +2327,7 @@
     "도봉구민청 1층 갤러리":{
         "PlaceNumber":156,
         "Class":"공연\/전시장",
+        "PlaceName":"도봉구민청 1층 갤러리",
         "LineNumber":1,
         "Station":"방학역",
         "Address":"서울 도봉구 마들로 656",
@@ -2186,6 +2342,7 @@
     "도봉문화재단":{
         "PlaceNumber":157,
         "Class":"문화예술회관",
+        "PlaceName":"도봉문화재단",
         "LineNumber":"1, 4",
         "Station":"창동역",
         "Address":"서울 도봉구 노해로63길 43",
@@ -2200,6 +2357,7 @@
     "도산안창호 기념관":{
         "PlaceNumber":158,
         "Class":"박물관\/기념관",
+        "PlaceName":"도산안창호 기념관",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 신사동 649-9",
@@ -2214,6 +2372,7 @@
     "도원극장":{
         "PlaceNumber":159,
         "Class":"공연장",
+        "PlaceName":"도원극장",
         "LineNumber":3,
         "Station":"녹번역",
         "Address":"서울 은평구 녹번동 79-2",
@@ -2228,6 +2387,7 @@
     "도편수이승업가옥":{
         "PlaceNumber":160,
         "Class":"유적지",
+        "PlaceName":"도편수이승업가옥",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 퇴계로 34길 28",
@@ -2242,6 +2402,7 @@
     "독립문":{
         "PlaceNumber":161,
         "Class":"유적지",
+        "PlaceName":"독립문",
         "LineNumber":3,
         "Station":"독립문역",
         "Address":"서울 서대문구 현저동 941",
@@ -2256,6 +2417,7 @@
     "돈의문박물관마을":{
         "PlaceNumber":162,
         "Class":"박물관\/기념관",
+        "PlaceName":"돈의문박물관마을",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 종로구 송월길 14-3",
@@ -2270,6 +2432,7 @@
     "돈화문 서울무형문화재교육전시장":{
         "PlaceNumber":163,
         "Class":"문화예술회관",
+        "PlaceName":"돈화문 서울무형문화재교육전시장",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 율곡로 10길 13",
@@ -2284,6 +2447,7 @@
     "동국대학교 박물관":{
         "PlaceNumber":164,
         "Class":"박물관\/기념관",
+        "PlaceName":"동국대학교 박물관",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 필동3가 26",
@@ -2298,6 +2462,7 @@
     "동대문구문화회관":{
         "PlaceNumber":165,
         "Class":"문화예술회관",
+        "PlaceName":"동대문구문화회관",
         "LineNumber":5,
         "Station":"답십리역",
         "Address":"서울 동대문구 답십리로 210-9",
@@ -2312,6 +2477,7 @@
     "동대문구민체육센터":{
         "PlaceNumber":166,
         "Class":"기타",
+        "PlaceName":"동대문구민체육센터",
         "LineNumber":5,
         "Station":"장한평역",
         "Address":"서울 동대문구 장안벚꽃로 67",
@@ -2326,6 +2492,7 @@
     "동대문구청 아트갤러리":{
         "PlaceNumber":167,
         "Class":"공연\/전시장",
+        "PlaceName":"동대문구청 아트갤러리",
         "LineNumber":2,
         "Station":"용두역",
         "Address":"서울 동대문구 용두동 39-9",
@@ -2340,6 +2507,7 @@
     "동대문구체육관":{
         "PlaceNumber":168,
         "Class":"기타",
+        "PlaceName":"동대문구체육관",
         "LineNumber":1,
         "Station":"제기역",
         "Address":"서울 동대문구 답십리동 2-294",
@@ -2354,6 +2522,7 @@
     "동덕아트갤러리":{
         "PlaceNumber":169,
         "Class":"미술관",
+        "PlaceName":"동덕아트갤러리",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 151-4",
@@ -2368,6 +2537,7 @@
     "동덕여자대학교 박물관":{
         "PlaceNumber":170,
         "Class":"박물관\/기념관",
+        "PlaceName":"동덕여자대학교 박물관",
         "LineNumber":6,
         "Station":"월곡역",
         "Address":"서울 성북구 하월곡동 23-1",
@@ -2382,6 +2552,7 @@
     "동방예술극장":{
         "PlaceNumber":171,
         "Class":"공연장",
+        "PlaceName":"동방예술극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 마포구 노고산동 33-22",
@@ -2396,6 +2567,7 @@
     "동산방화랑":{
         "PlaceNumber":172,
         "Class":"미술관",
+        "PlaceName":"동산방화랑",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 견지동 93",
@@ -2410,6 +2582,7 @@
     "동서화랑":{
         "PlaceNumber":173,
         "Class":"미술관",
+        "PlaceName":"동서화랑",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 종로구 관훈동 196-3",
@@ -2424,6 +2597,7 @@
     "동숭무대":{
         "PlaceNumber":174,
         "Class":"공연장",
+        "PlaceName":"동숭무대",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 혜화로 35",
@@ -2438,6 +2612,7 @@
     "동숭아트센터":{
         "PlaceNumber":175,
         "Class":"공연장",
+        "PlaceName":"동숭아트센터",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-5",
@@ -2452,6 +2627,7 @@
     "동작문화재단":{
         "PlaceNumber":176,
         "Class":"문화예술회관",
+        "PlaceName":"동작문화재단",
         "LineNumber":9,
         "Station":"흑석역",
         "Address":"서울 동작구 흑석로 93-1",
@@ -2466,6 +2642,7 @@
     "동작아트갤러리":{
         "PlaceNumber":177,
         "Class":"미술관",
+        "PlaceName":"동작아트갤러리",
         "LineNumber":7,
         "Station":"보라매역",
         "Address":"서울 동작구 보라매로5길 28-1",
@@ -2480,6 +2657,7 @@
     "동호갤러리":{
         "PlaceNumber":178,
         "Class":"미술관",
+        "PlaceName":"동호갤러리",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 관훈동 197-18",
@@ -2494,6 +2672,7 @@
     "두산갤러리":{
         "PlaceNumber":179,
         "Class":"미술관",
+        "PlaceName":"두산갤러리",
         "LineNumber":1,
         "Station":"종로5가역",
         "Address":"서울 종로구 종로33길 15",
@@ -2508,6 +2687,7 @@
     "두산아트센터":{
         "PlaceNumber":180,
         "Class":"공연장",
+        "PlaceName":"두산아트센터",
         "LineNumber":1,
         "Station":"종로5가역",
         "Address":"서울 종로구 연지동 270",
@@ -2522,6 +2702,7 @@
     "둘리뮤지엄":{
         "PlaceNumber":181,
         "Class":"박물관\/기념관",
+        "PlaceName":"둘리뮤지엄",
         "LineNumber":4,
         "Station":"쌍문역",
         "Address":"서울 도봉구 쌍문동 산 250",
@@ -2536,6 +2717,7 @@
     "드플로허":{
         "PlaceNumber":182,
         "Class":"문화원",
+        "PlaceName":"드플로허",
         "LineNumber":6,
         "Station":"이태원역",
         "Address":"서울 용산구 대사관로5길 34",
@@ -2550,6 +2732,7 @@
     "디뮤지엄":{
         "PlaceNumber":183,
         "Class":"미술관",
+        "PlaceName":"디뮤지엄",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
         "Address":"서울 용산구 독서당로29길 5-6",
@@ -2564,6 +2747,7 @@
     "디지털 파빌리온":{
         "PlaceNumber":184,
         "Class":"미술관",
+        "PlaceName":"디지털 파빌리온",
         "LineNumber":"경의중앙",
         "Station":"수색역",
         "Address":"서울 마포구 상암동 1605",
@@ -2578,6 +2762,7 @@
     "떡박물관":{
         "PlaceNumber":185,
         "Class":"공연장",
+        "PlaceName":"떡박물관",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 와룡동 164-2",
@@ -2592,6 +2777,7 @@
     "떼아뜨르 秋":{
         "PlaceNumber":186,
         "Class":"기타",
+        "PlaceName":"떼아뜨르 秋",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 서교동 358-116",
@@ -2606,6 +2792,7 @@
     "뚝섬전망문화콤플렉스":{
         "PlaceNumber":187,
         "Class":"기타",
+        "PlaceName":"뚝섬전망문화콤플렉스",
         "LineNumber":7,
         "Station":"뚝섬유원지역",
         "Address":"서울 광진구 자양동 97-5",
@@ -2620,6 +2807,7 @@
     "롯데월드":{
         "PlaceNumber":188,
         "Class":"기타",
+        "PlaceName":"롯데월드",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 잠실동  올림픽로 240",
@@ -2634,6 +2822,7 @@
     "롯데월드 아이스링크":{
         "PlaceNumber":189,
         "Class":"문화원",
+        "PlaceName":"롯데월드 아이스링크",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 올림픽로 240",
@@ -2648,6 +2837,7 @@
     "롯데월드 야외공연장":{
         "PlaceNumber":190,
         "Class":"공연장",
+        "PlaceName":"롯데월드 야외공연장",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 잠실동 47",
@@ -2662,6 +2852,7 @@
     "롯데월드 화랑":{
         "PlaceNumber":191,
         "Class":"미술관",
+        "PlaceName":"롯데월드 화랑",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 잠실동 40-1",
@@ -2676,6 +2867,7 @@
     "롯데콘서트홀":{
         "PlaceNumber":192,
         "Class":"공연장",
+        "PlaceName":"롯데콘서트홀",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 올림픽로 300",
@@ -2690,6 +2882,7 @@
     "롯데화랑":{
         "PlaceNumber":193,
         "Class":"미술관",
+        "PlaceName":"롯데화랑",
         "LineNumber":2,
         "Station":"을지로입구역",
         "Address":"서울 중구 소공동 1",
@@ -2704,6 +2897,7 @@
     "리틀엔젤스예술회관":{
         "PlaceNumber":194,
         "Class":"문화예술회관",
+        "PlaceName":"리틀엔젤스예술회관",
         "LineNumber":5,
         "Station":"아차산역",
         "Address":"서울 광진구 능동로36길 25",
@@ -2718,6 +2912,7 @@
     "마루아트홀":{
         "PlaceNumber":195,
         "Class":"공연장",
+        "PlaceName":"마루아트홀",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 대학로8가길 30",
@@ -2732,6 +2927,7 @@
     "마포아트센터":{
         "PlaceNumber":196,
         "Class":"문화예술회관",
+        "PlaceName":"마포아트센터",
         "LineNumber":6,
         "Station":"대흥역",
         "Address":"서울 마포구 대흥로20길 28",
@@ -2746,6 +2942,7 @@
     "맛동":{
         "PlaceNumber":197,
         "Class":"기타",
+        "PlaceName":"맛동",
         "LineNumber":"3, 6",
         "Station":"불광역",
         "Address":"서울 은평구 녹번동 5-29",
@@ -2760,6 +2957,7 @@
     "망묘루":{
         "PlaceNumber":198,
         "Class":"유적지",
+        "PlaceName":"망묘루",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 종로 157",
@@ -2774,6 +2972,7 @@
     "메이커시티 세운":{
         "PlaceNumber":199,
         "Class":"기타",
+        "PlaceName":"메이커시티 세운",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 종로3가 143-1",
@@ -2788,6 +2987,7 @@
     "명동난타극장":{
         "PlaceNumber":200,
         "Class":"공연장",
+        "PlaceName":"명동난타극장",
         "LineNumber":2,
         "Station":"을지로입구역",
         "Address":"서울 중구 명동길 26",
@@ -2802,6 +3002,7 @@
     "명동예술극장":{
         "PlaceNumber":201,
         "Class":"공연장",
+        "PlaceName":"명동예술극장",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 명동길 35",
@@ -2816,6 +3017,7 @@
     "명보극장":{
         "PlaceNumber":202,
         "Class":"공연장",
+        "PlaceName":"명보극장",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
         "Address":"서울 중구 초동 18-5",
@@ -2830,6 +3032,7 @@
     "모차르트콘서트홀":{
         "PlaceNumber":203,
         "Class":"공연장",
+        "PlaceName":"모차르트콘서트홀",
         "LineNumber":2,
         "Station":"서초역",
         "Address":"서울 서초구 서초동 1515-3",
@@ -2844,6 +3047,7 @@
     "목동아이스링크":{
         "PlaceNumber":204,
         "Class":"문화원",
+        "PlaceName":"목동아이스링크",
         "LineNumber":5,
         "Station":"오목교역",
         "Address":"서울 양천구 목동  안양천로 939",
@@ -2858,6 +3062,7 @@
     "목동운동장":{
         "PlaceNumber":205,
         "Class":"문화원",
+        "PlaceName":"목동운동장",
         "LineNumber":5,
         "Station":"오목교역",
         "Address":"서울 양천구 목동 914",
@@ -2872,6 +3077,7 @@
     "목인박물관":{
         "PlaceNumber":206,
         "Class":"박물관\/기념관",
+        "PlaceName":"목인박물관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 견지동 83",
@@ -2886,6 +3092,7 @@
     "몽촌역사관":{
         "PlaceNumber":207,
         "Class":"박물관\/기념관",
+        "PlaceName":"몽촌역사관",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
         "Address":"서울 송파구 올림픽로 424",
@@ -2900,6 +3107,7 @@
     "몽촌토성":{
         "PlaceNumber":208,
         "Class":"유적지",
+        "PlaceName":"몽촌토성",
         "LineNumber":8,
         "Station":"강동구청역",
         "Address":"서울 송파구 올림픽로 424",
@@ -2914,6 +3122,7 @@
     "무계원":{
         "PlaceNumber":209,
         "Class":"문화원",
+        "PlaceName":"무계원",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 부암동 315-3",
@@ -2928,6 +3137,7 @@
     "문래예술공장":{
         "PlaceNumber":210,
         "Class":"문화예술회관",
+        "PlaceName":"문래예술공장",
         "LineNumber":1,
         "Station":"영등포역",
         "Address":"서울 영등포구 경인로88길 5-4",
@@ -2942,6 +3152,7 @@
     "문예진흥원 아르코미술관":{
         "PlaceNumber":211,
         "Class":"미술관",
+        "PlaceName":"문예진흥원 아르코미술관",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-130",
@@ -2956,6 +3167,7 @@
     "문학의집서울":{
         "PlaceNumber":212,
         "Class":"공연\/전시장",
+        "PlaceName":"문학의집서울",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 퇴계로26길 65",
@@ -2970,6 +3182,7 @@
     "문화공간 이육사":{
         "PlaceNumber":213,
         "Class":"공연\/전시장",
+        "PlaceName":"문화공간 이육사",
         "LineNumber":6,
         "Station":"고려대역",
         "Address":"서울 성북구 종암로21가길 36-1",
@@ -2984,6 +3197,7 @@
     "문화류씨묘역":{
         "PlaceNumber":214,
         "Class":"유적지",
+        "PlaceName":"문화류씨묘역",
         "LineNumber":"3, 5",
         "Station":"오금역",
         "Address":"서울 송파구 오금동",
@@ -2998,6 +3212,7 @@
     "문화비축기지":{
         "PlaceNumber":215,
         "Class":"기타",
+        "PlaceName":"문화비축기지",
         "LineNumber":"6, 공항, 경의중앙",
         "Station":"디지털미디어시티역",
         "Address":"서울 마포구 성산동 661 증산로 87",
@@ -3012,6 +3227,7 @@
     "문화일보홀":{
         "PlaceNumber":216,
         "Class":"공연장",
+        "PlaceName":"문화일보홀",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 중구 충정로1가 68",
@@ -3026,6 +3242,7 @@
     "문화정원아트홀":{
         "PlaceNumber":217,
         "Class":"공연장",
+        "PlaceName":"문화정원아트홀",
         "LineNumber":1,
         "Station":"독산역",
         "Address":"서울 금천구 독산동 296-9",
@@ -3040,6 +3257,7 @@
     "민속극장풍류":{
         "PlaceNumber":218,
         "Class":"공연장",
+        "PlaceName":"민속극장풍류",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
         "Address":"서울 강남구 삼성동 112-2",
@@ -3054,6 +3272,7 @@
     "밀알학교 세라믹 팔레스홀":{
         "PlaceNumber":219,
         "Class":"공연장",
+        "PlaceName":"밀알학교 세라믹 팔레스홀",
         "LineNumber":3,
         "Station":"일원역",
         "Address":"서울 강남구 일원동 713",
@@ -3068,6 +3287,7 @@
     "반포심산아트홀":{
         "PlaceNumber":220,
         "Class":"공연장",
+        "PlaceName":"반포심산아트홀",
         "LineNumber":9,
         "Station":"구반포역",
         "Address":"서울 서초구 반포동 114-3",
@@ -3082,6 +3302,7 @@
     "밝은미소운동본부":{
         "PlaceNumber":221,
         "Class":"기타",
+        "PlaceName":"밝은미소운동본부",
         "LineNumber":3,
         "Station":"일원역",
         "Address":"서울 강남구 일원로 121",
@@ -3096,6 +3317,7 @@
     "방송회관 코바코홀":{
         "PlaceNumber":222,
         "Class":"공연장",
+        "PlaceName":"방송회관 코바코홀",
         "LineNumber":5,
         "Station":"오목교역",
         "Address":"서울 양천구 목동동로 233",
@@ -3110,6 +3332,7 @@
     "백련사":{
         "PlaceNumber":223,
         "Class":"유적지",
+        "PlaceName":"백련사",
         "LineNumber":4,
         "Station":"수유역",
         "Address":"서울 강북구 수유동 산 17-1",
@@ -3124,6 +3347,7 @@
     "백범광장":{
         "PlaceNumber":224,
         "Class":"유적지",
+        "PlaceName":"백범광장",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 회현동1가 100-115",
@@ -3138,6 +3362,7 @@
     "백범기념관":{
         "PlaceNumber":225,
         "Class":"박물관\/기념관",
+        "PlaceName":"백범기념관",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 효창동 255",
@@ -3152,6 +3377,7 @@
     "백범김구기념관":{
         "PlaceNumber":226,
         "Class":"유적지",
+        "PlaceName":"백범김구기념관",
         "LineNumber":"경의중앙, 6",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 임정로 26",
@@ -3166,6 +3392,7 @@
     "백암아트홀":{
         "PlaceNumber":227,
         "Class":"공연장",
+        "PlaceName":"백암아트홀",
         "LineNumber":2,
         "Station":"삼성역",
         "Address":"서울 강남구 테헤란로113길 7",
@@ -3180,6 +3407,7 @@
     "보나장신구 박물관":{
         "PlaceNumber":228,
         "Class":"박물관\/기념관",
+        "PlaceName":"보나장신구 박물관",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 관훈동 192-10 ",
@@ -3194,6 +3422,7 @@
     "보신각":{
         "PlaceNumber":229,
         "Class":"유적지",
+        "PlaceName":"보신각",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 종로 54",
@@ -3208,6 +3437,7 @@
     "봄날아트홀":{
         "PlaceNumber":230,
         "Class":"공연장",
+        "PlaceName":"봄날아트홀",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-153",
@@ -3222,6 +3452,7 @@
     "부암아트홀":{
         "PlaceNumber":231,
         "Class":"공연장",
+        "PlaceName":"부암아트홀",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 부암동 208-71",
@@ -3236,6 +3467,7 @@
     "부엉이 박물관":{
         "PlaceNumber":232,
         "Class":"박물관\/기념관",
+        "PlaceName":"부엉이 박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 삼청동 27-21",
@@ -3250,6 +3482,7 @@
     "북서울꿈의숲":{
         "PlaceNumber":233,
         "Class":"기타",
+        "PlaceName":"북서울꿈의숲",
         "LineNumber":4,
         "Station":"미아사거리역",
         "Address":"서울 강북구 월계로 173",
@@ -3264,6 +3497,7 @@
     "북촌 서울무형문화재 교육전시장":{
         "PlaceNumber":234,
         "Class":"문화예술회관",
+        "PlaceName":"북촌 서울무형문화재 교육전시장",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 북촌로 20-13",
@@ -3278,6 +3512,7 @@
     "북촌문화센터":{
         "PlaceNumber":235,
         "Class":"문화예술회관",
+        "PlaceName":"북촌문화센터",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 계동길 37",
@@ -3292,6 +3527,7 @@
     "북촌박물관":{
         "PlaceNumber":236,
         "Class":"미술관",
+        "PlaceName":"북촌박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 가회동 170-4",
@@ -3306,6 +3542,7 @@
     "블루스퀘어(Blue Square)":{
         "PlaceNumber":237,
         "Class":"공연장",
+        "PlaceName":"블루스퀘어(Blue Square)",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 한남동 727-56",
@@ -3320,6 +3557,7 @@
     "빈집프로젝트":{
         "PlaceNumber":238,
         "Class":"공연장",
+        "PlaceName":"빈집프로젝트",
         "LineNumber":2,
         "Station":"구로디지털단지역",
         "Address":"서울 금천구 독산로96길 6",
@@ -3334,6 +3572,7 @@
     "사각사각 플레이스":{
         "PlaceNumber":239,
         "Class":"문화예술회관",
+        "PlaceName":"사각사각 플레이스",
         "LineNumber":2,
         "Station":"잠실새내역",
         "Address":"서울 송파구 한가람로 65",
@@ -3348,6 +3587,7 @@
     "사당문화회관":{
         "PlaceNumber":240,
         "Class":"문화예술회관",
+        "PlaceName":"사당문화회관",
         "LineNumber":7,
         "Station":"남성역",
         "Address":"서울 동작구 사당동 248-6",
@@ -3362,6 +3602,7 @@
     "사비나미술관":{
         "PlaceNumber":241,
         "Class":"미술관",
+        "PlaceName":"사비나미술관",
         "LineNumber":"3, 6",
         "Station":"연신내역",
         "Address":"서울 은평구 진관1로 93",
@@ -3376,6 +3617,7 @@
     "사육신역사관":{
         "PlaceNumber":242,
         "Class":"박물관\/기념관",
+        "PlaceName":"사육신역사관",
         "LineNumber":9,
         "Station":"노들역",
         "Address":"서울 동작구 노량진로 191",
@@ -3390,6 +3632,7 @@
     "삼각산시민청":{
         "PlaceNumber":243,
         "Class":"공연\/전시장",
+        "PlaceName":"삼각산시민청",
         "LineNumber":"우이신설",
         "Station":"솦밭공원역",
         "Address":"서울 강북구 삼양로 595",
@@ -3404,6 +3647,7 @@
     "삼봉정도전시비":{
         "PlaceNumber":244,
         "Class":"유적지",
+        "PlaceName":"삼봉정도전시비",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 인의동 123",
@@ -3418,6 +3662,7 @@
     "삼성미술관 Leeum":{
         "PlaceNumber":245,
         "Class":"미술관",
+        "PlaceName":"삼성미술관 Leeum",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 한남동 747-18",
@@ -3432,6 +3677,7 @@
     "삼성출판박물관":{
         "PlaceNumber":246,
         "Class":"박물관\/기념관",
+        "PlaceName":"삼성출판박물관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 구기동 126-4",
@@ -3446,6 +3692,7 @@
     "삼일로창고극장":{
         "PlaceNumber":247,
         "Class":"공연장",
+        "PlaceName":"삼일로창고극장",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 삼일대로9길 12",
@@ -3460,6 +3707,7 @@
     "삼전도비":{
         "PlaceNumber":248,
         "Class":"유적지",
+        "PlaceName":"삼전도비",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 송파나루길 256",
@@ -3474,6 +3722,7 @@
     "삼청각":{
         "PlaceNumber":249,
         "Class":"기타",
+        "PlaceName":"삼청각",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 성북구 성북동 330-115",
@@ -3488,6 +3737,7 @@
     "상계예술마당":{
         "PlaceNumber":250,
         "Class":"미술관",
+        "PlaceName":"상계예술마당",
         "LineNumber":"4, 7",
         "Station":"노원역",
         "Address":"서울 노원구 상계로10길 41-7",
@@ -3502,6 +3752,7 @@
     "상명대학교 박물관":{
         "PlaceNumber":251,
         "Class":"박물관\/기념관",
+        "PlaceName":"상명대학교 박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 홍지동 110-743",
@@ -3516,6 +3767,7 @@
     "상명아트센터":{
         "PlaceNumber":252,
         "Class":"공연장",
+        "PlaceName":"상명아트센터",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 홍지동 7-1",
@@ -3530,6 +3782,7 @@
     "상봉시네마":{
         "PlaceNumber":253,
         "Class":"공연장",
+        "PlaceName":"상봉시네마",
         "LineNumber":"7, 경의중앙, 경춘",
         "Station":"상봉역",
         "Address":"서울 중랑구 상봉동 92-2",
@@ -3544,6 +3797,7 @@
     "샘터 파랑새 극장":{
         "PlaceNumber":254,
         "Class":"공연장",
+        "PlaceName":"샘터 파랑새 극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-115",
@@ -3558,6 +3812,7 @@
     "생명과학박물관":{
         "PlaceNumber":255,
         "Class":"박물관\/기념관",
+        "PlaceName":"생명과학박물관",
         "LineNumber":5,
         "Station":"오목교역",
         "Address":"서울 양천구 목동 405-207",
@@ -3572,6 +3827,7 @@
     "샬트르성바오로수녀회 역사박물관":{
         "PlaceNumber":256,
         "Class":"박물관\/기념관",
+        "PlaceName":"샬트르성바오로수녀회 역사박물관",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
         "Address":"서울 중구 명동2가 1-6",
@@ -3586,6 +3842,7 @@
     "서강대학교 박물관":{
         "PlaceNumber":257,
         "Class":"박물관\/기념관",
+        "PlaceName":"서강대학교 박물관",
         "LineNumber":"경의중앙선",
         "Station":"서강대역",
         "Address":"서울 마포구 신수동 1-1",
@@ -3600,6 +3857,7 @@
     "서교예술실험센터":{
         "PlaceNumber":258,
         "Class":"문화예술회관",
+        "PlaceName":"서교예술실험센터",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 잔다리로6길 33",
@@ -3614,6 +3872,7 @@
     "서대문문화회관":{
         "PlaceNumber":259,
         "Class":"문화예술회관",
+        "PlaceName":"서대문문화회관",
         "LineNumber":3,
         "Station":"홍제역",
         "Address":"서울 서대문구 홍은동 26-155",
@@ -3628,6 +3887,7 @@
     "서대문자연사박물관":{
         "PlaceNumber":260,
         "Class":"박물관\/기념관",
+        "PlaceName":"서대문자연사박물관",
         "LineNumber":2,
         "Station":"신촌역",
         "Address":"서울 서대문구 연희로32길 51",
@@ -3642,6 +3902,7 @@
     "서대문형무소역사관":{
         "PlaceNumber":261,
         "Class":"박물관\/기념관",
+        "PlaceName":"서대문형무소역사관",
         "LineNumber":3,
         "Station":"독립문역",
         "Address":"서울 서대문구 통일로 251",
@@ -3656,6 +3917,7 @@
     "서리풀청년아트갤러리":{
         "PlaceNumber":262,
         "Class":"미술관",
+        "PlaceName":"서리풀청년아트갤러리",
         "LineNumber":3,
         "Station":"남부터미널역",
         "Address":"서울 서초구 남부순환로323길 1",
@@ -3670,6 +3932,7 @@
     "서서울예술교육센터":{
         "PlaceNumber":263,
         "Class":"문화예술회관",
+        "PlaceName":"서서울예술교육센터",
         "LineNumber":"2, 5",
         "Station":"까치산역",
         "Address":"서울 양천구 남부순환로64길 2",
@@ -3684,6 +3947,7 @@
     "서울 아트 시네마":{
         "PlaceNumber":264,
         "Class":"공연장",
+        "PlaceName":"서울 아트 시네마",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 낙원동 삼일대로 428",
@@ -3698,6 +3962,7 @@
     "서울 애니메이션 센터":{
         "PlaceNumber":265,
         "Class":"기타",
+        "PlaceName":"서울 애니메이션 센터",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 소공로 48",
@@ -3712,6 +3977,7 @@
     "서울공예박물관":{
         "PlaceNumber":266,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울공예박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 율곡로3길 4",
@@ -3726,6 +3992,7 @@
     "서울교육문화회관":{
         "PlaceNumber":267,
         "Class":"문화예술회관",
+        "PlaceName":"서울교육문화회관",
         "LineNumber":"신분당선",
         "Station":"양재시민의숲역",
         "Address":"서울 서초구 바우뫼로12길 70",
@@ -3740,6 +4007,7 @@
     "서울극장":{
         "PlaceNumber":268,
         "Class":"공연장",
+        "PlaceName":"서울극장",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 관수동 돈화문로 13",
@@ -3754,6 +4022,7 @@
     "서울기록원":{
         "PlaceNumber":269,
         "Class":"기타",
+        "PlaceName":"서울기록원",
         "LineNumber":"3, 6",
         "Station":"불광역",
         "Address":"서울 은평구 통일로62길 7",
@@ -3768,6 +4037,7 @@
     "서울남산국악당":{
         "PlaceNumber":270,
         "Class":"공연장",
+        "PlaceName":"서울남산국악당",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 필동2가 84-1",
@@ -3782,6 +4052,7 @@
     "서울대학교 미술관":{
         "PlaceNumber":271,
         "Class":"미술관",
+        "PlaceName":"서울대학교 미술관",
         "LineNumber":2,
         "Station":"서울대입구역",
         "Address":"서울 관악구 신림동 56-1",
@@ -3796,6 +4067,7 @@
     "서울대학교 치과대학 치의학 박물관":{
         "PlaceNumber":272,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울대학교 치과대학 치의학 박물관",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 연건동 110-749",
@@ -3810,6 +4082,7 @@
     "서울도시건축전시관":{
         "PlaceNumber":273,
         "Class":"공연\/전시장",
+        "PlaceName":"서울도시건축전시관",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 세종대로 119",
@@ -3824,6 +4097,7 @@
     "서울돈화문국악당":{
         "PlaceNumber":274,
         "Class":"공연장",
+        "PlaceName":"서울돈화문국악당",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 와룡동 12-2",
@@ -3838,6 +4112,7 @@
     "서울로 7017":{
         "PlaceNumber":275,
         "Class":"기타",
+        "PlaceName":"서울로 7017",
         "LineNumber":"경의중앙",
         "Station":"서울역",
         "Address":"서울 중구 만리동1가 1",
@@ -3852,6 +4127,7 @@
     "서울로미디어캔버스":{
         "PlaceNumber":276,
         "Class":"공연\/전시장",
+        "PlaceName":"서울로미디어캔버스",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 중구 만리재로 215",
@@ -3866,6 +4142,7 @@
     "서울무용센터":{
         "PlaceNumber":277,
         "Class":"기타",
+        "PlaceName":"서울무용센터",
         "LineNumber":6,
         "Station":"새절역",
         "Address":"서울 서대문구 명지2길 14",
@@ -3880,6 +4157,7 @@
     "서울문화재단":{
         "PlaceNumber":278,
         "Class":"문화예술회관",
+        "PlaceName":"서울문화재단",
         "LineNumber":2,
         "Station":"용두역",
         "Address":"서울 동대문구 청계천로 517",
@@ -3894,6 +4172,7 @@
     "서울방이동고분군":{
         "PlaceNumber":279,
         "Class":"유적지",
+        "PlaceName":"서울방이동고분군",
         "LineNumber":9,
         "Station":"송파나루역",
         "Address":"서울 송파구 방이동",
@@ -3908,6 +4187,7 @@
     "서울상상나라":{
         "PlaceNumber":280,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울상상나라",
         "LineNumber":7,
         "Station":"어린이대공원역",
         "Address":"서울 광진구 능동로 216",
@@ -3922,6 +4202,7 @@
     "서울새활용플라자":{
         "PlaceNumber":281,
         "Class":"기타",
+        "PlaceName":"서울새활용플라자",
         "LineNumber":5,
         "Station":"장한평역",
         "Address":"서울 성동구 자동차시장길49",
@@ -3936,6 +4217,7 @@
     "서울생각마루":{
         "PlaceNumber":282,
         "Class":"기타",
+        "PlaceName":"서울생각마루",
         "LineNumber":7,
         "Station":"뚝섬유원지역",
         "Address":"서울 광진구 강변북로 2202",
@@ -3950,6 +4232,7 @@
     "서울생활문화센터 낙원":{
         "PlaceNumber":283,
         "Class":"문화예술회관",
+        "PlaceName":"서울생활문화센터 낙원",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 삼일대로 428",
@@ -3964,6 +4247,7 @@
     "서울생활문화센터 서교":{
         "PlaceNumber":284,
         "Class":"문화예술회관",
+        "PlaceName":"서울생활문화센터 서교",
         "LineNumber":"2, 6",
         "Station":"합정역",
         "Address":"서울 마포구 양화로 72",
@@ -3978,6 +4262,7 @@
     "서울생활문화센터 체부":{
         "PlaceNumber":285,
         "Class":"문화예술회관",
+        "PlaceName":"서울생활문화센터 체부",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 자하문로1나길 3-2",
@@ -3992,6 +4277,7 @@
     "서울생활사박물관":{
         "PlaceNumber":286,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울생활사박물관",
         "LineNumber":7,
         "Station":"태릉입구역",
         "Address":"서울 노원구 동일로 174길 27",
@@ -4006,6 +4292,7 @@
     "서울숲공원 야외공연장":{
         "PlaceNumber":287,
         "Class":"공연장",
+        "PlaceName":"서울숲공원 야외공연장",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
         "Address":"서울 성동구 성수동1가 685-306",
@@ -4020,6 +4307,7 @@
     "서울시립 북서울미술관":{
         "PlaceNumber":288,
         "Class":"미술관",
+        "PlaceName":"서울시립 북서울미술관",
         "LineNumber":7,
         "Station":"하계역",
         "Address":"서울 노원구 동일로 1238",
@@ -4034,6 +4322,7 @@
     "서울시립과학관":{
         "PlaceNumber":289,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울시립과학관",
         "LineNumber":7,
         "Station":"하계역",
         "Address":"서울 노원구 한글비석로 160",
@@ -4048,6 +4337,7 @@
     "서울시립남서울미술관":{
         "PlaceNumber":290,
         "Class":"미술관",
+        "PlaceName":"서울시립남서울미술관",
         "LineNumber":"2, 4",
         "Station":"사당역",
         "Address":"서울 관악구 남부순환로 2076",
@@ -4062,6 +4352,7 @@
     "서울시립대학교 박물관":{
         "PlaceNumber":291,
         "Class":"공연장",
+        "PlaceName":"서울시립대학교 박물관",
         "LineNumber":"경의중앙, 수인분당, 경춘",
         "Station":"청량리역",
         "Address":"서울 동대문구 회기동 90",
@@ -4076,6 +4367,7 @@
     "서울시립미술관":{
         "PlaceNumber":292,
         "Class":"미술관",
+        "PlaceName":"서울시립미술관",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 서소문동 덕수궁길 61",
@@ -4090,6 +4382,7 @@
     "서울시립미술관 경희궁분관":{
         "PlaceNumber":293,
         "Class":"미술관",
+        "PlaceName":"서울시립미술관 경희궁분관",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 종로구 신문로2가 2-1",
@@ -4104,6 +4397,7 @@
     "서울시청 하늘광장 갤러리":{
         "PlaceNumber":294,
         "Class":"공연\/전시장",
+        "PlaceName":"서울시청 하늘광장 갤러리",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 세종대로 110",
@@ -4118,6 +4412,7 @@
     "서울식물원":{
         "PlaceNumber":295,
         "Class":"기타",
+        "PlaceName":"서울식물원",
         "LineNumber":"9, 공항",
         "Station":"마곡나루역",
         "Address":"서울 강서구 마곡동로 161",
@@ -4132,6 +4427,7 @@
     "서울아트센터":{
         "PlaceNumber":296,
         "Class":"미술관",
+        "PlaceName":"서울아트센터",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
         "Address":"서울 종로구 공평동  우정국로2길 32",
@@ -4146,6 +4442,7 @@
     "서울악스":{
         "PlaceNumber":297,
         "Class":"공연장",
+        "PlaceName":"서울악스",
         "LineNumber":5,
         "Station":"광나루역",
         "Address":"서울 광진구 구천면로 20",
@@ -4160,6 +4457,7 @@
     "서울암사동유적":{
         "PlaceNumber":298,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울암사동유적",
         "LineNumber":8,
         "Station":"암사역",
         "Address":"서울 강동구 올림픽로 875",
@@ -4174,6 +4472,7 @@
     "서울약령시한의약박물관":{
         "PlaceNumber":299,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울약령시한의약박물관",
         "LineNumber":1,
         "Station":"제기동역",
         "Address":"서울 동대문구 용두동 787",
@@ -4188,6 +4487,7 @@
     "서울역사박물관":{
         "PlaceNumber":300,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울역사박물관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 새문안로 55",
@@ -4202,6 +4502,7 @@
     "서울역사편찬원":{
         "PlaceNumber":301,
         "Class":"기타",
+        "PlaceName":"서울역사편찬원",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
         "Address":"서울 송파구 방이동  88-3",
@@ -4216,6 +4517,7 @@
     "서울연극센터":{
         "PlaceNumber":302,
         "Class":"공연\/전시장",
+        "PlaceName":"서울연극센터",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 창경궁로 253-1",
@@ -4230,6 +4532,7 @@
     "서울예술치유허브":{
         "PlaceNumber":303,
         "Class":"공연장",
+        "PlaceName":"서울예술치유허브",
         "LineNumber":3,
         "Station":"고려대역",
         "Address":"서울 성북구 종암동 28-358",
@@ -4244,6 +4547,7 @@
     "서울올림픽기념관":{
         "PlaceNumber":304,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울올림픽기념관",
         "LineNumber":8,
         "Station":"몽촌토성역",
         "Address":"서울 송파구 방이동 88",
@@ -4258,6 +4562,7 @@
     "서울우리소리박물관":{
         "PlaceNumber":305,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울우리소리박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 율곡로 96",
@@ -4272,6 +4577,7 @@
     "서울월드컵경기장":{
         "PlaceNumber":306,
         "Class":"문화원",
+        "PlaceName":"서울월드컵경기장",
         "LineNumber":6,
         "Station":"월드컵경기장역",
         "Address":"서울 마포구 성산동 526-3",
@@ -4286,6 +4592,7 @@
     "서울자유시민대학":{
         "PlaceNumber":307,
         "Class":"기타",
+        "PlaceName":"서울자유시민대학",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 종로구 신문로2가 1-43",
@@ -4300,6 +4607,7 @@
     "서울창작공간":{
         "PlaceNumber":308,
         "Class":"기타",
+        "PlaceName":"서울창작공간",
         "LineNumber":2,
         "Station":"용두역",
         "Address":"서울 동대문구 용두동 255-67",
@@ -4314,6 +4622,7 @@
     "서울책보고":{
         "PlaceNumber":309,
         "Class":"기타",
+        "PlaceName":"서울책보고",
         "LineNumber":2,
         "Station":"잠실나루역",
         "Address":"서울 송파구 신천동 14",
@@ -4328,6 +4637,7 @@
     "서울풍물시장":{
         "PlaceNumber":310,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울풍물시장",
         "LineNumber":"1, 2, 우이신설",
         "Station":"신설동역",
         "Address":"서울 동대문구 천호대로4길 21",
@@ -4342,6 +4652,7 @@
     "서울하수도과학관":{
         "PlaceNumber":311,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울하수도과학관",
         "LineNumber":5,
         "Station":"장한평역",
         "Address":"서울 성동구 용답동 250-7",
@@ -4356,6 +4667,7 @@
     "서울함공원":{
         "PlaceNumber":312,
         "Class":"박물관\/기념관",
+        "PlaceName":"서울함공원",
         "LineNumber":6,
         "Station":"망원역",
         "Address":"서울 마포구 마포나루길 407",
@@ -4370,6 +4682,7 @@
     "서울혁신파크":{
         "PlaceNumber":313,
         "Class":"미술관",
+        "PlaceName":"서울혁신파크",
         "LineNumber":"3, 6",
         "Station":"불광역",
         "Address":"서울 은평구 통일로 684",
@@ -4384,6 +4697,7 @@
     "선갤러리":{
         "PlaceNumber":314,
         "Class":"미술관",
+        "PlaceName":"선갤러리",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 인사동 184 5길 8",
@@ -4398,6 +4712,7 @@
     "선정릉":{
         "PlaceNumber":315,
         "Class":"유적지",
+        "PlaceName":"선정릉",
         "LineNumber":"2, 수인분당",
         "Station":"선릉역",
         "Address":"서울 강남구 선릉로 100길 1",
@@ -4412,6 +4727,7 @@
     "성곡미술관":{
         "PlaceNumber":316,
         "Class":"미술관",
+        "PlaceName":"성곡미술관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 신문로2가 1-101",
@@ -4426,6 +4742,7 @@
     "성북구립 최만린미술관":{
         "PlaceNumber":317,
         "Class":"미술관",
+        "PlaceName":"성북구립 최만린미술관",
         "LineNumber":"우이신설",
         "Station":"북한산보국문역",
         "Address":"서울 성북구 솔샘로7길 23",
@@ -4440,6 +4757,7 @@
     "성북선잠박물관":{
         "PlaceNumber":318,
         "Class":"박물관\/기념관",
+        "PlaceName":"성북선잠박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 성북구 성북로 96",
@@ -4454,6 +4772,7 @@
     "성수아트홀":{
         "PlaceNumber":319,
         "Class":"공연장",
+        "PlaceName":"성수아트홀",
         "LineNumber":2,
         "Station":"뚝섬역",
         "Address":"서울 성동구 뚝섬로1길 43",
@@ -4468,6 +4787,7 @@
     "성암아트홀":{
         "PlaceNumber":320,
         "Class":"공연장",
+        "PlaceName":"성암아트홀",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
         "Address":"서울 강남구 논현동 268-16",
@@ -4482,6 +4802,7 @@
     "세계골프역사박물관":{
         "PlaceNumber":321,
         "Class":"박물관\/기념관",
+        "PlaceName":"세계골프역사박물관",
         "LineNumber":2,
         "Station":"삼성역",
         "Address":"서울 강남구 테헤란로 528",
@@ -4496,6 +4817,7 @@
     "세계장신구 박물관":{
         "PlaceNumber":322,
         "Class":"박물관\/기념관",
+        "PlaceName":"세계장신구 박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 화동 75-3",
@@ -4510,6 +4832,7 @@
     "세빛섬":{
         "PlaceNumber":323,
         "Class":"기타",
+        "PlaceName":"세빛섬",
         "LineNumber":9,
         "Station":"신반포역",
         "Address":"서울 서초구 올림픽대로 2085-14",
@@ -4524,6 +4847,7 @@
     "세실극장":{
         "PlaceNumber":324,
         "Class":"공연장",
+        "PlaceName":"세실극장",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 정동 3-7",
@@ -4538,6 +4862,7 @@
     "세실아트홀":{
         "PlaceNumber":325,
         "Class":"공연장",
+        "PlaceName":"세실아트홀",
         "LineNumber":3,
         "Station":"압구정역",
         "Address":"서울 강남구 신사동 616-7",
@@ -4552,6 +4877,7 @@
     "세종대왕기념관":{
         "PlaceNumber":326,
         "Class":"박물관\/기념관",
+        "PlaceName":"세종대왕기념관",
         "LineNumber":6,
         "Station":"고려대역",
         "Address":"서울 대문구 청량리동 1-157 ",
@@ -4566,6 +4892,7 @@
     "세종대학교 대양홀":{
         "PlaceNumber":327,
         "Class":"공연장",
+        "PlaceName":"세종대학교 대양홀",
         "LineNumber":7,
         "Station":"어린이대공원역",
         "Address":"서울 광진구 군자동 98",
@@ -4580,6 +4907,7 @@
     "세종대학교 박물관":{
         "PlaceNumber":328,
         "Class":"박물관\/기념관",
+        "PlaceName":"세종대학교 박물관",
         "LineNumber":7,
         "Station":"어린이대공원역",
         "Address":"서울 광진구 군자동 98",
@@ -4594,6 +4922,7 @@
     "세종마을상촌재":{
         "PlaceNumber":329,
         "Class":"공연\/전시장",
+        "PlaceName":"세종마을상촌재",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 자하문로17길 12-11",
@@ -4608,6 +4937,7 @@
     "세종문화회관":{
         "PlaceNumber":330,
         "Class":"공연장",
+        "PlaceName":"세종문화회관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 세종대로 175",
@@ -4622,6 +4952,7 @@
     "세컨드에비뉴 갤러리":{
         "PlaceNumber":331,
         "Class":"미술관",
+        "PlaceName":"세컨드에비뉴 갤러리",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 필동로8길 22",
@@ -4636,6 +4967,7 @@
     "셀린박 갤러리":{
         "PlaceNumber":332,
         "Class":"미술관",
+        "PlaceName":"셀린박 갤러리",
         "LineNumber":3,
         "Station":"압구정역",
         "Address":"서울 강남구 압구정로32길 30",
@@ -4650,6 +4982,7 @@
     "소마미술관":{
         "PlaceNumber":333,
         "Class":"미술관",
+        "PlaceName":"소마미술관",
         "LineNumber":9,
         "Station":"한성백제역",
         "Address":"서울 송파구 방이동 올림픽로 424",
@@ -4664,6 +4997,7 @@
     "소악루":{
         "PlaceNumber":334,
         "Class":"유적지",
+        "PlaceName":"소악루",
         "LineNumber":9,
         "Station":"양천향교역",
         "Address":"서울 강서구 가양동",
@@ -4678,6 +5012,7 @@
     "소월아트홀":{
         "PlaceNumber":335,
         "Class":"공연장",
+        "PlaceName":"소월아트홀",
         "LineNumber":"2, 5, 수인분당, 경의중앙",
         "Station":"왕십리역",
         "Address":"서울 성동구 행당동 142-16",
@@ -4692,6 +5027,7 @@
     "소호 아트 갤러리":{
         "PlaceNumber":336,
         "Class":"미술관",
+        "PlaceName":"소호 아트 갤러리",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 필운동 90-1",
@@ -4706,6 +5042,7 @@
     "손기정문화체육센터":{
         "PlaceNumber":337,
         "Class":"공연장",
+        "PlaceName":"손기정문화체육센터",
         "LineNumber":"2, 5",
         "Station":"충정로역",
         "Address":"서울 중구 만리동2가 손기정로 101",
@@ -4720,6 +5057,7 @@
     "송시열초상":{
         "PlaceNumber":338,
         "Class":"유적지",
+        "PlaceName":"송시열초상",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 종로구 명륜1가",
@@ -4734,6 +5072,7 @@
     "송파구체육문화회관":{
         "PlaceNumber":339,
         "Class":"문화예술회관",
+        "PlaceName":"송파구체육문화회관",
         "LineNumber":5,
         "Station":"거여역",
         "Address":"서울 송파구 거여동 289",
@@ -4748,6 +5087,7 @@
     "쇳대박물관":{
         "PlaceNumber":340,
         "Class":"박물관\/기념관",
+        "PlaceName":"쇳대박물관",
         "LineNumber":"1, 4",
         "Station":"동대문역",
         "Address":"서울 종로구 동숭동 187-8",
@@ -4762,6 +5102,7 @@
     "수림아트센터":{
         "PlaceNumber":341,
         "Class":"박물관\/기념관",
+        "PlaceName":"수림아트센터",
         "LineNumber":6,
         "Station":"고려대역",
         "Address":"서울 동대문구 홍릉로 118",
@@ -4776,6 +5117,7 @@
     "숙명여자대학교 박물관":{
         "PlaceNumber":342,
         "Class":"박물관\/기념관",
+        "PlaceName":"숙명여자대학교 박물관",
         "LineNumber":4,
         "Station":"숙대입구역",
         "Address":"서울 용산구 청파동2가 52",
@@ -4790,6 +5132,7 @@
     "숙명여자대학교 정영양자수박물관":{
         "PlaceNumber":343,
         "Class":"박물관\/기념관",
+        "PlaceName":"숙명여자대학교 정영양자수박물관",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 효창동 52",
@@ -4804,6 +5147,7 @@
     "숭례문":{
         "PlaceNumber":344,
         "Class":"유적지",
+        "PlaceName":"숭례문",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 중구 세종대로 40",
@@ -4818,6 +5162,7 @@
     "숭인원":{
         "PlaceNumber":345,
         "Class":"유적지",
+        "PlaceName":"숭인원",
         "LineNumber":1,
         "Station":"청량리역",
         "Address":"서울 동대문구 청량리동 204-37",
@@ -4832,6 +5177,7 @@
     "쉼박물관":{
         "PlaceNumber":346,
         "Class":"박물관\/기념관",
+        "PlaceName":"쉼박물관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 홍지동 36-20",
@@ -4846,6 +5192,7 @@
     "슈페리어갤러리":{
         "PlaceNumber":347,
         "Class":"미술관",
+        "PlaceName":"슈페리어갤러리",
         "LineNumber":2,
         "Station":"삼성역",
         "Address":"서울 강남구 테헤란로 528",
@@ -4860,6 +5207,7 @@
     "스튜디오 콘크리트":{
         "PlaceNumber":348,
         "Class":"미술관",
+        "PlaceName":"스튜디오 콘크리트",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 한남대로 162",
@@ -4874,6 +5222,7 @@
     "스페이스 신선":{
         "PlaceNumber":349,
         "Class":"미술관",
+        "PlaceName":"스페이스 신선",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 이태원로 256",
@@ -4888,6 +5237,7 @@
     "스페이스 씨":{
         "PlaceNumber":350,
         "Class":"미술관",
+        "PlaceName":"스페이스 씨",
         "LineNumber":3,
         "Station":"압구정역",
         "Address":"서울 강남구 언주로 827",
@@ -4902,6 +5252,7 @@
     "스페이스 이수 ":{
         "PlaceNumber":351,
         "Class":"미술관",
+        "PlaceName":"스페이스 이수 ",
         "LineNumber":9,
         "Station":"신반포역",
         "Address":"서울 서초구 반포동 사평대로 84",
@@ -4916,6 +5267,7 @@
     "시립용산노인종합복지관":{
         "PlaceNumber":352,
         "Class":"기타",
+        "PlaceName":"시립용산노인종합복지관",
         "LineNumber":"경의중앙",
         "Station":"한남역",
         "Address":"서울 용산구 독서당로11길 16",
@@ -4930,6 +5282,7 @@
     "시민청":{
         "PlaceNumber":353,
         "Class":"공연\/전시장",
+        "PlaceName":"시민청",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 세종대로110",
@@ -4944,6 +5297,7 @@
     "신당창작아케이드":{
         "PlaceNumber":354,
         "Class":"기타",
+        "PlaceName":"신당창작아케이드",
         "LineNumber":"2, 6",
         "Station":"신당역",
         "Address":"서울 중구 마장로 87",
@@ -4958,6 +5312,7 @@
     "신도림 오페라하우스":{
         "PlaceNumber":355,
         "Class":"공연장",
+        "PlaceName":"신도림 오페라하우스",
         "LineNumber":"1, 2",
         "Station":"신도림역",
         "Address":"서울 구로구 구로동 3-39",
@@ -4972,6 +5327,7 @@
     "신도림예술공간 고리":{
         "PlaceNumber":356,
         "Class":"공연\/전시장",
+        "PlaceName":"신도림예술공간 고리",
         "LineNumber":"1, 2",
         "Station":"신도림역",
         "Address":"서울 구로구 구로동 3-33",
@@ -4986,6 +5342,7 @@
     "신림체육센터":{
         "PlaceNumber":357,
         "Class":"기타",
+        "PlaceName":"신림체육센터",
         "LineNumber":2,
         "Station":"신대방역",
         "Address":"서울 관악구 신림동  난곡로64가길 19",
@@ -5000,6 +5357,7 @@
     "신문박물관":{
         "PlaceNumber":358,
         "Class":"박물관\/기념관",
+        "PlaceName":"신문박물관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 세종로 139",
@@ -5014,6 +5372,7 @@
     "신월문화체육센터":{
         "PlaceNumber":359,
         "Class":"공연장",
+        "PlaceName":"신월문화체육센터",
         "LineNumber":2,
         "Station":"신정네거리역",
         "Address":"서울 양천구 신월동  지양로 37",
@@ -5028,6 +5387,7 @@
     "신촌문화발전소":{
         "PlaceNumber":360,
         "Class":"공연장",
+        "PlaceName":"신촌문화발전소",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
         "Address":"서울 서대문구 연세로2나길 57",
@@ -5042,6 +5402,7 @@
     "신한갤러리":{
         "PlaceNumber":361,
         "Class":"미술관",
+        "PlaceName":"신한갤러리",
         "LineNumber":2,
         "Station":"역삼역",
         "Address":"서울 강남구 역삼로 251",
@@ -5056,6 +5417,7 @@
     "아리랑 씨네센터":{
         "PlaceNumber":362,
         "Class":"공연장",
+        "PlaceName":"아리랑 씨네센터",
         "LineNumber":"우이신설",
         "Station":"정릉역",
         "Address":"서울 성북구 돈암동 538-98",
@@ -5070,6 +5432,7 @@
     "아웃사이트(out_sight)":{
         "PlaceNumber":363,
         "Class":"미술관",
+        "PlaceName":"아웃사이트(out_sight)",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 창경궁로35가길 12",
@@ -5084,6 +5447,7 @@
     "아이들극장":{
         "PlaceNumber":364,
         "Class":"공연장",
+        "PlaceName":"아이들극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 성균관로 91",
@@ -5098,6 +5462,7 @@
     "아이러브아트센터":{
         "PlaceNumber":365,
         "Class":"공연장",
+        "PlaceName":"아이러브아트센터",
         "LineNumber":3,
         "Station":"압구정역",
         "Address":"서울 강남구 압구정로32길 30",
@@ -5112,6 +5477,7 @@
     "아차산봉수대터":{
         "PlaceNumber":366,
         "Class":"유적지",
+        "PlaceName":"아차산봉수대터",
         "LineNumber":"경춘",
         "Station":"망우역",
         "Address":"서울 중랑구 묵동 산46-19",
@@ -5126,6 +5492,7 @@
     "아트선재센터":{
         "PlaceNumber":367,
         "Class":"미술관",
+        "PlaceName":"아트선재센터",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 소격동 144-2",
@@ -5140,6 +5507,7 @@
     "아트센터 나비":{
         "PlaceNumber":368,
         "Class":"미술관",
+        "PlaceName":"아트센터 나비",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 서린동  종로 26",
@@ -5154,6 +5522,7 @@
     "아트숨비센터 ":{
         "PlaceNumber":369,
         "Class":"공연\/전시장",
+        "PlaceName":"아트숨비센터 ",
         "LineNumber":6,
         "Station":"응암역",
         "Address":"서울 은평구 은평로8길 9",
@@ -5168,6 +5537,7 @@
     "아트하우스 모모":{
         "PlaceNumber":370,
         "Class":"문화예술회관",
+        "PlaceName":"아트하우스 모모",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
         "Address":"서울 서대문구 이화여대길 52",
@@ -5182,6 +5552,7 @@
     "아티스탄홀":{
         "PlaceNumber":371,
         "Class":"공연장",
+        "PlaceName":"아티스탄홀",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 대학로 132",
@@ -5196,6 +5567,7 @@
     "안중근의사기념관":{
         "PlaceNumber":372,
         "Class":"박물관\/기념관",
+        "PlaceName":"안중근의사기념관",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 남대문로5가 471",
@@ -5210,6 +5582,7 @@
     "안중근의사동상":{
         "PlaceNumber":373,
         "Class":"유적지",
+        "PlaceName":"안중근의사동상",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 용산구 후암동 30-80",
@@ -5224,6 +5597,7 @@
     "암사동선사주거지":{
         "PlaceNumber":374,
         "Class":"유적지",
+        "PlaceName":"암사동선사주거지",
         "LineNumber":8,
         "Station":"암사역",
         "Address":"서울 강동구 올림픽로 875",
@@ -5238,6 +5612,7 @@
     "양천구 해누리타운 아트홀":{
         "PlaceNumber":375,
         "Class":"공연장",
+        "PlaceName":"양천구 해누리타운 아트홀",
         "LineNumber":2,
         "Station":"양천구청역",
         "Address":"서울 양천구 목동동로 85",
@@ -5252,6 +5627,7 @@
     "양천구민체육센터":{
         "PlaceNumber":376,
         "Class":"기타",
+        "PlaceName":"양천구민체육센터",
         "LineNumber":2,
         "Station":"양천구청역",
         "Address":"서울 양천구 신정동 322-10",
@@ -5266,6 +5642,7 @@
     "양천문화재단":{
         "PlaceNumber":377,
         "Class":"문화예술회관",
+        "PlaceName":"양천문화재단",
         "LineNumber":2,
         "Station":"양천구청역",
         "Address":"서울 양천구 목동동로 81",
@@ -5280,6 +5657,7 @@
     "양천문화회관":{
         "PlaceNumber":378,
         "Class":"문화예술회관",
+        "PlaceName":"양천문화회관",
         "LineNumber":2,
         "Station":"양천구청역",
         "Address":"서울 양천구 신정동 322",
@@ -5294,6 +5672,7 @@
     "어반아트":{
         "PlaceNumber":379,
         "Class":"미술관",
+        "PlaceName":"어반아트",
         "LineNumber":6,
         "Station":"이태원역",
         "Address":"서울 강남구 신사동 545-11",
@@ -5308,6 +5687,7 @@
     "언더스탠드에비뉴":{
         "PlaceNumber":380,
         "Class":"공연\/전시장",
+        "PlaceName":"언더스탠드에비뉴",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
         "Address":"서울 성동구 성수동1가 685-704",
@@ -5322,6 +5702,7 @@
     "여계묘역":{
         "PlaceNumber":381,
         "Class":"유적지",
+        "PlaceName":"여계묘역",
         "LineNumber":1,
         "Station":"개봉역",
         "Address":"서울 구로구 고척동 산6-3",
@@ -5336,6 +5717,7 @@
     "여의도한강공원 물빛무대":{
         "PlaceNumber":382,
         "Class":"공연장",
+        "PlaceName":"여의도한강공원 물빛무대",
         "LineNumber":5,
         "Station":"여의나루역",
         "Address":"서울 영등포구 여의동로 330",
@@ -5350,6 +5732,7 @@
     "연산군묘":{
         "PlaceNumber":383,
         "Class":"유적지",
+        "PlaceName":"연산군묘",
         "LineNumber":"우이신설",
         "Station":"북한산우이역",
         "Address":"서울 도봉구 방학동",
@@ -5364,6 +5747,7 @@
     "연세대학교 중앙박물관":{
         "PlaceNumber":384,
         "Class":"박물관\/기념관",
+        "PlaceName":"연세대학교 중앙박물관",
         "LineNumber":2,
         "Station":"신촌역",
         "Address":"서울 서대문구 신촌동 134",
@@ -5378,6 +5762,7 @@
     "연우소극장":{
         "PlaceNumber":385,
         "Class":"공연장",
+        "PlaceName":"연우소극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 혜화동  창경궁로35길 21",
@@ -5392,6 +5777,7 @@
     "연희문학창작촌":{
         "PlaceNumber":386,
         "Class":"기타",
+        "PlaceName":"연희문학창작촌",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
         "Address":"서울 서대문구 증가로2길 6-7",
@@ -5406,6 +5792,7 @@
     "영등포아트홀":{
         "PlaceNumber":387,
         "Class":"문화예술회관",
+        "PlaceName":"영등포아트홀",
         "LineNumber":"2, 5",
         "Station":"영등포구청역",
         "Address":"서울 영등포구 당산동3가",
@@ -5420,6 +5807,7 @@
     "영산아트홀":{
         "PlaceNumber":388,
         "Class":"공연장",
+        "PlaceName":"영산아트홀",
         "LineNumber":9,
         "Station":"국회의사당역",
         "Address":"서울 영등포구 여의도동 12",
@@ -5434,6 +5822,7 @@
     "영산양재홀":{
         "PlaceNumber":389,
         "Class":"공연장",
+        "PlaceName":"영산양재홀",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
         "Address":"서울 서초구 양재동 20-4",
@@ -5448,6 +5837,7 @@
     "영인문학관":{
         "PlaceNumber":390,
         "Class":"박물관\/기념관",
+        "PlaceName":"영인문학관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 평창30길 81",
@@ -5462,6 +5852,7 @@
     "영휘원":{
         "PlaceNumber":391,
         "Class":"유적지",
+        "PlaceName":"영휘원",
         "LineNumber":1,
         "Station":"청량리역",
         "Address":"서울 동대문구 청량리동 204-2",
@@ -5476,6 +5867,7 @@
     "예빛섬":{
         "PlaceNumber":392,
         "Class":"공연장",
+        "PlaceName":"예빛섬",
         "LineNumber":"3, 9",
         "Station":"고속터미널역",
         "Address":"서울 서초구 올림픽대로 683",
@@ -5490,6 +5882,7 @@
     "예술의 기쁨":{
         "PlaceNumber":393,
         "Class":"미술관",
+        "PlaceName":"예술의 기쁨",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 효창원로70길 35",
@@ -5504,6 +5897,7 @@
     "예술의전당":{
         "PlaceNumber":394,
         "Class":"공연장",
+        "PlaceName":"예술의전당",
         "LineNumber":3,
         "Station":"남부터미널역",
         "Address":"서울 서초구 남부순환로 2406",
@@ -5518,6 +5912,7 @@
     "예스24 라이브홀":{
         "PlaceNumber":395,
         "Class":"공연장",
+        "PlaceName":"예스24 라이브홀",
         "LineNumber":5,
         "Station":"광나루역",
         "Address":"서울 광진구 광장동 319-33",
@@ -5532,6 +5927,7 @@
     "예지원":{
         "PlaceNumber":396,
         "Class":"문화원",
+        "PlaceName":"예지원",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 장충단로 72",
@@ -5546,6 +5942,7 @@
     "예화랑":{
         "PlaceNumber":397,
         "Class":"미술관",
+        "PlaceName":"예화랑",
         "LineNumber":3,
         "Station":"압구정역",
         "Address":"서울 강남구 신사동 532-8",
@@ -5560,6 +5957,7 @@
     "옛홍릉터":{
         "PlaceNumber":398,
         "Class":"유적지",
+        "PlaceName":"옛홍릉터",
         "LineNumber":6,
         "Station":"고려대역",
         "Address":"서울 동대문구 회기로 57",
@@ -5574,6 +5972,7 @@
     "오류아트홀":{
         "PlaceNumber":399,
         "Class":"공연장",
+        "PlaceName":"오류아트홀",
         "LineNumber":1,
         "Station":"오류동역",
         "Address":"서울 구로구 경인로20가길 38",
@@ -5588,6 +5987,7 @@
     "오위장김춘영가옥":{
         "PlaceNumber":400,
         "Class":"유적지",
+        "PlaceName":"오위장김춘영가옥",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 퇴계로 34길 28",
@@ -5602,6 +6002,7 @@
     "오유아트홀":{
         "PlaceNumber":401,
         "Class":"공연장",
+        "PlaceName":"오유아트홀",
         "LineNumber":3,
         "Station":"매봉역",
         "Address":"서울 강남구 남부순환로378길 34-9",
@@ -5616,6 +6017,7 @@
     "온조대왕문화체육관":{
         "PlaceNumber":402,
         "Class":"기타",
+        "PlaceName":"온조대왕문화체육관",
         "LineNumber":5,
         "Station":"고덕역",
         "Address":"서울 강동구 고덕동 296",
@@ -5630,6 +6032,7 @@
     "올리비아박 갤러리":{
         "PlaceNumber":403,
         "Class":"공연\/전시장",
+        "PlaceName":"올리비아박 갤러리",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 도산대로81길 40",
@@ -5644,6 +6047,7 @@
     "올림픽공원세계평화의문":{
         "PlaceNumber":404,
         "Class":"유적지",
+        "PlaceName":"올림픽공원세계평화의문",
         "LineNumber":8,
         "Station":"몽촌토성역",
         "Address":"서울 송파구 위례성대로 51",
@@ -5658,6 +6062,7 @@
     "올림픽기념국민생활관":{
         "PlaceNumber":405,
         "Class":"기타",
+        "PlaceName":"올림픽기념국민생활관",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 성균관로 91",
@@ -5672,6 +6077,7 @@
     "올림픽스포츠센터":{
         "PlaceNumber":406,
         "Class":"문화원",
+        "PlaceName":"올림픽스포츠센터",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
         "Address":"서울 송파구 방이동 89-12",
@@ -5686,6 +6092,7 @@
     "옹기테마공원 체험장":{
         "PlaceNumber":407,
         "Class":"기타",
+        "PlaceName":"옹기테마공원 체험장",
         "LineNumber":6,
         "Station":"봉화산역",
         "Address":"서울 중랑구 신내로21길 116",
@@ -5700,6 +6107,7 @@
     "용산 꿈나무 종합타운":{
         "PlaceNumber":408,
         "Class":"기타",
+        "PlaceName":"용산 꿈나무 종합타운",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 백범로 329",
@@ -5714,6 +6122,7 @@
     "용산 더줌아트센터":{
         "PlaceNumber":409,
         "Class":"공연장",
+        "PlaceName":"용산 더줌아트센터",
         "LineNumber":"경의중앙",
         "Station":"한남역",
         "Address":"서울 용산구 독서당로 111",
@@ -5728,6 +6137,7 @@
     "용산 동자아트홀":{
         "PlaceNumber":410,
         "Class":"공연장",
+        "PlaceName":"용산 동자아트홀",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
         "Address":"서울 용산구 한강대로 372",
@@ -5742,6 +6152,7 @@
     "용산 아트스페이스 루":{
         "PlaceNumber":411,
         "Class":"미술관",
+        "PlaceName":"용산 아트스페이스 루",
         "LineNumber":4,
         "Station":"신용산역",
         "Address":"서울 용산구 한강대로44길 5",
@@ -5756,6 +6167,7 @@
     "용산 일신홀":{
         "PlaceNumber":412,
         "Class":"공연장",
+        "PlaceName":"용산 일신홀",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 한남대로 98",
@@ -5770,6 +6182,7 @@
     "용산공예관":{
         "PlaceNumber":413,
         "Class":"공연\/전시장",
+        "PlaceName":"용산공예관",
         "LineNumber":6,
         "Station":"한강진역",
         "Address":"서울 용산구 이태원로 274",
@@ -5784,6 +6197,7 @@
     "용산공원 갤러리":{
         "PlaceNumber":414,
         "Class":"박물관\/기념관",
+        "PlaceName":"용산공원 갤러리",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
         "Address":"서울 용산구 한강로1가 1-1",
@@ -5798,6 +6212,7 @@
     "용산꿈나무종합타운":{
         "PlaceNumber":415,
         "Class":"공연장",
+        "PlaceName":"용산꿈나무종합타운",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 백범로 329",
@@ -5812,6 +6227,7 @@
     "용산도시기억전시관":{
         "PlaceNumber":416,
         "Class":"박물관\/기념관",
+        "PlaceName":"용산도시기억전시관",
         "LineNumber":4,
         "Station":"신용산역",
         "Address":"서울 한강로3가 64-1",
@@ -5826,6 +6242,7 @@
     "용산문화체육센터":{
         "PlaceNumber":417,
         "Class":"기타",
+        "PlaceName":"용산문화체육센터",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
         "Address":"서울 용산구 문배동 19-2",
@@ -5840,6 +6257,7 @@
     "용산아트홀":{
         "PlaceNumber":418,
         "Class":"문화예술회관",
+        "PlaceName":"용산아트홀",
         "LineNumber":6,
         "Station":"녹사평역",
         "Address":"서울 용산구 이태원동",
@@ -5854,6 +6272,7 @@
     "우란2경":{
         "PlaceNumber":419,
         "Class":"공연장",
+        "PlaceName":"우란2경",
         "LineNumber":2,
         "Station":"성수역",
         "Address":"서울 성동구 연무장7길 11",
@@ -5868,6 +6287,7 @@
     "우리금융아트홀":{
         "PlaceNumber":420,
         "Class":"공연장",
+        "PlaceName":"우리금융아트홀",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
         "Address":"서울 송파구 올림픽로 424",
@@ -5882,6 +6302,7 @@
     "운현궁":{
         "PlaceNumber":421,
         "Class":"유적지",
+        "PlaceName":"운현궁",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 삼일대로 464",
@@ -5896,6 +6317,7 @@
     "월계동각심재":{
         "PlaceNumber":422,
         "Class":"유적지",
+        "PlaceName":"월계동각심재",
         "LineNumber":1,
         "Station":"월계역",
         "Address":"서울 노원구 월계동",
@@ -5910,6 +6332,7 @@
     "유관순동상":{
         "PlaceNumber":423,
         "Class":"유적지",
+        "PlaceName":"유관순동상",
         "LineNumber":6,
         "Station":"버티고개역",
         "Address":"서울 중구 장충동2가",
@@ -5924,6 +6347,7 @@
     "유니버설아트센터":{
         "PlaceNumber":424,
         "Class":"공연장",
+        "PlaceName":"유니버설아트센터",
         "LineNumber":5,
         "Station":"아차산역",
         "Address":"서울 광진구 천호대로 664",
@@ -5938,6 +6362,7 @@
     "유니플렉스":{
         "PlaceNumber":425,
         "Class":"공연장",
+        "PlaceName":"유니플렉스",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 대학로12길 64",
@@ -5952,6 +6377,7 @@
     "유담헌":{
         "PlaceNumber":426,
         "Class":"공연\/전시장",
+        "PlaceName":"유담헌",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 북촌로 76",
@@ -5966,6 +6392,7 @@
     "유리지공예관":{
         "PlaceNumber":427,
         "Class":"미술관",
+        "PlaceName":"유리지공예관",
         "LineNumber":4,
         "Station":"선바위역",
         "Address":"서울 서초구 중앙로 555",
@@ -5980,6 +6407,7 @@
     "육군사관학교 박물관":{
         "PlaceNumber":428,
         "Class":"박물관\/기념관",
+        "PlaceName":"육군사관학교 박물관",
         "LineNumber":"6, 경춘",
         "Station":"신내역",
         "Address":"서울 노원구 공릉동 77",
@@ -5994,6 +6422,7 @@
     "윤동주문학관":{
         "PlaceNumber":429,
         "Class":"박물관\/기념관",
+        "PlaceName":"윤동주문학관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 창의문로 119",
@@ -6008,6 +6437,7 @@
     "은평문화예술회관":{
         "PlaceNumber":430,
         "Class":"공연장",
+        "PlaceName":"은평문화예술회관",
         "LineNumber":6,
         "Station":"역촌역",
         "Address":"서울 은평구 녹번로 16",
@@ -6022,6 +6452,7 @@
     "은평역사한옥박물관":{
         "PlaceNumber":431,
         "Class":"박물관\/기념관",
+        "PlaceName":"은평역사한옥박물관",
         "LineNumber":3,
         "Station":"구파발역",
         "Address":"서울 은평구 연서로50길 8",
@@ -6036,6 +6467,7 @@
     "을지문덕장군상":{
         "PlaceNumber":432,
         "Class":"유적지",
+        "PlaceName":"을지문덕장군상",
         "LineNumber":5,
         "Station":"아차산역",
         "Address":"서울 광진구 능동",
@@ -6050,6 +6482,7 @@
     "의릉":{
         "PlaceNumber":433,
         "Class":"유적지",
+        "PlaceName":"의릉",
         "LineNumber":6,
         "Station":"상월곡역",
         "Address":"서울 성북구 화랑로32길",
@@ -6064,6 +6497,7 @@
     "이건하우스":{
         "PlaceNumber":434,
         "Class":"기타",
+        "PlaceName":"이건하우스",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 동교로 161",
@@ -6078,6 +6512,7 @@
     "이문체육문화센터":{
         "PlaceNumber":435,
         "Class":"기타",
+        "PlaceName":"이문체육문화센터",
         "LineNumber":1,
         "Station":"신이문역",
         "Address":"서울 동대문구 이문동 189",
@@ -6092,6 +6527,7 @@
     "이화여고 100주년기념관":{
         "PlaceNumber":436,
         "Class":"박물관\/기념관",
+        "PlaceName":"이화여고 100주년기념관",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 중구 정동길 26",
@@ -6106,6 +6542,7 @@
     "이화여대박물관":{
         "PlaceNumber":437,
         "Class":"박물관\/기념관",
+        "PlaceName":"이화여대박물관",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
         "Address":"서울 서대문구 대현동 11-1",
@@ -6120,6 +6557,7 @@
     "이화여자대학교 자연사박물관":{
         "PlaceNumber":438,
         "Class":"박물관\/기념관",
+        "PlaceName":"이화여자대학교 자연사박물관",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
         "Address":"서울 서대문구 대현동 11-1",
@@ -6134,6 +6572,7 @@
     "이화장":{
         "PlaceNumber":439,
         "Class":"유적지",
+        "PlaceName":"이화장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 이화장1길 32",
@@ -6148,6 +6587,7 @@
     "인사아트센터":{
         "PlaceNumber":440,
         "Class":"미술관",
+        "PlaceName":"인사아트센터",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 188",
@@ -6162,6 +6602,7 @@
     "인사아트프라자갤러리":{
         "PlaceNumber":441,
         "Class":"미술관",
+        "PlaceName":"인사아트프라자갤러리",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 관훈동 21",
@@ -6176,6 +6617,7 @@
     "일민미술관":{
         "PlaceNumber":442,
         "Class":"미술관",
+        "PlaceName":"일민미술관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 세종로 139",
@@ -6190,6 +6632,7 @@
     "잠실종합운동장":{
         "PlaceNumber":443,
         "Class":"문화원",
+        "PlaceName":"잠실종합운동장",
         "LineNumber":"2, 9",
         "Station":"종합운동장역",
         "Address":"서울 송파구 올림픽로 25",
@@ -6204,6 +6647,7 @@
     "잠실창작스튜디오":{
         "PlaceNumber":444,
         "Class":"기타",
+        "PlaceName":"잠실창작스튜디오",
         "LineNumber":"2, 9",
         "Station":"종합운동장역",
         "Address":"서울 송파구 올림픽로25",
@@ -6218,6 +6662,7 @@
     "장디자인아트":{
         "PlaceNumber":445,
         "Class":"미술관",
+        "PlaceName":"장디자인아트",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 도산대로67길 27",
@@ -6232,6 +6677,7 @@
     "장지공방":{
         "PlaceNumber":446,
         "Class":"문화예술회관",
+        "PlaceName":"장지공방",
         "LineNumber":8,
         "Station":"장지역",
         "Address":"서울 송파구 충민로 10",
@@ -6246,6 +6692,7 @@
     "장충체육관":{
         "PlaceNumber":447,
         "Class":"문화원",
+        "PlaceName":"장충체육관",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 장충동2가 220-102",
@@ -6260,6 +6707,7 @@
     "재미랑":{
         "PlaceNumber":448,
         "Class":"문화예술회관",
+        "PlaceName":"재미랑",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 퇴계로20길 42",
@@ -6274,6 +6722,7 @@
     "전쟁기념관":{
         "PlaceNumber":449,
         "Class":"박물관\/기념관",
+        "PlaceName":"전쟁기념관",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
         "Address":"서울 용산구 용산동1가 8",
@@ -6288,6 +6737,7 @@
     "전쟁기념관전사자명비":{
         "PlaceNumber":450,
         "Class":"유적지",
+        "PlaceName":"전쟁기념관전사자명비",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
         "Address":"서울 용산구 이태원로 29",
@@ -6302,6 +6752,7 @@
     "전태일기념관":{
         "PlaceNumber":451,
         "Class":"박물관\/기념관",
+        "PlaceName":"전태일기념관",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
         "Address":"서울 종로구 청계천로 105",
@@ -6316,6 +6767,7 @@
     "전통연희상설극장 광화문아트홀":{
         "PlaceNumber":452,
         "Class":"공연장",
+        "PlaceName":"전통연희상설극장 광화문아트홀",
         "LineNumber":3,
         "Station":"독립문역",
         "Address":"서울 종로구 사직동 284-1",
@@ -6330,6 +6782,7 @@
     "정동극장":{
         "PlaceNumber":453,
         "Class":"공연장",
+        "PlaceName":"정동극장",
         "LineNumber":"1, 2",
         "Station":"시청역",
         "Address":"서울 중구 정동 8-11 길 43",
@@ -6344,6 +6797,7 @@
     "정릉":{
         "PlaceNumber":454,
         "Class":"유적지",
+        "PlaceName":"정릉",
         "LineNumber":"우이신설",
         "Station":"정릉역",
         "Address":"서울 성북구 아리랑로19길 116",
@@ -6358,6 +6812,7 @@
     "정현왕후릉":{
         "PlaceNumber":455,
         "Class":"유적지",
+        "PlaceName":"정현왕후릉",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
         "Address":"서울 강남구 선릉로 100길 1",
@@ -6372,6 +6827,7 @@
     "정효아트센터 음악당":{
         "PlaceNumber":456,
         "Class":"공연장",
+        "PlaceName":"정효아트센터 음악당",
         "LineNumber":3,
         "Station":"남부터미널역",
         "Address":"서울 서초구 사임당로18길 52-2",
@@ -6386,6 +6842,7 @@
     "조계사":{
         "PlaceNumber":457,
         "Class":"유적지",
+        "PlaceName":"조계사",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 우정국로 55",
@@ -6400,6 +6857,7 @@
     "조선선종선릉":{
         "PlaceNumber":458,
         "Class":"유적지",
+        "PlaceName":"조선선종선릉",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
         "Address":"서울 강남구 선릉로 100길 1",
@@ -6414,6 +6872,7 @@
     "조선일보미술관":{
         "PlaceNumber":459,
         "Class":"미술관",
+        "PlaceName":"조선일보미술관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 중구 태평로1가 61-28",
@@ -6428,6 +6887,7 @@
     "조선중종정릉":{
         "PlaceNumber":460,
         "Class":"유적지",
+        "PlaceName":"조선중종정릉",
         "LineNumber":"2, 수인분당",
         "Station":"선릉역",
         "Address":"서울 강남구 선릉로 100길 1",
@@ -6442,6 +6902,7 @@
     "조선지광사터":{
         "PlaceNumber":461,
         "Class":"유적지",
+        "PlaceName":"조선지광사터",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 종로3길 33",
@@ -6456,6 +6917,7 @@
     "조세박물관":{
         "PlaceNumber":462,
         "Class":"박물관\/기념관",
+        "PlaceName":"조세박물관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 수송동 104",
@@ -6470,6 +6932,7 @@
     "조형갤러리":{
         "PlaceNumber":463,
         "Class":"미술관",
+        "PlaceName":"조형갤러리",
         "LineNumber":1,
         "Station":"종각역",
         "Address":"서울 종로구 인사동 194-27 5길 29",
@@ -6484,6 +6947,7 @@
     "종로구립 고희동미술관":{
         "PlaceNumber":464,
         "Class":"미술관",
+        "PlaceName":"종로구립 고희동미술관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 창덕궁5길 40",
@@ -6498,6 +6962,7 @@
     "종로구립 박노수미술관":{
         "PlaceNumber":465,
         "Class":"미술관",
+        "PlaceName":"종로구립 박노수미술관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 옥인1길 34",
@@ -6512,6 +6977,7 @@
     "종로구민회관":{
         "PlaceNumber":466,
         "Class":"공연장",
+        "PlaceName":"종로구민회관",
         "LineNumber":"1, 6",
         "Station":"동묘앞역",
         "Address":"서울 종로구 창신동 222-8",
@@ -6526,6 +6992,7 @@
     "종로문화재단":{
         "PlaceNumber":467,
         "Class":"문화예술회관",
+        "PlaceName":"종로문화재단",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 종로구 새문안로3길 3",
@@ -6540,6 +7007,7 @@
     "종로문화재단 윤동주문학관":{
         "PlaceNumber":468,
         "Class":"공연\/전시장",
+        "PlaceName":"종로문화재단 윤동주문학관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 창의문로 119",
@@ -6554,6 +7022,7 @@
     "종묘(세계문화유산)":{
         "PlaceNumber":469,
         "Class":"유적지",
+        "PlaceName":"종묘(세계문화유산)",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
         "Address":"서울 종로구 종로 157",
@@ -6568,6 +7037,7 @@
     "종이나라박물관":{
         "PlaceNumber":470,
         "Class":"박물관\/기념관",
+        "PlaceName":"종이나라박물관",
         "LineNumber":3,
         "Station":"동대입구역",
         "Address":"서울 중구 장충동1가 62-35",
@@ -6582,6 +7052,7 @@
     "중구평생학습센터":{
         "PlaceNumber":471,
         "Class":"기타",
+        "PlaceName":"중구평생학습센터",
         "LineNumber":"2, 5",
         "Station":"을지로4가역",
         "Address":"서울 중구 예관동 120-1",
@@ -6596,6 +7067,7 @@
     "중랑구민체육센터":{
         "PlaceNumber":472,
         "Class":"기타",
+        "PlaceName":"중랑구민체육센터",
         "LineNumber":6,
         "Station":"봉화산역",
         "Address":"서울 중랑구 신내로15길 189",
@@ -6610,6 +7082,7 @@
     "중랑문화체육관":{
         "PlaceNumber":473,
         "Class":"공연장",
+        "PlaceName":"중랑문화체육관",
         "LineNumber":7,
         "Station":"사가정역",
         "Address":"서울 중랑구 사가정로72길 47",
@@ -6624,6 +7097,7 @@
     "중랑아트센터":{
         "PlaceNumber":474,
         "Class":"미술관",
+        "PlaceName":"중랑아트센터",
         "LineNumber":"경의중앙, 경춘",
         "Station":"망우역",
         "Address":"서울 중랑구 상봉동 500",
@@ -6638,6 +7112,7 @@
     "중랑평생학습관":{
         "PlaceNumber":475,
         "Class":"기타",
+        "PlaceName":"중랑평생학습관",
         "LineNumber":"경의중앙, 경춘",
         "Station":"망우역",
         "Address":"서울 중랑구 망우로67길 10",
@@ -6652,6 +7127,7 @@
     "짚풀생활사박물관":{
         "PlaceNumber":476,
         "Class":"박물관\/기념관",
+        "PlaceName":"짚풀생활사박물관",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 명륜2가 8-4",
@@ -6666,6 +7142,7 @@
     "창경궁":{
         "PlaceNumber":477,
         "Class":"유적지",
+        "PlaceName":"창경궁",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 창경궁로 185",
@@ -6680,6 +7157,7 @@
     "창덕궁":{
         "PlaceNumber":478,
         "Class":"유적지",
+        "PlaceName":"창덕궁",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 율곡로 99",
@@ -6694,6 +7172,7 @@
     "창동스포츠문화컴플렉스":{
         "PlaceNumber":479,
         "Class":"문화원",
+        "PlaceName":"창동스포츠문화컴플렉스",
         "LineNumber":"1, 4",
         "Station":"창동역",
         "Address":"서울 도봉구 노해로69길 132",
@@ -6708,6 +7187,7 @@
     "창무예술원- 드 포스트":{
         "PlaceNumber":480,
         "Class":"공연장",
+        "PlaceName":"창무예술원- 드 포스트",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
         "Address":"서울 마포구 창전동 5-9",
@@ -6722,6 +7202,7 @@
     "창빈안씨묘역":{
         "PlaceNumber":481,
         "Class":"유적지",
+        "PlaceName":"창빈안씨묘역",
         "LineNumber":"4, 9",
         "Station":"동작역",
         "Address":"서울 동작구 동작동 299-10",
@@ -6736,6 +7217,7 @@
     "창신소통공작소":{
         "PlaceNumber":482,
         "Class":"문화예술회관",
+        "PlaceName":"창신소통공작소",
         "LineNumber":"1, 6",
         "Station":"동묘앞역",
         "Address":"서울 종로구 창신6가길 47",
@@ -6750,6 +7232,7 @@
     "천상열차분야지도각석":{
         "PlaceNumber":483,
         "Class":"유적지",
+        "PlaceName":"천상열차분야지도각석",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 효자로 12",
@@ -6764,6 +7247,7 @@
     "청계천박물관 ":{
         "PlaceNumber":484,
         "Class":"박물관\/기념관",
+        "PlaceName":"청계천박물관 ",
         "LineNumber":2,
         "Station":"용두역",
         "Address":"서울 성동구 청계천로 530",
@@ -6778,6 +7262,7 @@
     "청권사":{
         "PlaceNumber":485,
         "Class":"유적지",
+        "PlaceName":"청권사",
         "LineNumber":2,
         "Station":"방배역",
         "Address":"서울 서초구 방배동",
@@ -6792,6 +7277,7 @@
     "청년허브":{
         "PlaceNumber":486,
         "Class":"공연장",
+        "PlaceName":"청년허브",
         "LineNumber":"3, 6",
         "Station":"불광역",
         "Address":"서울 은평구 통일로 684",
@@ -6806,6 +7292,7 @@
     "청춘극장":{
         "PlaceNumber":487,
         "Class":"기타",
+        "PlaceName":"청춘극장",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 중구 새문안로 22",
@@ -6820,6 +7307,7 @@
     "청춘삘딩":{
         "PlaceNumber":488,
         "Class":"기타",
+        "PlaceName":"청춘삘딩",
         "LineNumber":1,
         "Station":"독산역",
         "Address":"서울 금천구 시흥대로138길 10-11",
@@ -6834,6 +7322,7 @@
     "청화랑":{
         "PlaceNumber":489,
         "Class":"미술관",
+        "PlaceName":"청화랑",
         "LineNumber":7,
         "Station":"청담역",
         "Address":"서울 강남구 삼성로147길 4",
@@ -6848,6 +7337,7 @@
     "체신기념관":{
         "PlaceNumber":490,
         "Class":"박물관\/기념관",
+        "PlaceName":"체신기념관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 견지동 39-7",
@@ -6862,6 +7352,7 @@
     "초안산조선시대분묘군":{
         "PlaceNumber":491,
         "Class":"유적지",
+        "PlaceName":"초안산조선시대분묘군",
         "LineNumber":4,
         "Station":"수유역",
         "Address":"서울 도봉구 창동",
@@ -6876,6 +7367,7 @@
     "초전섬유 퀼트박물관":{
         "PlaceNumber":492,
         "Class":"박물관\/기념관",
+        "PlaceName":"초전섬유 퀼트박물관",
         "LineNumber":4,
         "Station":"명동역",
         "Address":"서울 중구 남산동1가 20",
@@ -6890,6 +7382,7 @@
     "충무로영상센터 오!재미동":{
         "PlaceNumber":493,
         "Class":"공연\/전시장",
+        "PlaceName":"충무로영상센터 오!재미동",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 퇴계로 199",
@@ -6904,6 +7397,7 @@
     "충무아트센터":{
         "PlaceNumber":494,
         "Class":"공연장",
+        "PlaceName":"충무아트센터",
         "LineNumber":"2, 6",
         "Station":"신당역",
         "Address":"서울 중구 퇴계로 387",
@@ -6918,6 +7412,7 @@
     "충숙공이상길묘역":{
         "PlaceNumber":495,
         "Class":"유적지",
+        "PlaceName":"충숙공이상길묘역",
         "LineNumber":7,
         "Station":"하계역",
         "Address":"서울 노원구 한글비석로 144",
@@ -6932,6 +7427,7 @@
     "충정로난타극장":{
         "PlaceNumber":496,
         "Class":"공연장",
+        "PlaceName":"충정로난타극장",
         "LineNumber":5,
         "Station":"충정로역",
         "Address":"서울 서대문구 충정로3가 476",
@@ -6946,6 +7442,7 @@
     "충헌공김구묘역":{
         "PlaceNumber":497,
         "Class":"유적지",
+        "PlaceName":"충헌공김구묘역",
         "LineNumber":9,
         "Station":"한성백제역",
         "Address":"서울 송파구 올림픽로 424",
@@ -6960,6 +7457,7 @@
     "카이스갤러리":{
         "PlaceNumber":498,
         "Class":"미술관",
+        "PlaceName":"카이스갤러리",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 청담동 99-5",
@@ -6974,6 +7472,7 @@
     "카페 1257":{
         "PlaceNumber":499,
         "Class":"기타",
+        "PlaceName":"카페 1257",
         "LineNumber":7,
         "Station":"학동역",
         "Address":"서울 강남구 학동로 146",
@@ -6988,6 +7487,7 @@
     "코엑스 오디토리움":{
         "PlaceNumber":500,
         "Class":"공연장",
+        "PlaceName":"코엑스 오디토리움",
         "LineNumber":9,
         "Station":"봉은사역",
         "Address":"서울 강남구 삼성동 159",
@@ -7002,6 +7502,7 @@
     "코엑스전시장":{
         "PlaceNumber":501,
         "Class":"미술관",
+        "PlaceName":"코엑스전시장",
         "LineNumber":2,
         "Station":"삼성역",
         "Address":"서울 강남구 삼성동 159-1",
@@ -7016,6 +7517,7 @@
     "크리에이터스 스페이스":{
         "PlaceNumber":502,
         "Class":"공연장",
+        "PlaceName":"크리에이터스 스페이스",
         "LineNumber":6,
         "Station":"안암역",
         "Address":"서울 동대문구 안암로 86-1",
@@ -7030,6 +7532,7 @@
     "킵인터치 서울":{
         "PlaceNumber":503,
         "Class":"미술관",
+        "PlaceName":"킵인터치 서울",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 북촌로1길 13",
@@ -7044,6 +7547,7 @@
     "태권도기념관":{
         "PlaceNumber":504,
         "Class":"박물관\/기념관",
+        "PlaceName":"태권도기념관",
         "LineNumber":"2, 신분당",
         "Station":"강남역",
         "Address":"서울 강남구 역삼동 635",
@@ -7058,6 +7562,7 @@
     "태릉.강릉":{
         "PlaceNumber":505,
         "Class":"유적지",
+        "PlaceName":"태릉.강릉",
         "LineNumber":6,
         "Station":"화랑대역",
         "Address":"서울 노원구 화랑로 681",
@@ -7072,6 +7577,7 @@
     "토탈미술관":{
         "PlaceNumber":506,
         "Class":"미술관",
+        "PlaceName":"토탈미술관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 평창동 465-2",
@@ -7086,6 +7592,7 @@
     "토포하우스":{
         "PlaceNumber":507,
         "Class":"미술관",
+        "PlaceName":"토포하우스",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 관훈동 184",
@@ -7100,6 +7607,7 @@
     "통의동 보안여관":{
         "PlaceNumber":508,
         "Class":"미술관",
+        "PlaceName":"통의동 보안여관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 동대문구 청계천로 517",
@@ -7114,6 +7622,7 @@
     "팝콘D스퀘어":{
         "PlaceNumber":509,
         "Class":"공연장",
+        "PlaceName":"팝콘D스퀘어",
         "LineNumber":"1, 경의중앙",
         "Station":"용산역",
         "Address":"서울 용산구 한강대로23길 55",
@@ -7128,6 +7637,7 @@
     "평강성서유물박물관":{
         "PlaceNumber":510,
         "Class":"박물관\/기념관",
+        "PlaceName":"평강성서유물박물관",
         "LineNumber":1,
         "Station":"오류동역",
         "Address":"서울 구로구 오류동 150-15",
@@ -7142,6 +7652,7 @@
     "평화문화진지":{
         "PlaceNumber":511,
         "Class":"공연\/전시장",
+        "PlaceName":"평화문화진지",
         "LineNumber":"1, 7",
         "Station":"도봉산역",
         "Address":"서울 도봉구 마들로 932",
@@ -7156,6 +7667,7 @@
     "포스코미술관":{
         "PlaceNumber":512,
         "Class":"미술관",
+        "PlaceName":"포스코미술관",
         "LineNumber":"2, 수인분당",
         "Station":"선릉역",
         "Address":"서울 강남구 대치동 892",
@@ -7170,6 +7682,7 @@
     "폴리미디어씨어터":{
         "PlaceNumber":513,
         "Class":"공연장",
+        "PlaceName":"폴리미디어씨어터",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭동 1-75",
@@ -7184,6 +7697,7 @@
     "폼텍웍스홀":{
         "PlaceNumber":514,
         "Class":"공연장",
+        "PlaceName":"폼텍웍스홀",
         "LineNumber":"2, 6",
         "Station":"합정역",
         "Address":"서울 마포구 잔다리로3길 34",
@@ -7198,6 +7712,7 @@
     "표갤러리":{
         "PlaceNumber":515,
         "Class":"미술관",
+        "PlaceName":"표갤러리",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 용산구 이태원동 258-79",
@@ -7212,6 +7727,7 @@
     "플랫폼창동61":{
         "PlaceNumber":516,
         "Class":"공연\/전시장",
+        "PlaceName":"플랫폼창동61",
         "LineNumber":"1, 4",
         "Station":"창동역",
         "Address":"서울 도봉구 마들로11길 74",
@@ -7226,6 +7742,7 @@
     "필갤러리(Fill Gallery)":{
         "PlaceNumber":517,
         "Class":"미술관",
+        "PlaceName":"필갤러리(Fill Gallery)",
         "LineNumber":"경의중앙",
         "Station":"한남역",
         "Address":"서울 용산구 유엔빌리지길 24",
@@ -7240,6 +7757,7 @@
     "하라스튜디오":{
         "PlaceNumber":518,
         "Class":"공연장",
+        "PlaceName":"하라스튜디오",
         "LineNumber":"1, 7",
         "Station":"가산디지털단지역",
         "Address":"서울 금천구 가산디지털1로 181",
@@ -7254,6 +7772,7 @@
     "학고재":{
         "PlaceNumber":519,
         "Class":"미술관",
+        "PlaceName":"학고재",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 소격동 70",
@@ -7268,6 +7787,7 @@
     "한강공원":{
         "PlaceNumber":520,
         "Class":"기타",
+        "PlaceName":"한강공원",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
         "Address":"서울 성동구 강변북로 257",
@@ -7282,6 +7802,7 @@
     "한국가구박물관":{
         "PlaceNumber":521,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국가구박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 성북구 성북동 330-577",
@@ -7296,6 +7817,7 @@
     "한국금융사박물관":{
         "PlaceNumber":522,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국금융사박물관",
         "LineNumber":5,
         "Station":"광화문역",
         "Address":"서울 중구 태평로1가 62-12",
@@ -7310,6 +7832,7 @@
     "한국미술박물관":{
         "PlaceNumber":523,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국미술박물관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 창덕궁길 73",
@@ -7324,6 +7847,7 @@
     "한국분재박물관":{
         "PlaceNumber":524,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국분재박물관",
         "LineNumber":"신분당",
         "Station":"양재역",
         "Address":"서울 서초구 신흥안길 40-10",
@@ -7338,6 +7862,7 @@
     "한국불교역사문화기념관":{
         "PlaceNumber":525,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국불교역사문화기념관",
         "LineNumber":3,
         "Station":"안국역",
         "Address":"서울 종로구 견지동 45",
@@ -7352,6 +7877,7 @@
     "한국영상자료원":{
         "PlaceNumber":526,
         "Class":"기타",
+        "PlaceName":"한국영상자료원",
         "LineNumber":"경의중앙",
         "Station":"수색역",
         "Address":"서울 마포구 월드컵북로 400",
@@ -7366,6 +7892,7 @@
     "한국영화박물관":{
         "PlaceNumber":527,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국영화박물관",
         "LineNumber":"경의중앙",
         "Station":"수색역",
         "Address":"서울 마포구 상암동 1602",
@@ -7380,6 +7907,7 @@
     "한국은행 화폐금융박물관":{
         "PlaceNumber":528,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국은행 화폐금융박물관",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 남대문로3가 110",
@@ -7394,6 +7922,7 @@
     "한국의 집 민속극장":{
         "PlaceNumber":529,
         "Class":"공연장",
+        "PlaceName":"한국의 집 민속극장",
         "LineNumber":"3, 4",
         "Station":"충무로역",
         "Address":"서울 중구 필동2가 80-2",
@@ -7408,6 +7937,7 @@
     "한국천주교순교자박물관":{
         "PlaceNumber":530,
         "Class":"박물관\/기념관",
+        "PlaceName":"한국천주교순교자박물관",
         "LineNumber":"2, 6",
         "Station":"합정역",
         "Address":"서울 마포구 토정로 6",
@@ -7422,6 +7952,7 @@
     "한미사진미술관":{
         "PlaceNumber":531,
         "Class":"미술관",
+        "PlaceName":"한미사진미술관",
         "LineNumber":9,
         "Station":"한성백제역",
         "Address":"서울 송파구 방이동 45",
@@ -7436,6 +7967,7 @@
     "한상수자수박물관":{
         "PlaceNumber":532,
         "Class":"박물관\/기념관",
+        "PlaceName":"한상수자수박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 종로구 가회동 11-32",
@@ -7450,6 +7982,7 @@
     "한성백제박물관":{
         "PlaceNumber":533,
         "Class":"박물관\/기념관",
+        "PlaceName":"한성백제박물관",
         "LineNumber":9,
         "Station":"한성백제역",
         "Address":"서울 송파구 위례성대로 71",
@@ -7464,6 +7997,7 @@
     "한양대학교 박물관":{
         "PlaceNumber":534,
         "Class":"박물관\/기념관",
+        "PlaceName":"한양대학교 박물관",
         "LineNumber":2,
         "Station":"한양대역",
         "Address":"서울 성동구 왕십리로 222",
@@ -7478,6 +8012,7 @@
     "한양도성 유적전시관":{
         "PlaceNumber":535,
         "Class":"박물관\/기념관",
+        "PlaceName":"한양도성 유적전시관",
         "LineNumber":4,
         "Station":"회현역",
         "Address":"서울 중구 회현동1가 100-267",
@@ -7492,6 +8027,7 @@
     "한양도성박물관":{
         "PlaceNumber":536,
         "Class":"박물관\/기념관",
+        "PlaceName":"한양도성박물관",
         "LineNumber":"1, 4",
         "Station":"동대문역",
         "Address":"서울 종로구 율곡로 283",
@@ -7506,6 +8042,7 @@
     "한전아트센터":{
         "PlaceNumber":537,
         "Class":"공연장",
+        "PlaceName":"한전아트센터",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
         "Address":"서울 서초구 효령로72길 60",
@@ -7520,6 +8057,7 @@
     "한전아트센터박물관":{
         "PlaceNumber":538,
         "Class":"박물관\/기념관",
+        "PlaceName":"한전아트센터박물관",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
         "Address":"서울 서초구 서초동 1355",
@@ -7534,6 +8072,7 @@
     "함석헌기념관":{
         "PlaceNumber":539,
         "Class":"박물관\/기념관",
+        "PlaceName":"함석헌기념관",
         "LineNumber":4,
         "Station":"쌍문역",
         "Address":"서울 도봉구 도봉로123길 33-6",
@@ -7548,6 +8087,7 @@
     "함양여씨묘역":{
         "PlaceNumber":540,
         "Class":"유적지",
+        "PlaceName":"함양여씨묘역",
         "LineNumber":2,
         "Station":"양천구청",
         "Address":"서울 구로구 고척동 산6-2",
@@ -7562,6 +8102,7 @@
     "해공체육문화센터":{
         "PlaceNumber":541,
         "Class":"기타",
+        "PlaceName":"해공체육문화센터",
         "LineNumber":"5, 8",
         "Station":"천호역",
         "Address":"서울 강동구 천호동 399-1",
@@ -7576,6 +8117,7 @@
     "해바라기 소극장":{
         "PlaceNumber":542,
         "Class":"공연장",
+        "PlaceName":"해바라기 소극장",
         "LineNumber":4,
         "Station":"혜화역",
         "Address":"서울 종로구 동숭길 76",
@@ -7590,6 +8132,7 @@
     "허리우드 스카이쇼":{
         "PlaceNumber":543,
         "Class":"공연장",
+        "PlaceName":"허리우드 스카이쇼",
         "LineNumber":5,
         "Station":"서대문역",
         "Address":"서울 종로구 삼일대로 428",
@@ -7604,6 +8147,7 @@
     "허준기념관":{
         "PlaceNumber":544,
         "Class":"유적지",
+        "PlaceName":"허준기념관",
         "LineNumber":9,
         "Station":"가양역",
         "Address":"서울 강서구 허준로 87",
@@ -7618,6 +8162,7 @@
     "헌인릉":{
         "PlaceNumber":545,
         "Class":"유적지",
+        "PlaceName":"헌인릉",
         "LineNumber":"신분당선",
         "Station":"양재시민의숲역",
         "Address":"서울 서초구 헌인릉길 36-10",
@@ -7632,6 +8177,7 @@
     "혜곡최순우 기념관":{
         "PlaceNumber":546,
         "Class":"박물관\/기념관",
+        "PlaceName":"혜곡최순우 기념관",
         "LineNumber":4,
         "Station":"한성대입구역",
         "Address":"서울 성북구 성북동 126-20",
@@ -7646,6 +8192,7 @@
     "호국지장사":{
         "PlaceNumber":547,
         "Class":"유적지",
+        "PlaceName":"호국지장사",
         "LineNumber":"4, 9",
         "Station":"동작역",
         "Address":"서울 동작구 현충로 210",
@@ -7660,6 +8207,7 @@
     "호리아트스페이스":{
         "PlaceNumber":548,
         "Class":"미술관",
+        "PlaceName":"호리아트스페이스",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
         "Address":"서울 강남구 압구정로80길 26",
@@ -7674,6 +8222,7 @@
     "호림박물관":{
         "PlaceNumber":549,
         "Class":"박물관\/기념관",
+        "PlaceName":"호림박물관",
         "LineNumber":2,
         "Station":"신대방역",
         "Address":"서울 관악구 신림동 1707",
@@ -7688,6 +8237,7 @@
     "홍익대 대학로 아트센터":{
         "PlaceNumber":550,
         "Class":"공연장",
+        "PlaceName":"홍익대 대학로 아트센터",
         "LineNumber":1,
         "Station":"종로5가역",
         "Address":"서울 종로구 대학로 57",
@@ -7702,6 +8252,7 @@
     "화정박물관":{
         "PlaceNumber":551,
         "Class":"박물관\/기념관",
+        "PlaceName":"화정박물관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 평창동 평창8길 3",
@@ -7716,6 +8267,7 @@
     "환기미술관":{
         "PlaceNumber":552,
         "Class":"미술관",
+        "PlaceName":"환기미술관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 부암동 210-8",
@@ -7730,6 +8282,7 @@
     "황학정 국궁전시관":{
         "PlaceNumber":553,
         "Class":"박물관\/기념관",
+        "PlaceName":"황학정 국궁전시관",
         "LineNumber":3,
         "Station":"경복궁역",
         "Address":"서울 종로구 사직로9길 15-32",
@@ -7744,6 +8297,7 @@
     "효간공이정영묘역":{
         "PlaceNumber":554,
         "Class":"유적지",
+        "PlaceName":"효간공이정영묘역",
         "LineNumber":7,
         "Station":"남성역",
         "Address":"서울 동작구 사당동 산44-7",
@@ -7758,6 +8312,7 @@
     "효령대군릉":{
         "PlaceNumber":555,
         "Class":"유적지",
+        "PlaceName":"효령대군릉",
         "LineNumber":2,
         "Station":"방배역",
         "Address":"서울 서초구 방배동 산24-2",
@@ -7772,6 +8327,7 @@
     "효령대군이보묘역":{
         "PlaceNumber":556,
         "Class":"유적지",
+        "PlaceName":"효령대군이보묘역",
         "LineNumber":2,
         "Station":"방배역",
         "Address":"서울 서초구 효령로 135",
@@ -7786,6 +8342,7 @@
     "흑석체육센터":{
         "PlaceNumber":557,
         "Class":"기타",
+        "PlaceName":"흑석체육센터",
         "LineNumber":9,
         "Station":"흑석역",
         "Address":"서울 동작구 흑석동 현충로 73",
@@ -7800,6 +8357,7 @@
     "히든플레이스":{
         "PlaceNumber":558,
         "Class":"공연\/전시장",
+        "PlaceName":"히든플레이스",
         "LineNumber":2,
         "Station":"이대역",
         "Address":"서울 서대문구 대현동 53-9",
