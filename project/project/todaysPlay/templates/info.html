@@ -69,7 +69,7 @@
     </header>
     {% if Station %}
     <div class="title">
-        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
+        <img class="'title_pic" scr="{{info.Image}}">
         <p class="title_p" id="Name">{{info.Name}}</p>
     </div>
     <div class="contents">
@@ -85,7 +85,7 @@
     </div>
     {% else %}
     <div class="title">
-        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
+        <img class="'title_pic" scr="{{info.Image}}">
         <p class="title_p">{{info.Name}}</p>
     </div>
     <div class="contents">
