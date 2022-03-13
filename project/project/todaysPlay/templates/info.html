@@ -70,18 +70,18 @@
     {% if Station %}
     <div class="title">
         <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
-        <p class="title_p">{{info.Name}}</p>
+        <p class="title_p" id="Name">{{info.Name}}</p>
     </div>
     <div class="contents">
         <p class="contents_p" id="Station">도착역 : {{info.Station}}</p>
-        <p class="contents_p">이용 지하철 노선 : {{info.LineNumber}}</p>
-        <p class="contents_p">주소 : {{info.Address}}</p>
-        <p class="contents_p">전화번호 : {{info.Telephone}}</p>
-        <p class="contents_p">사이트 : {{info.Website}}</p>
-        <p class="contents_p">개장시간 : {{info.OpeningHours}}</p>
-        <p class="contents_p">유·무료 : {{info.PayFree}}</p>
-        <p class="contents_p">요금 : {{info.Fee}}</p>
-        <p class="contents_p">휴관일 : {{info.Closed}}</p>
+        <p class="contents_p" id="LineNumber">이용 지하철 노선 : {{info.LineNumber}}</p>
+        <p class="contents_p" id="Address">주소 : {{info.Address}}</p>
+        <p class="contents_p" id="Telephone">전화번호 : {{info.Telephone}}</p>
+        <p class="contents_p" id="Website">사이트 : {{info.Website}}</p>
+        <p class="contents_p" id="OpeningHours">개장시간 : {{info.OpeningHours}}</p>
+        <p class="contents_p" id="PayFree">유·무료 : {{info.PayFree}}</p>
+        <p class="contents_p" id="Fee1">요금 : {{info.Fee}}</p>
+        <p class="contents_p" id="Closed">휴관일 : {{info.Closed}}</p>
     </div>
     {% else %}
     <div class="title">
@@ -89,11 +89,11 @@
         <p class="title_p">{{info.Name}}</p>
     </div>
     <div class="contents">
-        <p class="contents_p">장소 : {{info.PlaceName}}</p>
-        <p class="contents_p">시작일 : {{info.StartDay}}</p>
-        <p class="contents_p">종료일 : {{info.EndDay}}</p>
-        <p class="contents_p">이용대상 : {{info.TargetAudience}}</p>
-        <p class="contents_p">이용금액 : {{info.Fee}}</p>
+        <p class="contents_p" id="PlaceName">장소 : {{info.PlaceName}}</p>
+        <p class="contents_p" id="StartDay">시작일 : {{info.StartDay}}</p>
+        <p class="contents_p" id="EndDay">종료일 : {{info.EndDay}}</p>
+        <p class="contents_p" id="TargetAudience">이용대상 : {{info.TargetAudience}}</p>
+        <p class="contents_p" id="Fee2">이용금액 : {{info.Fee}}</p>
     </div>
     {% endif %}
     <div>
