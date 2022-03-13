@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from todaysPlay.models import Subway
+# from todaysPlay.models import Subway
 from django.contrib.auth.models import User
-from todaysPlay.models import Cultureplace
+# from todaysPlay.models import Cultureplace
 from django.contrib import auth
 import random
+import json
 
-# Create your views here.
 def main(request):
     print(request.user.is_authenticated)
     print(request.user)
@@ -219,14 +219,13 @@ def location(request):
     }
     return render(request, 'location.html',context)
 
-def location2(request):
-    i = request.GET.get("pid")
-
-    return render(request, 'location2.html',context)
-
 def info(request):
+    with open('place3.json','r',encoding='utf-8') as f:
+        place1 = json.load(f)
+    with open('program3.json', 'r', encoding='utf-8') as f:
+        program1 = json.load(f)
     Name = request.GET.get("pid")
-    LineNumber = "호선"
+    LineNumber = place1.
     Station = "역"
     Address = "주소"
     Telephone = "전화번호"
