@@ -36,7 +36,7 @@
             height : 40px;
             position : relative;
         }
-        #mainPage, .logIn {
+        .mainPage, .logIn {
             text-decoration : none;
             font-size: 1.5rem;
             line-height : 1.7;
@@ -46,7 +46,7 @@
         button {
                 cursor: pointer;
         }
-        #mainPage {
+        .mainPage {
             padding-left: 20px;
         }
         .logIn {
@@ -62,17 +62,18 @@
     <header id="headerApp">
         <div class="headerLogo">
             <li>
-                <a id="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
+                <a class="mainPage" href="/todaysPlay/main/">오늘뭐하지?</a>
                 <a href="/todaysPlay/loginPage/" class="logIn">로그아웃</a>
             </li>
         </div>
     </header>
+    {% if Station %}
     <div class="title">
         <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
-        <p class="title_p">{{info.PlaceName}}</p>
+        <p class="title_p">{{info.Name}}</p>
     </div>
     <div class="contents">
-        <p class="contents_p">도착역 : {{info.Station}}</p>
+        <p class="contents_p" id="Station">도착역 : {{info.Station}}</p>
         <p class="contents_p">이용 지하철 노선 : {{info.LineNumber}}</p>
         <p class="contents_p">주소 : {{info.Address}}</p>
         <p class="contents_p">전화번호 : {{info.Telephone}}</p>
@@ -82,11 +83,23 @@
         <p class="contents_p">요금 : {{info.Fee}}</p>
         <p class="contents_p">휴관일 : {{info.Closed}}</p>
     </div>
-    <div>
-        <a class="mainPage" href="/todaysPlay/location1/?pid={{info.Category}}">이전으로</a>
+    {% else %}
+    <div class="title">
+        <img class="'title_pic" scr="https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y">
+        <p class="title_p">{{info.Name}}</p>
     </div>
+    <div class="contents">
+        <p class="contents_p">장소 : {{info.PlaceName}}</p>
+        <p class="contents_p">시작일 : {{info.StartDay}}</p>
+        <p class="contents_p">종료일 : {{info.EndDay}}</p>
+        <p class="contents_p">이용대상 : {{info.TargetAudience}}</p>
+        <p class="contents_p">이용금액 : {{info.Fee}}</p>
+    </div>
+    {% endif %}
     <div>
+        <a class="mainPage" href="/todaysPlay/location/?pid={{info.Category}}">이전으로</a>
         <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
     </div>
+
 </body>
 </html>

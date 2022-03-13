@@ -8,7 +8,6 @@ import random
 
 # Create your views here.
 def main(request):
-    context = None
     print(request.user.is_authenticated)
     print(request.user)
     j = random.randrange(1, 7)
@@ -149,7 +148,7 @@ def signInPage(request):
             return redirect("main:main")
     return render(request, 'signInPage.html', res_data)
 
-def location1(request):
+def location(request):
     i = request.GET.get("pid")
     if i == "미술관":
         title = "미술관"
@@ -165,33 +164,7 @@ def location1(request):
         title = "문화원"
     elif i == "기타":
         title = "기타"
-    context = {
-        'title' : title,
-        '미술관': {'미술관1': "미술관1 내용",},
-        '공연장': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '문화예술회관': {'문화예술회관1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '박물관': {'박물·기념관1': "박물·기념관1 내용",
-            '박물·기념관2': "박물·기념관2 내용",
-            '박물·기념관': "박물·기념관3 내용",},
-        '유적지': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '문화원': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '기타': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-    }
-    return render(request, 'location1.html',context)
-
-def location2(request):
-    i = request.GET.get("pid")
-    if i == "국악":
+    elif i == "국악":
         title = "국악"
     elif i == "독주·독창회":
         title = "독주·독창회"
@@ -212,8 +185,8 @@ def location2(request):
     elif i == "기타":
         title = "기타"
     context = {
-        'title' : title,
-        '국악': ['국악1','국악2'],
+        'title': title,
+        '국악': ['국악1', '국악2'],
         '독창회': ['독주1', '독주2'],
         '무용': ['무용1', '무용2'],
         '문화교양강좌': ['강좌1', '강좌2'],
@@ -223,11 +196,35 @@ def location2(request):
         '콘서트': ['콘서트1', '콘서트2'],
         '클래식': ['클래식1', '클래식2'],
         '기타': ['기타1', '기타2', '기타3', '기타4'],
+        '미술관': {'미술관1': "미술관1 내용",},
+        '공연장': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '문화예술회관': {'문화예술회관1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '박물관': {'박물·기념관1': "박물·기념관1 내용",
+            '박물·기념관2': "박물·기념관2 내용",
+            '박물·기념관': "박물·기념관3 내용",},
+        '유적지': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '문화원': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
+        '기타': {'공연장1': "공연장1 내용",
+            '공연장2': "공연장2 내용",
+            '공연장3': "공연장3 내용",},
     }
+    return render(request, 'location.html',context)
+
+def location2(request):
+    i = request.GET.get("pid")
+
     return render(request, 'location2.html',context)
 
 def info(request):
-    PlaceName = request.GET.get("pid")
+    Name = request.GET.get("pid")
     LineNumber = "호선"
     Station = "역"
     Address = "주소"
@@ -239,10 +236,14 @@ def info(request):
     Closed = "휴관일"
     PayFree = "유·무료"
     Category = "문화원"
+    PlaceName = "프로그램이름"
+    StartDay = "시작일"
+    EndDay = "종료일"
+    TargetAudience = "이용대상"
     context = {
         'info' : {
             'Category' : Category,
-            'PlaceName' : PlaceName,
+            'Name' : Name,
             'LineNumber' :LineNumber,
             'Station' : Station,
             "Address" : Address,
@@ -253,6 +254,10 @@ def info(request):
             "Fee" : Fee,
             "Closed" : Closed,
             "PayFree" : PayFree,
+            "PlaceName" : PlaceName,
+            "StartDay" : StartDay,
+            "EndDay" : EndDay,
+            "TargetAudience" : TargetAudience,
         },
     }
     return render(request, 'info.html', context)
