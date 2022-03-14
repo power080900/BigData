@@ -146,9 +146,9 @@
     <h1 class="title">{{title}}</h1>
     <div class="mainfrm">
         <div class="card">
-            {% for j in Name %}
+            {% for j,k in Name.items %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <img class="card_location" src="{{k}}">
                 <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}

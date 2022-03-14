@@ -151,16 +151,16 @@ def location1(request):
     for l in Name1:
         for m in l:
             Name2.append(m)
-    Address1 = df.loc[(df['Class'] == i), ['Address']].values.tolist()
-    Address2 = []
-    for n in Address1:
+    Image1 = df.loc[(df['Class'] == i), ['Image']].values.tolist()
+    Image2 = []
+    for n in Image1:
         for o in n:
-            Address2.append(o)
+            Image2.append(o)
+    Name = dict(zip(Name2,Image2))
     context = {
         'page' : page,
         'title': i,
-        'Name' : Name2,
-        'Address' : Address2,
+        'Name' : Name,
     }
     return render(request, 'location1.html',context)
 
@@ -173,16 +173,16 @@ def location2(request):
     for l in Name1:
         for m in l:
             Name2.append(m)
-    PlaceName1 = df.loc[(df['Category'] == i), ['PlaceName']].values.tolist()
-    PlaceName2 = []
-    for n in PlaceName1:
+    Image1 = df.loc[(df['Category'] == i), ['Image']].values.tolist()
+    Image2 = []
+    for n in Image1:
         for o in n:
-            PlaceName2.append(o)
+            Image2.append(o)
+    Name = dict(zip(Name2, Image2))
     context = {
         'page' : page,
         'title': i,
-        'Name' : Name2,
-        'PlaceName' : PlaceName2,
+        'Name' : Name,
     }
     return render(request, 'location2.html',context)
 
