@@ -19,7 +19,7 @@
         overflow-x: hidden;
     }
     div{
-		overflow:hidden;
+		overflow: hidden;
 		height:auto;
 	}
     header{
@@ -129,8 +129,14 @@
         float: left;
         padding: 10px;
         margin: 10px;
+        margin-left : 0px;
         width: 100%;
         text-align: center;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .categorySection::-webkit-scrollbar{
+    display: none;
     }
     .whereButton .btn-where .btn-input {
         height: 45px;
@@ -151,12 +157,12 @@
     }
     .card_link {
         margin: 10px;
-        padding: 5px;
+        padding: 10px;
         text-decoration : none;
         font-color: black;
         float: left;
         border: 1px solid black;
-        border-radius: 3px;
+        border-radius: 6px;
         box-shadow: 0 8px 10px 0 black;
         color: black;
         overflow-x: hidden;
@@ -168,6 +174,7 @@
         height: 150px;
         width: 150px;
         border-bottom: 1px solid;
+        border-radius: 10px;
     }
     .Title_h1 {
         color: #2F9D27;
