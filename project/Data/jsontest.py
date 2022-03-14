@@ -12,7 +12,7 @@ with open('program3.json','r', encoding='utf-8') as f:
 Name = "서울풍물시장 청춘1번가"
 
 print(data2[Name]['PlaceName'])
-print(data2['서울풍물시장 청춘1번가']['Category'])
+print(data2['서울풍물시장 청춘1번가']['StartDay'][0:10])
 
 
 

@@ -189,7 +189,7 @@ def location1(request):
     }
     return render(request, 'location1.html',context)
 
-def location1(request):
+def location2(request):
     i = request.GET.get("pid")
     if i ==  "국악":
         title = "국악"
@@ -234,23 +234,23 @@ def info1(request):
     Station = place1[Name]['Station']
     Address = place1[Name]['Address']
     Telephone = place1[Name]['Telephone']
-    Image1 = place1[Name]['Image']
+    Image = place1[Name]['Image']
     Website = place1[Name]['Website']
     OpeningHours = place1[Name]['OpeningHours']
-    Fee1 = place1[Name]['Fee']
+    Fee = place1[Name]['Fee']
     Closed = place1[Name]['Closed']
     PayFree = place1[Name]['PayFree']
     context = {
-        'info' : {
+        'info1' : {
             'Name' : Name,
-            'LineNumber' :LineNumber,
+            'LineNumber' : LineNumber,
             'Station' : Station,
             "Address" : Address,
             "Telephone" : Telephone,
-            "Image1" : Image1,
+            "Image" : Image,
             "Website" : Website,
             "OpeningHours" : OpeningHours,
-            "Fee1" : Fee1,
+            "Fee" : Fee,
             "Closed" : Closed,
             "PayFree" : PayFree,
         },
@@ -261,19 +261,19 @@ def info2(request):
     with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
         program1 = json.load(f)
     Name = request.GET.get("pid")
-    Fee2 = program1[Name]['Fee']
-    Image2 = program1[Name]['Image']
+    Fee = program1[Name]['Fee']
+    Image = program1[Name]['Image']
     Category = program1[Name]['Category']
     PlaceName = program1[Name]['PlaceName']
-    StartDay = program1[Name]['StartDay']
-    EndDay = program1[Name]['EndDay']
+    StartDay = program1[Name]['StartDay'][0:10]
+    EndDay = program1[Name]['EndDay'][0:10]
     TargetAudience = program1[Name]['TargetAudience']
     context = {
-        'info' : {
+        'info2' : {
             'Category' : Category,
             'Name' : Name,
-            "Image2": Image2,
-            "Fee2" : Fee2,
+            "Image": Image,
+            "Fee" : Fee,
             "PlaceName" : PlaceName,
             "StartDay" : StartDay,
             "EndDay" : EndDay,
