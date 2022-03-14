@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-# from todaysPlay.models import Subway
+from todaysPlay.models import Subway
 from django.contrib.auth.models import User
-# from todaysPlay.models import Cultureplace
+from todaysPlay.models import Cultureplace
 from django.contrib import auth
 import random
 import json
@@ -145,7 +145,7 @@ def signInPage(request):
 def location1(request):
     page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     i = request.GET.get("pid")
-    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
+    df = pd.read_excel('D:/ph/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
     Name1 = df.loc[(df['Class'] == i), ['PlaceName']].values.tolist()
     Name2 = []
     for l in Name1:
@@ -167,7 +167,7 @@ def location1(request):
 def location2(request):
     page = [1,2,3,4,5,6,7,8,9,10,11]
     i = request.GET.get("pid")
-    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
+    df = pd.read_excel('D:/ph/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
     Name1 = df.loc[(df['Category'] == i), ['ProgramName']].values.tolist()
     Name2 = []
     for l in Name1:
@@ -187,7 +187,7 @@ def location2(request):
     return render(request, 'location2.html',context)
 
 def info1(request):
-    with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
+    with open('D:\ph\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
     Name = request.GET.get("pid")
     LineNumber = place1[Name]['LineNumber']
@@ -195,6 +195,7 @@ def info1(request):
     Address = place1[Name]['Address']
     Telephone = place1[Name]['Telephone']
     Image = place1[Name]['Image']
+    print(Image)
     Website = place1[Name]['Website']
     OpeningHours = place1[Name]['OpeningHours']
     Fee = place1[Name]['Fee']
@@ -220,9 +221,10 @@ def info1(request):
     return render(request, 'info1.html', context)
 
 def info2(request):
-    with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
+    with open('D:\ph\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
         program1 = json.load(f)
     Name = request.GET.get("pid")
+    print(Name)
     Fee = program1[Name]['Fee']
     Image = program1[Name]['Image']
     Category = program1[Name]['Category']

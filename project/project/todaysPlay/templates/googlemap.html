@@ -142,6 +142,7 @@
         </div>
     </header>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy81EbO46BRSnX1DOgg_F84bhsdbku2z4"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <section class="searchSection" >
         <div class="mainSection">
             <div class="mainWhat">
@@ -169,9 +170,11 @@
                center: latlng,
                zoom: 12,
         });
+        let markers = [];
+        let markerCluster;
 
         const image = {
-            url: '/static/images/markericon.ico',
+            url: '/static/images/marker_icon1.png',
             size: new google.maps.Size(25, 25),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
@@ -184,8 +187,8 @@
         const line_3 = {{hosun_3}};
         const xy = {{xy}};
         {% endautoescape %}
-        console.log(line);
         const infowindow = new google.maps.InfoWindow();
+        refreshMap();
 
         const path = new google.maps.Polyline({
             path: line,
@@ -220,17 +223,33 @@
         });
         path3.setMap(map);
 
-        for (let i = 0; i < xy.length; i++) {
-            const place = xy[i].name;
-            const marker = new google.maps.Marker({
-                position: new google.maps.LatLng(xy[i].lat, xy[i].lng),
-                icon : image,
-                map: map,
+        function createMarkers() {
+            for (let i = 0; i < xy.length; i++) {
+                const place = xy[i].name;
+                const marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(xy[i].lat, xy[i].lng),
+                    icon : image,
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                });
+                markers.push(marker);
+                marker.addListener('click', function() {
+                    infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info1/?pid=" + place +  "'target = '_blank'>GO!!</a>");
+                    infowindow.open(map, marker);
+                });
+            };
+            console.log(markers);
+            markerCluster = new MarkerClusterer(map, markers,{
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+                gridSize: 60
             });
-            marker.addListener('click', function() {
-                infowindow.setContent(place + "<br>!!궁금하면 가보자 " + "<a href='/todaysPlay/info/?pid=" + place +  "'target = '_blank'>GO!!</a>");
-                infowindow.open(map, marker);
-            });
+        };
+        function refreshMap() {
+            if (markerCluster instanceof MarkerClusterer) {
+             markerCluster.clearMarkers()
+            };
+            markers = [];
+            createMarkers();
         };
     };
     </script>

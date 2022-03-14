@@ -153,7 +153,7 @@
         <div class="card">
             {% for j,k in Name.items %}
             <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info1/?pid={{j}}">
-                <img class="card_location" src={{k}}">
+                <img class="card_location" src="{{k}}">
                 <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
