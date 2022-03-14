@@ -157,27 +157,8 @@ def location1(request):
             Address2.append(o)
     context = {
         'title': i,
-        '미술관': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '공연전시장': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '문화예술회관': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '박물기념관': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '유적지': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '문화원': {
-            'Name' : Name2,
-            'Address' : Address2},
-        '기타': {
-            'Name' : Name2,
-            'Address' : Address2},
+        'Name' : Name2,
+        'Address' : Address2,
     }
     return render(request, 'location1.html',context)
 
