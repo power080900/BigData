@@ -251,8 +251,8 @@ def info1(request):
     return render(request, 'info1.html', context)
 
 def info2(request):
-    with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as i:
-        program1 = json.load(i)
+    with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
+        program1 = json.load(f)
     Name = request.GET.get("pid")
     Fee2 = program1[Name]['Fee']
     Image2 = program1[Name]['Image']
