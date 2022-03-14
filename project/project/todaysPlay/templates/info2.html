@@ -60,6 +60,36 @@
         li {
             list-style: none;
             }
+        .titleout {
+            text-align: center;
+        }
+        .titlein {
+            width : auto;
+            height : auto;
+            padding : 20px;
+        }
+        .title_pic {
+            border-radius : 10px;
+            width : 300px;
+            height : 300px;
+            text-align: center;
+        }
+        .title_p {
+            font-size : 30px;
+            color : #2F9D27;
+            text-align: center;
+            margin : 20px;
+            }
+        .contentsin {
+            margin : 20px;
+            padding : 10px;
+        }
+        .contents_p {
+            font-size :25px;
+        }
+        p {
+            margin : 10px;
+            }
     </style>
 </head>
 <body>
@@ -71,16 +101,20 @@
             </li>
         </div>
     </header>
-    <div class="title">
-        <img class="'title_pic" src={{info2.Image}}>
-        <p class="title_p" id="Name">{{info2.Name}}</p>
+    <div class="titleout">
+        <div class="titlein">
+            <img class="title_pic" src={{info2.Image}}>
+        </div>
     </div>
-    <div class="contents">
-        <p class="contents_p" id="PlaceName">장소 : {{info2.PlaceName}}</p>
-        <p class="contents_p" id="StartDay">시작일 : {{info2.StartDay}}</p>
-        <p class="contents_p" id="EndDay">종료일 : {{info2.EndDay}}</p>
-        <p class="contents_p" id="TargetAudience">이용대상 : {{info2.TargetAudience}}</p>
-        <p class="contents_p" id="Fee2">이용금액 : {{info2.Fee}}</p>
+    <p class="title_p" id="Name">{{info2.Name}}</p>
+    <div class="contentsout">
+        <div class="contentsin">
+            <p class="contents_p" id="PlaceName">장소 : {{info2.PlaceName}}</p>
+            <p class="contents_p" id="StartDay">시작일 : {{info2.StartDay}}</p>
+            <p class="contents_p" id="EndDay">종료일 : {{info2.EndDay}}</p>
+            <p class="contents_p" id="TargetAudience">이용대상 : {{info2.TargetAudience}}</p>
+            <p class="contents_p" id="Fee2">이용금액 : {{info2.Fee}}</p>
+        </div>
     </div>
     <div>
         <a class="mainPage" href="/todaysPlay/location2/?pid={{info2.Category}}">이전으로</a>

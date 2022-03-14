@@ -60,6 +60,36 @@
         li {
             list-style: none;
             }
+        .titleout {
+            text-align: center;
+        }
+        .titlein {
+            width : auto;
+            height : auto;
+            padding : 20px;
+        }
+        .title_pic {
+            border-radius : 10px;
+            width : 300px;
+            height : 300px;
+            text-align: center;
+        }
+        .title_p {
+            font-size : 30px;
+            color : #2F9D27;
+            text-align: center;
+            margin : 20px;
+            }
+        .contentsin {
+            margin : 20px;
+            padding : 10px;
+        }
+        .contents_p {
+            font-size :25px;
+        }
+        p {
+            margin : 10px;
+            }
     </style>
 </head>
 <body>
@@ -71,20 +101,24 @@
             </li>
         </div>
     </header>
-    <div class="title">
-        <img class="'title_pic" src="{{info1.Image}}">
-        <p class="title_p" id="Name">{{info1.Name}}</p>
+    <div class="titleout">
+        <div class="titlein">
+            <img class="title_pic" src="{{info1.Image}}">
+        </div>
     </div>
-    <div class="contents">
-        <p class="contents_p" id="Station">도착역 : {{info1.Station}}</p>
-        <p class="contents_p" id="LineNumber">이용 지하철 노선 : {{info1.LineNumber}}</p>
-        <p class="contents_p" id="Address">주소 : {{info1.Address}}</p>
-        <p class="contents_p" id="Telephone">전화번호 : {{info1.Telephone}}</p>
-        <p class="contents_p" id="Website">사이트 : {{info1.Website}}</p>
-        <p class="contents_p" id="OpeningHours">개장시간 : {{info1.OpeningHours}}</p>
-        <p class="contents_p" id="PayFree">유·무료 : {{info1.PayFree}}</p>
-        <p class="contents_p" id="Fee1">요금 : {{info1.Fee}}</p>
-        <p class="contents_p" id="Closed">휴관일 : {{info1.Closed}}</p>
+    <p class="title_p" id="Name">{{info1.Name}}</p>
+    <div class="contentsout">
+        <div class="contentsin">
+            <p class="contents_p" id="Station">도착역 : {{info1.Station}}</p>
+            <p class="contents_p" id="LineNumber">이용 지하철 노선 : {{info1.LineNumber}}</p>
+            <p class="contents_p" id="Address">주소 : {{info1.Address}}</p>
+            <p class="contents_p" id="Telephone">전화번호 : {{info1.Telephone}}</p>
+            <p class="contents_p" id="Website">사이트 : {{info1.Website}}</p>
+            <p class="contents_p" id="OpeningHours">개장시간 : {{info1.OpeningHours}}</p>
+            <p class="contents_p" id="PayFree">유·무료 : {{info1.PayFree}}</p>
+            <p class="contents_p" id="Fee1">요금 : {{info1.Fee}}</p>
+            <p class="contents_p" id="Closed">휴관일 : {{info1.Closed}}</p>
+        </div>
     </div>
     <div>
         <a class="mainPage" href="/todaysPlay/location1/?pid={{info1.Class}}">이전으로</a>
