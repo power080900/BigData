@@ -11,19 +11,11 @@ def main(request):
     print(request.user.is_authenticated)
     print(request.user)
     j = random.randrange(1, 7)
-    if request.user.is_authenticated:
-        context = {
-            'logineduser': request.user,
-            'j': j,
-            'link': ['미술관', '공연·전시장', '문화예술회관', '박물·기념관', '유적지', '문화원', '기타'],
-            'link2': ['국악', '독주·독창회', '무용', '문화교양·강좌', '뮤지컬·오페라', '연극', '전시·미술', '콘서트', '클래식', '기타'],
-        }
-    else :
-        context = {
-            'j': j,
-            'link': ['미술관', '공연·전시장', '문화예술회관', '박물·기념관', '유적지', '문화원', '기타'],
-            'link2': ['국악', '독주·독창회', '무용', '문화교양·강좌', '뮤지컬·오페라', '연극', '전시·미술', '콘서트', '클래식', '기타'],
-        }
+    context = {
+        'j': j,
+        'link': ['미술관', '공연·전시장', '문화예술회관', '박물·기념관', '유적지', '문화원', '기타'],
+        'link2': ['국악', '독주·독창회', '무용', '문화교양·강좌', '뮤지컬·오페라', '연극', '전시·미술', '콘서트', '클래식', '기타'],
+    }
     return render(request, 'main.html', context)
 
 def randomslot(request):
@@ -153,11 +145,11 @@ def location1(request):
     i = request.GET.get("pid")
     with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
-    name = place1.keys()
+    name = list(place1.keys())
     # Address =
     context = {
         'title': i,
-        '미술관': name,
+        '미술관': {'ADM 갤러리':'미술관1 내용'},
         '공연장': {'공연장1': "공연장1 내용",
             '공연장2': "공연장2 내용",
             '공연장3': "공연장3 내용",},
@@ -210,6 +202,7 @@ def info1(request):
     Fee = place1[Name]['Fee']
     Closed = place1[Name]['Closed']
     PayFree = place1[Name]['PayFree']
+    Class = place1[Name]['Class']
     context = {
         'info1' : {
             'Name' : Name,
@@ -223,6 +216,7 @@ def info1(request):
             "Fee" : Fee,
             "Closed" : Closed,
             "PayFree" : PayFree,
+            "Class" : Class,
         },
     }
     return render(request, 'info1.html', context)
