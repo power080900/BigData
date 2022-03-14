@@ -20,12 +20,12 @@
             margin: 0 auto;
             height: 1250px;
             overflow-x: hidden;
+            background-color: #f5f5f5;
         }
         div{
 		    overflow: hidden;
 		    height:auto;
 	    }
-
         header{
             position: sticky;
             top: 0;
@@ -118,6 +118,7 @@
             }
         .Home {
             margin : 10px;
+            float: right;
         }
         .page_out {
             width : 100%;
@@ -127,6 +128,7 @@
             display: inline-block;
         }
         .paging-div {
+            margin: 20px;
             text-align:center;
         }
         .pagebtn {
@@ -135,6 +137,13 @@
         .pager {
             text-align:center;
             }
+        .title{
+            color: #2F9D27
+        }
+        .mainfrm{
+            margin: 10px;
+            margin-left: 50px;
+        }
     </style>
 </head>
 <body>
@@ -146,6 +155,9 @@
             </li>
         </div>
     </header>
+    <div class="Home">
+        <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
+    </div>
     <div class="head_title">
         <h1 class="title">{{title}}</h1>
     </div>
@@ -271,8 +283,5 @@
             };
         }
     </script>
-    <div class="Home">
-        <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
-    </div>
 </body>
 </html>
