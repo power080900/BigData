@@ -143,6 +143,7 @@ def signInPage(request):
     return render(request, 'signInPage.html', res_data)
 
 def location1(request):
+    page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
     Name1 = df.loc[(df['Class'] == i), ['PlaceName']].values.tolist()
@@ -156,6 +157,7 @@ def location1(request):
         for o in n:
             Address2.append(o)
     context = {
+        'page' : page,
         'title': i,
         'Name' : Name2,
         'Address' : Address2,
@@ -163,6 +165,7 @@ def location1(request):
     return render(request, 'location1.html',context)
 
 def location2(request):
+    page = [1,2,3,4,5,6,7,8,9,10,11]
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
     Name1 = df.loc[(df['Category'] == i), ['ProgramName']].values.tolist()
@@ -176,37 +179,10 @@ def location2(request):
         for o in n:
             PlaceName2.append(o)
     context = {
+        'page' : page,
         'title': i,
-        '국악': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '독주독창회': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '무용': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '문화교양강좌': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '뮤지컬오페라': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '연극': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '전시미술': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '콘서트': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '클래식': {
-            'Name' : Name2,
-            'k' : PlaceName2},
-        '기타': {
-            'Name' : Name2,
-            'k' : PlaceName2},
+        'Name' : Name2,
+        'PlaceName' : PlaceName2,
     }
     return render(request, 'location2.html',context)
 

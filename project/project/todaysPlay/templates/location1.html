@@ -25,6 +25,7 @@
 		    overflow: hidden;
 		    height:auto;
 	    }
+
         header{
             position: sticky;
             top: 0;
@@ -65,6 +66,8 @@
         }
         li {
             list-style: none;
+            overflow: hidden;
+		    height:auto;
         }
         a {
             text-decoration : none;
@@ -106,12 +109,6 @@
         .head_title {
             padding : 25px;
             }
-        .paging-div {
-            padding: 15px 0 5px 10px;
-            display: table;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
         }
         .previous {
             float: left;
@@ -119,12 +116,25 @@
         .next disabled{
             float: right;
             }
-        .pager {
-            width: 500px;
-            }
         .Home {
             margin : 10px;
         }
+        .page_out {
+            width : 100%;
+            text-align : center;
+        }
+        .page_in {
+            display: inline-block;
+        }
+        .paging-div {
+            text-align:center;
+        }
+        .pagebtn {
+            margin : 5px;
+            }
+        .pager {
+            text-align:center;
+            }
     </style>
 </head>
 <body>
@@ -150,18 +160,116 @@
         </div>
     </div>
     <div class="paging-div">
-        <ul class="pager" id="pagination">
-            <li class="previous"><a href="#" onclick="pagedown()" >← Previous</a></li>
-            <li class="next disabled"><a href="#" onclick="document.querySelector('#card1').style.display='inline'; return false">Next →</a></li>
-        </ul>
+        <div class="pager" id="pagination">
+            <div class="pageout">
+                <div class="pagein">
+                    {% for i in page %}
+                    <a class="pagebtn" href="#" onclick="page{{i}}(); return false">{{i}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
     <script>
-        function pagedown() {
-            for (i = 1; i < 121; i ++) {
-                "document.querySelector('#card["+i+"]').style.display='none';"
-                };
-            "return false"
-            }
+        function page1() {
+            for (let i = 1; i < 151; i ++) {
+                if (i < 15) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page2() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 14 && i < 29) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page3() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 28 && i < 43) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page4() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 42 && i < 57) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page5() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 56 && i < 71) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page6() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 70 && i < 85) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page7() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 84 && i < 99) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page8() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 98 && i < 113) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page9() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 112 && i < 127) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page10() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 126 && i < 141) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page11() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 140 && i < 151) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
     </script>
     <div class="Home">
         <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
