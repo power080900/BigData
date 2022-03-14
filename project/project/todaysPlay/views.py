@@ -151,23 +151,13 @@ def signInPage(request):
 
 def location1(request):
     i = request.GET.get("pid")
-    if i == "미술관":
-        title = "미술관"
-    elif i == "공연·전시장":
-        title = "공연·전시장"
-    elif i == "문화예술회관":
-        title = "문화예술회관"
-    elif i == "박물·기념관":
-        title = "박물·기념관"
-    elif i == "유적지":
-        title = "유적지"
-    elif i == "문화원":
-        title = "문화원"
-    elif i == "기타":
-        title = "기타"
+    with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
+        place1 = json.load(f)
+    name = place1.keys()
+    # Address =
     context = {
-        'title': title,
-        '미술관': {'ADM 갤러리': "미술관1 내용",},
+        'title': i,
+        '미술관': name,
         '공연장': {'공연장1': "공연장1 내용",
             '공연장2': "공연장2 내용",
             '공연장3': "공연장3 내용",},
@@ -191,28 +181,8 @@ def location1(request):
 
 def location2(request):
     i = request.GET.get("pid")
-    if i ==  "국악":
-        title = "국악"
-    elif i == "독주·독창회":
-        title = "독주·독창회"
-    elif i == "무용":
-        title = "무용"
-    elif i == "문화교양·강좌":
-        title = "문화교양·강좌"
-    elif i == "뮤지컬·오페라":
-        title = "뮤지컬·오페라"
-    elif i == "연극":
-        title = "연극"
-    elif i == "전시·미술":
-        title = "전시·미술"
-    elif i == "콘서트":
-        title = "콘서트"
-    elif i == "클래식":
-        title = "클래식"
-    elif i == "기타":
-        title = "기타"
     context = {
-        'title': title,
+        'title': i,
         '국악': ['판소리 레미제라블 ＜구구선 사람들＞', '국악2'],
         '독창회': ['독주1', '독주2'],
         '무용': ['무용1', '무용2'],

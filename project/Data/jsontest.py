@@ -11,8 +11,7 @@ with open('program3.json','r', encoding='utf-8') as f:
 # print(json.dumps(data2, indent=4, ensure_ascii=False))
 Name = "서울풍물시장 청춘1번가"
 
-print(data2[Name]['PlaceName'])
-print(data2['서울풍물시장 청춘1번가']['StartDay'][0:10])
+print(data1.keys())
 
 
 
