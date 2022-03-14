@@ -116,7 +116,7 @@
     {% if title == "미술관" %}
     <div class="table">
         <div class="card">
-            {% for j, k in 미술관.items %}
+            {% for j, k in 미술관 %}
             <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
                 <div class="card_title">{{j}}<br>{{k}}</div>
@@ -138,7 +138,7 @@
     {% elif title == "문화예술회관" %}
     <div class="table">
         <div class="card">
-            {% for j,k  in 문화예술회관.items %}
+            {% for j,k in 문화예술회관.items %}
             <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
                 <div class="card_title">{{j}}<br>{{k}}</div>

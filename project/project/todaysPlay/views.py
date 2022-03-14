@@ -144,38 +144,76 @@ def signInPage(request):
 
 def location1(request):
     i = request.GET.get("pid")
-    df = pd.read_json("D:\lee\study\BigData\project\Data\place3.json", sheet_name="program", skiprows = 0)
-    Name =
-    Address =
+    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
+    Name1 = df.loc[(df['Class'] == i), ['PlaceName']]
+    Name2 = Name1.values.tolist()
+    Address1 = df.loc[(df['Class'] == i), ['Address']]
+    Address2 = Address1.values.tolist()
     context = {
         'title': i,
-        '미술관': {Name : Address},
-        '공연장': {Name : Address},
-        '문화예술회관': {Name : Address},
-        '박물관': {Name : Address},
-        '유적지': {Name : Address},
-        '문화원': {Name : Address},
-        '기타': {Name : Address},
+        '미술관': {
+            'j' : Name2,
+            'k' : Address2},
+        '공연장': {
+            'j' : Name1,
+            'k' : Address1},
+        '문화예술회관': {
+            'j' : Name2,
+            'k' : Address2},
+        '박물관': {
+            'j' : Name2,
+            'k' : Address2},
+        '유적지': {
+            'j' : Name2,
+            'k' : Address2},
+        '문화원': {
+            'j' : Name2,
+            'k' : Address2},
+        '기타': {
+            'j' : Name2,
+            'k' : Address2},
     }
     return render(request, 'location1.html',context)
 
 def location2(request):
     i = request.GET.get("pid")
-    df = pd.read_json("D:\lee\study\BigData\project\Data\program3.json", sheet_name="program", skiprows=0)
-    Name =
-    PlaceName =
+    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
+    Name1 = df.loc[(df['Category'] == i), ['ProgramName']]
+    Name2 = Name1.values.tolist()
+    PlaceName1 = df.loc[(df['Category'] == i), ['PlaceName']]
+    PlaceName2 = PlaceName1.values.tolist()
     context = {
         'title': i,
-        '국악': {Name : PlaceName},
-        '독창회': {Name : PlaceName},
-        '무용': {Name : PlaceName},
-        '문화교양강좌': {Name : PlaceName},
-        '뮤지컬·오페라': {Name : PlaceName},
-        '연극': {Name : PlaceName},
-        '전시미술': {Name : PlaceName},
-        '콘서트': {Name : PlaceName},
-        '클래식': {Name : PlaceName},
-        '기타': {Name : PlaceName},
+        '국악': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '독창회': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '무용': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '문화교양강좌': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '뮤지컬·오페라': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '연극': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '전시미술': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '콘서트': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '클래식': {
+            'j' : Name2,
+            'k' : PlaceName2},
+        '기타': {
+            'j' : Name2,
+            'k' : PlaceName2},
     }
     return render(request, 'location2.html',context)
 
