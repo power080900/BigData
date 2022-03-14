@@ -219,7 +219,7 @@ def location(request):
     }
     return render(request, 'location.html',context)
 
-def info(request):
+def info1(request):
     with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
     Name = request.GET.get("pid")
@@ -233,8 +233,27 @@ def info(request):
     Fee1 = place1[Name]['Fee']
     Closed = place1[Name]['Closed']
     PayFree = place1[Name]['PayFree']
+    context = {
+        'info' : {
+            'Name' : Name,
+            'LineNumber' :LineNumber,
+            'Station' : Station,
+            "Address" : Address,
+            "Telephone" : Telephone,
+            "Image1" : Image1,
+            "Website" : Website,
+            "OpeningHours" : OpeningHours,
+            "Fee1" : Fee1,
+            "Closed" : Closed,
+            "PayFree" : PayFree,
+        },
+    }
+    return render(request, 'info1.html', context)
+
+def info2(request):
     with open('D:\lee\study\BigData\project\Data\program3.json','r',encoding='utf-8') as i:
         program1 = json.load(i)
+    Name = request.GET.get("pid")
     Fee2 = program1[Name]['Fee']
     Image2 = program1[Name]['Image']
     Category = program1[Name]['Category']
@@ -246,25 +265,15 @@ def info(request):
         'info' : {
             'Category' : Category,
             'Name' : Name,
-            'LineNumber' :LineNumber,
-            'Station' : Station,
-            "Address" : Address,
-            "Telephone" : Telephone,
-            "Image1" : Image1,
             "Image2": Image2,
-            "Website" : Website,
-            "OpeningHours" : OpeningHours,
-            "Fee1" : Fee1,
             "Fee2" : Fee2,
-            "Closed" : Closed,
-            "PayFree" : PayFree,
             "PlaceName" : PlaceName,
             "StartDay" : StartDay,
             "EndDay" : EndDay,
             "TargetAudience" : TargetAudience,
         },
     }
-    return render(request, 'info.html', context)
+    return render(request, 'info2.html', context)
 
 def logout(request):
     if request.user.is_authenticated:
