@@ -19,12 +19,12 @@
             overflow-x: hidden;
         }
         header{
-        position: sticky;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1005;
-        background : white;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1005;
+            background : white;
         }
         .headerLogo{
             padding : 20px;
@@ -53,14 +53,9 @@
             float: right;
             vertical-align: middle;
         }
-        .place {
-            padding : 20px;
-        }
         .table {
-            border : 0.5px solid grey;
-            border-radius: 6px;
-            margin : 10px;
-            height : 300px;
+            padding : 20px;
+            height : 25%;
         }
         li {
             list-style: none;
@@ -70,14 +65,39 @@
             color : black;
             font-size : 20px
             }
-        .card1 {
-            width: 300px;
-            height: 300px;
-            float: left;
+        .place {
+            list-style: none;
+            margin : auto;
+            text-align : center;
+            float : left;
+            overflow-x: hidden;
         }
+        .card_link {
+            margin: 10px;
+            padding: 5px;
+            text-decoration : none;
+            font-color: black;
+            float: left;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 0 8px 10px 0 black;
+            color: black;
+            overflow-x: hidden;
+        }
+        .card_link:hover {
+            opacity: 0.5
+        }
+        .card_location {
+            height: 150px;
+            width: 150px;
+            border-bottom: 1px solid;
+            }
         .placelink {
             padding : 15px;
             float: left;
+            }
+        .head_title {
+            padding : 25px;
             }
     </style>
 </head>
@@ -94,10 +114,10 @@
     {% if title == "국악" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 국악.items %}
+            {% for j in 국악.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -105,10 +125,10 @@
     {% elif title == "독주·독창회" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 독창회.items %}
+            {% for j in 독주독창회.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -116,10 +136,10 @@
     {% elif title == "무용" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 무용.items %}
+            {% for j in 무용.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -127,10 +147,10 @@
     {% elif title == "문화교양·강좌" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 문화교양강좌.items %}
+            {% for j in 문화교양강좌.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -138,10 +158,10 @@
     {% elif title == "뮤지컬·오페라" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 뮤지컬.items %}
+            {% for j in 뮤지컬오페라.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -149,10 +169,10 @@
     {% elif title == "연극" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 연극.items %}
+            {% for j in 연극.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -160,10 +180,10 @@
     {% elif title == "전시·미술" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 전시미술.items %}
+            {% for j in 전시미술.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -171,10 +191,10 @@
     {% elif title == "콘서트" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 콘서트.items %}
+            {% for j in 콘서트.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -182,10 +202,10 @@
     {% elif title == "클래식" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 클래식.items %}
+            {% for j in 클래식.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>
@@ -193,10 +213,10 @@
     {% elif title == "기타" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j,k in 기타.items %}
+            {% for j in 기타.Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}<br>{{k}}</div>
+                <div class="card_title">{{j}}</div>
             </a>
             {% endfor %}
         </div>

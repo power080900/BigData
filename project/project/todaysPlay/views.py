@@ -145,74 +145,86 @@ def signInPage(request):
 def location1(request):
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
-    Name1 = df.loc[(df['Class'] == i), ['PlaceName']]
-    Name2 = Name1.values.tolist()
-    Address1 = df.loc[(df['Class'] == i), ['Address']]
-    Address2 = Address1.values.tolist()
+    Name1 = df.loc[(df['Class'] == i), ['PlaceName']].values.tolist()
+    Name2 = []
+    for l in Name1:
+        for m in l:
+            Name2.append(m)
+    Address1 = df.loc[(df['Class'] == i), ['Address']].values.tolist()
+    Address2 = []
+    for n in Address1:
+        for o in n:
+            Address2.append(o)
     context = {
         'title': i,
         '미술관': {
-            'j' : Name2,
-            'k' : Address2},
-        '공연장': {
-            'j' : Name1,
-            'k' : Address1},
+            'Name' : Name2,
+            'Address' : Address2},
+        '공연전시장': {
+            'Name' : Name2,
+            'Address' : Address2},
         '문화예술회관': {
-            'j' : Name2,
-            'k' : Address2},
-        '박물관': {
-            'j' : Name2,
-            'k' : Address2},
+            'Name' : Name2,
+            'Address' : Address2},
+        '박물기념관': {
+            'Name' : Name2,
+            'Address' : Address2},
         '유적지': {
-            'j' : Name2,
-            'k' : Address2},
+            'Name' : Name2,
+            'Address' : Address2},
         '문화원': {
-            'j' : Name2,
-            'k' : Address2},
+            'Name' : Name2,
+            'Address' : Address2},
         '기타': {
-            'j' : Name2,
-            'k' : Address2},
+            'Name' : Name2,
+            'Address' : Address2},
     }
     return render(request, 'location1.html',context)
 
 def location2(request):
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
-    Name1 = df.loc[(df['Category'] == i), ['ProgramName']]
-    Name2 = Name1.values.tolist()
-    PlaceName1 = df.loc[(df['Category'] == i), ['PlaceName']]
-    PlaceName2 = PlaceName1.values.tolist()
+    Name1 = df.loc[(df['Category'] == i), ['ProgramName']].values.tolist()
+    Name2 = []
+    for l in Name1:
+        for m in l:
+            Name2.append(m)
+    PlaceName1 = df.loc[(df['Category'] == i), ['PlaceName']].values.tolist()
+    PlaceName2 = []
+    for n in PlaceName1:
+        for o in n:
+            PlaceName2.append(o)
     context = {
         'title': i,
         '국악': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
-        '독창회': {
-            'j' : Name2,
+        '독주독창회': {
+            'Name' : Name2,
             'k' : PlaceName2},
         '무용': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
         '문화교양강좌': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
-        '뮤지컬·오페라': {
-            'j' : Name2,
+        '뮤지컬오페라': {
+            'Name' : Name2,
             'k' : PlaceName2},
         '연극': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
         '전시미술': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
         '콘서트': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
         '클래식': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
         '기타': {
-            'j' : Name2,
+            'Name' : Name2,
             'k' : PlaceName2},
     }
     return render(request, 'location2.html',context)

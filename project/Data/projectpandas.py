@@ -22,8 +22,14 @@ df2 = pd.read_excel("project_place.xlsx",sheet_name="place", skiprows = 0)
 #
 # 칼럼 선택 추출; 여러개 추출 가능(대괄호 두 개 사용)
 Name1 = df2.loc[(df2['Class']=='미술관'), ['PlaceName']].values.tolist()
-print(Name1)
-print(type(Name1))
+k = []
+for i in Name1:
+    for j in i:
+        k.append(j)
+print(k)
+
+
+
 
 #
 # # 열 이름 안쓰고도 칼럼 선택 추출 가능
