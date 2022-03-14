@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+    <style>
+        @font-face {
+            font-family: 'MaplestoryOTFBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'MaplestoryOTFBold';
+        }
+        body{
+            margin: 0 auto;
+            height: 1250px;
+            overflow-x: hidden;
+        }
+        header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1005;
+            background : white;
+        }
+        .headerLogo{
+            padding : 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px solid #e4e8eb;
+            height : 40px;
+            position : relative;
+        }
+        .mainPage, .logIn {
+            text-decoration : none;
+            font-size: 1.5rem;
+            line-height : 1.7;
+            font-weight: 400;
+            color : #2F9D27
+        }
+        button {
+                cursor: pointer;
+        }
+        .mainPage {
+            padding-left: 20px;
+        }
+        .logIn {
+            float: right;
+            vertical-align: middle;
+        }
+        .table {
+            padding : 20px;
+            height : 25%;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration : none;
+            color : black;
+            font-size : 20px
+            }
+        .card {
+            list-style: none;
+            margin : auto;
+            text-align : center;
+            float : left;
+            overflow-x: hidden;
+        }
+        .card_link {
+            margin: 10px;
+            padding: 5px;
+            text-decoration : none;
+            font-color: black;
+            float: left;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 0 8px 10px 0 black;
+            color: black;
+            overflow-x: hidden;
+        }
+        .card_link:hover {
+            opacity: 0.5
+        }
+        .card_location {
+            height: 150px;
+            width: 150px;
+            border-bottom: 1px solid;
+            }
+        .placelink {
+            padding : 15px;
+            float: left;
+            }
+        .head_title {
+            padding : 25px;
+            }
+    </style>
+</head>
+<body>
+    <header class="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:logout' %}" class="logIn">로그아웃</a>
+            </li>
+        </div>
+    </header>
+    <div class="head_title">
+        <h1 class="title">{{title}}</h1>
+    </div>
+    {% if title == "미술관" %}
+    <div class="table">
+        <div class="card">
+            {% for j, k in 미술관.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "공연·전시장" %}
+    <div class="table">
+        <div class="card">
+            {% for j, k in 공연장.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "문화예술회관" %}
+    <div class="table">
+        <div class="card">
+            {% for j,k  in 문화예술회관.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "박물·기념관" %}
+    <div class="table">
+        <div class="card">
+            {% for j, k in 박물관.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "유적지" %}
+    <div class="table">
+        <div class="card">
+            {% for j, k in 유적지.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "문화원" %}
+    <div class="table">
+        <div class="card">
+            {% for j,k in 문화원.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% elif title == "기타" %}
+    <div class="table">
+        <div class="card">
+            {% for j,k in 기타.items %}
+            <a class="card_link" href="/todaysPlay/info1/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location1/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    <div>
+        <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
+    </div>
+</body>
+</html>
