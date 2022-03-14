@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 from django.contrib import auth
 import random
 import json
+import pandas as pd
 
 def main(request):
     print(request.user.is_authenticated)
@@ -143,48 +144,38 @@ def signInPage(request):
 
 def location1(request):
     i = request.GET.get("pid")
-    with open('D:\lee\study\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
-        place1 = json.load(f)
-    name = list(place1.keys())
-    # Address =
+    df = pd.read_json("D:\lee\study\BigData\project\Data\place3.json", sheet_name="program", skiprows = 0)
+    Name =
+    Address =
     context = {
         'title': i,
-        '미술관': {'ADM 갤러리':'미술관1 내용'},
-        '공연장': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '문화예술회관': {'문화예술회관1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '박물관': {'박물·기념관1': "박물·기념관1 내용",
-            '박물·기념관2': "박물·기념관2 내용",
-            '박물·기념관': "박물·기념관3 내용",},
-        '유적지': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '문화원': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
-        '기타': {'공연장1': "공연장1 내용",
-            '공연장2': "공연장2 내용",
-            '공연장3': "공연장3 내용",},
+        '미술관': {Name : Address},
+        '공연장': {Name : Address},
+        '문화예술회관': {Name : Address},
+        '박물관': {Name : Address},
+        '유적지': {Name : Address},
+        '문화원': {Name : Address},
+        '기타': {Name : Address},
     }
     return render(request, 'location1.html',context)
 
 def location2(request):
     i = request.GET.get("pid")
+    df = pd.read_json("D:\lee\study\BigData\project\Data\program3.json", sheet_name="program", skiprows=0)
+    Name =
+    PlaceName =
     context = {
         'title': i,
-        '국악': {'판소리 레미제라블 ＜구구선 사람들＞':'국악2'},
-        '독창회': {'독주1' : '독주2'},
-        '무용': {'무용1': '무용2'},
-        '문화교양강좌': {'강좌1':'강좌2'},
-        '뮤지컬·오페라': {'뮤지컬1':'뮤지컬2'},
-        '연극': {'연극1':'연극2'},
-        '전시미술': {'전시1':'전시2'},
-        '콘서트': {'콘서트1':'콘서트2'},
-        '클래식': {'클래식1':'클래식2'},
-        '기타': {'기타1':'기타2'},
+        '국악': {Name : PlaceName},
+        '독창회': {Name : PlaceName},
+        '무용': {Name : PlaceName},
+        '문화교양강좌': {Name : PlaceName},
+        '뮤지컬·오페라': {Name : PlaceName},
+        '연극': {Name : PlaceName},
+        '전시미술': {Name : PlaceName},
+        '콘서트': {Name : PlaceName},
+        '클래식': {Name : PlaceName},
+        '기타': {Name : PlaceName},
     }
     return render(request, 'location2.html',context)
 

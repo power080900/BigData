@@ -20,9 +20,9 @@ df2 = pd.read_excel("project_place.xlsx",sheet_name="place", skiprows = 0)
 # # 중복제거 데이터 개수 출력
 # print(df1['PlaceName'].nunique())
 #
-# # 칼럼 선택 추출; 여러개 추출 가능(대괄호 두 개 사용)
-# print(df1['PlaceName'])
-# print(df1[['PlaceName', 'Category']])
+# 칼럼 선택 추출; 여러개 추출 가능(대괄호 두 개 사용)
+print(df1['PlaceName'])
+print(df1[['PlaceName', 'Category']])
 #
 # # 열 이름 안쓰고도 칼럼 선택 추출 가능
 # print(df1.columns) # 열 이름 목록
