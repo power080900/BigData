@@ -94,150 +94,110 @@
     {% if title == "국악" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 국악 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 국악.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "독주·독창회" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 독창회 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 독창회.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "무용" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 무용 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 무용.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "문화교양·강좌" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 문화교양강좌 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 문화교양강좌.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "뮤지컬·오페라" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 뮤지컬 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 뮤지컬.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "연극" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 연극 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 연극.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "전시·미술" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 전시미술 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 전시미술.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "콘서트" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 콘서트 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 콘서트.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "클래식" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in 클래식 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 클래식.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
     {% elif title == "기타" %}
     <div class="mainfrm">
         <div class="place">
-            {% for j in place7 %}
-            <div class="table">
-                <div class="card1">
-                    <img class="placepic" scr="/static/images/location2/{{j}}.jpg">
-                </div>
-                <li class="placelink">
-                    <a href="/todaysPlay/info2/?pid={{j}}">{{j}}</a>
-                </li>
-            </div>
+            {% for j,k in 기타.items %}
+            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
+                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
+                <div class="card_title">{{j}}<br>{{k}}</div>
+            </a>
             {% endfor %}
         </div>
     </div>
