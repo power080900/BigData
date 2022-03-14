@@ -22,6 +22,7 @@
 		    overflow: hidden;
 		    height:auto;
 	    }
+
         header{
             position: sticky;
             top: 0;
@@ -62,13 +63,15 @@
         }
         li {
             list-style: none;
+            overflow: hidden;
+		    height:auto;
         }
         a {
             text-decoration : none;
             color : black;
             font-size : 20px
             }
-        .place {
+        .card {
             list-style: none;
             margin : auto;
             text-align : center;
@@ -93,8 +96,8 @@
         .card_location {
             height: 200px;
             width: 200px;
-            border-bottom: 1px solid;
             border-radius: 10px;
+            border-bottom: 1px solid;
             }
         .placelink {
             padding : 15px;
@@ -103,8 +106,31 @@
         .head_title {
             padding : 25px;
             }
+        }
+        .previous {
+            float: left;
+            }
+        .next disabled{
+            float: right;
+            }
         .Home {
             margin : 10px;
+        }
+        .page_out {
+            width : 100%;
+            text-align : center;
+        }
+        .page_in {
+            display: inline-block;
+        }
+        .paging-div {
+            text-align:center;
+        }
+        .pagebtn {
+            margin : 5px;
+            }
+        .pager {
+            text-align:center;
             }
     </style>
 </head>
@@ -118,10 +144,9 @@
         </div>
     </header>
     <h1 class="title">{{title}}</h1>
-    {% if title == "국악" %}
     <div class="mainfrm">
-        <div class="place">
-            {% for j in 국악.Name %}
+        <div class="card">
+            {% for j in Name %}
             <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
                 <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
                 <div class="card_title">{{j}}</div>
@@ -129,106 +154,118 @@
             {% endfor %}
         </div>
     </div>
-    {% elif title == "독주·독창회" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 독주독창회.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
+    <div class="paging-div">
+        <div class="pager" id="pagination">
+            <div class="pageout">
+                <div class="pagein">
+                    {% for i in page %}
+                    <a class="pagebtn" href="#" onclick="page{{i}}(); return false">{{i}}</a>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
-    {% elif title == "무용" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 무용.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "문화교양·강좌" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 문화교양강좌.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "뮤지컬·오페라" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 뮤지컬오페라.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "연극" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 연극.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "전시·미술" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 전시미술.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "콘서트" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 콘서트.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "클래식" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 클래식.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% elif title == "기타" %}
-    <div class="mainfrm">
-        <div class="place">
-            {% for j in 기타.Name %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" scr="/static/images/location2/{{j}}.jpg">
-                <div class="card_title">{{j}}</div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
+    <script>
+        function page1() {
+            for (let i = 1; i < 151; i ++) {
+                if (i < 15) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page2() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 14 && i < 29) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page3() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 28 && i < 43) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page4() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 42 && i < 57) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page5() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 56 && i < 71) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page6() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 70 && i < 85) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page7() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 84 && i < 99) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page8() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 98 && i < 113) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page9() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 112 && i < 127) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page10() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 126 && i < 141) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page11() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 140 && i < 151) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+    </script>
     <div class="Home">
         <a class="mainPage" href="{% url 'main:main' %}">홈으로</a>
     </div>
