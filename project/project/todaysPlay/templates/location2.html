@@ -164,10 +164,17 @@
     <div class="mainfrm">
         <div class="card">
             {% for j,k in Name.items %}
-            <a class="card_link" href="/todaysPlay/info2/?pid={{j}}">
-                <img class="card_location" src="{{k}}">
-                <div class="card_title">{{j}}</div>
-            </a>
+                {% if forloop.counter < 15 %}
+                    <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info2/?pid={{j}}" style="display:inline">
+                        <img class="card_location" src={{k}}">
+                        <div class="card_title">{{j}}</div>
+                    </a>
+                {% else %}
+                    <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info2/?pid={{j}}" style="display:none">
+                        <img class="card_location" src={{k}}">
+                        <div class="card_title">{{j}}</div>
+                    </a>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
