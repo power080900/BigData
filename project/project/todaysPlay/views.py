@@ -144,7 +144,7 @@ def signInPage(request):
     return render(request, 'signInPage.html', res_data)
 
 def location1(request):
-    page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,13,14,15]
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
     Name1 = df.loc[(df['Class'] == i), ['PlaceName']].values.tolist()
@@ -166,7 +166,7 @@ def location1(request):
     return render(request, 'location1.html',context)
 
 def location2(request):
-    page = [1,2,3,4]
+    page = [1,2,3,4,5]
     i = request.GET.get("pid")
     df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
     Name1 = df.loc[(df['Category'] == i), ['ProgramName']].values.tolist()

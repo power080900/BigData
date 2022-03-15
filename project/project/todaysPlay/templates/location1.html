@@ -74,11 +74,16 @@
             color : black;
             font-size : 20px
             }
-        .card {
+        .cardout {
+            width : 100%;
+            text-align : center;
+            }
+        .cardin {
+            display: inline-block;
+            width: 1300px;
             list-style: none;
             margin : auto;
             text-align : center;
-            float : left;
             overflow-x: hidden;
         }
         .card_link {
@@ -141,7 +146,8 @@
             text-align:center;
             }
         .title{
-            color: #2F9D27
+            color: #02AAB0;
+            text-align: center;
         }
         .mainfrm{
             margin: 10px;
@@ -165,20 +171,22 @@
         <h1 class="title">{{title}}</h1>
     </div>
     <div class="table">
-        <div class="card">
-            {% for j,k in Name.items %}
-                {% if forloop.counter < 15 %}
-                    <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info1/?pid={{j}}" style="display:inline">
-                        <img class="card_location" src={{k}}">
-                        <div class="card_title">{{j}}</div>
-                    </a>
-                {% else %}
-                    <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info1/?pid={{j}}" style="display:none">
-                        <img class="card_location" src={{k}}">
-                        <div class="card_title">{{j}}</div>
-                    </a>
-                {% endif %}
-            {% endfor %}
+        <div class="cardout">
+            <div class="cardin">
+                {% for j,k in Name.items %}
+                    {% if forloop.counter < 11 %}
+                        <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info1/?pid={{j}}" style="display:inline">
+                            <img class="card_location" src={{k}}">
+                            <div class="card_title">{{j}}</div>
+                        </a>
+                    {% else %}
+                        <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info1/?pid={{j}}" style="display:none">
+                            <img class="card_location" src={{k}}">
+                            <div class="card_title">{{j}}</div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="paging-div">
@@ -195,7 +203,7 @@
     <script>
         function page1() {
             for (let i = 1; i < 151; i ++) {
-                if (i < 15) {
+                if (i < 11) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -204,7 +212,7 @@
         }
         function page2() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 14 && i < 29) {
+                if (i > 10 && i < 21) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -213,7 +221,7 @@
         }
         function page3() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 28 && i < 43) {
+                if (i > 20 && i < 31) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -222,7 +230,7 @@
         }
         function page4() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 42 && i < 57) {
+                if (i > 30 && i < 41) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -231,7 +239,7 @@
         }
         function page5() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 56 && i < 71) {
+                if (i > 40 && i < 51) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -240,7 +248,7 @@
         }
         function page6() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 70 && i < 85) {
+                if (i > 50 && i < 61) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -249,7 +257,7 @@
         }
         function page7() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 84 && i < 99) {
+                if (i > 60 && i < 71) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -258,7 +266,7 @@
         }
         function page8() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 98 && i < 113) {
+                if (i > 70 && i < 81) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -267,7 +275,7 @@
         }
         function page9() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 112 && i < 127) {
+                if (i > 80 && i < 91) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -276,7 +284,7 @@
         }
         function page10() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 126 && i < 141) {
+                if (i > 90 && i < 101) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -284,6 +292,42 @@
             };
         }
         function page11() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 100 && i < 111) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page12() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 110 && i < 121) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page13() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 120 && i < 131) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page14() {
+            for (let i = 1; i < 151; i ++) {
+                if (i > 130 && i < 141) {
+                    document.querySelector('#card'+i).style.display='inline';
+                } else {
+                    document.querySelector('#card'+i).style.display='none';
+                }
+            };
+        }
+        function page15() {
             for (let i = 1; i < 151; i ++) {
                 if (i > 140 && i < 151) {
                     document.querySelector('#card'+i).style.display='inline';
