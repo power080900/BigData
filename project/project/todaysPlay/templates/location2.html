@@ -164,7 +164,7 @@
     <div class="mainfrm">
         <div class="card">
             {% for j,k in Name.items %}
-                {% if forloop.counter < 15 %}
+                {% if forloop.counter < 11 %}
                     <a class="card_link" id="card{{forloop.counter}}" href="/todaysPlay/info2/?pid={{j}}" style="display:inline">
                         <img class="card_location" src={{k}}">
                         <div class="card_title">{{j}}</div>
@@ -192,7 +192,7 @@
     <script>
         function page1() {
             for (let i = 1; i < 151; i ++) {
-                if (i < 15) {
+                if (i < 11) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -201,7 +201,7 @@
         }
         function page2() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 14 && i < 29) {
+                if (i > 9 && i < 21) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -210,7 +210,7 @@
         }
         function page3() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 28 && i < 43) {
+                if (i > 19 && i < 31) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
@@ -219,70 +219,7 @@
         }
         function page4() {
             for (let i = 1; i < 151; i ++) {
-                if (i > 42 && i < 57) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page5() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 56 && i < 71) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page6() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 70 && i < 85) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page7() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 84 && i < 99) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page8() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 98 && i < 113) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page9() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 112 && i < 127) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page10() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 126 && i < 141) {
-                    document.querySelector('#card'+i).style.display='inline';
-                } else {
-                    document.querySelector('#card'+i).style.display='none';
-                }
-            };
-        }
-        function page11() {
-            for (let i = 1; i < 151; i ++) {
-                if (i > 140 && i < 151) {
+                if (i > 29 && i < 41) {
                     document.querySelector('#card'+i).style.display='inline';
                 } else {
                     document.querySelector('#card'+i).style.display='none';
