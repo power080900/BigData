@@ -100,7 +100,9 @@ def map(request):
     xy = []
     for coordinate in placelist:
         xy.append({"name": coordinate.placeName, "lat": coordinate.lat, "lng": coordinate.lng})
+    j = random.randrange(1, 7)
     context = {
+        "j" : j,
         "line": line,
         "color": color,
         "hosun": hosunno,
@@ -144,7 +146,7 @@ def signInPage(request):
 def location1(request):
     page = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     i = request.GET.get("pid")
-    df = pd.read_excel('D:/ph/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
+    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_place.xlsx',sheet_name="place", skiprows = 0)
     Name1 = df.loc[(df['Class'] == i), ['PlaceName']].values.tolist()
     Name2 = []
     for l in Name1:
@@ -166,7 +168,7 @@ def location1(request):
 def location2(request):
     page = [1,2,3,4,5,6,7,8,9,10,11]
     i = request.GET.get("pid")
-    df = pd.read_excel('D:/ph/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
+    df = pd.read_excel('D:/lee/study/BigData/project/Data/project_program.xlsx',sheet_name="program", skiprows = 0)
     Name1 = df.loc[(df['Category'] == i), ['ProgramName']].values.tolist()
     Name2 = []
     for l in Name1:
@@ -186,7 +188,7 @@ def location2(request):
     return render(request, 'location2.html',context)
 
 def info1(request):
-    with open('D:\ph\BigData\project\Data\place3.json','r',encoding='utf-8') as f:
+    with open('D:/lee/study/BigData/project/Data/place3.json','r',encoding='utf-8') as f:
         place1 = json.load(f)
     Name = request.GET.get("pid")
     LineNumber = place1[Name]['LineNumber']
@@ -219,7 +221,7 @@ def info1(request):
     return render(request, 'info1.html', context)
 
 def info2(request):
-    with open('D:\ph\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
+    with open('D:/lee/study/BigData/project/Data/program3.json','r',encoding='utf-8') as f:
         program1 = json.load(f)
     Name = request.GET.get("pid")
     Fee = program1[Name]['Fee']
