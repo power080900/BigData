@@ -16,7 +16,7 @@
     },
     "CKL 스테이지":{
         "PlaceNumber":2,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"CKL 스테이지",
         "LineNumber":1,
         "Station":"종각역",
@@ -46,7 +46,7 @@
     },
     "JCC 아트센터":{
         "PlaceNumber":4,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"JCC 아트센터",
         "LineNumber":4,
         "Station":"혜화역",
@@ -76,7 +76,7 @@
     },
     "KT&G 상상아트홀":{
         "PlaceNumber":6,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"KT&G 상상아트홀",
         "LineNumber":2,
         "Station":"삼성역",
@@ -91,7 +91,7 @@
     },
     "KT체임버홀":{
         "PlaceNumber":7,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"KT체임버홀",
         "LineNumber":5,
         "Station":"오목교역",
@@ -121,7 +121,7 @@
     },
     "LG아트센터":{
         "PlaceNumber":9,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"LG아트센터",
         "LineNumber":2,
         "Station":"역삼역",
@@ -181,7 +181,7 @@
     },
     "SETEC전시장":{
         "PlaceNumber":13,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"SETEC전시장",
         "LineNumber":3,
         "Station":"학여울역",
@@ -196,7 +196,7 @@
     },
     "SJ비보이극장":{
         "PlaceNumber":14,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"SJ비보이극장",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
@@ -271,7 +271,7 @@
     },
     "가톨릭대학교 전례박물관":{
         "PlaceNumber":19,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"가톨릭대학교 전례박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
@@ -286,7 +286,7 @@
     },
     "가회민화박물관":{
         "PlaceNumber":20,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"가회민화박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -316,7 +316,7 @@
     },
     "갈갈이홀":{
         "PlaceNumber":22,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"갈갈이홀",
         "LineNumber":4,
         "Station":"혜화역",
@@ -376,7 +376,7 @@
     },
     "강남구민회관강당":{
         "PlaceNumber":26,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"강남구민회관강당",
         "LineNumber":3,
         "Station":"대치역",
@@ -421,7 +421,7 @@
     },
     "강남씨어터":{
         "PlaceNumber":29,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"강남씨어터",
         "LineNumber":"2, 신분당",
         "Station":"강남역",
@@ -451,7 +451,7 @@
     },
     "강동아트센터":{
         "PlaceNumber":31,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"강동아트센터",
         "LineNumber":5,
         "Station":"고덕역",
@@ -466,7 +466,7 @@
     },
     "강동어린이회관아이누리홀":{
         "PlaceNumber":32,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"강동어린이회관아이누리홀",
         "LineNumber":8,
         "Station":"강동구청역",
@@ -811,7 +811,7 @@
     },
     "건국대학교 박물관":{
         "PlaceNumber":55,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"건국대학교 박물관",
         "LineNumber":7,
         "Station":"어린이대공원역",
@@ -824,10 +824,10 @@
         "Closed":"토일요일 공휴일 방학기간중",
         "PayFree":"무료"
     },
-    "건국대학교 새천년대공연장":{
+    "건국대학교 새천년대공연·전시장":{
         "PlaceNumber":56,
-        "Class":"공연장",
-        "PlaceName":"건국대학교 새천년대공연장",
+        "Class":"공연·전시장",
+        "PlaceName":"건국대학교 새천년대공연·전시장",
         "LineNumber":"2, 7",
         "Station":"건대입구역",
         "Address":"서울 광진구 화양동 1",
@@ -871,7 +871,7 @@
     },
     "경기여고 경운박물관":{
         "PlaceNumber":59,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"경기여고 경운박물관",
         "LineNumber":"수인분당",
         "Station":"개포동역",
@@ -931,7 +931,7 @@
     },
     "경찰박물관":{
         "PlaceNumber":63,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"경찰박물관",
         "LineNumber":3,
         "Station":"독립문역",
@@ -961,7 +961,7 @@
     },
     "경향아트힐 2층 썬앤문 전용관":{
         "PlaceNumber":65,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"경향아트힐 2층 썬앤문 전용관",
         "LineNumber":5,
         "Station":"서대문역",
@@ -991,7 +991,7 @@
     },
     "경희대학교 자연사박물관":{
         "PlaceNumber":67,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"경희대학교 자연사박물관",
         "LineNumber":1,
         "Station":"외대앞역",
@@ -1006,7 +1006,7 @@
     },
     "경희대학교 중앙박물관":{
         "PlaceNumber":68,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"경희대학교 중앙박물관",
         "LineNumber":"1, 경의중앙, 경춘",
         "Station":"회기역",
@@ -1021,7 +1021,7 @@
     },
     "고려대학교 박물관":{
         "PlaceNumber":69,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"고려대학교 박물관",
         "LineNumber":6,
         "Station":"고려대역",
@@ -1066,7 +1066,7 @@
     },
     "공평도시유적전시관":{
         "PlaceNumber":72,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"공평도시유적전시관",
         "LineNumber":1,
         "Station":"종각역",
@@ -1081,7 +1081,7 @@
     },
     "관문사 성보박물관":{
         "PlaceNumber":73,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"관문사 성보박물관",
         "LineNumber":3,
         "Station":"양재역",
@@ -1126,7 +1126,7 @@
     },
     "관악아트홀":{
         "PlaceNumber":76,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"관악아트홀",
         "LineNumber":2,
         "Station":"서울대입구역",
@@ -1171,7 +1171,7 @@
     },
     "광진교 8번가":{
         "PlaceNumber":79,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"광진교 8번가",
         "LineNumber":5,
         "Station":"광나루역",
@@ -1186,7 +1186,7 @@
     },
     "광진구민체육센터":{
         "PlaceNumber":80,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"광진구민체육센터",
         "LineNumber":5,
         "Station":"광나루역",
@@ -1246,7 +1246,7 @@
     },
     "구로 꿈나무극장":{
         "PlaceNumber":84,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"구로 꿈나무극장",
         "LineNumber":7,
         "Station":"남구로역",
@@ -1276,7 +1276,7 @@
     },
     "구로구민회관 대강당":{
         "PlaceNumber":86,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"구로구민회관 대강당",
         "LineNumber":"2, 7",
         "Station":"대림역",
@@ -1351,7 +1351,7 @@
     },
     "국립고궁박물관":{
         "PlaceNumber":91,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국립고궁박물관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -1366,7 +1366,7 @@
     },
     "국립국악원":{
         "PlaceNumber":92,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립국악원",
         "LineNumber":3,
         "Station":"남부터미널역",
@@ -1396,7 +1396,7 @@
     },
     "국립극단 백성희장민호극장":{
         "PlaceNumber":94,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립극단 백성희장민호극장",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
@@ -1411,7 +1411,7 @@
     },
     "국립극단 소극장 판":{
         "PlaceNumber":95,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립극단 소극장 판",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
@@ -1426,7 +1426,7 @@
     },
     "국립극장":{
         "PlaceNumber":96,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립극장",
         "LineNumber":3,
         "Station":"동대입구역",
@@ -1441,7 +1441,7 @@
     },
     "국립민속박물관":{
         "PlaceNumber":97,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국립민속박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -1471,7 +1471,7 @@
     },
     "국립서울과학관":{
         "PlaceNumber":99,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국립서울과학관",
         "LineNumber":4,
         "Station":"혜화역",
@@ -1501,7 +1501,7 @@
     },
     "국립중앙극장":{
         "PlaceNumber":101,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립중앙극장",
         "LineNumber":3,
         "Station":"동대입구역",
@@ -1516,7 +1516,7 @@
     },
     "국립중앙박물관":{
         "PlaceNumber":102,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국립중앙박물관",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
@@ -1531,7 +1531,7 @@
     },
     "국립중앙박물관 극장 용":{
         "PlaceNumber":103,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"국립중앙박물관 극장 용",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
@@ -1546,7 +1546,7 @@
     },
     "국립한글박물관":{
         "PlaceNumber":104,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국립한글박물관",
         "LineNumber":"4, 경의중앙",
         "Station":"이촌역",
@@ -1606,7 +1606,7 @@
     },
     "국민대학교 박물관":{
         "PlaceNumber":108,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"국민대학교 박물관",
         "LineNumber":4,
         "Station":"길음역",
@@ -1636,7 +1636,7 @@
     },
     "근현대사기념관 ":{
         "PlaceNumber":110,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"근현대사기념관 ",
         "LineNumber":9,
         "Station":"4.19민주묘지역",
@@ -1651,7 +1651,7 @@
     },
     "금나래아트홀":{
         "PlaceNumber":111,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"금나래아트홀",
         "LineNumber":1,
         "Station":"금천구청역",
@@ -1666,8 +1666,8 @@
     },
     "금빛공원 야외공연장":{
         "PlaceNumber":112,
-        "Class":"공연장",
-        "PlaceName":"금빛공원 야외공연장",
+        "Class":"공연·전시장",
+        "PlaceName":"금빛공원 야외공연·전시장",
         "LineNumber":1,
         "Station":"금천구청역",
         "Address":"서울 금천구 독산동 371-2",
@@ -1696,7 +1696,7 @@
     },
     "금성당샤머니즘박물관":{
         "PlaceNumber":114,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"금성당샤머니즘박물관",
         "LineNumber":3,
         "Station":"구파발역",
@@ -1756,7 +1756,7 @@
     },
     "금호아트홀":{
         "PlaceNumber":118,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"금호아트홀",
         "LineNumber":2,
         "Station":"신촌역",
@@ -1771,7 +1771,7 @@
     },
     "기생충박물관":{
         "PlaceNumber":119,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"기생충박물관",
         "LineNumber":9,
         "Station":"가양역",
@@ -1786,7 +1786,7 @@
     },
     "김동수플레이하우스":{
         "PlaceNumber":120,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"김동수플레이하우스",
         "LineNumber":4,
         "Station":"혜화역",
@@ -1846,7 +1846,7 @@
     },
     "김중업 건축문화의집":{
         "PlaceNumber":124,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"김중업 건축문화의집",
         "LineNumber":6,
         "Station":"상월곡역",
@@ -1861,7 +1861,7 @@
     },
     "김치박물관":{
         "PlaceNumber":125,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"김치박물관",
         "LineNumber":9,
         "Station":"봉은사역",
@@ -1966,7 +1966,7 @@
     },
     "남산예술센터드라마센터":{
         "PlaceNumber":132,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"남산예술센터드라마센터",
         "LineNumber":4,
         "Station":"명동역",
@@ -2056,7 +2056,7 @@
     },
     "노원어린이극장":{
         "PlaceNumber":138,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"노원어린이극장",
         "LineNumber":"4, 7",
         "Station":"노원역",
@@ -2086,7 +2086,7 @@
     },
     "농업박물관":{
         "PlaceNumber":140,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"농업박물관",
         "LineNumber":5,
         "Station":"서대문역",
@@ -2116,7 +2116,7 @@
     },
     "단막극장":{
         "PlaceNumber":142,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"단막극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2131,7 +2131,7 @@
     },
     "단성사":{
         "PlaceNumber":143,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"단성사",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
@@ -2191,7 +2191,7 @@
     },
     "대원 컨텐츠 라이브":{
         "PlaceNumber":147,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"대원 컨텐츠 라이브",
         "LineNumber":"1, 경의중앙",
         "Station":"용산역",
@@ -2221,7 +2221,7 @@
     },
     "대학로 열린 극장":{
         "PlaceNumber":149,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"대학로 열린 극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2236,7 +2236,7 @@
     },
     "대학로극장":{
         "PlaceNumber":150,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"대학로극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2266,7 +2266,7 @@
     },
     "대한극장":{
         "PlaceNumber":152,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"대한극장",
         "LineNumber":"3, 4",
         "Station":"충무로역",
@@ -2281,7 +2281,7 @@
     },
     "덕성여자대학교 박물관":{
         "PlaceNumber":153,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"덕성여자대학교 박물관",
         "LineNumber":"우이신설",
         "Station":"솔밭공원역",
@@ -2326,7 +2326,7 @@
     },
     "도봉구민청 1층 갤러리":{
         "PlaceNumber":156,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"도봉구민청 1층 갤러리",
         "LineNumber":1,
         "Station":"방학역",
@@ -2356,7 +2356,7 @@
     },
     "도산안창호 기념관":{
         "PlaceNumber":158,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"도산안창호 기념관",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
@@ -2371,7 +2371,7 @@
     },
     "도원극장":{
         "PlaceNumber":159,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"도원극장",
         "LineNumber":3,
         "Station":"녹번역",
@@ -2416,7 +2416,7 @@
     },
     "돈의문박물관마을":{
         "PlaceNumber":162,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"돈의문박물관마을",
         "LineNumber":5,
         "Station":"서대문역",
@@ -2446,7 +2446,7 @@
     },
     "동국대학교 박물관":{
         "PlaceNumber":164,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"동국대학교 박물관",
         "LineNumber":3,
         "Station":"동대입구역",
@@ -2491,7 +2491,7 @@
     },
     "동대문구청 아트갤러리":{
         "PlaceNumber":167,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"동대문구청 아트갤러리",
         "LineNumber":2,
         "Station":"용두역",
@@ -2536,7 +2536,7 @@
     },
     "동덕여자대학교 박물관":{
         "PlaceNumber":170,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"동덕여자대학교 박물관",
         "LineNumber":6,
         "Station":"월곡역",
@@ -2551,7 +2551,7 @@
     },
     "동방예술극장":{
         "PlaceNumber":171,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"동방예술극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2596,7 +2596,7 @@
     },
     "동숭무대":{
         "PlaceNumber":174,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"동숭무대",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2611,7 +2611,7 @@
     },
     "동숭아트센터":{
         "PlaceNumber":175,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"동숭아트센터",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2620,7 +2620,7 @@
         "Image":"https:\/\/culture.seoul.go.kr\/cmmn\/file\/getImage.do?atchFileId=ATH_SPC_000000000000000000100372&thumb=Y",
         "Website":"www.dsartcenter.co.kr",
         "OpeningHours":"10:00 ~ 22:30",
-        "Fee":"공연장별로 나뉘어짐",
+        "Fee":"공연·전시장별로 나뉘어짐",
         "Closed":null,
         "PayFree":"유료"
     },
@@ -2686,7 +2686,7 @@
     },
     "두산아트센터":{
         "PlaceNumber":180,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"두산아트센터",
         "LineNumber":1,
         "Station":"종로5가역",
@@ -2701,7 +2701,7 @@
     },
     "둘리뮤지엄":{
         "PlaceNumber":181,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"둘리뮤지엄",
         "LineNumber":4,
         "Station":"쌍문역",
@@ -2761,7 +2761,7 @@
     },
     "떡박물관":{
         "PlaceNumber":185,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"떡박물관",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
@@ -2834,10 +2834,10 @@
         "Closed":"연중무휴",
         "PayFree":"유료"
     },
-    "롯데월드 야외공연장":{
+    "롯데월드 야외공연·전시장":{
         "PlaceNumber":190,
-        "Class":"공연장",
-        "PlaceName":"롯데월드 야외공연장",
+        "Class":"공연·전시장",
+        "PlaceName":"롯데월드 야외공연·전시장",
         "LineNumber":"2, 8",
         "Station":"잠실역",
         "Address":"서울 송파구 잠실동 47",
@@ -2866,7 +2866,7 @@
     },
     "롯데콘서트홀":{
         "PlaceNumber":192,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"롯데콘서트홀",
         "LineNumber":"2, 8",
         "Station":"잠실역",
@@ -2911,7 +2911,7 @@
     },
     "마루아트홀":{
         "PlaceNumber":195,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"마루아트홀",
         "LineNumber":4,
         "Station":"혜화역",
@@ -2986,7 +2986,7 @@
     },
     "명동난타극장":{
         "PlaceNumber":200,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"명동난타극장",
         "LineNumber":2,
         "Station":"을지로입구역",
@@ -3001,7 +3001,7 @@
     },
     "명동예술극장":{
         "PlaceNumber":201,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"명동예술극장",
         "LineNumber":4,
         "Station":"명동역",
@@ -3016,7 +3016,7 @@
     },
     "명보극장":{
         "PlaceNumber":202,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"명보극장",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
@@ -3031,7 +3031,7 @@
     },
     "모차르트콘서트홀":{
         "PlaceNumber":203,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"모차르트콘서트홀",
         "LineNumber":2,
         "Station":"서초역",
@@ -3076,7 +3076,7 @@
     },
     "목인박물관":{
         "PlaceNumber":206,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"목인박물관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -3091,7 +3091,7 @@
     },
     "몽촌역사관":{
         "PlaceNumber":207,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"몽촌역사관",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
@@ -3166,7 +3166,7 @@
     },
     "문학의집서울":{
         "PlaceNumber":212,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"문학의집서울",
         "LineNumber":4,
         "Station":"명동역",
@@ -3181,7 +3181,7 @@
     },
     "문화공간 이육사":{
         "PlaceNumber":213,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"문화공간 이육사",
         "LineNumber":6,
         "Station":"고려대역",
@@ -3226,7 +3226,7 @@
     },
     "문화일보홀":{
         "PlaceNumber":216,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"문화일보홀",
         "LineNumber":5,
         "Station":"서대문역",
@@ -3241,7 +3241,7 @@
     },
     "문화정원아트홀":{
         "PlaceNumber":217,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"문화정원아트홀",
         "LineNumber":1,
         "Station":"독산역",
@@ -3256,7 +3256,7 @@
     },
     "민속극장풍류":{
         "PlaceNumber":218,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"민속극장풍류",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
@@ -3271,7 +3271,7 @@
     },
     "밀알학교 세라믹 팔레스홀":{
         "PlaceNumber":219,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"밀알학교 세라믹 팔레스홀",
         "LineNumber":3,
         "Station":"일원역",
@@ -3286,7 +3286,7 @@
     },
     "반포심산아트홀":{
         "PlaceNumber":220,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"반포심산아트홀",
         "LineNumber":9,
         "Station":"구반포역",
@@ -3316,7 +3316,7 @@
     },
     "방송회관 코바코홀":{
         "PlaceNumber":222,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"방송회관 코바코홀",
         "LineNumber":5,
         "Station":"오목교역",
@@ -3361,7 +3361,7 @@
     },
     "백범기념관":{
         "PlaceNumber":225,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"백범기념관",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
@@ -3391,7 +3391,7 @@
     },
     "백암아트홀":{
         "PlaceNumber":227,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"백암아트홀",
         "LineNumber":2,
         "Station":"삼성역",
@@ -3406,7 +3406,7 @@
     },
     "보나장신구 박물관":{
         "PlaceNumber":228,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"보나장신구 박물관",
         "LineNumber":1,
         "Station":"종각역",
@@ -3436,7 +3436,7 @@
     },
     "봄날아트홀":{
         "PlaceNumber":230,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"봄날아트홀",
         "LineNumber":4,
         "Station":"혜화역",
@@ -3451,7 +3451,7 @@
     },
     "부암아트홀":{
         "PlaceNumber":231,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"부암아트홀",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -3466,7 +3466,7 @@
     },
     "부엉이 박물관":{
         "PlaceNumber":232,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"부엉이 박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -3541,7 +3541,7 @@
     },
     "블루스퀘어(Blue Square)":{
         "PlaceNumber":237,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"블루스퀘어(Blue Square)",
         "LineNumber":6,
         "Station":"한강진역",
@@ -3556,7 +3556,7 @@
     },
     "빈집프로젝트":{
         "PlaceNumber":238,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"빈집프로젝트",
         "LineNumber":2,
         "Station":"구로디지털단지역",
@@ -3616,7 +3616,7 @@
     },
     "사육신역사관":{
         "PlaceNumber":242,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"사육신역사관",
         "LineNumber":9,
         "Station":"노들역",
@@ -3631,7 +3631,7 @@
     },
     "삼각산시민청":{
         "PlaceNumber":243,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"삼각산시민청",
         "LineNumber":"우이신설",
         "Station":"솦밭공원역",
@@ -3676,7 +3676,7 @@
     },
     "삼성출판박물관":{
         "PlaceNumber":246,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"삼성출판박물관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -3691,7 +3691,7 @@
     },
     "삼일로창고극장":{
         "PlaceNumber":247,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"삼일로창고극장",
         "LineNumber":4,
         "Station":"명동역",
@@ -3701,7 +3701,7 @@
         "Website":"http:\/\/samilro.com\/",
         "OpeningHours":"공연시간에 따라 다름",
         "Fee":0,
-        "Closed":"매주 월요일\/설추석 연휴 일(공연장) 설 추석 연휴 당일(스튜디오)",
+        "Closed":"매주 월요일\/설추석 연휴 일(공연·전시장) 설 추석 연휴 당일(스튜디오)",
         "PayFree":"무료"
     },
     "삼전도비":{
@@ -3751,7 +3751,7 @@
     },
     "상명대학교 박물관":{
         "PlaceNumber":251,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"상명대학교 박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -3766,7 +3766,7 @@
     },
     "상명아트센터":{
         "PlaceNumber":252,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"상명아트센터",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -3781,7 +3781,7 @@
     },
     "상봉시네마":{
         "PlaceNumber":253,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"상봉시네마",
         "LineNumber":"7, 경의중앙, 경춘",
         "Station":"상봉역",
@@ -3796,7 +3796,7 @@
     },
     "샘터 파랑새 극장":{
         "PlaceNumber":254,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"샘터 파랑새 극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -3811,7 +3811,7 @@
     },
     "생명과학박물관":{
         "PlaceNumber":255,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"생명과학박물관",
         "LineNumber":5,
         "Station":"오목교역",
@@ -3826,7 +3826,7 @@
     },
     "샬트르성바오로수녀회 역사박물관":{
         "PlaceNumber":256,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"샬트르성바오로수녀회 역사박물관",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
@@ -3841,7 +3841,7 @@
     },
     "서강대학교 박물관":{
         "PlaceNumber":257,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서강대학교 박물관",
         "LineNumber":"경의중앙선",
         "Station":"서강대역",
@@ -3886,7 +3886,7 @@
     },
     "서대문자연사박물관":{
         "PlaceNumber":260,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서대문자연사박물관",
         "LineNumber":2,
         "Station":"신촌역",
@@ -3901,7 +3901,7 @@
     },
     "서대문형무소역사관":{
         "PlaceNumber":261,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서대문형무소역사관",
         "LineNumber":3,
         "Station":"독립문역",
@@ -3946,7 +3946,7 @@
     },
     "서울 아트 시네마":{
         "PlaceNumber":264,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울 아트 시네마",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
@@ -3976,7 +3976,7 @@
     },
     "서울공예박물관":{
         "PlaceNumber":266,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울공예박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -4006,7 +4006,7 @@
     },
     "서울극장":{
         "PlaceNumber":268,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울극장",
         "LineNumber":"1, 3, 5",
         "Station":"종로3가역",
@@ -4036,7 +4036,7 @@
     },
     "서울남산국악당":{
         "PlaceNumber":270,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울남산국악당",
         "LineNumber":"3, 4",
         "Station":"충무로역",
@@ -4066,7 +4066,7 @@
     },
     "서울대학교 치과대학 치의학 박물관":{
         "PlaceNumber":272,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울대학교 치과대학 치의학 박물관",
         "LineNumber":4,
         "Station":"혜화역",
@@ -4081,7 +4081,7 @@
     },
     "서울도시건축전시관":{
         "PlaceNumber":273,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"서울도시건축전시관",
         "LineNumber":"1, 2",
         "Station":"시청역",
@@ -4096,7 +4096,7 @@
     },
     "서울돈화문국악당":{
         "PlaceNumber":274,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울돈화문국악당",
         "LineNumber":3,
         "Station":"안국역",
@@ -4126,7 +4126,7 @@
     },
     "서울로미디어캔버스":{
         "PlaceNumber":276,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"서울로미디어캔버스",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
@@ -4186,7 +4186,7 @@
     },
     "서울상상나라":{
         "PlaceNumber":280,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울상상나라",
         "LineNumber":7,
         "Station":"어린이대공원역",
@@ -4276,7 +4276,7 @@
     },
     "서울생활사박물관":{
         "PlaceNumber":286,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울생활사박물관",
         "LineNumber":7,
         "Station":"태릉입구역",
@@ -4289,10 +4289,10 @@
         "Closed":null,
         "PayFree":"무료"
     },
-    "서울숲공원 야외공연장":{
+    "서울숲공원 야외공연·전시장":{
         "PlaceNumber":287,
-        "Class":"공연장",
-        "PlaceName":"서울숲공원 야외공연장",
+        "Class":"공연·전시장",
+        "PlaceName":"서울숲공원 야외공연·전시장",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
         "Address":"서울 성동구 성수동1가 685-306",
@@ -4321,7 +4321,7 @@
     },
     "서울시립과학관":{
         "PlaceNumber":289,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울시립과학관",
         "LineNumber":7,
         "Station":"하계역",
@@ -4351,7 +4351,7 @@
     },
     "서울시립대학교 박물관":{
         "PlaceNumber":291,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울시립대학교 박물관",
         "LineNumber":"경의중앙, 수인분당, 경춘",
         "Station":"청량리역",
@@ -4396,7 +4396,7 @@
     },
     "서울시청 하늘광장 갤러리":{
         "PlaceNumber":294,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"서울시청 하늘광장 갤러리",
         "LineNumber":"1, 2",
         "Station":"시청역",
@@ -4441,7 +4441,7 @@
     },
     "서울악스":{
         "PlaceNumber":297,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울악스",
         "LineNumber":5,
         "Station":"광나루역",
@@ -4456,7 +4456,7 @@
     },
     "서울암사동유적":{
         "PlaceNumber":298,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울암사동유적",
         "LineNumber":8,
         "Station":"암사역",
@@ -4471,7 +4471,7 @@
     },
     "서울약령시한의약박물관":{
         "PlaceNumber":299,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울약령시한의약박물관",
         "LineNumber":1,
         "Station":"제기동역",
@@ -4486,7 +4486,7 @@
     },
     "서울역사박물관":{
         "PlaceNumber":300,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울역사박물관",
         "LineNumber":5,
         "Station":"광화문역",
@@ -4516,7 +4516,7 @@
     },
     "서울연극센터":{
         "PlaceNumber":302,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"서울연극센터",
         "LineNumber":4,
         "Station":"혜화역",
@@ -4531,7 +4531,7 @@
     },
     "서울예술치유허브":{
         "PlaceNumber":303,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"서울예술치유허브",
         "LineNumber":3,
         "Station":"고려대역",
@@ -4546,7 +4546,7 @@
     },
     "서울올림픽기념관":{
         "PlaceNumber":304,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울올림픽기념관",
         "LineNumber":8,
         "Station":"몽촌토성역",
@@ -4561,7 +4561,7 @@
     },
     "서울우리소리박물관":{
         "PlaceNumber":305,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울우리소리박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -4636,7 +4636,7 @@
     },
     "서울풍물시장":{
         "PlaceNumber":310,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울풍물시장",
         "LineNumber":"1, 2, 우이신설",
         "Station":"신설동역",
@@ -4651,7 +4651,7 @@
     },
     "서울하수도과학관":{
         "PlaceNumber":311,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울하수도과학관",
         "LineNumber":5,
         "Station":"장한평역",
@@ -4666,7 +4666,7 @@
     },
     "서울함공원":{
         "PlaceNumber":312,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"서울함공원",
         "LineNumber":6,
         "Station":"망원역",
@@ -4756,7 +4756,7 @@
     },
     "성북선잠박물관":{
         "PlaceNumber":318,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"성북선잠박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
@@ -4771,7 +4771,7 @@
     },
     "성수아트홀":{
         "PlaceNumber":319,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"성수아트홀",
         "LineNumber":2,
         "Station":"뚝섬역",
@@ -4786,7 +4786,7 @@
     },
     "성암아트홀":{
         "PlaceNumber":320,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"성암아트홀",
         "LineNumber":"9, 수인분당",
         "Station":"선정릉역",
@@ -4801,7 +4801,7 @@
     },
     "세계골프역사박물관":{
         "PlaceNumber":321,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"세계골프역사박물관",
         "LineNumber":2,
         "Station":"삼성역",
@@ -4816,7 +4816,7 @@
     },
     "세계장신구 박물관":{
         "PlaceNumber":322,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"세계장신구 박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -4846,7 +4846,7 @@
     },
     "세실극장":{
         "PlaceNumber":324,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"세실극장",
         "LineNumber":"1, 2",
         "Station":"시청역",
@@ -4861,7 +4861,7 @@
     },
     "세실아트홀":{
         "PlaceNumber":325,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"세실아트홀",
         "LineNumber":3,
         "Station":"압구정역",
@@ -4876,7 +4876,7 @@
     },
     "세종대왕기념관":{
         "PlaceNumber":326,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"세종대왕기념관",
         "LineNumber":6,
         "Station":"고려대역",
@@ -4891,7 +4891,7 @@
     },
     "세종대학교 대양홀":{
         "PlaceNumber":327,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"세종대학교 대양홀",
         "LineNumber":7,
         "Station":"어린이대공원역",
@@ -4906,7 +4906,7 @@
     },
     "세종대학교 박물관":{
         "PlaceNumber":328,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"세종대학교 박물관",
         "LineNumber":7,
         "Station":"어린이대공원역",
@@ -4921,7 +4921,7 @@
     },
     "세종마을상촌재":{
         "PlaceNumber":329,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"세종마을상촌재",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -4936,7 +4936,7 @@
     },
     "세종문화회관":{
         "PlaceNumber":330,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"세종문화회관",
         "LineNumber":5,
         "Station":"광화문역",
@@ -5011,7 +5011,7 @@
     },
     "소월아트홀":{
         "PlaceNumber":335,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"소월아트홀",
         "LineNumber":"2, 5, 수인분당, 경의중앙",
         "Station":"왕십리역",
@@ -5041,7 +5041,7 @@
     },
     "손기정문화체육센터":{
         "PlaceNumber":337,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"손기정문화체육센터",
         "LineNumber":"2, 5",
         "Station":"충정로역",
@@ -5086,7 +5086,7 @@
     },
     "쇳대박물관":{
         "PlaceNumber":340,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"쇳대박물관",
         "LineNumber":"1, 4",
         "Station":"동대문역",
@@ -5101,7 +5101,7 @@
     },
     "수림아트센터":{
         "PlaceNumber":341,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"수림아트센터",
         "LineNumber":6,
         "Station":"고려대역",
@@ -5116,7 +5116,7 @@
     },
     "숙명여자대학교 박물관":{
         "PlaceNumber":342,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"숙명여자대학교 박물관",
         "LineNumber":4,
         "Station":"숙대입구역",
@@ -5131,7 +5131,7 @@
     },
     "숙명여자대학교 정영양자수박물관":{
         "PlaceNumber":343,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"숙명여자대학교 정영양자수박물관",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
@@ -5176,7 +5176,7 @@
     },
     "쉼박물관":{
         "PlaceNumber":346,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"쉼박물관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -5281,7 +5281,7 @@
     },
     "시민청":{
         "PlaceNumber":353,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"시민청",
         "LineNumber":"1, 2",
         "Station":"시청역",
@@ -5311,7 +5311,7 @@
     },
     "신도림 오페라하우스":{
         "PlaceNumber":355,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"신도림 오페라하우스",
         "LineNumber":"1, 2",
         "Station":"신도림역",
@@ -5326,7 +5326,7 @@
     },
     "신도림예술공간 고리":{
         "PlaceNumber":356,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"신도림예술공간 고리",
         "LineNumber":"1, 2",
         "Station":"신도림역",
@@ -5356,7 +5356,7 @@
     },
     "신문박물관":{
         "PlaceNumber":358,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"신문박물관",
         "LineNumber":5,
         "Station":"광화문역",
@@ -5371,7 +5371,7 @@
     },
     "신월문화체육센터":{
         "PlaceNumber":359,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"신월문화체육센터",
         "LineNumber":2,
         "Station":"신정네거리역",
@@ -5386,7 +5386,7 @@
     },
     "신촌문화발전소":{
         "PlaceNumber":360,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"신촌문화발전소",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
@@ -5416,7 +5416,7 @@
     },
     "아리랑 씨네센터":{
         "PlaceNumber":362,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"아리랑 씨네센터",
         "LineNumber":"우이신설",
         "Station":"정릉역",
@@ -5446,7 +5446,7 @@
     },
     "아이들극장":{
         "PlaceNumber":364,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"아이들극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -5461,7 +5461,7 @@
     },
     "아이러브아트센터":{
         "PlaceNumber":365,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"아이러브아트센터",
         "LineNumber":3,
         "Station":"압구정역",
@@ -5521,7 +5521,7 @@
     },
     "아트숨비센터 ":{
         "PlaceNumber":369,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"아트숨비센터 ",
         "LineNumber":6,
         "Station":"응암역",
@@ -5551,7 +5551,7 @@
     },
     "아티스탄홀":{
         "PlaceNumber":371,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"아티스탄홀",
         "LineNumber":4,
         "Station":"혜화역",
@@ -5566,7 +5566,7 @@
     },
     "안중근의사기념관":{
         "PlaceNumber":372,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"안중근의사기념관",
         "LineNumber":4,
         "Station":"회현역",
@@ -5611,7 +5611,7 @@
     },
     "양천구 해누리타운 아트홀":{
         "PlaceNumber":375,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"양천구 해누리타운 아트홀",
         "LineNumber":2,
         "Station":"양천구청역",
@@ -5686,7 +5686,7 @@
     },
     "언더스탠드에비뉴":{
         "PlaceNumber":380,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"언더스탠드에비뉴",
         "LineNumber":"수인분당",
         "Station":"서울숲역",
@@ -5716,7 +5716,7 @@
     },
     "여의도한강공원 물빛무대":{
         "PlaceNumber":382,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"여의도한강공원 물빛무대",
         "LineNumber":5,
         "Station":"여의나루역",
@@ -5746,7 +5746,7 @@
     },
     "연세대학교 중앙박물관":{
         "PlaceNumber":384,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"연세대학교 중앙박물관",
         "LineNumber":2,
         "Station":"신촌역",
@@ -5761,7 +5761,7 @@
     },
     "연우소극장":{
         "PlaceNumber":385,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"연우소극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -5806,7 +5806,7 @@
     },
     "영산아트홀":{
         "PlaceNumber":388,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"영산아트홀",
         "LineNumber":9,
         "Station":"국회의사당역",
@@ -5821,7 +5821,7 @@
     },
     "영산양재홀":{
         "PlaceNumber":389,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"영산양재홀",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
@@ -5836,7 +5836,7 @@
     },
     "영인문학관":{
         "PlaceNumber":390,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"영인문학관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -5866,7 +5866,7 @@
     },
     "예빛섬":{
         "PlaceNumber":392,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"예빛섬",
         "LineNumber":"3, 9",
         "Station":"고속터미널역",
@@ -5896,7 +5896,7 @@
     },
     "예술의전당":{
         "PlaceNumber":394,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"예술의전당",
         "LineNumber":3,
         "Station":"남부터미널역",
@@ -5911,7 +5911,7 @@
     },
     "예스24 라이브홀":{
         "PlaceNumber":395,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"예스24 라이브홀",
         "LineNumber":5,
         "Station":"광나루역",
@@ -5971,7 +5971,7 @@
     },
     "오류아트홀":{
         "PlaceNumber":399,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"오류아트홀",
         "LineNumber":1,
         "Station":"오류동역",
@@ -6001,7 +6001,7 @@
     },
     "오유아트홀":{
         "PlaceNumber":401,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"오유아트홀",
         "LineNumber":3,
         "Station":"매봉역",
@@ -6031,7 +6031,7 @@
     },
     "올리비아박 갤러리":{
         "PlaceNumber":403,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"올리비아박 갤러리",
         "LineNumber":"수인분당",
         "Station":"압구정로데오역",
@@ -6121,7 +6121,7 @@
     },
     "용산 더줌아트센터":{
         "PlaceNumber":409,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"용산 더줌아트센터",
         "LineNumber":"경의중앙",
         "Station":"한남역",
@@ -6136,7 +6136,7 @@
     },
     "용산 동자아트홀":{
         "PlaceNumber":410,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"용산 동자아트홀",
         "LineNumber":"1, 4, 공항",
         "Station":"서울역",
@@ -6166,7 +6166,7 @@
     },
     "용산 일신홀":{
         "PlaceNumber":412,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"용산 일신홀",
         "LineNumber":6,
         "Station":"한강진역",
@@ -6181,7 +6181,7 @@
     },
     "용산공예관":{
         "PlaceNumber":413,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"용산공예관",
         "LineNumber":6,
         "Station":"한강진역",
@@ -6196,7 +6196,7 @@
     },
     "용산공원 갤러리":{
         "PlaceNumber":414,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"용산공원 갤러리",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
@@ -6211,7 +6211,7 @@
     },
     "용산꿈나무종합타운":{
         "PlaceNumber":415,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"용산꿈나무종합타운",
         "LineNumber":"6, 경의중앙",
         "Station":"효창공원앞역",
@@ -6226,7 +6226,7 @@
     },
     "용산도시기억전시관":{
         "PlaceNumber":416,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"용산도시기억전시관",
         "LineNumber":4,
         "Station":"신용산역",
@@ -6271,7 +6271,7 @@
     },
     "우란2경":{
         "PlaceNumber":419,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"우란2경",
         "LineNumber":2,
         "Station":"성수역",
@@ -6286,7 +6286,7 @@
     },
     "우리금융아트홀":{
         "PlaceNumber":420,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"우리금융아트홀",
         "LineNumber":"5, 9",
         "Station":"올림픽공원역",
@@ -6346,7 +6346,7 @@
     },
     "유니버설아트센터":{
         "PlaceNumber":424,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"유니버설아트센터",
         "LineNumber":5,
         "Station":"아차산역",
@@ -6361,7 +6361,7 @@
     },
     "유니플렉스":{
         "PlaceNumber":425,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"유니플렉스",
         "LineNumber":4,
         "Station":"혜화역",
@@ -6376,7 +6376,7 @@
     },
     "유담헌":{
         "PlaceNumber":426,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"유담헌",
         "LineNumber":3,
         "Station":"안국역",
@@ -6406,7 +6406,7 @@
     },
     "육군사관학교 박물관":{
         "PlaceNumber":428,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"육군사관학교 박물관",
         "LineNumber":"6, 경춘",
         "Station":"신내역",
@@ -6421,7 +6421,7 @@
     },
     "윤동주문학관":{
         "PlaceNumber":429,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"윤동주문학관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -6436,7 +6436,7 @@
     },
     "은평문화예술회관":{
         "PlaceNumber":430,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"은평문화예술회관",
         "LineNumber":6,
         "Station":"역촌역",
@@ -6451,7 +6451,7 @@
     },
     "은평역사한옥박물관":{
         "PlaceNumber":431,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"은평역사한옥박물관",
         "LineNumber":3,
         "Station":"구파발역",
@@ -6526,7 +6526,7 @@
     },
     "이화여고 100주년기념관":{
         "PlaceNumber":436,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"이화여고 100주년기념관",
         "LineNumber":5,
         "Station":"서대문역",
@@ -6541,7 +6541,7 @@
     },
     "이화여대박물관":{
         "PlaceNumber":437,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"이화여대박물관",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
@@ -6556,7 +6556,7 @@
     },
     "이화여자대학교 자연사박물관":{
         "PlaceNumber":438,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"이화여자대학교 자연사박물관",
         "LineNumber":"경의중앙",
         "Station":"신촌역",
@@ -6721,7 +6721,7 @@
     },
     "전쟁기념관":{
         "PlaceNumber":449,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"전쟁기념관",
         "LineNumber":"4, 6",
         "Station":"삼각지역",
@@ -6751,7 +6751,7 @@
     },
     "전태일기념관":{
         "PlaceNumber":451,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"전태일기념관",
         "LineNumber":"2, 3",
         "Station":"을지로3가역",
@@ -6766,7 +6766,7 @@
     },
     "전통연희상설극장 광화문아트홀":{
         "PlaceNumber":452,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"전통연희상설극장 광화문아트홀",
         "LineNumber":3,
         "Station":"독립문역",
@@ -6781,7 +6781,7 @@
     },
     "정동극장":{
         "PlaceNumber":453,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"정동극장",
         "LineNumber":"1, 2",
         "Station":"시청역",
@@ -6826,7 +6826,7 @@
     },
     "정효아트센터 음악당":{
         "PlaceNumber":456,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"정효아트센터 음악당",
         "LineNumber":3,
         "Station":"남부터미널역",
@@ -6916,7 +6916,7 @@
     },
     "조세박물관":{
         "PlaceNumber":462,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"조세박물관",
         "LineNumber":5,
         "Station":"광화문역",
@@ -6976,7 +6976,7 @@
     },
     "종로구민회관":{
         "PlaceNumber":466,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"종로구민회관",
         "LineNumber":"1, 6",
         "Station":"동묘앞역",
@@ -7006,7 +7006,7 @@
     },
     "종로문화재단 윤동주문학관":{
         "PlaceNumber":468,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"종로문화재단 윤동주문학관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -7036,7 +7036,7 @@
     },
     "종이나라박물관":{
         "PlaceNumber":470,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"종이나라박물관",
         "LineNumber":3,
         "Station":"동대입구역",
@@ -7081,7 +7081,7 @@
     },
     "중랑문화체육관":{
         "PlaceNumber":473,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"중랑문화체육관",
         "LineNumber":7,
         "Station":"사가정역",
@@ -7126,7 +7126,7 @@
     },
     "짚풀생활사박물관":{
         "PlaceNumber":476,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"짚풀생활사박물관",
         "LineNumber":4,
         "Station":"혜화역",
@@ -7186,7 +7186,7 @@
     },
     "창무예술원- 드 포스트":{
         "PlaceNumber":480,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"창무예술원- 드 포스트",
         "LineNumber":"2, 경의중앙, 공항",
         "Station":"홍대입구역",
@@ -7246,7 +7246,7 @@
     },
     "청계천박물관 ":{
         "PlaceNumber":484,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"청계천박물관 ",
         "LineNumber":2,
         "Station":"용두역",
@@ -7276,7 +7276,7 @@
     },
     "청년허브":{
         "PlaceNumber":486,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"청년허브",
         "LineNumber":"3, 6",
         "Station":"불광역",
@@ -7336,7 +7336,7 @@
     },
     "체신기념관":{
         "PlaceNumber":490,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"체신기념관",
         "LineNumber":3,
         "Station":"안국역",
@@ -7366,7 +7366,7 @@
     },
     "초전섬유 퀼트박물관":{
         "PlaceNumber":492,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"초전섬유 퀼트박물관",
         "LineNumber":4,
         "Station":"명동역",
@@ -7381,7 +7381,7 @@
     },
     "충무로영상센터 오!재미동":{
         "PlaceNumber":493,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"충무로영상센터 오!재미동",
         "LineNumber":"3, 4",
         "Station":"충무로역",
@@ -7396,7 +7396,7 @@
     },
     "충무아트센터":{
         "PlaceNumber":494,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"충무아트센터",
         "LineNumber":"2, 6",
         "Station":"신당역",
@@ -7426,7 +7426,7 @@
     },
     "충정로난타극장":{
         "PlaceNumber":496,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"충정로난타극장",
         "LineNumber":5,
         "Station":"충정로역",
@@ -7486,7 +7486,7 @@
     },
     "코엑스 오디토리움":{
         "PlaceNumber":500,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"코엑스 오디토리움",
         "LineNumber":9,
         "Station":"봉은사역",
@@ -7516,7 +7516,7 @@
     },
     "크리에이터스 스페이스":{
         "PlaceNumber":502,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"크리에이터스 스페이스",
         "LineNumber":6,
         "Station":"안암역",
@@ -7546,7 +7546,7 @@
     },
     "태권도기념관":{
         "PlaceNumber":504,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"태권도기념관",
         "LineNumber":"2, 신분당",
         "Station":"강남역",
@@ -7621,7 +7621,7 @@
     },
     "팝콘D스퀘어":{
         "PlaceNumber":509,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"팝콘D스퀘어",
         "LineNumber":"1, 경의중앙",
         "Station":"용산역",
@@ -7636,7 +7636,7 @@
     },
     "평강성서유물박물관":{
         "PlaceNumber":510,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"평강성서유물박물관",
         "LineNumber":1,
         "Station":"오류동역",
@@ -7651,7 +7651,7 @@
     },
     "평화문화진지":{
         "PlaceNumber":511,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"평화문화진지",
         "LineNumber":"1, 7",
         "Station":"도봉산역",
@@ -7681,7 +7681,7 @@
     },
     "폴리미디어씨어터":{
         "PlaceNumber":513,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"폴리미디어씨어터",
         "LineNumber":4,
         "Station":"혜화역",
@@ -7696,7 +7696,7 @@
     },
     "폼텍웍스홀":{
         "PlaceNumber":514,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"폼텍웍스홀",
         "LineNumber":"2, 6",
         "Station":"합정역",
@@ -7726,7 +7726,7 @@
     },
     "플랫폼창동61":{
         "PlaceNumber":516,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"플랫폼창동61",
         "LineNumber":"1, 4",
         "Station":"창동역",
@@ -7756,7 +7756,7 @@
     },
     "하라스튜디오":{
         "PlaceNumber":518,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"하라스튜디오",
         "LineNumber":"1, 7",
         "Station":"가산디지털단지역",
@@ -7801,7 +7801,7 @@
     },
     "한국가구박물관":{
         "PlaceNumber":521,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국가구박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
@@ -7816,7 +7816,7 @@
     },
     "한국금융사박물관":{
         "PlaceNumber":522,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국금융사박물관",
         "LineNumber":5,
         "Station":"광화문역",
@@ -7831,7 +7831,7 @@
     },
     "한국미술박물관":{
         "PlaceNumber":523,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국미술박물관",
         "LineNumber":3,
         "Station":"안국역",
@@ -7846,7 +7846,7 @@
     },
     "한국분재박물관":{
         "PlaceNumber":524,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국분재박물관",
         "LineNumber":"신분당",
         "Station":"양재역",
@@ -7861,7 +7861,7 @@
     },
     "한국불교역사문화기념관":{
         "PlaceNumber":525,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국불교역사문화기념관",
         "LineNumber":3,
         "Station":"안국역",
@@ -7891,7 +7891,7 @@
     },
     "한국영화박물관":{
         "PlaceNumber":527,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국영화박물관",
         "LineNumber":"경의중앙",
         "Station":"수색역",
@@ -7906,7 +7906,7 @@
     },
     "한국은행 화폐금융박물관":{
         "PlaceNumber":528,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국은행 화폐금융박물관",
         "LineNumber":4,
         "Station":"회현역",
@@ -7921,7 +7921,7 @@
     },
     "한국의 집 민속극장":{
         "PlaceNumber":529,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"한국의 집 민속극장",
         "LineNumber":"3, 4",
         "Station":"충무로역",
@@ -7936,7 +7936,7 @@
     },
     "한국천주교순교자박물관":{
         "PlaceNumber":530,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한국천주교순교자박물관",
         "LineNumber":"2, 6",
         "Station":"합정역",
@@ -7966,7 +7966,7 @@
     },
     "한상수자수박물관":{
         "PlaceNumber":532,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한상수자수박물관",
         "LineNumber":4,
         "Station":"한성대입구역",
@@ -7981,7 +7981,7 @@
     },
     "한성백제박물관":{
         "PlaceNumber":533,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한성백제박물관",
         "LineNumber":9,
         "Station":"한성백제역",
@@ -7996,7 +7996,7 @@
     },
     "한양대학교 박물관":{
         "PlaceNumber":534,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한양대학교 박물관",
         "LineNumber":2,
         "Station":"한양대역",
@@ -8011,7 +8011,7 @@
     },
     "한양도성 유적전시관":{
         "PlaceNumber":535,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한양도성 유적전시관",
         "LineNumber":4,
         "Station":"회현역",
@@ -8026,7 +8026,7 @@
     },
     "한양도성박물관":{
         "PlaceNumber":536,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한양도성박물관",
         "LineNumber":"1, 4",
         "Station":"동대문역",
@@ -8041,7 +8041,7 @@
     },
     "한전아트센터":{
         "PlaceNumber":537,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"한전아트센터",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
@@ -8056,7 +8056,7 @@
     },
     "한전아트센터박물관":{
         "PlaceNumber":538,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"한전아트센터박물관",
         "LineNumber":"3, 신분당",
         "Station":"양재역",
@@ -8071,7 +8071,7 @@
     },
     "함석헌기념관":{
         "PlaceNumber":539,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"함석헌기념관",
         "LineNumber":4,
         "Station":"쌍문역",
@@ -8116,7 +8116,7 @@
     },
     "해바라기 소극장":{
         "PlaceNumber":542,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"해바라기 소극장",
         "LineNumber":4,
         "Station":"혜화역",
@@ -8131,7 +8131,7 @@
     },
     "허리우드 스카이쇼":{
         "PlaceNumber":543,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"허리우드 스카이쇼",
         "LineNumber":5,
         "Station":"서대문역",
@@ -8176,7 +8176,7 @@
     },
     "혜곡최순우 기념관":{
         "PlaceNumber":546,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"혜곡최순우 기념관",
         "LineNumber":4,
         "Station":"한성대입구역",
@@ -8221,7 +8221,7 @@
     },
     "호림박물관":{
         "PlaceNumber":549,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"호림박물관",
         "LineNumber":2,
         "Station":"신대방역",
@@ -8236,7 +8236,7 @@
     },
     "홍익대 대학로 아트센터":{
         "PlaceNumber":550,
-        "Class":"공연장",
+        "Class":"공연·전시장",
         "PlaceName":"홍익대 대학로 아트센터",
         "LineNumber":1,
         "Station":"종로5가역",
@@ -8251,7 +8251,7 @@
     },
     "화정박물관":{
         "PlaceNumber":551,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"화정박물관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -8281,7 +8281,7 @@
     },
     "황학정 국궁전시관":{
         "PlaceNumber":553,
-        "Class":"박물관\/기념관",
+        "Class":"박물·기념관",
         "PlaceName":"황학정 국궁전시관",
         "LineNumber":3,
         "Station":"경복궁역",
@@ -8356,7 +8356,7 @@
     },
     "히든플레이스":{
         "PlaceNumber":558,
-        "Class":"공연\/전시장",
+        "Class":"공연·전시장",
         "PlaceName":"히든플레이스",
         "LineNumber":2,
         "Station":"이대역",
