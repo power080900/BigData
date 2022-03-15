@@ -41,7 +41,10 @@
             height : 40px;
             position : relative;
         }
-        .mainPage, .logIn {
+        .homepagelink{
+            text-decoration : none;
+        }
+        .mainPage, .logIn  {
             text-decoration : none;
             font-size: 1.5rem;
             line-height : 1.7;
@@ -94,7 +97,7 @@
             display: inline-block;
             border-radius : 10px;
             text-align : left;
-            width: 500px;
+            width: 600px;
             height: 400px;
         }
         .contents_p {
@@ -133,10 +136,10 @@
     <div class="contentsout">
         <div class="contentsin">
             <p class="contents_p" id="Station">도착역 : {{info1.Station}}</p>
-            <p class="contents_p" id="LineNumber">이용 지하철 노선 : {{info1.LineNumber}}</p>
+            <p class="contents_p" id="LineNumber">지하철 노선 : {{info1.LineNumber}}</p>
             <p class="contents_p" id="Address">주소 : {{info1.Address}}</p>
             <p class="contents_p" id="Telephone">전화번호 : {{info1.Telephone}}</p>
-            <p class="contents_p" id="Website">사이트 : {{info1.Website}}</p>
+            <p class="contents_p" id="Website">사이트 : <a class="homepagelink" href="{{info1.Website}}">{{info1.Website}}</a></p>
             <p class="contents_p" id="OpeningHours">개장시간 : {{info1.OpeningHours}}</p>
             <p class="contents_p" id="PayFree">유·무료 : {{info1.PayFree}}</p>
             <p class="contents_p" id="Fee1">요금 : {{info1.Fee}}</p>
