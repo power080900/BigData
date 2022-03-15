@@ -20,7 +20,7 @@
         background-color: #f5f5f5;
     }
     div{
-		overflow: hidden;
+		overflow-y: hidden;
 		height:auto;
 	}
     header{
@@ -157,14 +157,11 @@
         display: inline-block;
         }
     .card_out {
-        width : 100%;
         text-align : center;
     }
     .card_in {
-        height : 225px;
         display: inline-block;
         overflow-x: hidden;
-        white-space:nowrap;
     }
     .card_link {
         margin: 10px;
@@ -240,14 +237,6 @@
                             </a>
                             {% endfor %}
                         </div>
-                        <div class="card_nav">
-                            <button type="button" role="presentation" class="card-prev">
-                                <i class="fa-angle-left"><-</i>
-                            </button>
-                            <button type="button" role="presentation" class="card-next">
-                                <i class="fa-angle-right">-></i>
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -265,14 +254,6 @@
                                 <div class="card_title">{{i}}</div>
                             </a>
                             {% endfor %}
-                        </div>
-                        <div class="card_nav">
-                            <button type="button" role="presentation" class="card-prev">
-                                <i class="fa-angle-left"><-</i>
-                            </button>
-                            <button type="button" role="presentation" class="card-next">
-                                <i class="fa-angle-right">-></i>
-                            </button>
                         </div>
                     </div>
                 </div>
