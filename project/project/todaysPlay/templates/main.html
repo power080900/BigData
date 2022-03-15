@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>오늘뭐하지?</title>
+    <style>
+    @font-face {
+         font-family: 'MaplestoryOTFBold';
+         src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+    }
+    * {
+       font-family: 'MaplestoryOTFBold';
+    }
+    body{
+        margin: 0 auto;
+        height: 1250px;
+        overflow-x: hidden;
+    }
+    div{
+		overflow: hidden;
+		height:auto;
+	}
+    header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1005;
+        background : white;
+        }
+    .headerLogo{
+        padding : 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        border-bottom: 1px solid #e4e8eb;
+        height : 40px;
+        position : relative;
+        }
+    .mainPage, .logIn {
+        text-decoration : none;
+        font-size: 1.5rem;
+        line-height : 1.7;
+        font-weight: 400;
+        color : #2F9D27
+    }
+    button {
+            cursor: pointer;
+        }
+    .mainPage {
+    padding-left: 20px;
+    }
+    .logIn {
+        float: right;
+        vertical-align: middle;
+    }
+    li {
+    list-style: none;
+    }
+    .searchSection {
+        margin: 10px;
+        height: 250px;
+        padding: 50px;
+        position: relative;
+        }
+    .searchSection::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: url('/static/images/banner/{{j}}.jpg');
+        background-position: 50%;
+        background-size: cover;
+        z-index: -2;
+        border-radius: 10px;
+        }
+    .mainSection {
+        margin: 0 auto;
+        padding : 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height : 150px;
+        position: relative;
+    }
+    .mainWhat {
+        padding : 25px;
+        height : 150px;
+    }
+    .btn-what {
+    }
+    .whatTitle {
+        margin: 0 auto;
+        width : 450px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding : 10px;
+    }
+    .mainSection::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: white;
+        background-position: 50%;
+        opacity: 0.5;
+        z-index: -1;
+        border-radius: 10px;
+    }
+    .mainWhere {
+        height: 25px;
+        position: relative;
+        padding : 10px;
+        }
+    span{
+        text-align: center;
+    }
+    .categorySection {
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        margin-left : 0px;
+        width: 100%;
+        text-align: center;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .categorySection::-webkit-scrollbar{
+    display: none;
+    }
+    .whereButton .btn-where .btn-input {
+        height: 45px;
+    }
+    .section_main {
+        padding: 30px 0;
+        box-sizing: border-box;
+        }
+    .box {
+        height: 100%;
+        }
+    .card_out {
+        width : 100%;
+        text-align : center;
+    }
+    .card_in {
+        display: inline-block;
+    }
+    .card_link {
+        margin: 10px;
+        padding: 10px;
+        text-decoration : none;
+        font-color: black;
+        float: left;
+        border: 1px solid black;
+        border-radius: 6px;
+        box-shadow: 0 8px 10px 0 black;
+        color: black;
+        overflow-x: hidden;
+    }
+    .card_link:hover {
+        opacity: 0.5
+    }
+    .card_location {
+        height: 150px;
+        width: 150px;
+        border-bottom: 1px solid;
+        border-radius: 10px;
+    }
+    .Title_h1 {
+        color: #2F9D27;
+        padding-left: 20px;
+        margin-top : 30px;
+        margin-bottom : 0px;
+        height : 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="headerApp">
+        <div class="headerLogo">
+            <li>
+                <a class="mainPage" href="{% url 'main:main' %}">오늘뭐하지?</a>
+                <a href="{% url 'main:logout' %}" class="logIn">로그아웃</a>
+            </li>
+        </div>
+    </header>
+    <section class="searchSection" >
+        <div class="mainSection">
+            <div class="mainWhat">
+                <h1 class="whatTitle">오늘은 몇호선 타고 문화여행을 떠날까?
+                    <span>
+                        <button type="button" class="playslot" onclick="playslot();">클릭</button>
+                    </span>
+                </h1>
+                <div class="btn-what">
+                    <li>
+                        <h2 class="whatSubTitle">오늘은 ???</h2>
+                        <span class="mainWhere">
+                                    <button type="button" class="btn-where" onclick="playgo();">가자!</button>
+                        </span>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="box">
+        <div class="section_main" id="section_main1">
+            <div class="SectionHead">
+                <h1 class="Title_h1">어디로 가지?</h1>
+            </div>
+            <div class="categorySection">
+                <div class="card_out">
+                    <div class="card_in">
+                        {% for i in link %}
+                        <a class="card_link" href="/todaysPlay/location1/?pid={{i}}">
+                            <img class="card_location" src="/static/images/main1/{{i}}.jpg">
+                            <div class="card_title">{{i}}</div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="section_main" id="section_main2">
+            <div class="SectionHead">
+                <h1 class="Title_h1">어떤걸 할까?</h1>
+            </div>
+            <div class="categorySection">
+                <div class="card_out">
+                    <div class="card_in">
+                        {% for i in link2 %}
+                        <a class="card_link" href="/todaysPlay/location2/?pid={{i}}">
+                            <img class="card_location" src="/static/images/main2/{{i}}.jpg">
+                            <div class="card_title">{{i}}</div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let line;
+        function playslot() {
+            let xhr = new XMLHttpRequest();
+            xhr.onload = function() {
+                let dom = document.getElementsByTagName('h2')[0];
+                console.log(xhr.responseText);
+                dom.innerHTML = '오늘은 ' + xhr.responseText;
+                line = xhr.responseText;
+            }
+            xhr.open("GET", "/todaysPlay/randomslot/", true);
+            xhr.send();
+        }
+        function playgo() {
+            location.href='/todaysPlay/googlemap/?line=' + line;
+        }
+    </script>
+</body>
+</html>

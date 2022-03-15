@@ -1,0 +1,560 @@
+PlaceNumber,Class,PlaceName,LineNumber,Station,Address,Telephone,Image,Website,OpeningHours,Fee,Closed,PayFree
+1,미술관,ADM 갤러리,2,역삼역,서울 강남구 역삼로14길 20,02-554-0594,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=372f7ac47341428b86e646bd131a4d49&thumb=Y,https://www.admgallery.co.kr/,,0,일요일,무료
+2,공연장,CKL 스테이지,1,종각역,서울 중구 청계천로 40,02-6441-3951,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101260&thumb=Y,https://venture.ckl.or.kr/stage/info/location.do,,,,
+3,문화예술회관,DDP,"2, 4, 5",동대문역사문화공원역,서울 중구 을지로 281,02-2153-0000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=04ae3506f18f4fb39a8553095364f973&thumb=Y,http://www.ddp.or.kr/main,,,살림터 : 매월 세 번째 주 월요일 / 배움터 : 매주 월요일,무료
+4,공연장,JCC 아트센터,4,혜화역,서울 종로구 혜화동  창경궁로35길 29,02-2138-7373~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100931&thumb=Y,www.jeijcc.org,,,매주 월요일,
+5,미술관,kp 갤러리,"1, 4, 공항",서울역,서울 용산구 소월로2나길 12,02-706-6751,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101532&thumb=Y,www.kpgallery.co.kr,,,일요일 국정공휴일,무료
+6,공연장,KT&G 상상아트홀,2,삼성역,서울 강남구 대치동 영동대로 416,02-3404-4311,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100015&thumb=Y,http://www.sangsangarthall.com/,,,,유료
+7,공연장,KT체임버홀,5,오목교역,서울 양천구 목동서로 201,02-3414-2063,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101474&thumb=Y,http://www.ktchamberhall.com/,,,없음,
+8,미술관,LG 사이언스홀,5,여의나루역,서울 영등포구 여의도동 20,02-3773-1053,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100285&thumb=Y,http://www.lgscience.co.kr/,월~금  09:15 ~ 11:15 13:30~16:00토 09:15 ~ 11:15 13:30~15:30,무료(사전예약제),일요일 공휴일,유료
+9,공연장,LG아트센터,2,역삼역,서울 강남구 역삼동 논현로 508,02-2005-0114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100704&thumb=Y,http://www.lgart.com,평일 : 오전9시 ~ 오후6시,,토일 공휴일,무료
+10,기타,N서울타워,3,동대입구역,서울 용산구 용산동2가 1-3,02-3455-9277,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100291&thumb=Y,http://www.nseoultower.com,홈페이지 참조,홈페이지 참조,,유료
+11,미술관,OCI미술관,1,종각역,서울 종로구 우정국로 45-14,02-734-0440,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101483&thumb=Y,ocimuseum.org,,,일월,
+12,미술관,pkm gallery,3,안국역,서울 종로구 화동  율곡로3길 74-9,02-734-9467~8,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100500&thumb=Y,http://www.pkmgallery.com/,10:00 ~ 18:00,무료,일요일,유료
+13,공연/전시장,SETEC전시장,3,학여울역,서울 강남구 남부순환로 3104,02-2187-4600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101326&thumb=Y,http://www.setec.or.kr/,,,,
+14,공연장,SJ비보이극장,"2, 경의중앙, 공항",홍대입구역,서울 마포구 서교동  와우산로 121,02-323-5233,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100170&thumb=Y,http://www.sjbboys.com,,,,유료
+15,미술관,가나아트 한남,6,이태원역,서울 용산구 대사관로 35,02-395-5005,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101102&thumb=Y,https://map.naver.com,,,월요일 휴관,
+16,미술관,가나아트센터,3,경복궁역,서울 종로구 평창동 평창30길 28,02-720-1020,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100482&thumb=Y,http://www.ganaart.com/,월 ~ 일 10 am - 7pm,,전시회가 있을시 휴일없음,유료
+17,기타,가락몰 쿠킹스튜디오,"3, 8",가락시장역,서울 송파구 양재대로 932,02-3435-0223,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101300&thumb=Y,http://www.splib.or.kr/cookingClass.do?LIBCODE=SPA,,,프로그램에 따라 운영,
+18,미술관,가람화랑,3,안국역,서울 종로구 관훈동 30-10,02-732-6170,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100337&thumb=Y,http://www.garamgallery.co.kr/,오전 10:00 ~ 오후 6:00,없음,월요일 및 공휴일 (기획?초대전의 전시기간 중 휴무없음),무료
+19,박물관/기념관,가톨릭대학교 전례박물관,4,한성대입구역,서울 종로구 혜화동 90-1,02-740-9708,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100496&thumb=Y,http://museum.catholic.ac.kr,월~금 10:00~12:3014:00~17:00,무료,일요일국정 공휴일,무료
+20,박물관/기념관,가회민화박물관,3,안국역,서울 종로구 북촌로 52,02-741-0466,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101133&thumb=Y,www.gahoemuseum.org,,,월요일,
+21,미술관,간송미술관,4,한성대입구역,서울 성북구 성북동 성북로 102-11,02-762-0442,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100228&thumb=Y,http://www.seongbuk.go.kr/site/tu/detail.do?sitecdv=S0000700&menucdv=02030100&decorator=user07Tu&callValue=E0342002&contseqn=159,10:00 ~ 18:00,무료,매년 5월과 10월 전시회기간(각 15일)을 제외하고는 휴관한다,무료
+22,공연장,갈갈이홀,4,혜화역,서울 종로구 동숭동 1-100,02-741-1011,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100379&thumb=Y,http://www.ggfamily.co.kr,,,수요일,유료
+23,문화예술회관,갈산문화예술센터,2,양천구청역,서울 양천구 신정동 1325-3,,,,,,,
+24,기타,강남구민체육관,3,매봉역,서울 강남구 개포동 1271,02-2176-0870~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100837&thumb=Y,http://cna.kncity.or.kr/center/findcenterall.aspx?center=100019,,,,무료
+25,문화예술회관,강남구민회관,3,대치역,서울 강남구 대치동 509-2,02-2176-0891,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100870&thumb=Y,http://cna.kncity.or.kr/center/findcenterall.aspx?center=100014,,,,무료
+26,공연장,강남구민회관강당,3,대치역,서울 강남구 대치동 509-2,02-3430-1150~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100013&thumb=Y,,,,,유료
+27,문화예술회관,강남문화재단,"7, 수인분당",강남구청역,서울 강남구 선릉로 668 5층,02-6712-0523,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8e190c58d1594fc8985ca4cc857f10aa&thumb=Y,http://www.gfac.kr,,0,토 일 공휴일,무료
+28,기타,강남스포츠문화센터,"3, 수인분당",수서역,서울 강남구 수서동 718,02-2176-0831,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100838&thumb=Y,http://cna.kncity.or.kr/center/findcenterall.aspx?center=100018,,,,무료
+29,공연장,강남씨어터,"2, 신분당",강남역,서울 강남구 역삼로7길 16 3층,02-6712-0535,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dc84839d6e204285b3dd45cd80bf3f12&thumb=Y,http://www.gfac.kr,,대관 유료/공연별 관람료 상이,홈페이지 참조,유료
+30,문화예술회관,강남힐링센터,9,봉은사역,서울 강남구 테헤란로87길 46,02-6712-0651,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fc4325c266a84d56b6fbabc2fc3e1b8d&thumb=Y,http://www.gfac.kr,,0,일요일,무료
+31,공연장,강동아트센터,5,고덕역,서울 강동구 상일동 (동남로) 870,02-440-0500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100888&thumb=Y,http://www.gangdongarts.or.kr,공연에 따라 다름 (홈페이지 참조 바랍니다),공연에 따라 다름 (홈페이지 참조 바랍니다),매주 월요일,유료
+32,공연장,강동어린이회관아이누리홀,8,강동구청역,서울 강동구 성내동 556-1,02-486-3516~8,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100069&thumb=Y,http://www.gdkids.or.kr/04i-nury/info.html,,어린이 뮤지컬 이용요금 - 단체: 4000원 | 개인: 7000원,,유료
+33,유적지,강릉,경춘선,갈매역,서울 노원구 화랑로 727,,,,,,,
+34,문화예술회관,강북문화예술회관,우이신설,가오리역,서울 강북구 수유동 360-10,02-944-3000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100856&thumb=Y,http://samgaksan.gangbukcmc.seoul.kr/sam/group01/page01.php,공연에 따라 다름,,매주 둘째 넷째 일요일,유료
+35,기타,강북웰빙스포츠센터,4,수유역,서울 강북구 번동 318,02-944-2900,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100773&thumb=Y,www.gangbukcmc.seoul.kr/group02/page03.php,행사에 따라 다름,,법정 국.공휴일/매월 13주 일요일,유료
+36,문화예술회관,강서구민회관,5,발산역,서울 강서구 내발산동 19-1,02-3664-6046,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100081&thumb=Y,http://www.gssi.or.kr/gpmc/main/contents.do?menuNo=200103,,,,유료
+37,기타,개운산스포츠센터,우이신설,성신여대입구역,서울 성북구 북악산로 949-60,02-925-9960~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100767&thumb=Y,http://www.gongdan.go.kr,,,,유료
+38,문화예술회관,개포디지털혁신파크 열림관,수인분당,개포동역,서울 강남구 개포동 153-153,02-570-4631,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100904&thumb=Y,http://sdf.seoul.kr/,,,토 일,
+39,미술관,갤러리 JJ,7,학동역,서울 강남구 논현로 745,02-322-3979,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101459&thumb=Y,https://www.galleryjj.org,,,공휴일 및 일요일 월요일,
+40,미술관,갤러리 가이아,3,안국역,서울 종로구 관훈동 145,02-733-3373,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100338&thumb=Y,http://www.galerie-gaia.net/,10:00~19:00,,연중무휴,유료
+41,미술관,갤러리 구루지,"2, 7",대림역,서울 구로구 가마산로25길 21,02-2029-7151,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=baa5825dbd88444f83dec7f322053f8b&thumb=Y,https://www.guroartsvalley.or.kr/user/home.do,,0,전시에 따라 상이,무료
+42,미술관,갤러리 도올,3,안국역,서울 종로구 팔판동 27-6,02-739-1405~6,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100479&thumb=Y,http://www.gallerydoll.com/,평일 10:30 ~ 18:30 휴일 11:30 ~ 18:30,무료,무휴(전시기간중),무료
+43,미술관,갤러리 라메르,1,종각역,서울 종로구 인사동 194 5길 26,02-730-5454,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100468&thumb=Y,http://www.gallerylamer.com/,10:00~18:30,,연중무휴,유료
+44,미술관,갤러리 룩스,3,경복궁역,서울 종로구 관훈동 185,02-720-8488,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100339&thumb=Y,http://www.gallerylux.net/,10:00 ~ 19:00공휴일 11:00 ~ 19:00,,연중무휴,유료
+45,미술관,갤러리 비선재,경의중앙,한남역,서울 용산구 유엔빌리지3길 54-14,02-793-5445,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101120&thumb=Y,http://bisunjae.com/contact,,,,
+46,미술관,갤러리 세줄,3,경복궁역,서울 종로구 평창동 464-13,02-391-9171,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100483&thumb=Y,http://www.sejul.com,전시중 휴일 없음,무료(특별전시는 유료),,무료
+47,미술관,갤러리 아트사이드,3,경복궁역,서울 종로구 관훈동 170,02-725-1020,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100341&thumb=Y,http://www.artside.org/,10:00 ~ 18:00,무료,연중무휴(명절제외),무료
+48,미술관,갤러리 원,수인분당,압구정로데오역,서울 강남구 청담동 101-5,02-514-3439,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100057&thumb=Y,http://www.wongallery.co.kr/,월~금 10:00~18:00토요일 10:00~17:30,,일요일 공휴일(전시중 무휴),유료
+49,미술관,갤러리 인,경의중앙,가좌역,서울 종로구 팔판동 141,02-732-4677~8,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100480&thumb=Y,http://www.galleryihn.com/,10:30 ~ 18:30(월~토) 10:30 ~ 18:00 (일),무료,전시기간 중 무휴,무료
+50,미술관,갤러리 조은,6,한강진역,서울 용산구 유엔빌리지길 28,02-790-5889,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101113&thumb=Y,http://www.galleryjoeun.com/about/,,,일요일 공휴일,
+51,미술관,갤러리 현대,3,안국역,서울 종로구 사간동 122,02-734-6111~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100421&thumb=Y,http://www.galleryhyundai.com/,화요일~토요일 : 10:00 ~ 18:00일요일공휴일 : 10:00 ~ 17:00,무료(특별전시는 유료),매주 월요일,무료
+52,공연/전시장,히든플레이스,2,이대역,서울 서대문구 대현동 53-9,010-7601-7755,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8e85fb7c5a11414bb62c35a2cb723472&thumb=Y,https://www.instagram.com/hiddenplace.kr,,0,월요일 및 국정 공휴일,무료
+53,미술관,갤러리BK,6,한강진역,서울 용산구 이태원로42길 56,02-790-7079,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101100&thumb=Y,http://www.gallerybk.co.kr/,,,,
+54,미술관,갤러리미즈,3,안국역,서울 종로구 관훈동 37,02-722-8005,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100342&thumb=Y,http://www.mizgallery.com/,10:30 ~ 18:30,무료,연중무휴(명절제외),무료
+55,유적지,거창신씨묘역,"3, 5",오금역,서울 송파구 오금동,,,,,,,
+56,박물관/기념관,건국대학교 박물관,7,어린이대공원역,서울 광진구 화양동 1,02-450-3880,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100111&thumb=Y,http://museum.konkuk.ac.kr,화~금 11:00~16:00,무료,토일요일 공휴일 방학기간중,무료
+57,공연장,건국대학교 새천년대공연장,"2, 7",건대입구역,서울 광진구 화양동 1,02-455-1896,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100110&thumb=Y,http://www.konkuk.ac.kr,,,,유료
+58,미술관,겸재정선미술관,9,양천향교역,서울 강서구 가양동 243-1,02-2659-2206,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100917&thumb=Y,http://gjjs.or.kr/,,,매주월요일/1월1일/설날/추석당일,
+59,유적지,경교장,5,서대문역,서울 종로구 새문안로 29,02-735-2038,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e961baf70764e79a523e1b5f26d6620&thumb=Y,https://museum.seoul.go.kr/www/intro/annexIntro/annex_21/annex_21_01.jsp?sso=ok,,0,공휴일을 제외한 매주 월요일 1월 1일,무료
+60,박물관/기념관,경기여고 경운박물관,수인분당,개포동역,서울 강남구 개포동 152,02-3463-1336,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100003&thumb=Y,http://kwmuseum.org,화~금 10:00~16:00토 10:00~13:00,무료,일요일 월요일공휴일,무료
+61,유적지,경복궁,3,경복궁역,서울 종로구 사직로 161,02-3700-3900,,,,,,
+62,기타,경의선 책거리,"2, 경의중앙, 공항",홍대입구역,서울 마포구 와우산로37길 35,02-324-6200,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=24eb0513a6634038b0ca2504f5522524&thumb=Y,http://gbookst.or.kr/,,0,매주 월요일,무료
+63,미술관,경인미술관,3,안국역,서울 종로구 관훈동 30-1,02-733-4448,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100343&thumb=Y,http://www.kyunginart.co.kr/,10:00 ~ 19:00,,,유료
+64,박물관/기념관,경찰박물관,3,독립문역,서울 종로구 신문로2가 58,02-735-2519,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100448&thumb=Y,www.policemuseum.go.kr,09:00~17:30,무료,월요일 신정설날 추석연휴,무료
+65,미술관,경춘선숲길 갤러리,6,화랑대역,서울 노원구 화랑로 608,02-2289-3490~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=494d80ea19f3425c9f90dabdc8ff8cac&thumb=Y,www.nowonarts.kr,,0,휴관 : 매주 월요일 및 법정공휴일(일요일 제외),무료
+66,공연장,경향아트힐 2층 썬앤문 전용관,5,서대문역,서울 중구 정동길 3,02-769-4799,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101426&thumb=Y,http://showsunnmoon.com/,,,연중무휴,
+67,유적지,경희궁,5,광화문역,서울 종로구 새문안로 45,02-724-0274,,,,,,
+68,박물관/기념관,경희대학교 자연사박물관,1,외대앞역,서울 동대문구 회기동 130-701,02-961-0141,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100156&thumb=Y,http://nhm.khu.ac.kr,월~토 10:00~16:00,무료,일요일공휴일개교기념일,무료
+69,박물관/기념관,경희대학교 중앙박물관,"1, 경의중앙, 경춘",회기역,서울 동대문구 경희대로6길 7-13,02-961-0141,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100155&thumb=Y,http://museum.khu.ac.kr,매주 화수목금10:00~17:00,무료,공휴일방학기간,무료
+70,박물관/기념관,고려대학교 박물관,6,고려대역,서울 성북구 안암동5가 1-2,02-3290-1514,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100233&thumb=Y,http://museum.korea.ac.kr,10:00~17:00,무료,월요일 박물관규정에 정한 휴관일,무료
+71,미술관,공갤러리,3,안국역,서울 종로구 인사동 23-2 2-2,02-730-1144,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100471&thumb=Y,,11:00 ~ 18:00,무료,,무료
+72,유적지,공민왕신당,"1, 3, 5",종로3가역,서울 종로구 종로 157,,,,,,,
+73,박물관/기념관,공평도시유적전시관,1,종각역,서울 종로구 우정국로 26,02-724-0215,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101548&thumb=Y,https://museum.seoul.go.kr/www/intro/annexIntro/annex_gongpyeong/annex_gongpyeong_01.jsp?sso=ok,,,,무료
+74,박물관/기념관,관문사 성보박물관,3,양재역,서울 서초구 우면동  바우뫼로7길 111,02-3460-5300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100217&thumb=Y,www.gwanmunsa.co.kr,10:00~17:00,무료,월요일 및 설추석 박물관 특별전준비기간,무료
+75,기타,관악구민종합체육센터,2,낙성대역,서울 관악구 낙성대로3길 37,02-875-1188,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100829&thumb=Y,http://www.gwanakgongdan.or.kr,,,,무료
+76,문화예술회관,관악문화재단,2,서울대입구역,서울 관악구 신림로3길 35,02-828-5700,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ba52ba445e7049d98065cceb9d85e34a&thumb=Y,www.gfac.or.kr,,0,시설별 휴관일 다름,무료
+77,공연장,관악아트홀,2,서울대입구역,서울 관악구 신림로 3길 35,02-828-5854,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fa71c280dacf4ecc805ae58baf88a1ea&thumb=Y,www.gfac.or.kr,,0,없음,무료
+78,미술관,관훈갤러리,3,안국역,서울 종로구 관훈동 195,02-733-6469,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100344&thumb=Y,http://www.kwanhoongallery.com/,10:30~18:30,무료,무휴(명절제외),무료
+79,유적지,광개토대왕릉비,"4, 6",삼각지역,서울 용산구 이태원로 29,,,,,,,
+80,공연/전시장,광진교 8번가,5,광나루역,서울 강동구 천호2동 527-2,02-476-0722,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101545&thumb=Y,https://riverview8.co.kr,,,매주 월요일,무료
+81,공연장,광진구민체육센터,5,광나루역,서울 광진구 구천면로 2,02-2049-4800,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100749&thumb=Y,http://www.gwangjin.or.kr,,,,무료
+82,유적지,광평대군묘,3,일원역,서울 강남구 광평로31길 20,02-459-4733,,,,,,
+83,유적지,광화문,3,경복궁역,서울 종로구 효자로 12,02-3700-3901,,,,,,
+84,문화예술회관,광화문아트홀,3,독립문역,서울 종로구 인왕산로1길 21,02-722-3416,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100854&thumb=Y,http://www.ghmarthall.co.kr,,,,무료
+85,공연장,구로 꿈나무극장,7,남구로역,서울 구로구 구로동로26길 54,02-830-2561~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101156&thumb=Y,https://www.guroartsvalley.or.kr/dream?guroart_menu_cd=U0091,,,,
+86,기타,구로구민체육센터,1,개봉역,서울 구로구 고척로45길 39,02-2681-9595,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100807&thumb=Y,http://guro-sc.or.kr/,,,,무료
+87,공연장,구로구민회관 대강당,"2, 7",대림역,서울 구로구 구로동 102,02-860-2593,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100116&thumb=Y,,,,,유료
+88,문화예술회관,구로아트밸리예술극장,"2, 7",대림역,서울 구로구 구로동 101,02-2029-1700~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100808&thumb=Y,http://www.guroartsvalley.or.kr,,,토일공휴일,무료
+89,미술관,구슬모아당구장,1,종각역,서울 용산구 독서당로 85,02-3785-0667,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101031&thumb=Y,http://www.daelimmuseum.org/guseulmoa/index.do,,,,
+90,문화원,국기원,"2, 신분당",강남역,서울  강남구 역삼동 635,02-567-1058,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100046&thumb=Y,http://www.kukkiwon.or.kr,,,일요일 공휴일,유료
+91,유적지,국립4.19민주묘지,우이신설,4.19민주묘지역,서울 강북구 수유동,,,,,,,
+92,박물관/기념관,국립고궁박물관,3,경복궁역,서울 종로구 세종로 1-57,02-3701-7500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100431&thumb=Y,www.gogung.go.kr,평일 09:00~18:00주말 공휴일 09:00~19:00,일반 2000원청소년 1000원,월요일,유료
+93,공연장,국립국악원,3,남부터미널역,서울 서초구 서초동  남부순환로 2364,02-580-3333,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100195&thumb=Y,http://www.gugak.go.kr,,,,유료
+94,기타,국립국어원 우리말 꿈터,5,방화역,서울 강서구 방화동 827,02-2669-9687,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100914&thumb=Y,www.korean.go.kr,,,토ㆍ일요일 관공서의 공휴일,
+95,공연장,국립극단 백성희장민호극장,"1, 4, 공항",서울역,서울 용산구 청파로 373,1644-2003,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101057&thumb=Y,http://www.ntck.or.kr/ko,,,,
+96,공연장,국립극단 소극장 판,"1, 4, 공항",서울역,서울 용산구 청파로 373,1644-2003,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101035&thumb=Y,http://www.ntck.or.kr,,,,
+97,공연장,국립극장,3,동대입구역,서울 중구 장충단로 59,02-2280-4114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fa3180c7f0644a7ea4c338440e107bd9&thumb=Y,https://www.ntok.go.kr,,공연에 따라 다름,공휴일,유료
+98,박물관/기념관,국립민속박물관,3,안국역,서울 종로구 세종로 1-1,02-734-1346,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100432&thumb=Y,www.nfm.go.kr,3월 10월 09:00~18:0011월 2월 09:00~17:00,일반 3000원청소년 1500원,매주 화요일1월 1일,유료
+99,문화예술회관,국립박물관문화재단,3,경복궁역,서울 용산구 서빙고로 137,1544-5955,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101452&thumb=Y,https://www.cfnmk.or.kr/user/main/main.do,,,주말 및 공휴일,
+100,박물관/기념관,국립서울과학관,4,혜화역,서울 종로구 와룡동 110-360,02-3675-5114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100460&thumb=Y,www.ssm.go.kr,09:30~17:50,일반 1000원학생 500원,월요일 및 공휴일,유료
+101,유적지,국립서울현충원,"4, 9",동작역,서울 동작구 동작동 271-18,02-813-9625,,,,,,
+102,공연장,국립중앙극장,3,동대입구역,서울 중구 장충동2가 14-67,02-2280-4114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100524&thumb=Y,http://www.ntok.go.kr/,,,,유료
+103,박물관/기념관,국립중앙박물관,"4, 경의중앙",이촌역,서울 용산구 서빙고로 137,02-2077-9000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f3c4a0327101416098bdf70b526aa2cf&thumb=Y,www.museum.go.kr,,0,1월1일 설날(2.1.) 추석(9.10.) / 상설전시실 정기휴실일: 매년 4월 11월(첫째 월요일),무료
+104,공연장,국립중앙박물관 극장 용,"4, 경의중앙",이촌역,서울 용산구 용산동6가 168-6,02-1544-5955,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100294&thumb=Y,http://www.theateryong.or.kr/,,,,유료
+105,박물관/기념관,국립한글박물관,"4, 경의중앙",이촌역,서울 용산구 용산동6가 412-6,02-2124-6200,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100971&thumb=Y,http://www.hangeul.go.kr,,,법정공휴일(한글날제외),
+106,미술관,국립현대미술관,"1, 2",시청역,서울 중구 정동 세종대로 99,02-2022-0600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100698&thumb=Y,http://www.moca.go.kr,화~목 : 오전 9시~오후 7시  금~일 : 오전 9시~오후 8시30분,,매주 월요일,무료
+107,미술관,국립현대미술관 덕수궁관,"1, 2",시청역,서울 중구 세종대로 99,02-2022-0600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101106&thumb=Y,http://www.mmca.go.kr/main.do,,,매주 월요일,
+108,미술관,국립현대미술관 서울,3,안국역,서울 종로구 삼청로 30,02-3701-9500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100885&thumb=Y,http://www.mmca.go.kr,화 목 금 일 10:00 ~ 18:00 수 토 10:00 ~ 21:00(야간개장 오후 6~9시 무료관람),통합입장권 4000원,1월 1일,유료
+109,박물관/기념관,국민대학교 박물관,4,길음역,서울 성북구 정릉동  정릉로 77,02-910-4212,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100235&thumb=Y,http://museum.kookmin.ac.kr,10:00~17:00,무료,국정 공휴일,무료
+110,미술관,국제갤러리,3,안국역,서울 종로구 소격동 59-1,02-735-8449,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100434&thumb=Y,http://www.kukje.org/,10:00 ~ 18:00 (화~토) 10:00 ~ 17:00 (일),무료,매주 월요일,무료
+111,박물관/기념관,근현대사기념관 ,9,4.19민주묘지역,서울 강북구 4.19로 114,02-903-7580,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4570377dfb0c4e91a14e780b0d283932&thumb=Y,mhmh.or.kr,,0,매주 월요일 (단 월요일이 공휴일인 경우 개관하고 다음 평일에 휴관)  1월 1일 설 추석 연휴 강북구청이 지정한 날,무료
+112,공연장,금나래아트홀,1,금천구청역,서울 금천구 시흥대로73길 70,02-2627-2999,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c65adc94231a45d5b8dabf9c038e91d4&thumb=Y,https://gcfac.or.kr/mpage,,0,일요일 공휴일,무료
+113,공연장,금빛공원 야외공연장,1,금천구청역,서울 금천구 독산동 371-2,,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100122&thumb=Y,,,,,유료
+114,기타,금빛휘트니스센터,1,금천구청역,서울 금천구 시흥동 금하로 668,02-802-9685~6,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100811&thumb=Y,http://www.gfmc.co.kr/,,유료,,유료
+115,박물관/기념관,금성당샤머니즘박물관,3,구파발역,서울 은평구 진관2로 57-23,02-389-6522,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100988&thumb=Y,www.shamanismmuseum.org,,,월화 수토일,
+116,문화예술회관,금천마을활력소 어울샘,2,구로디지털단지역,서울 금천구 탑골로 22,02-809-7860,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101189&thumb=Y,https://www.facebook.com/eoulsam,,,,
+117,미술관,금천예술공장,1,독산역,서울 금천구 범안로15길 57,02-807-4800,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=92236b8c63104b78b94c36c1352df569&thumb=Y,http://www.sfac.or.kr/,,,없음,무료
+118,미술관,금호미술관,3,안국역,서울 종로구 사간동 78,02-720-5114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100422&thumb=Y,http://www.kumhomuseum.com/,10:00~18:00,전시회 성격에따라 다름,신정 추석 설날 월요일,유료
+119,공연장,금호아트홀,2,신촌역,서울 종로구 신문로1가  새문안로 75,02-6303-7700,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100441&thumb=Y,http://www.kumhoarthall.com,,,,유료
+120,박물관/기념관,기생충박물관,9,가양역,서울 강서구 화곡로 333,02-2601-3283,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f5f115388d8a40f7b2daab95568b6b9b&thumb=Y,http://www.parasite.or.kr/,,0,일요일 공휴일,무료
+121,공연장,김동수플레이하우스,4,혜화역,서울 종로구 연건동 178-1,02-3675-4675,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100453&thumb=Y,,,,,유료
+122,미술관,김영섭사진화랑,3,안국역,서울 종로구 관훈동 169-2,02-733-6331~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100345&thumb=Y,http://www.gallerykim.com/,10:00~19:00,,연중무휴,유료
+123,미술관,김영옥 미술관,5,광화문역,서울 종로구 창의문로10길 11,02-391-1218,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101553&thumb=Y,www.magmasup.com,,,없음,무료
+124,유적지,김유신장군동상,4,회현역,서울 중구 남창동 204-2,,,,,,,
+125,공연/전시장,김중업 건축문화의집,6,상월곡역,서울 성북구 장위로21나길 11,02-6903-3136,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b48f2f5cfef84ad1a2fa7cadbafca563&thumb=Y,https://www.sbculture.or.kr/culture/index.jsp,,0,매주 일요일 월요일 공휴일,무료
+126,박물관/기념관,김치박물관,9,봉은사역,서울 강남구 삼성동 159,02-6002-6456,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100023&thumb=Y,www.kimchimuseum.co.kr,화~일 10:00~18:00,일반 3000원초중고생 2000원유아 1000원,월요일신정 구정추석연휴,유료
+127,기타,꼬스트홀,"2, 3",을지로3가역,서울 중구 명동2가 1-1,02-774-1784,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100506&thumb=Y,http://www.mdsd.or.kr/,,,,유료
+128,문화예술회관,나루아트센터,"2, 7",건대입구역,서울 광진구 자양동 227-344,02-2049-4700,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100106&thumb=Y,http://www.naruart.or.kr/,,,,유료
+129,유적지,낙성대,2,낙성대역,서울 관악구 낙성대로 77,,,,,,,
+130,유적지,남산골한옥마을,"3, 4",충무로역,서울 중구 퇴계로 34길 28,02-2261-0517,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=26dfbdc02a6a4dd1a073739fee295466&thumb=Y,http://hanokmaeul.seoul.go.kr,4월 ~ 10월 : 09:00 ~ 21:00 / 11월 ~ 3월 : 09:00 ~ 20:00,,매주 월요일 ,무료
+131,기타,남산공원 호현당,4,회현역,서울 중구 회현동1가 산 1-44,02-3783-5995,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1426dc7b7d7745edad4fd8b23ab71d38&thumb=Y,http://parks.seoul.go.kr/,,0,매주 월화,무료
+132,유적지,남산봉수대,4,명동역,서울 중구 예장동,02-2260-1114,,,,,,
+133,공연장,남산예술센터드라마센터,4,명동역,서울 중구 예장동 8-19,02-778-0621,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100515&thumb=Y,http://www.nsartscenter.or.kr/,공연에 따라 다름,,공연에 따라 다름,유료
+134,미술관,남산전시관,6,한강진역,서울 용산구 이태원동 258-148,02-753-2563,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100298&thumb=Y,,하절기(3월 ~ 10월): 09:00 ~ 18:00동절기(11월 ~ 2월): 09:00 ~ 17:00,무료,매주 월요일,무료
+135,기타,내곡느티나무쉼터,신분당선,양재시민의숲역,서울 서초구 염곡말길 9,02-571-1672,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101247&thumb=Y,http://www.seocho.go.kr/site/seocho/04/10402011000002017020804.jsp,,,,
+136,기타,노들섬 복합문화공간,9,노들역,서울 용산구 양녕로 445,02-749-4500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a56628300474441382016ed4bef5764c&thumb=Y,http://nodeul.org/,,0,매주 월요일,무료
+137,기타,노원구민체육센터,7,중계역,서울 노원구 중계동 507-3,02-949-8416~9,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100136&thumb=Y,http://gongdan.nowon.kr,,,,유료
+138,문화예술회관,노원문화예술회관,7,하계역,서울 노원구 중계로 181,02-2289-3400,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101437&thumb=Y,https://www.nowonart.kr/,,,행사 일정에 따름,
+139,공연장,노원어린이극장,"4, 7",노원역,서울 노원구 노해로 502,02-2289-3453,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101552&thumb=Y,https://www.nowonarts.kr/html/,,,공연에 따라 상이,무료
+140,미술관,노화랑,3,안국역,서울 종로구 관훈동 103,02-732-3558,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100346&thumb=Y,,09:00 ~ 18:00,무료,일요일 공휴일(전시기간 제외),무료
+141,박물관/기념관,농업박물관,5,서대문역,서울 중구 충정로1가 100-707,02-2080-5727~8,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100542&thumb=Y,http://museum.nonghyup.com,09:30~18:00,무료,매주 월요일 신정 설 추석 연휴,무료
+142,유적지,다산정약용동상,"1, 4",서울역,서울 용산구 소월로 108,,,,,,,
+143,공연장,단막극장,4,혜화역,서울 종로구 동숭동 12-6,02-765-1544,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100382&thumb=Y,,평일:09:30-23:00 토요일:09:30-23:00 일요일:09:30-23:00,,,유료
+144,공연장,단성사,"1, 3, 5",종로3가역,서울 종로구 묘동 56,02-3674-6000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100417&thumb=Y,http://www.dansungsa.com/,,,,유료
+145,유적지,대동문,4,수유역,서울 강북구 4.19로28길 19-9,,,,,,,
+146,미술관,대림미술관,3,경복궁역,서울 종로구 통의동 35-1,02-720-0667,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100478&thumb=Y,http://www.daelimmuseum.org/,10:00~18:00,일반 4000원초중고생 2000원,월요일 추석신정 구정당일,유료
+147,미술관,대안공간 풀,3,경복궁역,서울 종로구 구기동 56-13,02-396-4805,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100365&thumb=Y,http://www.altpool.org/,하절기 11:00 ~ 19:00 / 동절기 11:00 ~18:30 단 수요일은12:00 ~ 20:00,무료,연중무휴 (명절제외,무료
+148,공연장,대원 컨텐츠 라이브,"1, 경의중앙",용산역,서울 용산구 한강대로23길 55,02-6373-3000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101094&thumb=Y,http://www.popcond.com/shop/list.php?ca_id=3020,,,,
+149,기타,대진체육관,3,대청역,서울 강남구 개포동 13-1,02-2176-0880,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100839&thumb=Y,http://www.kncity.or.kr,,,,무료
+150,공연장,대학로 열린 극장,4,혜화역,서울 종로구 명륜2가 21-18,02-743-6472,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100413&thumb=Y,,,,,유료
+151,공연장,대학로극장,4,혜화역,서울 종로구 연건동 178-1,02-764-6052,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100454&thumb=Y,,,,,유료
+152,기타,대학로연습실,4,혜화역,서울 종로구 동숭길117,02-747-7805,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5c03ed48708c4723a438d7117749f8bf&thumb=Y,https://www.sfac.or.kr/artspace/artspace/daehakro_main.do,,,공휴일,유료
+153,공연장,대한극장,"3, 4",충무로역,서울 중구 충무로4가 125,02-3393-3500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100540&thumb=Y,http://www.daehancinema.com/,,,,유료
+154,박물관/기념관,덕성여자대학교 박물관,우이신설,솔밭공원역,서울 도봉구 쌍문동 419,02-901-8131~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100141&thumb=Y,http://museum.duksung.ac.kr,월~금 10:00~16:00,무료,토일요일 법정공휴일,무료
+155,유적지,덕수궁,"1, 2",시청역,서울 중구 세종대로 99,02-771-9951,,,,,,
+156,미술관,덕원갤러리,"1, 3, 5",종로3가역,서울 종로구 인사동 15길 24,02-723-7773,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100472&thumb=Y,,하절기 10:00 ~ 19:00 동절기 10:00 ~ 18:00주말. 공휴일 10:00 ~ 15:00,무료,연중무휴,무료
+157,공연/전시장,도봉구민청 1층 갤러리,1,방학역,서울 도봉구 마들로 656,02-3494-6474,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=241378e8b3164905827930e423b6c6ed&thumb=Y,http://dbfac.or.kr/front/dbgmc/gmcIntro.do,,0,1월 1일 설날 추석 기타 공휴일 및 도봉구청장이 운영상 휴관일 필요하다고 정하는 날 (휴관일 10일전 공지),무료
+158,문화예술회관,도봉문화재단,"1, 4",창동역,서울 도봉구 노해로63길 43,02-908-2900,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=03e0b4387c24464aafe992a3f0a320a6&thumb=Y,http://www.dbfac.or.kr/,,0,토일,무료
+159,박물관/기념관,도산안창호 기념관,수인분당,압구정로데오역,서울 강남구 신사동 649-9,02-541-1800,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100039&thumb=Y,www.ahnchangho.or.kr,평일 10:00~16:00 토요일 공휴일 10:00?14:00,무료,매주 일요일ㆍ설날ㆍ추석,무료
+160,공연장,도원극장,3,녹번역,서울 은평구 녹번동 79-2,02-355-3775,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100314&thumb=Y,,,,,유료
+161,유적지,도편수이승업가옥,"3, 4",충무로역,서울 중구 퇴계로 34길 28,,,,,,,
+162,유적지,독립문,3,독립문역,서울 서대문구 현저동 941,,,,,,,
+163,박물관/기념관,돈의문박물관마을,5,서대문역,서울 종로구 송월길 14-3,02-739-6994,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100968&thumb=Y,http://dmvillage.info,,,매주 월요일 1월 1일,무료
+164,문화예술회관,돈화문 서울무형문화재교육전시장,3,안국역,서울 종로구 율곡로 10길 13,02-742-6444,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8637df0446fb4e86a6a7a65572633b4c&thumb=Y,www.seoulmaster.co.kr,오전 11시 ~ 오후 5시,전시 무료  교육/체험 유료,매주 월요일,유료
+165,박물관/기념관,동국대학교 박물관,3,동대입구역,서울 중구 필동3가 26,02-2260-3462,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100549&thumb=Y,dgumuseum.dongguk.edu,월~금 10:00~16:00,무료,토일요일,무료
+166,기타,동대문구민체육센터,5,장한평역,서울 동대문구 장안벚꽃로 67,02-2247-9772~5,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100754&thumb=Y,http://www.dfmc.kr,평일 : 06:00~21:50 / 휴토요일 : 06:00~17:50,,매주 일요일 휴관(대관시에만 부분 개방),유료
+167,공연/전시장,동대문구청 아트갤러리,2,용두역,서울 동대문구 용두동 39-9,02-2127-4310,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100872&thumb=Y,www.ddm.go.kr,평일:9시~18시,,매주 토요일 일요일 공휴일,무료
+168,기타,동대문구체육관,1,제기역,서울 동대문구 답십리동 2-294,02-2247-9611~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100756&thumb=Y,http://www.dfmc.kr,운영시간: 06:00 ~ 22:00,,국경일 대관행사시 휴관,유료
+169,문화예술회관,동대문구문화회관,5,답십리역,서울 동대문구 답십리로 210-9,02-2215-0586~7,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100855&thumb=Y,http://tour.ddm.go.kr/culture/culturalFacility_1,,,법정 공휴일,유료
+170,미술관,동덕아트갤러리,3,안국역,서울 종로구 관훈동 151-4,02-732-6458~9,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100348&thumb=Y,,10:00 ~ 19:0010:00 ~ 18:00(7~8월 1~2월 토일요일공휴일),,연중무휴,유료
+171,박물관/기념관,동덕여자대학교 박물관,6,월곡역,서울 성북구 하월곡동 23-1,02-940-4231,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100237&thumb=Y,http://museum.dongduk.ac.kr,월~금 10:30~16:00,무료,방학중 휴관,무료
+172,공연장,동방예술극장,4,혜화역,서울 마포구 노고산동 33-22,02-712-3865,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100161&thumb=Y,,,,,유료
+173,미술관,동산방화랑,1,종각역,서울 종로구 견지동 93,02-733-5877,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100323&thumb=Y,,10:00~18:00,무료,전시시 무휴,무료
+174,미술관,동서화랑,4,명동역,서울 종로구 관훈동 196-3,02-733-9585,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100350&thumb=Y,,10:00 ~ 19:00,무료,연중무휴,무료
+175,공연장,동숭무대,4,혜화역,서울 종로구 혜화로 35,010-8923-1512,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101449&thumb=Y,http://cafe.naver.com/dsstage,,,-,무료
+176,공연장,동숭아트센터,4,혜화역,서울 종로구 동숭동 1-5,02-766-3390,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100372&thumb=Y,www.dsartcenter.co.kr,10:00 ~ 22:30,공연장별로 나뉘어짐,,유료
+177,문화예술회관,동작문화재단,9,흑석역,서울 동작구 흑석로 93-1,02-826-9330,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=941cab4372da45018084c086b870d517&thumb=Y,www.idfac.or.kr,,0,토 일요일 및 공휴일,무료
+178,미술관,동작아트갤러리,7,보라매역,서울 동작구 보라매로5길 28-1,070-7204-3257,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=64112524fe494dd690760322fc821827&thumb=Y,https://www.idfac.or.kr/sub_new/menu02_01_01.php,,0,매주 일?월요일 법정공휴일,무료
+179,미술관,동호갤러리,"1, 3, 5",종로3가역,서울 종로구 관훈동 197-18,02-722-3665,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100351&thumb=Y,,10:00 ~ 19:00,,,유료
+180,미술관,두산갤러리,1,종로5가역,서울 종로구 종로33길 15,02-708-5050,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101525&thumb=Y,https://www.doosanartcenter.com/ko/exhibit/main,,,매 주 월요일,무료
+181,공연장,두산아트센터,1,종로5가역,서울 종로구 연지동 270,02-708-5001~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100458&thumb=Y,www.doosanartcenter.com,,,,유료
+182,박물관/기념관,둘리뮤지엄,4,쌍문역,서울 도봉구 쌍문동 산 250,02-990-2200,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4c6a907b70584b3f8c8d9d3e8dc561ae&thumb=Y,https://www.doolymuseum.or.kr,,0,매주 월요일 1월1일 설날 및 추석 당일,무료
+183,문화원,드플로허,6,이태원역,서울 용산구 대사관로5길 34,02-790-5246,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=95e8c5d7deb74590b759b6448d3f9442&thumb=Y,http://blog.naver.com/deflore1,,0,매주 화요일 목요일,무료
+184,미술관,디뮤지엄,수인분당,서울숲역,서울 용산구 독서당로29길 5-6,070-5097-0020,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101030&thumb=Y,http://www.daelimmuseum.org/dmuseum/index.do,,,매주 월,
+185,미술관,디지털 파빌리온,경의중앙,수색역,서울 마포구 상암동 1605,02-2132-0500~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100669&thumb=Y,http://www.digitalpavilion.co.kr,10:00~18:00,무료,일요일 신정 설 추석 연휴,무료
+186,공연장,떡박물관,"1, 3, 5",종로3가역,서울 종로구 와룡동 164-2,02-741-5447,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100461&thumb=Y,www.tkmuseum.or.kr,평일 10:00~17:00일요일 12:00~17:00,일반 3000원초중고생 2000원,추석 설날 당일휴무,유료
+187,기타,떼아뜨르 秋,"2, 경의중앙, 공항",홍대입구역,서울 마포구 서교동 358-116,02-323-5573,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100171&thumb=Y,,화수목요일 7:30 / 금토일공휴일 4:30 7:30,일반 2만원 / 학생 1만5천원,,유료
+188,기타,뚝섬전망문화콤플렉스,7,뚝섬유원지역,서울 광진구 자양동 97-5,02-3780-0517,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100935&thumb=Y,www.j-bug.co.kr,,,,
+189,기타,롯데월드,"2, 8",잠실역,서울 송파구 잠실동  올림픽로 240,02-411-2000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100713&thumb=Y,http://www.lotteworld.com,,유료,,유료
+190,문화원,롯데월드 아이스링크,"2, 8",잠실역,서울 송파구 올림픽로 240,02-411-2000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100257&thumb=Y,www.lotteworld.com/icerink,,어른 5500원 어린이 4500원,연중무휴,유료
+191,공연장,롯데월드 야외공연장,"2, 8",잠실역,서울 송파구 잠실동 47,02-411-2000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100253&thumb=Y,http://www.lotteworld.com,,,,유료
+192,미술관,롯데월드 화랑,"2, 8",잠실역,서울 송파구 잠실동 40-1,02-411-6932,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100261&thumb=Y,http://www.lotteworld.com/Family_gallery/main.asp,,무료,,무료
+193,공연장,롯데콘서트홀,"2, 8",잠실역,서울 송파구 올림픽로 300,1544-7744,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101252&thumb=Y,www.lotteconcerthall.com/,,,,
+194,미술관,롯데화랑,2,을지로입구역,서울 중구 소공동 1,02-726-4428~9,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100512&thumb=Y,,10:30 ~ 20:00 (백화점 영업시간과 동일),무료,백화점과 동일,무료
+195,문화예술회관,리틀엔젤스예술회관,5,아차산역,서울 광진구 능동로36길 25,070-7124-1740,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100706&thumb=Y,http://www.uac.co.kr,,,,유료
+196,공연장,마루아트홀,4,혜화역,서울 종로구 대학로8가길 30,02-1661-6981,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5d07c3375c5b42c3bd332a016cd692ea&thumb=Y,없음,,문의,없음,유료
+197,문화예술회관,마포아트센터,6,대흥역,서울 마포구 대흥로20길 28,02-3274-8600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100857&thumb=Y,http://www.mapoartcenter.or.kr,,,,무료
+198,기타,맛동,"3, 6",불광역,서울 은평구 녹번동 5-29,070-4285-3981,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7f0163d52ae349b3b7925dc1e9d84706&thumb=Y,https://www.seoulnutri.co.kr/,,0,매주 일요일 및 법정공휴일,무료
+199,유적지,망묘루,"1, 3, 5",종로3가역,서울 종로구 종로 157,,,,,,,
+200,기타,메이커시티 세운,"1, 3, 5",종로3가역,서울 종로구 종로3가 143-1,02-2273-5505,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101368&thumb=Y,http://sewoon.org,,,,
+201,공연장,명동난타극장,2,을지로입구역,서울 중구 명동길 26,02-739-8288,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100873&thumb=Y,http://nanta.i-pmc.co.kr,월~일 및 공휴일 2시 5시 8시,,없음,유료
+202,공연장,명동예술극장,4,명동역,서울 중구 명동길 35,02-1644-2003,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101026&thumb=Y,http://www.ntck.or.kr/ko,,,,
+203,공연장,명보극장,"2, 3",을지로3가역,서울 중구 초동 18-5,02-2274-2121,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100538&thumb=Y,http://www.myungbo.com/,평일 11:00 ~ 18:30 토?일요일 10:00 ~ 18:30,,,유료
+204,공연장,모차르트콘서트홀,2,서초역,서울 서초구 서초동 1515-3,02-3472-8222,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100200&thumb=Y,http://mozarthall.co.kr/,,,,유료
+205,문화원,목동아이스링크,5,오목교역,서울 양천구 목동  안양천로 939,02-2643-3057,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100269&thumb=Y,http://www.mdicerink.co.kr,,초등이하 2500원중?고등생 3000원대학생?일반 3500원,연중무휴,유료
+206,문화원,목동운동장,5,오목교역,서울 양천구 목동 914,02-2640-3812,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100270&thumb=Y,http://stadium.seoul.go.kr/reserve/reserve_02_00.html,,프로축구 일반 5000원학생?군경 3000원,연중무휴,유료
+207,박물관/기념관,목인박물관,3,경복궁역,서울 종로구 견지동 83,02-722-5066,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100326&thumb=Y,www.mokinmuseum.com,10:00~19:00,일반 5000원,설 추석 연휴,유료
+208,박물관/기념관,몽촌역사관,"5, 9",올림픽공원역,서울 송파구 올림픽로 424,02-424-5138,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100243&thumb=Y,,3월 ~ 10월 10:00 ~ 17:0011월 ~  2월 10:00 ~ 16:00,무료,월요일 설 및 추석연휴공휴일 익일,무료
+209,유적지,몽촌토성,8,강동구청역,서울 송파구 올림픽로 424,02-2147-2001,,,,,,
+210,문화원,무계원,3,경복궁역,서울 종로구 부암동 315-3,02-379-7131~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100893&thumb=Y,https://www.jfac.or.kr/,09:00 ~ 18:00,무료,매주 월요일 1월 1일 추석 및 설날 연휴,무료
+211,문화예술회관,문래예술공장,1,영등포역,서울 영등포구 경인로88길 5-4,02-2676-4300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=efb9ba482d20442587797470e11b9348&thumb=Y,http://www.sfac.or.kr/,,,매주 월요일,무료
+212,미술관,문예진흥원 아르코미술관,4,혜화역,서울 종로구 동숭동 1-130,02-760-4500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100402&thumb=Y,http://www.arkoartcenter.or.kr/,11:00~20:00,일반 2000원 청소년 1000원,월요일 설 추석,유료
+213,공연/전시장,문학의집서울,4,명동역,서울 중구 퇴계로26길 65,02-778-1026~7,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101019&thumb=Y,http://www.imhs.co.kr,,,일요일 및 법정공휴일 본 법인이 정한 날,
+214,공연/전시장,문화공간 이육사,6,고려대역,서울 성북구 종암로21가길 36-1,02-928-0264,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101505&thumb=Y,https://www.sbculture.or.kr,,,일요일월요일공휴일,
+215,유적지,문화류씨묘역,"3, 5",오금역,서울 송파구 오금동,02-410-3412,,,,,,
+216,기타,문화비축기지,"6, 공항, 경의중앙",디지털미디어시티역,서울 마포구 성산동 661 증산로 87,070-4222-1203,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100941&thumb=Y,http://futurehouse.kr,,,,
+217,공연장,문화일보홀,5,서대문역,서울 중구 충정로1가 68,02-3701-5754,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100714&thumb=Y,http://hall.munhwa.com/,공연에 따라 다름,,없음,유료
+218,공연장,문화정원아트홀,1,독산역,서울 금천구 독산동 296-9,02-839-1155,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100902&thumb=Y,www.cgarthall.co.kr,,,,
+219,공연장,민속극장풍류,"9, 수인분당",선정릉역,서울 강남구 삼성동 112-2,02-566-5951,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100018&thumb=Y,,3월 ~ 10월 : 10 ~ 18시11월 ~  2월 : 10 ~ 17시,,,유료
+220,공연장,밀알학교 세라믹 팔레스홀,3,일원역,서울 강남구 일원동 713,02-3411-4668,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100050&thumb=Y,http://www.cphall.org/,,,,유료
+221,공연장,반포심산아트홀,9,구반포역,서울 서초구 반포동 114-3,02-3477-2461,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100953&thumb=Y,https://www.seochocf.or.kr,,,,
+222,기타,밝은미소운동본부,3,일원역,서울 강남구 일원로 121,02-883-5630,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101024&thumb=Y,www.smilekorea.org,,,,
+223,공연장,방송회관 코바코홀,5,오목교역,서울 양천구 목동동로 233,02-3219-5700,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101359&thumb=Y,http://kobacohall.com,,,,
+224,유적지,서울방이동고분군,9,송파나루역,서울 송파구 방이동,02-2147-2800,,,,,,
+225,유적지,백련사,4,수유역,서울 강북구 수유동 산 17-1,02-990-7058,,,,,,
+226,유적지,백범광장,4,회현역,서울 중구 회현동1가 100-115,,,,,,,
+227,박물관/기념관,백범기념관,"6, 경의중앙",효창공원앞역,서울 용산구 효창동 255,02-719-1311,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100307&thumb=Y,www.kimkoomuseum.org,3월~10월 10:00~18:0011월~2월 10:00~17:00,무료,월요일1월 1일설날 추석 기타 관장이 정하는 날.,무료
+228,유적지,백범김구기념관,"경의중앙, 6",효창공원앞역,서울 용산구 임정로 26,02-799-3400,,,,,,
+229,공연장,백암아트홀,2,삼성역,서울 강남구 테헤란로113길 7,02-559-1333,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100019&thumb=Y,http://www.baekamhall.com/,,,,유료
+230,박물관/기념관,보나장신구 박물관,1,종각역,서울 종로구 관훈동 192-10 ,02-732-6621,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100360&thumb=Y,www.bonamuseum.com,화토 10:30~18:30일 12:00~ 18:00,일반 5000원청소년 4000원,매주 월요일,유료
+231,유적지,보신각,1,종각역,서울 종로구 종로 54,,,,,,,
+232,공연장,봄날아트홀,4,혜화역,서울 종로구 동숭동 1-153,02-741-6069,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100376&thumb=Y,arirang.jinbo.net,,,,유료
+233,공연장,부암아트홀,3,경복궁역,서울 종로구 부암동 208-71,02-391-9637,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100418&thumb=Y,http://www.buamart.co.kr/,,,,유료
+234,박물관/기념관,부엉이 박물관,3,안국역,서울 종로구 삼청동 27-21,02-3210-2902,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100426&thumb=Y,www.owlmuseum.co.kr,10:00~19:00,5000원,매주 월요일 화요일,유료
+235,기타,북서울꿈의숲,4,미아사거리역,서울 강북구 월계로 173,02-2289-4001,,,,,,
+236,문화예술회관,북촌 서울무형문화재 교육전시장,3,안국역,서울 종로구 북촌로 20-13,02-742-6444,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=34ce0a9dad7c4f86be39106b22e02892&thumb=Y,www.seoulmaster.co.kr,오전 11시 ~ 오후 5시,전시 무료  교육/체험 유료,매주 월요일,유료
+237,문화예술회관,북촌문화센터,3,안국역,서울 종로구 계동길 37,02-741-1033,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101144&thumb=Y,http://hanok.seoul.go.kr/,,,연중무휴,
+238,미술관,북촌박물관,3,안국역,서울 종로구 가회동 170-4,02-741-2296,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100318&thumb=Y,http://www.bukchonartmuseum.com,화요일 - 일요일 오전11시 - 오후6시,성인 2000원 7~18세 1000원,월요일 설 추석,유료
+239,공연장,블루스퀘어(Blue Square),6,한강진역,서울 용산구 한남동 727-56,1544-1591,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100909&thumb=Y,www.bluesquare.kr/,,,,
+240,공연장,빈집프로젝트,2,구로디지털단지역,서울 금천구 독산로96길 6,02-809-8238,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101186&thumb=Y,www.gcfac.or.kr,,,비정기,
+241,문화예술회관,사각사각 플레이스,2,잠실새내역,서울 송파구 한가람로 65,02-420-1160,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101366&thumb=Y,,,,,
+242,문화예술회관,사당문화회관,7,남성역,서울 동작구 사당동 248-6,02-588-4111,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100825&thumb=Y,http://www.idongjak.or.kr/,- 평   일(월~금) : 06:00~22:00  토요일 : 06:00~21:00 / 일요일(1주) : 10:00~19:00,,공휴일 및 5주째 일요일,무료
+243,미술관,사비나미술관,"3, 6",연신내역,서울 은평구 진관1로 93,02-736-4371,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100450&thumb=Y,http://www.savinamuseum.com/,,,월요일,
+244,박물관/기념관,사육신역사관,9,노들역,서울 동작구 노량진로 191,070-7204-3258,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8017f8f60dff49e08cd894b902930e1b&thumb=Y,www.idfac.or.kr,,0,매주 일 월요일/법정공휴일,무료
+245,공연/전시장,삼각산시민청,우이신설,솦밭공원역,서울 강북구 삼양로 595,02-900-4300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=57dc48d582ef4f6780e3230b58e9ae0e&thumb=Y,http://sg.seoulcitizenshall.kr/,,,1월 1일 설날 당일 추석 당일 매주 마지막주 월요일,무료
+246,유적지,삼봉정도전시비,"1, 3, 5",종로3가역,서울 종로구 인의동 123,,,,,,,
+247,미술관,삼성미술관 Leeum,6,한강진역,서울 용산구 한남동 747-18,02-2014-6901,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100304&thumb=Y,http://leeum.samsungfoundation.org/,10:30~18:00,일반 10000원청소년 6000원,월요일,유료
+248,박물관/기념관,삼성출판박물관,3,경복궁역,서울 종로구 구기동 126-4,02-394-6544,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100364&thumb=Y,www.ssmop.org,월~금 10:00~17:00,일반 3000원 학생 2000원,토 일요일공휴일 휴관,유료
+249,공연장,삼일로창고극장,4,명동역,서울 중구 삼일대로9길 12,02-3789-9640,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=797d0c5893a149f0947a36ffd6fd3bbd&thumb=Y,http://samilro.com/,공연시간에 따라 다름,0,매주 월요일/설추석 연휴 일(공연장) 설 추석 연휴 당일(스튜디오),무료
+250,유적지,삼전도비,"2, 8",잠실역,서울 송파구 송파나루길 256,042-481-4650,,,,,,
+251,기타,삼청각,4,한성대입구역,서울 성북구 성북동 330-115,02-3676-3456,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100229&thumb=Y,www.samcheonggak.or.kr,,,월요일,유료
+252,미술관,상계예술마당,"4, 7",노원역,서울 노원구 상계로10길 41-7,02-2289-3462,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4e157c6e776a4f31a7304d44a10b9919&thumb=Y,www.nowonarts.kr,,0,1월1일 설 ？ 추석연휴,무료
+253,박물관/기념관,상명대학교 박물관,3,안국역,서울 종로구 홍지동 110-743,02-2287-5281,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100497&thumb=Y,http://museum.smu.ac.kr/,월~금 10:00~16:00,무료,토일요일법정공휴일개교기념일동하계 휴가기간,무료
+254,공연장,상명아트센터,3,경복궁역,서울 종로구 홍지동 7-1,02-538-0058,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100926&thumb=Y,www.smarts.or.kr,,,,
+255,공연장,상봉시네마,"7, 경의중앙, 경춘",상봉역,서울 중랑구 상봉동 92-2,02-6462-2300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100559&thumb=Y,http://www.sbcine.co.kr/,,,,유료
+256,공연장,샘터 파랑새 극장,4,혜화역,서울 종로구 동숭동 1-115,02-763-8961,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100375&thumb=Y,www.isamtoh.com,,,월요일,유료
+257,박물관/기념관,생명과학박물관,5,오목교역,서울 양천구 목동 405-207,02-2648-6114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100412&thumb=Y,www.biom.or.kr,10:00 13::00 15:00(방학기간 17:00 추가개장),어른학생 : 5000 유아:3000(20인 이상 단체 1인단 1000원 할인),매주 월요일 추석 설날,유료
+258,박물관/기념관,샬트르성바오로수녀회 역사박물관,"2, 3",을지로3가역,서울 중구 명동2가 1-6,02-3706-3255,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100508&thumb=Y,www.spcseoul.or.kr,10:00~11:30 13:30~16:30,무료,화요일 국경일부활절 성탄절,무료
+259,박물관/기념관,서강대학교 박물관,경의중앙선,서강대역,서울 마포구 신수동 1-1,02-705-8215,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100173&thumb=Y,http://sogmuse.sogang.ac.kr,10:00~12:0013:00~15:00,무료,토일요일국가공휴일방학기간,무료
+260,문화예술회관,서교예술실험센터,"2, 경의중앙, 공항",홍대입구역,서울 마포구 잔다리로6길 33,02-333-0246,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=94b21da6480b4a4cb0cc251c9b838897&thumb=Y,http://www.sfac.or.kr,,,월요일 공휴일,무료
+261,문화예술회관,서대문문화회관,3,홍제역,서울 서대문구 홍은동 26-155,02-360-8560~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100794&thumb=Y,http://www.sscmc.or.kr/culture1/,,,,무료
+262,박물관/기념관,서대문자연사박물관,2,신촌역,서울 서대문구 연희로32길 51,02-330-1731,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100183&thumb=Y,namu.sdm.go.kr,3~10월 09:00~18:00 | 11~2월 09:00~17:00,어린이(5세~12세) : 1000원 / 청소년(13세~18세) : 2000원 / 어른 : 3000원 /  65세이상 4세이하 장애인 : 무료,1월 1일 설날 추석 매주 월요일(월요일이 공휴일인 경우 그 다음날),유료
+263,박물관/기념관,서대문형무소역사관,3,독립문역,서울 서대문구 통일로 251,02-360-8590~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100186&thumb=Y,www.sscmc.or.kr/culture2,3~10월 09:30~18:00 | 11~2월 09:30~17:00,일반 1500원 | 청소년 1000원| 어린이 500원,매주 월요일 신정 설날,유료
+264,미술관,서리풀청년아트갤러리,3,남부터미널역,서울 서초구 남부순환로323길 1,02-3477-2074,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101389&thumb=Y,www.seocho.go.kr/seoripulgallery,11:00~19:00,무료,일월공휴일,무료
+265,문화예술회관,서서울예술교육센터,"2, 5",까치산역,서울 양천구 남부순환로64길 2,02-3437-0099,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=48b137301e754b33a843fafcfb953d4f&thumb=Y,https://www.sfac.or.kr/,,,설/추석 당일,무료
+266,공연장,서울 아트 시네마,"1, 3, 5",종로3가역,서울 종로구 낙원동 삼일대로 428,02-741-9782,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100366&thumb=Y,http://www.cinematheque.seoul.kr/,,,,유료
+267,기타,서울 애니메이션 센터,4,명동역,서울 중구 소공로 48,02-3455-8330,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2bf2689ebf5844719c9d44fe557b7dec&thumb=Y,https://www.ani.seoul.kr/aniindex.sba,화요일 ~ 일요일 10:00 ~ 18:00 (동절기 17:00 폐관),0,매주 월요일 1월1일 설날?추석 당일 기타 센터 지정일,무료
+268,박물관/기념관,서울공예박물관,3,안국역,서울 종로구 율곡로3길 4,02-6450-7000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5ebb05e28dc74b50bf7ebea127cd278f&thumb=Y,craftmuseum.seoul.go.kr,,0,매주 월요일 1월 1일 설날 추석 ,무료
+269,문화예술회관,서울교육문화회관,신분당선,양재시민의숲역,서울 서초구 바우뫼로12길 70,02-571-8100,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100214&thumb=Y,http://www.temfhall.co.kr/,공연일정에 따라 다름,공연에 따라 다름,연중무휴,유료
+270,공연장,서울극장,"1, 3, 5",종로3가역,서울 종로구 관수동 돈화문로 13,02-2269-2700,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100331&thumb=Y,http://www.seoulcinema.com/,,유료,,유료
+271,기타,서울기록원,"3, 6",불광역,서울 은평구 통일로62길 7,02-350-5600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=95f52a0c6e024bc4bbe4af1d8066cd70&thumb=Y,https://archives.seoul.go.kr/,,0,매주 월요일 설날 추석 당일,무료
+272,공연장,서울남산국악당,"3, 4",충무로역,서울 중구 필동2가 84-1,02-2261-0500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f2161869bc084483adcdaea7e7673841&thumb=Y,https://www.hanokmaeul.or.kr/,,,매주 월요일,무료
+273,미술관,서울대학교 미술관,2,서울대입구역,서울 관악구 신림동 56-1,02-880-9504,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100090&thumb=Y,http://www.snumoa.org,10:00~18:00,일반 3000원초중고 2000원,일요일 및 공휴일 개교기념일,유료
+274,박물관/기념관,서울대학교 치과대학 치의학 박물관,4,혜화역,서울 종로구 연건동 110-749,02-740-8799,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100455&thumb=Y,www.dentmuseum.or.kr,월~금 10:00~12:00,무료,개교기념일 (10/15)토일 공휴일,무료
+275,공연/전시장,서울도시건축전시관,"1, 2",시청역,서울 중구 세종대로 119,02-736-8050,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=953f1237c1e046a29d3e20c420adafcf&thumb=Y,https://sca.seoul.go.kr/seoulhour/site/urbanArch/home,,0,매주 월요일 (공휴일인 경우 그 다음날) 1월1일 설날 추석 및 서울도시건축전시관이 지정한 날,무료
+276,공연장,서울돈화문국악당,3,안국역,서울 종로구 와룡동 12-2,02-3210-7001~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=551aebe187b245b29850109fd7872291&thumb=Y,www.sdtt.or.kr,,,월요일,무료
+277,기타,서울로 7017,경의중앙,서울역,서울 중구 만리동1가 1,02-2133-4483,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100980&thumb=Y,http://seoullo7017.seoul.go.kr,,,,
+278,공연/전시장,서울로미디어캔버스,"1, 4, 공항",서울역,서울 중구 만리재로 215,02-2133-2712,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101324&thumb=Y,http://design.seoul.go.kr,,,없음,
+279,기타,서울무용센터,6,새절역,서울 서대문구 명지2길 14,02-304-9100,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f237935ed8c9497c8e844e09d2397ed6&thumb=Y,http://www.sfac.or.kr/html/artspace/dance_introduction.asp,,,설(구정) 당일 추석 당일,무료
+280,문화예술회관,서울문화재단,2,용두역,서울 동대문구 청계천로 517,02-3290-7000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=905f57348b684c4782ad6ab0d2d3b4e5&thumb=Y,http://www.sfac.or.kr/,,,주말 및 공휴일 휴관,무료
+281,박물관/기념관,서울상상나라,7,어린이대공원역,서울 광진구 능동로 216,02-6450-9500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4462cabcd74c4d9a9fff66d4efeebf9f&thumb=Y,www.seoulchildrensmuseum.org,오전 10시 ~ 오후 6시 (입장마감 오후 4시),36개월 이상 4천원,매주 월요일 1월 1일 설날?추석연휴 보수기간,유료
+282,기타,서울새활용플라자,5,장한평역,서울 성동구 자동차시장길49,02-2153-0400,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9ae9386b6c904d8e8ed529ecb51b80fd&thumb=Y,http://www.seoulup.or.kr/,,0,매주 월요일 휴무 설날추석당일 휴관,무료
+283,기타,서울생각마루,7,뚝섬유원지역,서울 광진구 강변북로 2202,02-3780-0517,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101418&thumb=Y,http://www.j-bug.co.kr/,,,매주 월요일,
+284,문화예술회관,서울생활문화센터 낙원,"1, 3, 5",종로3가역,서울 종로구 삼일대로 428,02-6959-8323,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=63df92c30c024df0a810fd004aba96af&thumb=Y,http://www.nakwon-communityart.or.kr/,,0,월요일 신정 구정 추석연휴,무료
+285,문화예술회관,서울생활문화센터 서교,"2, 6",합정역,서울 마포구 양화로 72,02-6351-7531,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e1a63c855f7044e59cd165fcc214bcc7&thumb=Y,https://www.seogyocenter.or.kr/,,0,매주 월요일 1월 1일 설날 및 추석연휴 (그외 일정 별도 공지),무료
+286,문화예술회관,서울생활문화센터 체부,3,경복궁역,서울 종로구 자하문로1나길 3-2,02-6272-0111,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7d57d54657674a788deafb3b3e47cb27&thumb=Y,www.ccasc.or.kr,,,매주 월요일 / 신정 및 구정 연휴 / 추석연휴,무료
+287,박물관/기념관,서울생활사박물관,7,태릉입구역,서울 노원구 동일로 174길 27,02-3399-2900,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101547&thumb=Y,https://museum.seoul.go.kr/sulm/index.do,,,,무료
+288,공연장,서울숲공원 야외공연장,수인분당,서울숲역,서울 성동구 성수동1가 685-306,02-460-2905,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100864&thumb=Y,http://parks.seoul.go.kr/template/default.jsp?park_id=seoulforest,행사별로 정함,행사별로 정함,없음,무료
+289,미술관,서울시립 북서울미술관,7,하계역,서울 노원구 동일로 1238,02-2124-5201,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100886&thumb=Y,http://sema.seoul.go.kr,평일 10:00~20:00 토일공휴일 하절기(3월~10월) 19시 동절기(11월~2월 18시),무료,매주 월요일 1월 1일,무료
+290,박물관/기념관,서울시립과학관,7,하계역,서울 노원구 한글비석로 160,02-970-4500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101352&thumb=Y,http://science.seoul.go.kr,,,설날 추석날 1월1일 매주 월요일,
+291,공연장,서울시립대학교 박물관,"경의중앙, 수인분당, 경춘",청량리역,서울 동대문구 회기동 90,02-2210-2285,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100152&thumb=Y,http://museum.uos.ac.kr,평일 10:00~17:00,무료,토요일 일요일 공휴일,무료
+292,미술관,서울혁신파크,"3, 6",불광역,서울 은평구 통일로 684,02-389-7512,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101447&thumb=Y,,,,월요일,
+293,미술관,서울시립미술관,"1, 2",시청역,서울 중구 서소문동 덕수궁길 61,02-2124-8800,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5452ef4c1e4c476cb5f86c11ad28f1ee&thumb=Y,http://sema.seoul.go.kr/,평일 10:00~22:00토공휴일 10:00~19:00,0,매주 월요일,무료
+294,미술관,서울시립미술관 경희궁분관,5,서대문역,서울 종로구 신문로2가 2-1,02-723-2491,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100447&thumb=Y,http://seoulmoa.seoul.go.kr,화~일 10:00~18:00,무료,매주 월요일 1월1일,무료
+295,미술관,서울시립남서울미술관,"2, 4",사당역,서울 관악구 남부순환로 2076,02-598-6247,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100086&thumb=Y,http://seoulmoa.seoul.go.kr/,평일 10:00~20:00토요일 공휴일 10:00~18:00,무료,1월 1일매주 월요일,무료
+296,공연/전시장,서울시청 하늘광장 갤러리,"1, 2",시청역,서울 중구 세종대로 110,02-2133-5641,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f6445d7ba66d4a61be3224af23d29c7c&thumb=Y,http://skyplazagallery.com/,,0,주말 및 공휴일,무료
+297,기타,서울식물원,"9, 공항",마곡나루역,서울 강서구 마곡동로 161,02-2104-9716,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101513&thumb=Y,botanicpark.seoul.go.kr,,,월요일,
+298,미술관,서울아트센터,"4, 6",삼각지역,서울 종로구 공평동  우정국로2길 32,02-733-9512,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100330&thumb=Y,,평일 10:00~18:00주말공휴일 10:00~17:00,무료,무휴(전시에 따라 변동),무료
+299,공연장,서울악스,5,광나루역,서울 광진구 구천면로 20,02-457-5114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100094&thumb=Y,http://www.ax-korea.co.kr,,,,유료
+300,박물관/기념관,서울암사동유적,8,암사역,서울 강동구 올림픽로 875,02-3425-6520,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101012&thumb=Y,http://sunsa.gangdong.go.kr/site/main/home,,,1/1 매주 월요일,
+301,박물관/기념관,서울약령시한의약박물관,1,제기동역,서울 동대문구 용두동 787,02-3299-4900~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100150&thumb=Y,http://museum.ddm.go.kr/,3월~10월 10:00~18:0011월~2월 10:00~17:00,무료,1월1일설날추석,무료
+302,박물관/기념관,서울역사박물관,5,광화문역,서울 종로구 새문안로 55,02-724-0274~6,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=702652031e1d434d869fef533b8b628a&thumb=Y,www.museum.seoul.kr,평일 : 09:00~21:00 토일 공휴일 : 09:00~19:00(동절기 18:00),무료(일부기획전과 대관전은 유료),매주 월요일 1월 1일 단 월요일이 공휴일인 경우 휴관하지 않음,무료
+303,기타,서울역사편찬원,"5, 9",올림픽공원역,서울 송파구 방이동  88-3,02-413-9511,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fbebf96044ee418dab14a5cd1ba7c84a&thumb=Y,history.seoul.go.kr,,,없음,무료
+304,공연/전시장,서울연극센터,4,혜화역,서울 종로구 창경궁로 253-1,02-743-9333,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0f9a2261d8dc4c139d464b74ee1f035e&thumb=Y,https://www.sfac.or.kr/artspace/artspace/play_main.do,화~토요일 10:00~20:00 | 일공유일 10:00~19:00,,휴관,유료
+305,공연장,서울예술치유허브,3,고려대역,서울 성북구 종암동 28-358,02-943-9300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100677&thumb=Y,http://www.seoulartspace.or.kr/G06_seongbuk/main.asp,,,,
+306,박물관/기념관,서울올림픽기념관,8,몽촌토성역,서울 송파구 방이동 88,02-410-1051~5,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100244&thumb=Y,http://www.88olympic.or.kr/,10:00~17:30,일반 (18세 이상) 3000원초등학생 1500원군인 중고생 2000 원장애인 수첩 및 경로증 소지자 : 무료단체 (20인 이상)  할인,매주 월요일,유료
+307,박물관/기념관,서울우리소리박물관,3,안국역,서울 종로구 율곡로 96,02-742-2600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8e12eacb436f4ff58a6ad27c0a4af21b&thumb=Y,http://gomuseum.seoul.go.kr/sekm,,0,매주 월요일,무료
+308,문화원,서울월드컵경기장,6,월드컵경기장역,서울 마포구 성산동 526-3,02-2128-2973,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100172&thumb=Y,,,,,유료
+309,기타,서울자유시민대학,5,서대문역,서울 종로구 신문로2가 1-43,02-739-2751,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101351&thumb=Y,sll.seoul.go.kr,,,,
+310,기타,서울창작공간,2,용두역,서울 동대문구 용두동 255-67,02-3290-7070,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100691&thumb=Y,http://www.seoulartspace.or.kr,10:00 ~ 17:00,,,무료
+311,기타,서울책보고,2,잠실나루역,서울 송파구 신천동 14,02-6951-4977,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=aeb410611f844ffbb11d2f4a8ff9db01&thumb=Y,http://www.seoulbookbogo.kr,10:30~20:30 (화~목) / 10:00~21:00 (토~일),무료,매주 월요일 1월 1일 설날 및 추석연휴,무료
+312,박물관/기념관,서울풍물시장,"1, 2, 우이신설",신설동역,서울 동대문구 천호대로4길 21,02-2232-3368,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3dee0f04f092440b8a0272fd27b65e3f&thumb=Y,www.pungmul.or.kr,,0,매주 화요일,무료
+313,박물관/기념관,서울하수도과학관,5,장한평역,서울 성동구 용답동 250-7,02-2211-2540,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=131c9ff501434885ab34e7d30fffea59&thumb=Y,http://sssmuseum.org,,,매주 월요일 설 당일 구정 당일 추석 당일,무료
+314,박물관/기념관,서울함공원,6,망원역,서울 마포구 마포나루길 407,02 322 7500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101438&thumb=Y,http://seoulbattleshippark.com/xe/main,,,설날 추석 매주 월요일,
+315,미술관,선갤러리,"1, 3, 5",종로3가역,서울 종로구 인사동 184 5길 8,02-734-0458,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100474&thumb=Y,http://www.sungallery.co.kr/,10:00 ~ 18:00,무료,연중무휴,무료
+316,유적지,선정릉,"2, 수인분당",선릉역,서울 강남구 선릉로 100길 1,02-568-1291,,,,,,
+317,미술관,성곡미술관,3,경복궁역,서울 종로구 신문로2가 1-101,02-737-7650,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100446&thumb=Y,http://www.sungkokmuseum.com/,10:00~18:00,일반 5000원학생 2000원,월요일,유료
+318,미술관,성북구립 최만린미술관,우이신설,북한산보국문역,서울 성북구 솔샘로7길 23,02-6906-3170,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101443&thumb=Y,https://sma.sbculture.or.kr/sma/index.do,,,일월,
+319,박물관/기념관,성북선잠박물관,4,한성대입구역,서울 성북구 성북로 96,02-744-0025,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a6032f7b78034400a1c5af7d003db801&thumb=Y,http://museum.sb.go.kr,,,매주 월요일(*월요일이 공휴일인 경우 그 다음날) 1월 1일 설날추석 연휴성북구청장이 정하는 휴관일  ,무료
+320,공연장,성수아트홀,2,뚝섬역,서울 성동구 뚝섬로1길 43,02-2204-7570,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9b7310f452f6455c89164adfb90e8c20&thumb=Y,http://seongsu.sdfac.or.kr/,,,월요일,무료
+321,공연장,성암아트홀,"9, 수인분당",선정릉역,서울 강남구 논현동 268-16,02-543-0826,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100006&thumb=Y,http://www.saart.co.kr/,,,토요일 일요일 공휴일,유료
+322,박물관/기념관,세계골프역사박물관,2,삼성역,서울 강남구 테헤란로 528,02-2192-3005,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f17edda73ab141fea4542f5d4a4f8414&thumb=Y,https://blog.naver.com/golfhistory,,성인: 5000원 / 청소년 어르신(만 65세 이상) 장애인: 3000원/ 동반 10인 이상 관람: 3000원,토요일 일요일 공휴일 ,유료
+323,박물관/기념관,세계장신구 박물관,3,안국역,서울 종로구 화동 75-3,02-730-1610,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100501&thumb=Y,www.wjmuseum.com,10:00~19:00,일반 5000원학생 3000원,월요일,유료
+324,기타,세빛섬,9,신반포역,서울 서초구 올림픽대로 2085-14,02-3447-3084,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101450&thumb=Y,http://www.somesevit.co.kr/,,,연중무휴,
+325,공연장,세실극장,"1, 2",시청역,서울 중구 정동 3-7,02-742-7601,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100531&thumb=Y,http://www.ceciltheater.com/,,,,유료
+326,공연장,세실아트홀,3,압구정역,서울 강남구 신사동 616-7,02 3446 1665,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100922&thumb=Y,www.cecil.co.kr,,,없음,
+327,박물관/기념관,세종대왕기념관,6,고려대역,서울 대문구 청량리동 1-157 ,02-969-8851,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100154&thumb=Y,www.sejongkorea.org,09:00 ~ 18:00,대인 1800원/ 소인 1200원,매주 월요일 설날 추석 신정,유료
+328,공연장,세종대학교 대양홀,7,어린이대공원역,서울 광진구 군자동 98,02-3408-3532,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100099&thumb=Y,http://www.sejong.ac.kr/sju05/sju05_8.html,,,,유료
+329,박물관/기념관,세종대학교 박물관,7,어린이대공원역,서울 광진구 군자동 98,02-3408-3077,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100100&thumb=Y,http://museum.sejong.ac.kr/,10:00~15:00,무료,토일요일공휴일,무료
+330,공연/전시장,세종마을상촌재,3,경복궁역,서울 종로구 자하문로17길 12-11,02-6013-1142,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101408&thumb=Y,https://www.jfac.or.kr/site/main/home,,,월요일,
+331,공연장,세종문화회관,5,광화문역,서울 종로구 세종대로 175,02-399-1000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=580516baeec44af59eafc7a1efc64ff0&thumb=Y,https://www.sejongpac.or.kr,,,연중무휴,무료
+332,미술관,세컨드에비뉴 갤러리,"3, 4",충무로역,서울 중구 필동로8길 22,02-593-1140,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101263&thumb=Y,http://gallery2ndave.com/,,,일요일 공휴일,
+333,미술관,셀린박 갤러리,3,압구정역,서울 강남구 압구정로32길 30,070-5222-4228,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101540&thumb=Y,www.celineparkgallery.com,,,매주 월요일 1&amp;3 째주 일요일 휴관,유료
+334,미술관,소마미술관,9,한성백제역,서울 송파구 방이동 올림픽로 424,02-410-1060~6,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100242&thumb=Y,http://www.somamuseum.org/,10:00~18:00,일반 3000원청소년 2000원어린이 1000원,월요일1월 1일설날 추석,유료
+335,유적지,소악루,9,양천향교역,서울 강서구 가양동,02-2600-6300,,,,,,
+336,공연장,소월아트홀,"2, 5, 수인분당, 경의중앙",왕십리역,서울 성동구 행당동 142-16,02-2204-6400,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100221&thumb=Y,http://sowol.sdmc.go.kr/main/main.asp,,,,유료
+337,미술관,소호 아트 갤러리,3,경복궁역,서울 종로구 필운동 90-1,02-722-1999,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100488&thumb=Y,http://www.thesoho.co.kr/,11:00 ~ 22:00,무료,연중무휴,무료
+338,공연장,손기정문화체육센터,"2, 5",충정로역,서울 중구 만리동2가 손기정로 101,02-2280-8390,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100739&thumb=Y,http://www.e-junggu.or.kr/?code=20&subp=1010_1,,,,무료
+339,유적지,송시열초상,4,한성대입구역,서울 종로구 명륜1가,,,,,,,
+340,문화예술회관,송파구체육문화회관,5,거여역,서울 송파구 거여동 289,02-402-3291~2,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100841&thumb=Y,http://www.esongpa.or.kr,,,,유료
+341,박물관/기념관,쇳대박물관,"1, 4",동대문역,서울 종로구 동숭동 187-8,02-766-6494,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100403&thumb=Y,www.lockmuseum.org,10:00~18:00,일반 5000원청소년 3000원어린이 2000원,월요일,유료
+342,박물관/기념관,수림아트센터,6,고려대역,서울 동대문구 홍릉로 118,02-962-7911,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101409&thumb=Y,http://www.soorimcf.or.kr/index.html,,,상황에 따라 다름,
+343,박물관/기념관,숙명여자대학교 박물관,4,숙대입구역,서울 용산구 청파동2가 52,02-710-9133,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100299&thumb=Y,http://museum.sookmyung.ac.kr,월~토 오전10시~오후5시 (일요일 공휴일은 휴관),무료,일요일 공휴일,무료
+344,박물관/기념관,숙명여자대학교 정영양자수박물관,"6, 경의중앙",효창공원앞역,서울 용산구 효창동 52,02-710-9133,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100308&thumb=Y,http://museum.sookmyung.ac.kr/,월~토 10:00~17:00,무료,일요일 신정,무료
+345,유적지,숭례문,"1, 4, 공항",서울역,서울 중구 세종대로 40,042-481-4650,,,,,,
+346,유적지,숭인원,1,청량리역,서울 동대문구 청량리동 204-37,02-962-0556,,,,,,
+347,박물관/기념관,쉼박물관,3,경복궁역,서울 종로구 홍지동 36-20,02-391-2765,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100498&thumb=Y,http://shuim.org,화요일 ~ 일요일 11:00~17:00,어린이 : 3000원 청소년 군인 : 5000원 어른 : 7000원,월요일,유료
+348,미술관,슈페리어갤러리,2,삼성역,서울 강남구 테헤란로 528,02-2192-3366,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=08e69d24831f46989b85c35e2662e1e5&thumb=Y,https://www.thesuperiormall.com/goods/goods_art.php,,0,토요일 일요일 공휴일 ,무료
+349,미술관,스튜디오 콘크리트,6,한강진역,서울 용산구 한남대로 162,02-794-4095,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101118&thumb=Y,http://www.studio-ccrt.com/xe/index_ccrt,,,연중무휴,
+350,미술관,스페이스 신선,6,한강진역,서울 용산구 이태원로 256,02-793-7400,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101055&thumb=Y,http://www.spaceshinseon.org/,,,매주 월요일 설 연휴 추석 연휴,
+351,미술관,스페이스 씨,3,압구정역,서울 강남구 언주로 827,02-547-9177,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101311&thumb=Y,http://spacec.co.kr/,,,매주 일요일 및 명절연휴(설날/추석) 휴관,
+352,미술관,스페이스 이수 ,9,신반포역,서울 서초구 반포동 사평대로 84,070-7737-7067,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=867e4ff3011e43ab9cf85601c4976d72&thumb=Y,http://www.isu.co.kr/kor/culture/spaceisu.jsp,,0,매주 월요일 화요일 ,무료
+353,기타,시립용산노인종합복지관,경의중앙,한남역,서울 용산구 독서당로11길 16,02-794-6100,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101114&thumb=Y,http://www.ysnoin.or.kr/,,,,
+354,공연/전시장,시민청,"1, 2",시청역,서울 중구 세종대로110,02-739-7733,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=962ab568528247dba703ce1b25618b40&thumb=Y,http://seoulcitizenshall.kr,,,1.1일 설.추석 당일 매월 마지막 일요일 ,무료
+355,기타,신당창작아케이드,"2, 6",신당역,서울 중구 마장로 87,02-2232-8833,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d3f06c293999411ab94bdd9985419dea&thumb=Y,http://www.sfac.or.kr/,,,주말 및 공휴일 휴관,유료
+356,공연장,신도림 오페라하우스,"1, 2",신도림역,서울 구로구 구로동 3-39,02-867-2209,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101124&thumb=Y,www.guroartsvalley.or.kr,,,일요일,
+357,공연/전시장,신도림예술공간 고리,"1, 2",신도림역,서울 구로구 구로동 3-33,02-867-2202,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100927&thumb=Y,https://www.artgori.or.kr:40019/,,,공휴일(국경일 명절) 월요일,
+358,기타,신림체육센터,2,신대방역,서울 관악구 신림동  난곡로64가길 19,02-869-1888,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100830&thumb=Y,http://www.gwanakgongdan.or.kr,,,,무료
+359,박물관/기념관,신문박물관,5,광화문역,서울 종로구 세종로 139,02-2020-1830,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100433&thumb=Y,www.presseum.or.kr,화~일 10:00~18:00,일반 3000원초중고 2000원,월요일1월 1일설날 연휴,유료
+360,공연장,신월문화체육센터,2,신정네거리역,서울 양천구 신월동  지양로 37,02-2605-4093~5,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100799&thumb=Y,http://www.ycs.or.kr,,,,무료
+361,공연장,신촌문화발전소,경의중앙,신촌역,서울 서대문구 연세로2나길 57,02-330-4393,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101304&thumb=Y,www.scas.or.kr,,,월요일,
+362,미술관,신한갤러리,2,역삼역,서울 강남구 역삼로 251,02-2151-7684,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=41443ddc9b514a99879105c2dd035448&thumb=Y,https://www.beautifulshinhan.co.kr/servShcaInqy3010.do?mappingId=%2FservShcaInqy3010.do&genActiontypeCd=2ACT1010&genDoctreattypeCd=&genMenuId=menu_serv_serv_lawt_3030,,0,일 월 공휴일 근로자의 날 ,무료
+363,공연장,아리랑 씨네센터,우이신설,정릉역,서울 성북구 돈암동 538-98,02-3291-5540,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100225&thumb=Y,http://cine.arirang.go.kr/,,,,유료
+364,미술관,아웃사이트(out_sight),4,혜화역,서울 종로구 창경궁로35가길 12,02-742-3512,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101479&thumb=Y,http://www.out-sight.net,,,월요일 공휴일,
+365,공연장,아이들극장,4,혜화역,서울 종로구 성균관로 91,02-2088-4290,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101190&thumb=Y,https://jct.jfac.or.kr/site/child/home,,,월요일,
+366,공연장,아이러브아트센터,3,압구정역,서울 강남구 압구정로32길 30,070-5222-3778,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=525d586b9f67484d95762206d3af664d&thumb=Y,www.eyeloveartcenter.com,,0,휴관일 없음 ,무료
+367,유적지,아차산봉수대터,경춘,망우역,서울 중랑구 묵동 산46-19,02-490-3114,,,,,,
+368,미술관,아트선재센터,3,안국역,서울 종로구 소격동 144-2,02-733-8945,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100438&thumb=Y,http://www.artsonje.org/,11:00~19:00,일반 3000원학생 1500원,월요일,유료
+369,미술관,아트센터 나비,1,종각역,서울 종로구 서린동  종로 26,02-2121-0912,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100428&thumb=Y,http://www.nabi.or.kr/,월~금 10:00~18:00,유료,토일요일공휴일,무료
+370,공연/전시장,아트숨비센터 ,6,응암역,서울 은평구 은평로8길 9,02-973-1023,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2212b1c75d044bc7b03ef82ae3d6d859&thumb=Y,http://artsoombi.com/,,0,일요일 및 공휴일 ,무료
+371,문화예술회관,아트하우스 모모,경의중앙,신촌역,서울 서대문구 이화여대길 52,02-363-5333,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101283&thumb=Y,www.arthousemomo.co.kr/,,,,
+372,공연장,아티스탄홀,4,혜화역,서울 종로구 대학로 132,02-1661-6981,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98237a93db83435e8eecd2ab15b6260d&thumb=Y,없음,,문의,없음,유료
+373,박물관/기념관,안중근의사기념관,4,회현역,서울 중구 남대문로5가 471,02-771-4195,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100503&thumb=Y,www.patriot.or.kr,3월 ~ 10월 09:00 ~ 18:00,일반 1000원학생 700원,,유료
+374,유적지,안중근의사동상,4,회현역,서울 용산구 후암동 30-80,20-2125-0833,,,,,,
+375,유적지,암사동선사주거지,8,암사역,서울 강동구 올림픽로 875,02-3425-6520,,,,,,
+376,공연장,양천구 해누리타운 아트홀,2,양천구청역,서울 양천구 목동동로 85,02-2620-4651,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101357&thumb=Y,,,,,
+377,기타,양천구민체육센터,2,양천구청역,서울 양천구 신정동 322-10,02-2652-1792~5,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100798&thumb=Y,http://www.ycs.or.kr/page/facility/sport/yangcheon.php,,,,
+378,문화예술회관,양천문화재단,2,양천구청역,서울 양천구 목동동로 81,02-2061-3435,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101542&thumb=Y,https://yfac.kr/main/main.do,,,18시 이후 주말 빨간 날,무료
+379,문화예술회관,양천문화회관,2,양천구청역,서울 양천구 신정동 322,02-2646-5870,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100273&thumb=Y,http://www.yangcheonart.go.kr/main.asp,,,,유료
+380,미술관,어반아트,6,이태원역,서울 강남구 신사동 545-11,02-511-2931,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100035&thumb=Y,http://www.urbanart4u.com/,09:00 ~ 18:00,,일요일,유료
+381,공연/전시장,언더스탠드에비뉴,수인분당,서울숲역,서울 성동구 성수동1가 685-704,02-725-5526,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100954&thumb=Y,http://www.understandavenue.com,,,연중무휴,
+382,유적지,여계묘역,1,개봉역,서울 구로구 고척동 산6-3,,,,,,,
+383,공연장,여의도한강공원 물빛무대,5,여의나루역,서울 영등포구 여의동로 330,02-3780-0799,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101412&thumb=Y,http://www.floating-stage.com/,,,-,
+384,유적지,연산군묘,우이신설,북한산우이역,서울 도봉구 방학동,02-3494-0370,,,,,,
+385,박물관/기념관,연세대학교 중앙박물관,2,신촌역,서울 서대문구 신촌동 134,02-2123-3340,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100181&thumb=Y,없음,오전 10시 ~ 오후 5시(입장은 4시 30분)휴관: 공휴일 및 토ㆍ일요일 여름ㆍ겨울방학,무료,일요일 및 공휴일,무료
+386,공연장,연우소극장,4,혜화역,서울 종로구 혜화동  창경궁로35길 21,02-744-5701,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100490&thumb=Y,http://www.iyeonwoo.co.kr/,,,,유료
+387,기타,연희문학창작촌,경의중앙,신촌역,서울 서대문구 증가로2길 6-7,02-324-4600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=114556349bb44c64af28ee5331b57ee2&thumb=Y,https://www.sfac.or.kr/artspace/artspace/yeonhui_main.do,,,공휴일,무료
+388,문화예술회관,영등포아트홀,"2, 5",영등포구청역,서울 영등포구 당산동3가,02-2670-4080,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100858&thumb=Y,http://arthall.ydp.go.kr,,,,유료
+389,공연장,영산아트홀,9,국회의사당역,서울 영등포구 여의도동 12,02-761-1587,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100281&thumb=Y,http://www.youngsanarthall.com/,,,,유료
+390,공연장,영산양재홀,"3, 신분당",양재역,서울 서초구 양재동 20-4,02-571-7689,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100212&thumb=Y,http://www.youngsanhall.com/,,,,유료
+391,박물관/기념관,영인문학관,3,경복궁역,서울 종로구 평창30길 81,02-379-3182,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100486&thumb=Y,young-in.kr,연 2회 (4~5월 9~10월)10:30~17:00,일반 4000원학생 2000원,월요일,유료
+392,유적지,영휘원,1,청량리역,서울 동대문구 청량리동 204-2,02-962-0556,,,,,,
+393,공연장,예빛섬,"3, 9",고속터미널역,서울 서초구 올림픽대로 683,02-3447-3084,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101416&thumb=Y,www.somesevit.co.kr/,,,연중무휴,
+394,미술관,예술의 기쁨,"6, 경의중앙",효창공원앞역,서울 용산구 효창원로70길 35,02-717-5129,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101119&thumb=Y,https://www.joyofarts.org/,,,,
+395,공연장,예술의전당,3,남부터미널역,서울 서초구 남부순환로 2406,02-580-1300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100196&thumb=Y,www.sac.or.kr,공연별로 다름,공연별로 다름,연중무휴,유료
+396,공연장,예스24 라이브홀,5,광나루역,서울 광진구 광장동 319-33,02-457-5114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100963&thumb=Y,https://yes24livehall.com,,,,
+397,문화원,예지원,3,동대입구역,서울 중구 장충단로 72,02-2234-3325,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100525&thumb=Y,www.yejiwon.or.kr,,,,유료
+398,미술관,예화랑,3,압구정역,서울 강남구 신사동 532-8,02-525-5543,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100036&thumb=Y,http://www.galleryyeh.com/,09:00~18:00  (주말 09:00 ~ 16:00),,일요일 공휴일 (전시중 무휴),유료
+399,유적지,옛홍릉터,6,고려대역,서울 동대문구 회기로 57,,,,,,,
+400,공연장,오류아트홀,1,오류동역,서울 구로구 경인로20가길 38,02-2614-7969,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4abb349200004a31ac922bd885547524&thumb=Y,https://www.guroartsvalley.or.kr/user/overall/overallArt6.do,,미정,월요일,유료
+401,유적지,오위장김춘영가옥,"3, 4",충무로역,서울 중구 퇴계로 34길 28,02-2261-0571,,,,,,
+402,공연장,오유아트홀,3,매봉역,서울 강남구 남부순환로378길 34-9,02-6712-0543,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101428&thumb=Y,www.gfac.kr,,,주말 또는 공휴일 / 행사별 상이,
+403,기타,온조대왕문화체육관,5,고덕역,서울 강동구 고덕동 296,02-428-2020,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100846&thumb=Y,http://www.onjo.or.kr,,,,무료
+404,공연/전시장,올리비아박 갤러리,수인분당,압구정로데오역,서울 강남구 도산대로81길 40,02-517-3572,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5b939d2b62644660a68eabf7781168a7&thumb=Y,oliviaparkgallery.com,,0,일요일,무료
+405,유적지,올림픽공원세계평화의문,8,몽촌토성역,서울 송파구 위례성대로 51,,,,,,,
+406,기타,올림픽기념국민생활관,4,혜화역,서울 종로구 성균관로 91,02-745-6701,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100736&thumb=Y,http://www.ijongno.co.kr/html/sub/info_sisul/olympic/olympic_look.asp,,유료,,유료
+407,문화원,올림픽스포츠센터,"5, 9",올림픽공원역,서울 송파구 방이동 89-12,02-401-7581,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100240&thumb=Y,,,,,유료
+408,기타,옹기테마공원 체험장,6,봉화산역,서울 중랑구 신내로21길 116,02-2094-2966,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101312&thumb=Y,http://www.jungnang.go.kr/portal/main/contents.do?menuNo=201058,,,매주 일요일 월요일 (관공서 공휴일에 관한 규정에 따른 공휴일),
+409,기타,용산 꿈나무 종합타운,"6, 경의중앙",효창공원앞역,서울 용산구 백범로 329,02-707-0704,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100996&thumb=Y,http://yongsanyouthtown.or.kr,,,,
+410,공연장,용산 더줌아트센터,경의중앙,한남역,서울 용산구 독서당로 111,02-790-6792,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101090&thumb=Y,http://thezoom.kr/,,,,
+411,공연장,용산 동자아트홀,"1, 4, 공항",서울역,서울 용산구 한강대로 372,02-6388-7978,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101085&thumb=Y,http://dongja-arthall.kr/,,,,
+412,미술관,용산 아트스페이스 루,4,신용산역,서울 용산구 한강대로44길 5,02-790-3888,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101121&thumb=Y,http://www.artspaceloo.com/,,,,
+413,공연장,용산 일신홀,6,한강진역,서울 용산구 한남대로 98,02-790-3364,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101086&thumb=Y,http://www.ilshinhall.com/,,,,
+414,공연/전시장,용산공예관,6,한강진역,서울 용산구 이태원로 274,02-2199-6180,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101485&thumb=Y,http://crafts.yongsan.go.kr/,,,월요일 법정공휴일,
+415,박물관/기념관,용산공원 갤러리,"4, 6",삼각지역,서울 용산구 한강로1가 1-1,02-2133-2588,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101531&thumb=Y,https://blog.naver.com/yongsanpark_gallery,,,월요일 일요일 공휴일,무료
+416,공연장,용산꿈나무종합타운,"6, 경의중앙",효창공원앞역,서울 용산구 백범로 329,02-707-0570,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101257&thumb=Y,yongsanyouthtown.or.kr/,,,,
+417,박물관/기념관,용산도시기억전시관,4,신용산역,서울 한강로3가 64-1,02-3785-2590,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101551&thumb=Y,https://blog.naver.com/yongsanpark_gallery,,,일 월 공휴일,무료
+418,기타,용산문화체육센터,"6, 경의중앙",효창공원앞역,서울 용산구 문배동 19-2,02-707-2492~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100743&thumb=Y,http://www.yongsangu-sc.or.kr,,,1 3 5주 일요일 공휴일 국경일 정기휴관일,유료
+419,문화예술회관,용산아트홀,6,녹사평역,서울 용산구 이태원동,02-2199-7260,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100861&thumb=Y,http://art.yongsan.go.kr,공연에 따라 다름,,매주 월요일,유료
+420,공연장,우란2경,2,성수역,서울 성동구 연무장7길 11,02-465-1418,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101414&thumb=Y,http://www.wooranfdn.org/main.jsp,,,공연에 따라 다름,
+421,공연장,우리금융아트홀,"5, 9",올림픽공원역,서울 송파구 올림픽로 424,02-410-1114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100671&thumb=Y,http://www.olympicpark.co.kr/,10:00-22:30,공연에 따라 다름,,유료
+422,유적지,운현궁,3,안국역,서울 종로구 삼일대로 464,02-766-9090,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=edcaaf2a2f0d41259ac7c4bf50d7ffbf&thumb=Y,http://www.unhyeongung.or.kr/,하절기 : 09:00 ~ 19:00 (4월초~10월말) / 동절기 : 09:00 ~ 18:00 (11월초~3월말),,매주 월요일(월요일이 공휴일인 경우 정상 개관),유료
+423,유적지,월계동각심재,1,월계역,서울 노원구 월계동,,,,,,,
+424,유적지,유관순동상,6,버티고개역,서울 중구 장충동2가,,,,,,,
+425,공연장,유니버설아트센터,5,아차산역,서울 광진구 천호대로 664,070-7124-1740,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100103&thumb=Y,www.uac.co.kr,,,,유료
+426,공연장,유니플렉스,4,혜화역,서울 종로구 대학로12길 64,02-766-2115,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d1870f977f8b425780ba7dedaa341f54&thumb=Y,http://www.uniplex.co.kr/,,0,월 공휴일,무료
+427,공연/전시장,유담헌,3,안국역,서울 종로구 북촌로 76,02-515-9924,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101406&thumb=Y,www.thegooday.co.kr,,,없음,
+428,미술관,유리지공예관,4,선바위역,서울 서초구 중앙로 555,02-578-6663,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100934&thumb=Y,http://yoolizzycraftmuseum.org/wp/,,,매주월요일공휴일,
+429,박물관/기념관,육군사관학교 박물관,"6, 경춘",신내역,서울 노원구 공릉동 77,02-2197-6451,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100126&thumb=Y,http://museum.kma.ac.kr,10:00~17:00,일반 2000원 중고생 이하 1000원외국인 3000원,월요일신정 설 추석,유료
+430,박물관/기념관,윤동주문학관,3,경복궁역,서울 종로구 창의문로 119,02-2148-4175,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101524&thumb=Y,https://www.jfac.or.kr/site/main/home,,,매주 월요일 설날 및 추석 당일,무료
+431,공연장,은평문화예술회관,6,역촌역,서울 은평구 녹번로 16,02-351-3736,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100949&thumb=Y,www.efac.or.kr,,,일요일,
+432,박물관/기념관,은평역사한옥박물관,3,구파발역,서울 은평구 연서로50길 8,02-351-8523~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9af7d7ca50754a1f985a52f40ecf56c5&thumb=Y,http://museum.ep.go.kr,,,매주 월요일,유료
+433,유적지,을지문덕장군상,5,아차산역,서울 광진구 능동,,,,,,,
+434,유적지,의릉,6,상월곡역,서울 성북구 화랑로32길,02-964-0579,,,,,,
+435,기타,이건하우스,"2, 경의중앙, 공항",홍대입구역,서울 마포구 동교로 161,1522-1271,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101323&thumb=Y,www.eagonstore.com,,,일요일 법정공휴일 기타 기업에서 휴관일로 정하는 날,
+436,기타,이문체육문화센터,1,신이문역,서울 동대문구 이문동 189,02-963-0534~7,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100871&thumb=Y,http://www.dfmc.kr/course/gym/imun.asp,평일:06:00~22:00 / 토:06:00~18:00 / 일:09:00~18:00,,셋째주 일요일 (2012년부터는 넷째주 일요일),유료
+437,박물관/기념관,이화여고 100주년기념관,5,서대문역,서울 중구 정동길 26,02-777-4257~8,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100536&thumb=Y,www.ewha.hs.kr,,,,유료
+438,박물관/기념관,이화여대박물관,경의중앙,신촌역,서울 서대문구 대현동 11-1,02-3277-3152,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100177&thumb=Y,http://museum.ewha.ac.kr,오전 9시 30분 ~오후 5시휴관: 일요일 공휴일 및 여름ㆍ겨울방학,무료,일요일 공휴일 및 방학기간,무료
+439,박물관/기념관,이화여자대학교 자연사박물관,경의중앙,신촌역,서울 서대문구 대현동 11-1,02-3277-3155,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100178&thumb=Y,http://home.ewha.ac.kr/~nhm,10:00~16:00,무료,일요일 공휴일 휴관,무료
+440,유적지,이화장,4,혜화역,서울 종로구 이화장1길 32,02-762-3171,,,,,,
+441,미술관,인사아트센터,3,안국역,서울 종로구 관훈동 188,02-736-1020,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100355&thumb=Y,http://www.insaartcenter.com/,10:00 ~19:00,,연중무휴,유료
+442,미술관,인사아트프라자갤러리,"1, 3, 5",종로3가역,서울 종로구 관훈동 21,02-736-6347,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100356&thumb=Y,,10:00 ~ 18:00,,연중무휴,유료
+443,미술관,일민미술관,5,광화문역,서울 종로구 세종로 139,02-2020-2055,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100430&thumb=Y,http://www.ilmin.org/,화~일 11:00~19:00,전시에따라 변동,월요일,유료
+444,문화원,잠실종합운동장,"2, 9",종합운동장역,서울 송파구 올림픽로 25,02-2240-8801,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100258&thumb=Y,http://stadium.seoul.go.kr/guidance/guide_01.html,,,,유료
+445,기타,잠실창작스튜디오,"2, 9",종합운동장역,서울 송파구 올림픽로25,02-423-6674,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=72773eb5d2e24030be7b4c535533e223&thumb=Y,https://www.sfac.or.kr/artspace/artspace/jamsil_main.do,,,매주 일요일 공휴일,무료
+446,미술관,장디자인아트,수인분당,압구정로데오역,서울 강남구 도산대로67길 27,02-514-0555,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d1a27734b5fd4f5e9a06ce9d115a65cd&thumb=Y,https://www.jeandesignart.com/,,0,매주 일요일,무료
+447,문화예술회관,장지공방,8,장지역,서울 송파구 충민로 10,02-739-6867,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101334&thumb=Y,www.kihpc.kr,,,,유료
+448,문화원,장충체육관,3,동대입구역,서울 중구 장충동2가 220-102,02-2236-4197,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100522&thumb=Y,http://www.jangchunggym.co.kr/,,,,유료
+449,문화예술회관,재미랑,4,명동역,서울 중구 퇴계로20길 42,02-779-6107,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100959&thumb=Y,http://www.ani.seoul.kr/,,,,
+450,박물관/기념관,전쟁기념관,"4, 6",삼각지역,서울 용산구 용산동1가 8,02-709-3032,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100293&thumb=Y,www.warmemo.co.kr,09:30~18:00,일반 3000원초중고생 2000원유치원생 1000원,월요일,유료
+451,유적지,전쟁기념관전사자명비,"4, 6",삼각지역,서울 용산구 이태원로 29,,,,,,,
+452,박물관/기념관,전태일기념관,"2, 3",을지로3가역,서울 종로구 청계천로 105,02-318-0904,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2da03a8f5fb84ccea0b9e67bd9233be2&thumb=Y,taeil.org,,0,매주 월요일 1월 1일 설/추석 당일,무료
+453,공연장,전통연희상설극장 광화문아트홀,3,독립문역,서울 종로구 사직동 284-1,02-2232-7952,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100901&thumb=Y,www.samulnori.xyz,,,,
+454,공연장,정동극장,"1, 2",시청역,서울 중구 정동 8-11 길 43,02-751-1500,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100727&thumb=Y,http://www.chongdong.com/,상설공연 오후4시 8시,,,유료
+455,유적지,정릉,우이신설,정릉역,서울 성북구 아리랑로19길 116,02-914-5133,,,,,,
+456,유적지,정현왕후릉,"9, 수인분당",선정릉역,서울 강남구 선릉로 100길 1,,,,,,,
+457,공연장,정효아트센터 음악당,3,남부터미널역,서울 서초구 사임당로18길 52-2,02-523-6268,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101386&thumb=Y,http://www.jeonghyo.or.kr,,,,
+458,유적지,조계사,1,종각역,서울 종로구 우정국로 55,02-768-7543,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101435&thumb=Y,http://www.jogyesa.kr/,,,없음,
+459,유적지,조선선종선릉,"9, 수인분당",선정릉역,서울 강남구 선릉로 100길 1,02-568-1291,,,,,,
+460,미술관,조선일보미술관,5,광화문역,서울 중구 태평로1가 61-28,02-724-6322,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100543&thumb=Y,http://gallery.chosun.com/,10:00 ~ 18:00,무료(특별전시전은 제외),전시준비기간 및 기타 미술관 사정에 따라 달라질수 있음,무료
+461,유적지,조선중종정릉,"2, 수인분당",선릉역,서울 강남구 선릉로 100길 1,02-568-1291,,,,,,
+462,유적지,조선지광사터,5,광화문역,서울 종로구 종로3길 33,,,,,,,
+463,박물관/기념관,조세박물관,5,광화문역,서울 종로구 수송동 104,02-397-1635,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100439&thumb=Y,www.nts.go.kr/museum,평일 09:00~18:00,무료,공휴일 및 토요일 일요일,무료
+464,미술관,조형갤러리,1,종각역,서울 종로구 인사동 194-27 5길 29,02-736-4804~5,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100475&thumb=Y,,10:30 ~ 18:30,,연중무휴,유료
+465,미술관,종로구립 고희동미술관,3,안국역,서울 종로구 창덕궁5길 40,02-741-8424,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=100c880feb2245918c87b9e34152620e&thumb=Y,http://www.jfac.or.kr,,,월요일 1월 1일 설날 추석,무료
+466,미술관,종로구립 박노수미술관,3,경복궁역,서울 종로구 옥인1길 34,02-2148-4171,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101126&thumb=Y,http://jfac.or.kr,,,매주 월요일 1월 1일 추석 당일,무료
+467,공연장,종로구민회관,"1, 6",동묘앞역,서울 종로구 창신동 222-8,02-3672-2530~1,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100734&thumb=Y,http://www.ijongno.co.kr,,,,무료
+468,문화예술회관,종로문화재단,5,광화문역,서울 종로구 새문안로3길 3,02-6203-1155,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=17c33c1fa9cf4721a8ef03a91b0da56f&thumb=Y,https://www.jfac.or.kr/site/main/home,,0,시설별 휴관일 다름,무료
+469,공연/전시장,종로문화재단 윤동주문학관,3,경복궁역,서울 종로구 창의문로 119,02-2148-4175,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101178&thumb=Y,https://www.jfac.or.kr/site/main/content/yoondj01,,,매주 월요일 1월1일 설날/추석 당일,
+470,유적지,종묘(세계문화유산),"1, 3, 5",종로3가역,서울 종로구 종로 157,02-765-0195,,,,,,
+471,박물관/기념관,종이나라박물관,3,동대입구역,서울 중구 장충동1가 62-35,02-2279-7901,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100898&thumb=Y,http://papermuseum.jongienara.co.kr/index.php,,,일요일,
+472,기타,중구평생학습센터,"2, 5",을지로4가역,서울 중구 예관동 120-1,02-3396-4674,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101424&thumb=Y,http://e-lifelong.junggu.seoul.kr/index.do,,,토 일,
+473,기타,중랑구민체육센터,6,봉화산역,서울 중랑구 신내로15길 189,02-3423-1070~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100760&thumb=Y,http://jungnangspo.seoul.kr,,,,
+474,공연장,중랑문화체육관,7,사가정역,서울 중랑구 사가정로72길 47,02-436-9200,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100761&thumb=Y,http://jungnangspo.seoul.kr,,,둘째넷째다섯째주 일요일,유료
+475,미술관,중랑아트센터,"경의중앙, 경춘",망우역,서울 중랑구 상봉동 500,02-3407-6541,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e7fca4c251714470888d59b42c26199e&thumb=Y,https://www.jnac.or.kr/index.html,,0,매주 일?월요일 공휴일 휴관,무료
+476,기타,중랑평생학습관,"경의중앙, 경춘",망우역,서울 중랑구 망우로67길 10,02-2094-1926,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101431&thumb=Y,http://lifelong.jungnang.go.kr/study/main.do,,,공휴일,
+477,박물관/기념관,짚풀생활사박물관,4,혜화역,서울 종로구 명륜2가 8-4,02-743-8787,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100410&thumb=Y,www.zipul.co.kr,화~일 10:00~17:30,성인 3000원유치원초중고생 2000원65세이상 2000원(20인이상 단체 1000원씩 할인),월요일신청 설날추석,유료
+478,유적지,창경궁,4,혜화역,서울 종로구 창경궁로 185,02-762-4868,,,,,,
+479,유적지,창덕궁,3,안국역,서울 종로구 율곡로 99,02-3668-2300,,,,,,
+480,문화원,창동스포츠문화컴플렉스,"1, 4",창동역,서울 도봉구 노해로69길 132,02-901-5216,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100778&thumb=Y,http://www.dobongsiseol.or.kr/index_sport.html,,,,무료
+481,공연장,창무예술원- 드 포스트,"2, 경의중앙, 공항",홍대입구역,서울 마포구 창전동 5-9,02-337-5961,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100174&thumb=Y,,,,,유료
+482,유적지,창빈안씨묘역,"4, 9",동작역,서울 동작구 동작동 299-10,,,,,,,
+483,문화예술회관,창신소통공작소,"1, 6",동묘앞역,서울 종로구 창신6가길 47,02-2088-1270,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101141&thumb=Y,https://www.jfac.or.kr/site/main/home,,,매주 월요일 1월 1일 설 추석 연휴,
+484,유적지,천상열차분야지도각석,3,경복궁역,서울 종로구 효자로 12,02-3701-7500,,,,,,
+485,박물관/기념관,청계천박물관 ,2,용두역,서울 성동구 청계천로 530,02-2286-3410,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e9ddb718e62e41b4bd26d41255ddc8b0&thumb=Y,https://museum.seoul.go.kr/cgcm/index.do,,0,1월 1일 매주 월요일 ,무료
+486,유적지,청권사,2,방배역,서울 서초구 방배동,,,,,,,
+487,공연장,청년허브,"3, 6",불광역,서울 은평구 통일로 684,02-6238-6900,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101388&thumb=Y,https://youthhub.kr/,,,일요일 법정공휴일,
+488,기타,청춘극장,5,서대문역,서울 중구 새문안로 22,02-3672-4235,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8fae9a00c4614c268e45bd4882139fbc&thumb=Y, http://cafe.naver.com/seoulsilvercinema,,2000원,설날추석 당일 매주 일요일,유료
+489,기타,청춘삘딩,1,독산역,서울 금천구 시흥대로138길 10-11,070-7777-3745,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101187&thumb=Y,http://youthblg.org/,,,일요일휴무 법정공휴일 포함,
+490,미술관,청화랑,7,청담역,서울 강남구 삼성로147길 4,02-543-1663,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a5912a86d4eb478a9643f9ebc45d50fc&thumb=Y,www.chungartgallery.com,,0,공휴일 일요일 (전시가 없을경우),무료
+491,박물관/기념관,체신기념관,3,안국역,서울 종로구 견지동 39-7,02-734-8369,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100327&thumb=Y,없음,평일 09:00~18:00토요일 09:00~13:00,무료,국 공휴일,무료
+492,유적지,초안산조선시대분묘군,4,수유역,서울 도봉구 창동,,,,,,,
+493,박물관/기념관,초전섬유 퀼트박물관,4,명동역,서울 중구 남산동1가 20,02-753-4074,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100505&thumb=Y,http://jculture.co.kr/museum,10:00~17:00,개인 5000원학생 3000원,공휴일 및 일요일,유료
+494,공연/전시장,충무로영상센터 오!재미동,"3, 4",충무로역,서울 중구 퇴계로 199,02-777-0421,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101188&thumb=Y,www.ohzemidong.co.kr,,,일요일 포함 공휴일 휴관,
+495,공연장,충무아트센터,"2, 6",신당역,서울 중구 퇴계로 387,02-2230-6601,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bed84bb6d7f419786d04f35acb75713&thumb=Y,www.caci.or.kr,,0,월요일,무료
+496,유적지,충숙공이상길묘역,7,하계역,서울 노원구 한글비석로 144,,,,,,,
+497,공연장,충정로난타극장,5,충정로역,서울 서대문구 충정로3가 476,02-739-8288,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100529&thumb=Y,http://nanta.i-pmc.co.kr/,월~일요일 및 공휴일 5시 8시,,,유료
+498,유적지,충헌공김구묘역,9,한성백제역,서울 송파구 올림픽로 424,,,,,,,
+499,미술관,카이스갤러리,수인분당,압구정로데오역,서울 강남구 청담동 99-5,02-511-0668,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100063&thumb=Y,http://www.caisart.com/,10:00 ~ 18:00,,일요일 공휴일 (전시기간 무휴),유료
+500,기타,카페 1257,7,학동역,서울 강남구 학동로 146,02-6952-1251,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=025757b592d5461d9c09fddbb3accb2f&thumb=Y,https://www.instagram.com/space_1257/,,0,일부 공휴일,무료
+501,박물관/기념관,충무아트센터,3,압구정역,서울 강남구 언주로 827,02-547-9177,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100064&thumb=Y,www.spacec.co.kr,,,일요일명절 휴관,
+502,공연장,코엑스 오디토리움,9,봉은사역,서울 강남구 삼성동 159,02-6000-0114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100020&thumb=Y,www.coex.co.kr,,,,유료
+503,미술관,코엑스전시장,2,삼성역,서울 강남구 삼성동 159-1,02-6000-0114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100026&thumb=Y,http://www.coex.co.kr,10:00 ~ 17:00,행사 또는 주최사 마다 다름,연중무휴,유료
+504,공연장,크리에이터스 스페이스,6,안암역,서울 동대문구 안암로 86-1,010-7401-3383,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0f439e5a6e3e4ee59e5bf02caa162837&thumb=Y,https://creatorsspace.co.kr/,,공간별 다름,없음,유료
+505,미술관,킵인터치 서울,3,안국역,서울 종로구 북촌로1길 13,010-9133-3209,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101417&thumb=Y,keepintouchseoul.com,,,월요일,
+506,박물관/기념관,태권도기념관,"2, 신분당",강남역,서울 강남구 역삼동 635,02-567~1058,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100049&thumb=Y,www.kukkiwon.or.kr,하절기 09:00 ~ 18:00동절기 09:00 ~ 17:00토요일 09:00 ~ 12:00,무료,일요일 공휴일,무료
+507,유적지,태릉.강릉,6,화랑대역,서울 노원구 화랑로 681,02-948-5668,,,,,,
+508,미술관,토탈미술관,3,경복궁역,서울 종로구 평창동 465-2,02-379-3994,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100484&thumb=Y,http://www.totalmuseum.org/,화~일 11:00~18:00,2000원,월요일신정 추석 전시준비기간,유료
+509,미술관,토포하우스,3,안국역,서울 종로구 관훈동 184,02-722-9883,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100358&thumb=Y,,11:00 ~ 18:30,무료,전시시 무휴,무료
+510,미술관,통의동 보안여관,3,경복궁역,서울 동대문구 청계천로 517,02-720-8409,,,,,,
+511,공연장,팝콘D스퀘어,"1, 경의중앙",용산역,서울 용산구 한강대로23길 55,02-6373-3000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101071&thumb=Y,http://www.popcond.com/,,,,
+512,박물관/기념관,평강성서유물박물관,1,오류동역,서울 구로구 오류동 150-15,02-2686-9496,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100119&thumb=Y,www.apm.or.kr,10:00~17:00,일반 2000원초중학생 1000원,월요일,유료
+513,공연/전시장,평화문화진지,"1, 7",도봉산역,서울 도봉구 마들로 932,02-3494-1970,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101139&thumb=Y,http://dbfac.websave.co.kr/bbs/board.php?bo_table=34,,,매주 월요일 1월1일 설날/추석 당일 *단 월요일이 공휴일인 경우 그 다음의 평일이 휴관,
+514,미술관,포스코미술관,"2, 수인분당",선릉역,서울 강남구 대치동 892,02-3457-0793,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100016&thumb=Y,http://www.poscoartmuseum.org/,개관시간 10시~19시(토요일 11시~16시),무료,일요일공휴일,무료
+515,공연장,폴리미디어씨어터,4,혜화역,서울 종로구 동숭동 1-75,02-785-2305,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100371&thumb=Y,,1F 윈 (10:30 ~ 23:00)34F 크래프트 스페이스 목금토 갤러리 (10:30 ~ 18:00),,공휴일,유료
+516,공연장,폼텍웍스홀,"2, 6",합정역,서울 마포구 잔다리로3길 34,02-323-3644,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101285&thumb=Y,www.workshall.co.kr/,,,,
+517,미술관,표갤러리,3,경복궁역,서울 용산구 이태원동 258-79,02-543-7337,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100037&thumb=Y,http://www.pyoart.com/,09:30 ~ 19:00,,일요일 * 전시있을 경우 (10:00 ~ 18:00),유료
+518,공연/전시장,플랫폼창동61,"1, 4",창동역,서울 도봉구 마들로11길 74,02-993-0561,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c294ff39cae34675b163eb7043b92d9b&thumb=Y,http://www.platform61.kr/,,,매주 월요일 정기 휴관일 ,무료
+519,미술관,필갤러리(Fill Gallery),경의중앙,한남역,서울 용산구 유엔빌리지길 24,02-795-0046,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101091&thumb=Y,http://www.fillgallery.com/wp/,,,일요일 공휴일,
+520,공연장,하라스튜디오,"1, 7",가산디지털단지역,서울 금천구 가산디지털1로 181,02-6281-6776,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=86b2231f707b4ba7b11f1059eccca380&thumb=Y,http://harastudio.co.kr,,0,공휴일,무료
+521,미술관,학고재,3,안국역,서울 종로구 소격동 70,02-720-2024,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100436&thumb=Y,http://www.hakgojae.com/,하절기(3월-11월)월-금: 오전 9시-오후 7시토: 오전 9시 ？ 오후 6시일: 휴관/전시 기간 중 무휴 오전 10시-오후 6시동절기(12월-2월) 월-토: 오전 10시-오후 6시일: 휴관/전시 기간 중 무휴 오전 10시-오후 6시,무료,일요일,무료
+522,기타,한강공원,수인분당,서울숲역,서울 성동구 강변북로 257,02-120,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101372&thumb=Y,https://hangang.seoul.go.kr/,,,,
+523,박물관/기념관,한국가구박물관,4,한성대입구역,서울 성북구 성북동 330-577,02-766-0168,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100231&thumb=Y,,13:00 ~ 17:00,무료,,무료
+524,박물관/기념관,한국금융사박물관,5,광화문역,서울 중구 태평로1가 62-12,02-738-6806,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100544&thumb=Y,www.shinhanmuseum.co.kr,월~토 10:00~18:00,무료,일요일 및 공휴일,무료
+525,박물관/기념관,한국미술박물관,3,안국역,서울 종로구 창덕궁길 73,02-766-6000,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100466&thumb=Y,www.kartm.co.kr,,일반 5000원학생 3000원,월요일추석 설 연휴,유료
+526,박물관/기념관,한국분재박물관,신분당,양재역,서울 서초구 신흥안길 40-10,02-577-0001,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100216&thumb=Y,www.bonsaitv.com,※ 하절기 (3월~10월) : 09:00~19:00  일요일(12:00~19:00)※ 동절기 (11월~2월) : 09:00~17:00  일요일(12:00~17:00),무료,없음,무료
+527,박물관/기념관,한국불교역사문화기념관,3,안국역,서울 종로구 견지동 45,02-2011-1960,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100328&thumb=Y,www.buddhism.or.kr/,09:00~18:00,성인 2000원학생 1000원,매주 월요일1월 1일,유료
+528,기타,한국영상자료원,경의중앙,수색역,서울 마포구 월드컵북로 400,02-3153-2001,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fb8745e0cc624de9885e6210d1434123&thumb=Y,www.koreafilm.or.kr,,0, 매주 월요일 1월 1일 설/추석 연휴 및 특별한 사유로 원장이 지정하는 날,무료
+529,박물관/기념관,한국영화박물관,경의중앙,수색역,서울 마포구 상암동 1602,02-3153-2031,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100670&thumb=Y,http://www.koreafilm.or.kr/museum,화~금 10:00~19:00 토~일 10:00~18:00,무료,월요일 신정 설 추석 연휴,무료
+530,박물관/기념관,한국은행 화폐금융박물관,4,회현역,서울 중구 남대문로3가 110,02-759-4881,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100504&thumb=Y,http://museum.bok.or.kr,10:00~17:00,무료,월요일 공휴일 근로자의날12월 29일부터 다음해 1월 2일,무료
+531,공연장,한국의 집 민속극장,"3, 4",충무로역,서울 중구 필동2가 80-2,02-2266-9101~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100547&thumb=Y,www.koreahouse.or.kr,월~ 토 1부:19:00~20:00              2부 20:50~21:50일 1부 20:00~21:00,,,유료
+532,박물관/기념관,한국천주교순교자박물관,"2, 6",합정역,서울 마포구 토정로 6,02-3142-4504,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101453&thumb=Y,www.jeoldusan.or.kr,,,매주 월요일,유료
+533,미술관,한미사진미술관,9,한성백제역,서울 송파구 방이동 45,02-418-1315,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100241&thumb=Y,http://www.photomuseum.or.kr,평일 10:00~19:00,전시에 따라 변동,전시에 따라 변동,유료
+534,박물관/기념관,한상수자수박물관,4,한성대입구역,서울 종로구 가회동 11-32,02-744-1545,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100319&thumb=Y,없음,10:00~18:00,일반 3000원학생 2000원,월요일,유료
+535,박물관/기념관,한성백제박물관,9,한성백제역,서울 송파구 위례성대로 71,02-2152-5800,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4cdc3af32d864221b0c5f90cfbcf332f&thumb=Y,baekjemuseum.seoul.go.kr,평일: 오전 9시~오후 9시 토일공휴일: 오전 9시~오후 7시(단 11~2월: 오전 9시~오후 6시),무료,매주 월요일 1월 1일 단 월요일이 공휴일인 경우 휴관하지 않음,무료
+536,박물관/기념관,한양대학교 박물관,2,한양대역,서울 성동구 왕십리로 222,02-2220-1394,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101318&thumb=Y,https://museumuf.hanyang.ac.kr/,,,일요일 및 공휴일,
+537,박물관/기념관,한양도성 유적전시관,4,회현역,서울 중구 회현동1가 100-267,02-779-9870,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b3bec1b73fa64778ac96bc978a98537b&thumb=Y,https://seoulcitywall.seoul.go.kr,,0,1월 1일 설날/추석 당일 ,무료
+538,박물관/기념관,한양도성박물관,"1, 4",동대문역,서울 종로구 율곡로 283,02-724-0243,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101400&thumb=Y,http://www.museum.seoul.kr/scwm/NR_index.do,,,매주 월요일 1월 1일,
+539,공연장,한전아트센터,"3, 신분당",양재역,서울 서초구 효령로72길 60,02-2105-8131~3,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100198&thumb=Y,www.kepco.co.kr/artcenter,10:00~22:00,,없음,유료
+540,박물관/기념관,한전아트센터박물관,"3, 신분당",양재역,서울 서초구 서초동 1355,02-2105-8190,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100209&thumb=Y,www.kepco.co.kr/museum,10:00~17:00,무료,월요일설날추석연휴,무료
+541,박물관/기념관,함석헌기념관,4,쌍문역,서울 도봉구 도봉로123길 33-6,02-905-7007,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cfa4ea2ba2b746d597ae33b29e495da2&thumb=Y,http://hamsokhon.dobong.go.kr/,,0,매주 월,무료
+542,유적지,함양여씨묘역,2,양천구청,서울 구로구 고척동 산6-2,,,,,,,
+543,기타,해공체육문화센터,"5, 8",천호역,서울 강동구 천호동 399-1,02-477-2229,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100845&thumb=Y,http://haegonggym.igangdong.or.kr,,,,무료
+544,공연장,해바라기 소극장,4,혜화역,서울 종로구 동숭길 76,1600-1716,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101331&thumb=Y,https://cafe.naver.com/crazytwo,,,월요일,
+545,공연장,허리우드 스카이쇼,5,서대문역,서울 종로구 삼일대로 428,02-762-7870,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101015&thumb=Y,http://skywatershow.co.kr/,,,연중무휴,
+546,유적지,허준기념관,9,가양역,서울 강서구 허준로 87,02-3661-8686,,,,,,
+547,유적지,헌인릉,신분당선,양재시민의숲역,서울 서초구 헌인릉길 36-10,02-445-0347,,,,,,
+548,박물관/기념관,혜곡최순우 기념관,4,한성대입구역,서울 성북구 성북동 126-20,02-3675-3401,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100232&thumb=Y,www.nt-heritage.org,4~11월 화~토10:00~16:00,무료,매주 일 월요일 추석당일,무료
+549,유적지,호국지장사,"4, 9",동작역,서울 동작구 현충로 210,02-814-5257,,,,,,
+550,미술관,호리아트스페이스,수인분당,압구정로데오역,서울 강남구 압구정로80길 26,02-511-5482,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=61ae37e3663a4719993af1d76b5de595&thumb=Y,horiartspace.com,,0,주말 휴무 / 전시기간 중 변동,무료
+551,박물관/기념관,호림박물관,2,신대방역,서울 관악구 신림동 1707,02-858-8309,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100092&thumb=Y,www.horimmuseum.org,10:00~17:00,일반 3000원학생 1000원,월요일1월1일설날당일,유료
+552,공연장,홍익대 대학로 아트센터,1,종로5가역,서울 종로구 대학로 57,02-742-0300,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101541&thumb=Y,http://www.hongikartcenter.com/main.do,,,없음,무료
+553,박물관/기념관,화정박물관,3,경복궁역,서울 종로구 평창동 평창8길 3,02-2075-0114,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100487&thumb=Y,www.hjmuseum.or.kr,10:00~18:00,일반 3000원청소년 2000원,월요일신정연휴설연휴추석연휴,유료
+554,미술관,환기미술관,3,경복궁역,서울 종로구 부암동 210-8,02-391-7701,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100419&thumb=Y,http://whankimuseum.org/,10:00~18:00,일반 3000원학생 2000원,월요일설날 추석연휴,유료
+555,박물관/기념관,황학정 국궁전시관,3,경복궁역,서울 종로구 사직로9길 15-32,02-722-1600,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000101338&thumb=Y,https://www.jfac.or.kr/site/main/home,,,매주 월요일 및 1월 1일 설날 당일 추석 당일,
+556,유적지,효간공이정영묘역,7,남성역,서울 동작구 사당동 산44-7,,,,,,,
+557,유적지,효령대군릉,2,방배역,서울 서초구 방배동 산24-2,,,,,,,
+558,유적지,효령대군이보묘역,2,방배역,서울 서초구 효령로 135,,,,,,,
+559,기타,흑석체육센터,9,흑석역,서울 동작구 흑석동 현충로 73,02-823-2273~4,https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ATH_SPC_000000000000000000100824&thumb=Y,http://www.idongjak.or.kr/,평일(월~금) : 06:00~22:00  토요일 : 06:00~21:00/일요일(1주) : 10:00~19:00,,공휴일 및 5주째 일요일,유료
