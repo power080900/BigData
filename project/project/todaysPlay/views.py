@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-# from todaysPlay.models import Subway
+from todaysPlay.models import Subway
 from django.contrib.auth.models import User
-# from todaysPlay.models import Cultureplace
+from todaysPlay.models import Cultureplace
 from django.contrib import auth
 import random
 import json
@@ -101,7 +101,9 @@ def map(request):
     xy = []
     for coordinate in placelist:
         xy.append({"name": coordinate.placeName, "lat": coordinate.lat, "lng": coordinate.lng})
+    j = random.randrange(1, 7)
     context = {
+        'j': j,
         "line": line,
         "color": color,
         "hosun": hosunno,
