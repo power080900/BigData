@@ -97,7 +97,6 @@ def map(request):
         else:
             hosunno.append({"lat": data.lat, "lng": data.lng})
     placelist = Cultureplace.objects.filter(lineNumber__contains=line)
-    print(placelist)
     xy = []
     for coordinate in placelist:
         xy.append({"name": coordinate.placeName, "lat": coordinate.lat, "lng": coordinate.lng})
@@ -195,7 +194,6 @@ def info1(request):
     Address = place1[Name]['Address']
     Telephone = place1[Name]['Telephone']
     Image = place1[Name]['Image']
-    print(Image)
     Website = place1[Name]['Website']
     OpeningHours = place1[Name]['OpeningHours']
     Fee = place1[Name]['Fee']
@@ -224,7 +222,6 @@ def info2(request):
     with open('D:\ph\BigData\project\Data\program3.json','r',encoding='utf-8') as f:
         program1 = json.load(f)
     Name = request.GET.get("pid")
-    print(Name)
     Fee = program1[Name]['Fee']
     Image = program1[Name]['Image']
     Category = program1[Name]['Category']

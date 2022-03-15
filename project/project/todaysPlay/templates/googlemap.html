@@ -155,7 +155,7 @@
                     <li>
                         <h2 class="whatSubTitle">오늘은 {{line}}</h2>
                         <span class="mainWhere">
-                                    <button type="button" class="btn-where" onclick="playgo();">가자!</button>
+                                    <button type="button" class="btn-where" onclick="playGo();">가자!</button>
                         </span>
                     </li>
                 </div>
@@ -267,7 +267,7 @@
             xhr.open("GET", "/todaysPlay/randomslot/", true);
             xhr.send();
         }
-        function playgo() {
+        function playGo() {
             location.href='/todaysPlay/googlemap/?line=' + line;
         }
     </script>
